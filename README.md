@@ -11,9 +11,9 @@
 |15/0122187 | Damarcones Porto |
 |17/0141161 | Erick Giffoni |
 | | Geraldo Victor |
+| 18/0019066  | Isabella Carneiro |
 | 16/0010900 | Kalebe Lopes |
 | 15/0137290 | Lucas Lopes |
-| 18/0019066  | Isabella Carneiro |
 | 16/0142628 | Rafaella Junqueira |
 
 
