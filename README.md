@@ -7,8 +7,8 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| | Bruna Almeida |
-| | Damarcones Porto |
+|17/0100626 | Bruna Almeida |
+|15/0122187 | Damarcones Porto |
 | | Érick Giffoni |
 | | Geraldo Victor |
 | | Kalebe Loper |
