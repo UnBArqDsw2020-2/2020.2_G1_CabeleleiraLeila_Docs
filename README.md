@@ -9,7 +9,7 @@
 | -- | -- |
 |17/0100626 | Bruna Almeida |
 |15/0122187 | Damarcones Porto |
-| | Érick Giffoni |
+|17/0141161 | Erick Giffoni |
 | | Geraldo Victor |
 | | Kalebe Loper |
 | 15/0137290 | Lucas Lopes |
