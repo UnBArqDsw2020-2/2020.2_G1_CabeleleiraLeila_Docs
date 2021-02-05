@@ -7,7 +7,14 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
+| | Bruna Almeida |
+| | Damarcones Porto |
+| | Érick Giffoni |
+| | Geraldo Victor |
+| | Kalebe Loper |
+| | Lucas Lopes |
 | 18/0019066  | Isabella Carneiro |
+| 16/0142628 | Rafaella Junqueira |
 
 
 ## Sobre 
