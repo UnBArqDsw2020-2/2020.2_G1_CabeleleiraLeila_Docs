@@ -32,7 +32,7 @@ about: Template padrão para criação de atas de reunião
   </tr>
 
 <!-- ✔️✖️⚠️-->
-  <tr>
+   <tr>
     <td colspan='9'><center><b>Integrantes</b></td>
   </tr>
   <tr>
@@ -41,7 +41,17 @@ about: Template padrão para criação de atas de reunião
     <td colspan='5'><b><center>Justificativa</b></td>
   </tr>
    <tr>
-    <td colspan='2'>Durval Carvalho</td>
+    <td colspan='2'>Bruna Almeida</td>
+    <td colspan='1'><center><b></b></td>
+    <td colspan='5'></td>
+  </tr>
+  <tr>
+    <td colspan='2'>Damarcones Porto</td>
+    <td colspan='1'><center><b></b></td>
+    <td colspan='5'></td>
+  </tr>
+  <tr>
+    <td colspan='2'>Erick Giffoni</td>
     <td colspan='1'><center><b></b></td>
     <td colspan='5'></td>
   </tr>
@@ -55,12 +65,17 @@ about: Template padrão para criação de atas de reunião
     <td colspan='1'><center><b></b></td>
     <td colspan='5'></td>
   </tr>
-  <tr>
-    <td colspan='2'>João Victor</td>
+ <tr>
+    <td colspan='2'>Kalebe Lopes</td>
     <td colspan='1'><center><b></b></td>
     <td colspan='5'></td>
   </tr>
-  <tr>
+ <tr>
+    <td colspan='2'>Lucas Lopes</td>
+    <td colspan='1'><center><b></b></td>
+    <td colspan='5'></td>
+  </tr>
+ <tr>
     <td colspan='2'>Rafaella Junqueira</td>
     <td colspan='1'><center><b></b></td>
     <td colspan='5'></td>
