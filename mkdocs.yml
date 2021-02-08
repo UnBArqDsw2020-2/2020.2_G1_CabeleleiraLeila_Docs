@@ -1,0 +1,39 @@
+site_name: Leila's
+
+theme: journal
+# theme: cosmo
+# theme: flatly
+# theme: litera
+# theme: lumen
+# theme: minty
+# theme: pulse
+# theme: simplex
+# theme: united
+# theme: gitbook
+
+nav:
+  - Home: index.md
+# Base
+  - Base: 
+    - Design Sprint: base/design-sprint.md
+    - Requisitos: 
+      - Pré rastreabilidade: 
+        - Rich Picture: base/rich-picture.md
+        - 5W2H: base/5w2h.md
+        - Mapa Mental: base/mapa-mental.md
+        - Diagrama de causa e efeito: base/causa-efeito.md
+    #   - Elicitação:
+    #     - <nome do doc>: base/
+    #   - Priorização: 
+    #     - <nome do doc>: base/
+    #   - Modelagem:
+    #     - <nome do doc>: base/
+    # - Plano de custo e esforço: plano-custo-esforco.md
+    # - Plano de risco: plano-risco.md
+    # - Metodologia: metodologia.md
+
+# Modelagem
+  - Modelagem: modelagem/design-sprint.md
+
+# Padrõs de projetos
+  - Padrões de Projeto: index.md 
