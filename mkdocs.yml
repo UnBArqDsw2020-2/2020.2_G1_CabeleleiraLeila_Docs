@@ -14,23 +14,26 @@ theme: journal
 nav:
   - Home: index.md
 # Base
-  - Base: 
-    - Design Sprint: base/design-sprint.md
-    - Requisitos: 
-      - Pré rastreabilidade: 
-        - Rich Picture: base/rich-picture.md
-        - 5W2H: base/5w2h.md
-        - Mapa Mental: base/mapa-mental.md
-        - Diagrama de causa e efeito: base/causa-efeito.md
-      - Elicitação:
-        - Brainstorming: base/brainstorming.md
+  -  Desenho de Software (Base):
+    - Módulo Projeto Não Orientado a Abordagens Específicas:
+      - Design Sprint: base/design-sprint.md
+      - Requisitos: 
+        - Pré rastreabilidade: 
+          - Rich Picture: base/rich-picture.md
+          - 5W2H: base/5w2h.md
+          - Mapa Mental: base/mapa-mental.md
+          - Diagrama de causa e efeito: base/causa-efeito.md
+        - Elicitação:
+          - Brainstorming: base/brainstorming.md
     #   - Priorização: 
     #     - <nome do doc>: base/
     #   - Modelagem:
     #     - <nome do doc>: base/
     # - Plano de custo e esforço: plano-custo-esforco.md
     # - Plano de risco: plano-risco.md
-    # - Metodologia: metodologia.md
+    - Módulo Processos/Metodologias/Abordagens:
+ 
+    #- Metodologia: metodologia.md
 
 # Modelagem
   #- Modelagem: modelagem/design-sprint.md
