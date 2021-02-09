@@ -22,8 +22,8 @@ nav:
         - 5W2H: base/5w2h.md
         - Mapa Mental: base/mapa-mental.md
         - Diagrama de causa e efeito: base/causa-efeito.md
-    #   - Elicitação:
-    #     - <nome do doc>: base/
+      - Elicitação:
+        - Brainstorming: base/brainstorming.md
     #   - Priorização: 
     #     - <nome do doc>: base/
     #   - Modelagem:
