@@ -13,9 +13,8 @@ theme: journal
 
 nav:
   - Home: index.md
-# Base
-  -  Desenho de Software (Base):
-  - Módulo Projeto Não Orientado a Abordagens Específicas:
+  - Base:
+    - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Design Sprint: base/design-sprint.md
       - Requisitos: 
         - Pré rastreabilidade: 
@@ -25,18 +24,22 @@ nav:
           - Diagrama de causa e efeito: base/causa-efeito.md
         - Elicitação:
           - Brainstorming: base/brainstorming.md
-    #   - Priorização: 
-    #     - <nome do doc>: base/
-    #   - Modelagem:
-    #     - <nome do doc>: base/
-    # - Plano de custo e esforço: plano-custo-esforco.md
-    # - Plano de risco: plano-risco.md
     - Módulo Processos/Metodologias/Abordagens:
- 
-    #- Metodologia: metodologia.md
-
-# Modelagem
-  #- Modelagem: modelagem/design-sprint.md
-
-# Padrõs de projetos
-  #- Padrões de Projeto: index.md 
+      - x: base/
+  - Modelagem:
+    - Módulo Projeto Orientado a Abordagens Tradicionais:
+      - Notação UML – Diagramas Estáticos: base/
+      - Notação UML – Diagramas Dinâmicos: base/
+      - Modelagem Ágil: base/
+  - Padrões de Projeto:
+    - Módulo Padrões de Projeto GRASPs:
+      - x: base/
+    - Módulo Padrões de Projeto GoFs:
+      - x: base/
+    - Módulo Padrões de Projeto Extras:
+      - x: base/
+  - Arquitetura de Software & Reutilização:
+    - Módulo Estilos e Padrões Arquiteturais:
+      - x: base/
+    - Módulo Reutilização de Software: 
+      - x: base/
