@@ -1,5 +1,5 @@
 # 2020.2_G1
-# Nome do Projeto
+# Cabeleleira Leila
 
 **Código da Disciplina**: FGA0208<br>
 **Número do Grupo**: 01<br>
