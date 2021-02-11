@@ -31,16 +31,18 @@ Ao final do Sprint Design, com a coleta dos feedbacks dos usuários a respeito d
 
 |<center>Dia | Artefatos
 |:--:|--
-1 | [Mapa Mental]()<!--<br>[Questionário]()<br>[Causa e efeito]()-->
+1 | [Mapa Mental](../base/mapa-mental.md)<!--<br>[Questionário]()<br>[Causa e efeito]()-->
 2 | [Brainstorming](../base/brainstorming.md)<!--<br>[Rich Pictures]()-->
 3 | [5W2H](../base/5w2h.md)<!-- [Plano de custo e esforço]()<br>[Plano de riscos]()-->
-4 | <!-- [Protótipo de baixa fidelidade]()<br>[Protótipo de alta fidelidade]() -->
-5 | <!-- [Testes com os protótipos]() -->
+4 | [Protótipo de baixa fidelidade]() <br>[Protótipo de alta fidelidade]()
+5 | [Testes com os protótipos]()
 
 
 ### Referências
 <br>
 
+SERRANO, Milene. **Design Sprint**, 2021. Material apresentado na Disciplina de Arquitetura de Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 8 de fevereiro de 2021
+
 **Você sabe o que é Design Sprint?**. Disponível em [https://www.youtube.com/watch?v=V1UL_Or8E2Q](https://www.youtube.com/watch?v=V1UL_Or8E2Q) Acesso em: 6 de fevereiro de 2021.
 
-UX Collective, **Google Design Sprint: como funciona e como aplicar no seu projeto**. Disponível em: [https://brasil.uxdesign.cc/google-design-sprint-como-funciona-e-como-aplicar-no-seu-projeto-279107363659](https://brasil.uxdesign.cc/google-design-sprint-como-funciona-e-como-aplicar-no-seu-projeto-279107363659) Acesso em: 10 de fevereiro de 2021.
+UX Collective, **Google Design Sprint: como funciona e como aplicar no seu projeto**. Disponível em: [https://brasil.uxdesign.cc/google-design-sprint-como-funciona-e-como-aplicar-no-seu-projeto-279107363659](https://brasil.uxdesign.cc/google-design-sprint-como-funciona-e-como-aplicar-no-seu-projeto-279107363659) Acesso em: 8 de fevereiro de 2021.
