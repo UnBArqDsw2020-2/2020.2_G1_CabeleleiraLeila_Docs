@@ -1,15 +1,15 @@
 # <center> Brainstorming
-## Histórico de versão
+### Histórico de versão<br>
 
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
 | 08.02.2021 | 0.1 | Criação do documento | Geraldo Victor|
 | 09.02.2021 | 0.2 | Adição dos requisitos e referências | Geraldo Victor, Lucas Lopes, Damarcones Porto, Isabella Carneiro, Kalebe Lopes, Erick Giffoni|
 
-## Metodologia
-  Brainstorming é uma técnica que consiste em uma ou várias reuniões que permitem que as pessoas sugiram e explorem ideias, o que pode levar a soluções criativas para o problema. O número de ideias geradas deve ser bem grande, pois quanto mais ideias forem propostas, maior será a chance de aparecerem boas ideias. Os participantes também devem ser encorajados a combinar ou enriquecer as ideias uns dos outros.
+### Metodologia
+<br>Brainstorming é uma técnica que consiste em uma ou várias reuniões que permitem que as pessoas sugiram e explorem ideias, o que pode levar a soluções criativas para o problema. O número de ideias geradas deve ser bem grande, pois quanto mais ideias forem propostas, maior será a chance de aparecerem boas ideias. Os participantes também devem ser encorajados a combinar ou enriquecer as ideias uns dos outros.
 
-  Nesta técnica é designada uma pessoa para registrar todas as ideias. À medida que as ideias forem surgindo, elas devem ser expostas de forma que todos os participantes possam vê-la. Analisar as ideias é a fase final do brainstorming. Nessa fase é realizada uma revisão das ideias, uma de cada vez. As consideradas valiosas pelo grupo são mantidas e classificadas em ordem de prioridade.
+Nesta técnica é designada uma pessoa para registrar todas as ideias. À medida que as ideias forem surgindo, elas devem ser expostas de forma que todos os participantes possam vê-la. Analisar as ideias é a fase final do brainstorming. Nessa fase é realizada uma revisão das ideias, uma de cada vez. As consideradas valiosas pelo grupo são mantidas e classificadas em ordem de prioridade.
 
 <p align="justify"><em>(Sommerville, 2003)</em> </p>
 
@@ -26,13 +26,22 @@
 
 ### Resultado
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hU7_6EAonpo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<br>
+<div align="center">
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/hU7_6EAonpo" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+</div>
+<br>
 Após a reunião remota foi discutido quais seriam ideias que poderiam ser interessantes para a nossa aplicação.
-Através das ideias foram levantados os seguintes requisitos: 
+Através das ideias foram levantados os seguintes requisitos: <br>
 
 | Número | Requisito|
-| -- | -- |
+| :--: | -- |
 |1 | O usuário deve ser capaz de realizar o login|
 |2 | O usuário deve ser capaz de realizar o cadastro|
 |3 | O usuário deve ser capaz de alterar e recuperar a senha|
@@ -58,7 +67,8 @@ Através das ideias foram levantados os seguintes requisitos:
 |23 | O sistema deve ser capaz de disponibilizar uma agenda de horários disponíveis|
 
 
-## Referências
+### Referências
+<br>
+SOMMERVILLE, Ian. **Engenharia de Software**. 9a edição, São Paulo: Pearson, 2011.
 
-- Livro: SOMMERVILLE, Ian. Engenharia de Software. 9a edição, São Paulo: Pearson, 2011.
-- Livro: BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. 1a edição, Rio de Janeiro: Elsevier, 2010.
+BARBOSA, S. D. J.; SILVA, B. S. **Interação Humano-Computador**. 1a edição, Rio de Janeiro: Elsevier, 2010.
