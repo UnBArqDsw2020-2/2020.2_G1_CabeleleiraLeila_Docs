@@ -13,11 +13,6 @@ Tal protótipo tem como objetivo analisar apenas se as funcionalidades estão de
 
 ### Resultado
 
-<object data="../../img/PROTÓTIPO DE BAIXA FIDELIDADE.pdf" type="application/pdf" width="700px" height="400px">
-<embed src="../../img/PROTÓTIPO DE BAIXA FIDELIDADE.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../../img/PROTÓTIPO DE BAIXA FIDELIDADE.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
 
 ## Referências
 
