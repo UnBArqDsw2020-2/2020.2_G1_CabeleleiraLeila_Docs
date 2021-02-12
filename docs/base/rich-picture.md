@@ -7,6 +7,7 @@
 | 10.02.2021 | 0.2 | Adição inicial dos Rich Pictures 1 e 2| Erick Giffoni|
 | 10.02.2021 | 0.3 | Rotaciona o Rich Picture 1 | Erick Giffoni|
 | 12.02.2021 | 1.0 | Adição das descrições dos Rich Pictures 1 e 2| Erick Giffoni|
+| 12.02.2021 | 1.1 | Adiciona hyperlinks para os Rich Pictures 1 e 2 e corrige o texto em Resultados| Erick Giffoni|
 
 ## Metodologia
   
@@ -25,7 +26,7 @@ software.
 
 > Do que se trata esse Rich Picture ?
 
-A ideia é representar o contexto do salão da cabeleireira Leila, ou seja, o *modus operandi*<br>
+A ideia é representar o contexto diário do salão da cabeleireira Leila, bem como o *modus operandi*<br>
 por meio do qual ela recebe clientes e fornece serviços.
 
 Já sabemos de algumas dificuldades que a Leila tem no dia-a-dia dela no estabelecimento,<br>
@@ -34,7 +35,7 @@ e isso pode ser visualizado no [diagrama de causa e efeito](./causa-efeito.md).
 Assim, a primeira versão do Rich Picture para o Salão da Cabeleleira Leila propõe uma<br>
 abordagem simples para resolver aqueles problemas. Vide abaixo :
 
-<a href="">
+<a href="https://unbbr-my.sharepoint.com/:i:/g/personal/160010900_aluno_unb_br/EYMTM7Rw6YRJlJsoqjDfc-EBiFaI45dA3va4I9hEJOP22A?e=ylhkQ0">
 > Rich Picture - v1.0<br>
 ![richpic1](../img/richpicture/richpicture1.jpg)
 </a>
@@ -49,14 +50,14 @@ aplicação, sendo que esta troca informações constantemente com um banco de d
 
 <hr>
 
-Nossa equipe, responsável por tornar realidade a demanda de um sistema para o salão da<br>
-Leila, realizou um [brainstorm](./brainstorming.md) e, a partir dele, conseguiu elicitar<br>
-alguns requisitos para o sistema em questão.
+Nossa equipe, responsável por tornar a demanda de um sistema para o salão da Leila<br>
+realidade, realizou um [brainstorm](./brainstorming.md) inicial e, a partir dele, conseguiu elicitar alguns<br>
+requisitos para o sistema em questão.
 
 A partir disso, um novo Rich Picture foi feito, o qual trás mais algumas informações sobre<br>
 aquele universo do estabelecimento da Leila. Vide abaixo :
 
-<a href="">
+<a href="https://unbbr-my.sharepoint.com/:i:/g/personal/160010900_aluno_unb_br/ETYj5DE7jzpJlYqTOEbvFr4BKU6EAvdXZfw3sGmuQhKtvA?e=WBVqt2">
 > Rich Picture - v2.0<br>
 ![richpic2](../img/richpicture/richpicture2.jpg)
 </a>
