@@ -16,6 +16,9 @@ nav:
   - Base:
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Design Sprint: base/design-sprint.md
+      - Prototipação:
+        - Protótipo de Baixa Fidelidade: base/prototipo-baixa.md
+      - Identidade Visual: identidade-visual.md
       - Requisitos: 
         - Pré rastreabilidade: 
           - Rich Picture: base/rich-picture.md
