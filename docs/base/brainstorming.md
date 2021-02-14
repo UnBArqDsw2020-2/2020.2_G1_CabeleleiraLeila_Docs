@@ -1,10 +1,10 @@
 # <center> Brainstorming
-## Histórico de versão
+### Histórico de versão
 
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
 | 08.02.2021 | 0.1 | Criação do documento | Geraldo Victor|
-| 09.02.2021 | 0.2 | Adição dos requisitos e referências | Geraldo Victor, Lucas Lopes, Damarcones Porto, Isabella Carneiro, Kalebe Lopes, Erick Giffoni|
+| 09.02.2021 | 0.2 | Adição dos requisitos e referências | Geraldo Victor, Lucas Lopes, Damarcones Porto, Isabella Carneiro, Kalebe Lopes, Erick Giffoni, Bruna Almeida|
 
 ## Metodologia
   Brainstorming é uma técnica que consiste em uma ou várias reuniões que permitem que as pessoas sugiram e explorem ideias, o que pode levar a soluções criativas para o problema. O número de ideias geradas deve ser bem grande, pois quanto mais ideias forem propostas, maior será a chance de aparecerem boas ideias. Os participantes também devem ser encorajados a combinar ou enriquecer as ideias uns dos outros.
@@ -24,7 +24,7 @@
 * Lucas Lopes Pereira 
 * Rafaella Junqueira 
 
-### Resultado
+## Resultados
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hU7_6EAonpo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -58,7 +58,7 @@ Através das ideias foram levantados os seguintes requisitos:
 |23 | O sistema deve ser capaz de disponibilizar uma agenda de horários disponíveis|
 
 
-## Referências
+### Referências
 
 - Livro: SOMMERVILLE, Ian. Engenharia de Software. 9a edição, São Paulo: Pearson, 2011.
 - Livro: BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. 1a edição, Rio de Janeiro: Elsevier, 2010.
