@@ -4,7 +4,7 @@
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
 | 11.02.2021 | 0.1 | Criação do documento | Rafaella Junqueira |<br>
-| 11.02.2021 | 0.2 | Adição do mapa mental | Rafaella Junqueira |<br>
+| 11.02.2021 | 1.0 | Adição do mapa mental | Rafaella Junqueira |<br>
 
 ### Metodologia
 <br>
