@@ -31,10 +31,10 @@ Ao final do Sprint Design, com a coleta dos feedbacks dos usuários a respeito d
 
 |<center>Dia | Artefatos
 |:--:|--
-1 | [Mapa Mental]()<!--<br>[Questionário]()<br>[Causa e efeito]()-->
-2 | [Brainstorming](../base/brainstorming.md)<!--<br>[Rich Pictures]()-->
+1 | [Mapa Mental]()<!--<br>[Questionário]()--><br>[Causa e efeito](../base/causa-efeito.md)
+2 | [Brainstorming](../base/brainstorming.md)<br>[Rich Pictures(../base/rich-picture.md)
 3 | [5W2H](../base/5w2h.md)<!-- [Plano de custo e esforço]()<br>[Plano de riscos]()-->
-4 | <!-- [Protótipo de baixa fidelidade]()<br>[Protótipo de alta fidelidade]() -->
+4 | [Protótipo de baixa fidelidade](../base/prototipo-baixa.md)<br>[Protótipo de alta fidelidade]()
 5 | <!-- [Testes com os protótipos]() -->
 
 
