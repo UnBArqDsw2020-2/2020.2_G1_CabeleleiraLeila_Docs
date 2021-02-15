@@ -1,6 +1,6 @@
 ![logo](img/logos/logo1.png)
 
-## Cabeleleira Leila
+## Cabeleleila Leila
 
 O Salão da Cabeleleira Leila é uma aplicação que visa facilitar o  gerenciamento de um salão de beleza por meio do cadastro de clientes e agendamento dos serviços oferecidos pelo estabelecimento.
 
