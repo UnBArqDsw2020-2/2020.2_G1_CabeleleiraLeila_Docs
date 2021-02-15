@@ -5,6 +5,7 @@
 | -- | -- | -- | -- |
 | 12.02.2021 | 0.1 | Criação do documento | Geraldo Victor|
 | 13.02.2021 | 0.2 | Adição de metodologia, participantes, resultado, conclusão e referências | Geraldo Victor|
+| 15.02.2021 | 0.3 | Revisão do documento | Rafaella Junqueira |
 
 ## Metodologia
 
