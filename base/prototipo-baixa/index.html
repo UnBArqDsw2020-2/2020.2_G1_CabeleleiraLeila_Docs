@@ -9,101 +9,110 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Protótipo de Baixa Fidelidade - Leila's</title>
-        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
-                <a class="navbar-brand" href="../..">Leila's</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">Leila's</a>
+                </div>
 
                 <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
+                <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../.." class="nav-link">Home</a>
+                            <li >
+                                <a href="../..">Home</a>
                             </li>
                             <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Base <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Base <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Módulo Projeto Não Orientado a Abordagens Específicas</a>
+    <a href="#">Módulo Projeto Não Orientado a Abordagens Específicas</a>
     <ul class="dropdown-menu">
             
-<li>
-    <a href="../design-sprint/" class="dropdown-item">Design Sprint</a>
+<li >
+    <a href="../design-sprint/">Design Sprint</a>
 </li>
             
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Prototipação</a>
+    <a href="#">Prototipação</a>
     <ul class="dropdown-menu">
             
-<li>
-    <a href="./" class="dropdown-item active">Protótipo de Baixa Fidelidade</a>
+<li class="active">
+    <a href="./">Protótipo de Baixa Fidelidade</a>
 </li>
     </ul>
   </li>
             
-<li>
-    <a href="../../identidade-visual.md" class="dropdown-item">Identidade Visual</a>
+<li >
+    <a href="../../identidade-visual.md">Identidade Visual</a>
 </li>
             
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Requisitos</a>
+    <a href="#">Requisitos</a>
     <ul class="dropdown-menu">
             
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Pré rastreabilidade</a>
+    <a href="#">Pré rastreabilidade</a>
     <ul class="dropdown-menu">
             
-<li>
-    <a href="../rich-picture.md" class="dropdown-item">Rich Picture</a>
+<li >
+    <a href="../rich-picture/">Rich Picture</a>
 </li>
             
-<li>
-    <a href="../5w2h.md" class="dropdown-item">5W2H</a>
+<li >
+    <a href="../5w2h.md">5W2H</a>
 </li>
             
-<li>
-    <a href="../mapa-mental.md" class="dropdown-item">Mapa Mental</a>
+<li >
+    <a href="../mapa-mental.md">Mapa Mental</a>
 </li>
             
-<li>
-    <a href="../causa-efeito.md" class="dropdown-item">Diagrama de causa e efeito</a>
-</li>
-            
-<li>
-    <a href="../estimativas/" class="dropdown-item">Estimativas</a>
+<li >
+    <a href="../causa-efeito/">Diagrama de causa e efeito</a>
 </li>
     </ul>
   </li>
             
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Elicitação</a>
+    <a href="#">Elicitação</a>
     <ul class="dropdown-menu">
             
-<li>
-    <a href="../brainstorming/" class="dropdown-item">Brainstorming</a>
+<li >
+    <a href="../brainstorming/">Brainstorming</a>
 </li>
     </ul>
   </li>
             
-<li>
-    <a href="../" class="dropdown-item">Modelagem</a>
+<li >
+    <a href="../">Modelagem</a>
 </li>
     </ul>
   </li>
@@ -111,94 +120,94 @@
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Módulo Processos/Metodologias/Abordagens</a>
+    <a href="#">Módulo Processos/Metodologias/Abordagens</a>
     <ul class="dropdown-menu">
             
-<li>
-    <a href="../" class="dropdown-item">x</a>
+<li >
+    <a href="../">x</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Módulo Projeto Orientado a Abordagens Tradicionais</a>
+    <a href="#">Módulo Projeto Orientado a Abordagens Tradicionais</a>
     <ul class="dropdown-menu">
             
-<li>
-    <a href="../" class="dropdown-item">Notação UML – Diagramas Estáticos</a>
+<li >
+    <a href="../">Notação UML – Diagramas Estáticos</a>
 </li>
             
-<li>
-    <a href="../" class="dropdown-item">Notação UML – Diagramas Dinâmicos</a>
+<li >
+    <a href="../">Notação UML – Diagramas Dinâmicos</a>
 </li>
             
-<li>
-    <a href="../" class="dropdown-item">Modelagem Ágil</a>
+<li >
+    <a href="../">Modelagem Ágil</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Padrões de Projeto <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Padrões de Projeto <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Módulo Padrões de Projeto GRASPs</a>
+    <a href="#">Módulo Padrões de Projeto GRASPs</a>
     <ul class="dropdown-menu">
             
-<li>
-    <a href="../" class="dropdown-item">x</a>
+<li >
+    <a href="../">x</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Módulo Padrões de Projeto GoFs</a>
+    <a href="#">Módulo Padrões de Projeto GoFs</a>
     <ul class="dropdown-menu">
             
-<li>
-    <a href="../" class="dropdown-item">x</a>
+<li >
+    <a href="../">x</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Módulo Padrões de Projeto Extras</a>
+    <a href="#">Módulo Padrões de Projeto Extras</a>
     <ul class="dropdown-menu">
             
-<li>
-    <a href="../" class="dropdown-item">x</a>
+<li >
+    <a href="../">x</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Arquitetura de Software & Reutilização <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Arquitetura de Software & Reutilização <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Módulo Estilos e Padrões Arquiteturais</a>
+    <a href="#">Módulo Estilos e Padrões Arquiteturais</a>
     <ul class="dropdown-menu">
             
-<li>
-    <a href="../" class="dropdown-item">x</a>
+<li >
+    <a href="../">x</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Módulo Reutilização de Software</a>
+    <a href="#">Módulo Reutilização de Software</a>
     <ul class="dropdown-menu">
             
-<li>
-    <a href="../" class="dropdown-item">x</a>
+<li >
+    <a href="../">x</a>
 </li>
     </ul>
   </li>
@@ -206,19 +215,19 @@
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../design-sprint/" class="nav-link">
+                            <li >
+                                <a rel="next" href="../design-sprint/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../estimativas/" class="nav-link">
+                            <li >
+                                <a rel="prev" href="../rich-picture/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -228,34 +237,14 @@
         </div>
 
         <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
-
-    
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-level="1"><a href="#prototipo-de-baixa-fidelidade" class="nav-link"> Protótipo de Baixa Fidelidade</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#historico-de-versao" class="nav-link">Histórico de versão</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#referencias" class="nav-link">Referências</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#prototipo-de-baixa-fidelidade"> Protótipo de Baixa Fidelidade</a></li>
+            <li><a href="#historico-de-versao">Histórico de versão</a></li>
+            <li><a href="#referencias">Referências</a></li>
+    </ul>
 </div></div>
-                    <div class="col-md-9" role="main">
+                <div class="col-md-9" role="main">
 
 <h1 id="prototipo-de-baixa-fidelidade"><center> Protótipo de Baixa Fidelidade</h1>
 <h2 id="historico-de-versao">Histórico de versão</h2>
@@ -297,7 +286,6 @@ Tal protótipo tem como objetivo analisar apenas se as funcionalidades estão de
 <ul>
 <li>Prototipação. http://web.mit.edu/6.813/www/sp17/classes/08-prototyping/. Acesso em 08 de fevereiro de 2021.</li>
 </ul></div>
-            </div>
         </div>
 
         <footer class="col-md-12">
@@ -311,21 +299,21 @@ Tal protótipo tem como objetivo analisar apenas se as funcionalidades estão de
         <script src="../../js/base.js" defer></script>
         <script src="../../search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form>
+                <form role="form">
                     <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -334,12 +322,12 @@ Tal protótipo tem como objetivo analisar apenas se as funcionalidades estão de
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">
