@@ -9,110 +9,97 @@
         
         <link rel="shortcut icon" href="img/favicon.ico">
         <title>Leila's</title>
-        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
         <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body class="homepage">
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href=".">Leila's</a>
-                </div>
+                <a class="navbar-brand" href=".">Leila's</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
+                <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href=".">Home</a>
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Base <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Base <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Projeto Não Orientado a Abordagens Específicas</a>
+    <a href="#" class="dropdown-item">Módulo Projeto Não Orientado a Abordagens Específicas</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="base/design-sprint/">Design Sprint</a>
+<li>
+    <a href="base/design-sprint/" class="dropdown-item">Design Sprint</a>
 </li>
             
   <li class="dropdown-submenu">
-    <a href="#">Prototipação</a>
+    <a href="#" class="dropdown-item">Prototipação</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="base/prototipo-baixa/">Protótipo de Baixa Fidelidade</a>
+<li>
+    <a href="base/prototipo-baixa/" class="dropdown-item">Protótipo de Baixa Fidelidade</a>
 </li>
     </ul>
   </li>
             
-<li >
-    <a href="identidade-visual.md">Identidade Visual</a>
+<li>
+    <a href="identidade-visual.md" class="dropdown-item">Identidade Visual</a>
 </li>
             
   <li class="dropdown-submenu">
-    <a href="#">Requisitos</a>
+    <a href="#" class="dropdown-item">Requisitos</a>
     <ul class="dropdown-menu">
             
   <li class="dropdown-submenu">
-    <a href="#">Pré rastreabilidade</a>
+    <a href="#" class="dropdown-item">Pré rastreabilidade</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="base/rich-picture/">Rich Picture</a>
+<li>
+    <a href="base/rich-picture/" class="dropdown-item">Rich Picture</a>
 </li>
             
-<li >
-    <a href="base/5w2h.md">5W2H</a>
+<li>
+    <a href="base/5w2h/" class="dropdown-item">5W2H</a>
 </li>
             
-<li >
-    <a href="base/mapa-mental.md">Mapa Mental</a>
+<li>
+    <a href="base/mapa-mental/" class="dropdown-item">Mapa Mental</a>
 </li>
             
-<li >
-    <a href="base/causa-efeito/">Diagrama de causa e efeito</a>
+<li>
+    <a href="base/causa-efeito/" class="dropdown-item">Diagrama de causa e efeito</a>
 </li>
     </ul>
   </li>
             
   <li class="dropdown-submenu">
-    <a href="#">Elicitação</a>
+    <a href="#" class="dropdown-item">Elicitação</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="base/brainstorming/">Brainstorming</a>
+<li>
+    <a href="base/brainstorming/" class="dropdown-item">Brainstorming</a>
 </li>
     </ul>
   </li>
             
-<li >
-    <a href="base/">Modelagem</a>
+<li>
+    <a href="base/" class="dropdown-item">Modelagem</a>
 </li>
     </ul>
   </li>
@@ -120,94 +107,94 @@
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Processos/Metodologias/Abordagens</a>
+    <a href="#" class="dropdown-item">Módulo Processos/Metodologias/Abordagens</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="base/">x</a>
+<li>
+    <a href="base/" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Projeto Orientado a Abordagens Tradicionais</a>
+    <a href="#" class="dropdown-item">Módulo Projeto Orientado a Abordagens Tradicionais</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="base/">Notação UML – Diagramas Estáticos</a>
+<li>
+    <a href="base/" class="dropdown-item">Notação UML – Diagramas Estáticos</a>
 </li>
             
-<li >
-    <a href="base/">Notação UML – Diagramas Dinâmicos</a>
+<li>
+    <a href="base/" class="dropdown-item">Notação UML – Diagramas Dinâmicos</a>
 </li>
             
-<li >
-    <a href="base/">Modelagem Ágil</a>
+<li>
+    <a href="base/" class="dropdown-item">Modelagem Ágil</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Padrões de Projeto <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Padrões de Projeto <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Padrões de Projeto GRASPs</a>
+    <a href="#" class="dropdown-item">Módulo Padrões de Projeto GRASPs</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="base/">x</a>
+<li>
+    <a href="base/" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Padrões de Projeto GoFs</a>
+    <a href="#" class="dropdown-item">Módulo Padrões de Projeto GoFs</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="base/">x</a>
+<li>
+    <a href="base/" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Padrões de Projeto Extras</a>
+    <a href="#" class="dropdown-item">Módulo Padrões de Projeto Extras</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="base/">x</a>
+<li>
+    <a href="base/" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Arquitetura de Software & Reutilização <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Arquitetura de Software & Reutilização <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Estilos e Padrões Arquiteturais</a>
+    <a href="#" class="dropdown-item">Módulo Estilos e Padrões Arquiteturais</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="base/">x</a>
+<li>
+    <a href="base/" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Reutilização de Software</a>
+    <a href="#" class="dropdown-item">Módulo Reutilização de Software</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="base/">x</a>
+<li>
+    <a href="base/" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
@@ -215,19 +202,19 @@
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="disabled">
-                                <a rel="next" >
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="base/design-sprint/">
+                            <li class="nav-item">
+                                <a rel="next" href="base/design-sprint/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -237,16 +224,34 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#cabeleleira-leila">Cabeleleira Leila</a></li>
-        <li class="main "><a href="#membros-da-equipe">Membros da equipe</a></li>
-    </ul>
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#cabeleleila-leila" class="nav-link">Cabeleleila Leila</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#membros-da-equipe" class="nav-link">Membros da equipe</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-                <div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
 
 <p><img alt="logo" src="img/logos/logo1.png" /></p>
-<h2 id="cabeleleira-leila">Cabeleleira Leila</h2>
+<h2 id="cabeleleila-leila">Cabeleleila Leila</h2>
 <p>O Salão da Cabeleleira Leila é uma aplicação que visa facilitar o  gerenciamento de um salão de beleza por meio do cadastro de clientes e agendamento dos serviços oferecidos pelo estabelecimento.</p>
 <p>A aplicação permitirá que o cliente consulte os tipos de serviços prestados e seus respectivos preços, consulte a agenda de cada especialidade e os horários livres. Além de permitir que o cliente acesse o perfil dos profissionais que atuam no local.   </p>
 <h2 id="membros-da-equipe">Membros da equipe</h2>
@@ -337,6 +342,7 @@
     font-weight: bold;
   }
 </style></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
@@ -350,21 +356,21 @@
         <script src="js/base.js" defer></script>
         <script src="search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -373,12 +379,12 @@
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">
@@ -418,6 +424,6 @@
 </html>
 
 <!--
-MkDocs version : 1.0.4
-Build Date UTC : 2021-02-15 14:33:03
+MkDocs version : 1.1.2
+Build Date UTC : 2021-02-16 15:02:09.218057+00:00
 -->

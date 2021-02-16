@@ -9,110 +9,97 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Brainstorming - Leila's</title>
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../..">Leila's</a>
-                </div>
+                <a class="navbar-brand" href="../..">Leila's</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
+                <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li >
-                                <a href="../..">Home</a>
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Base <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Base <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Projeto Não Orientado a Abordagens Específicas</a>
+    <a href="#" class="dropdown-item">Módulo Projeto Não Orientado a Abordagens Específicas</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../design-sprint/">Design Sprint</a>
+<li>
+    <a href="../design-sprint/" class="dropdown-item">Design Sprint</a>
 </li>
             
   <li class="dropdown-submenu">
-    <a href="#">Prototipação</a>
+    <a href="#" class="dropdown-item">Prototipação</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../prototipo-baixa/">Protótipo de Baixa Fidelidade</a>
+<li>
+    <a href="../prototipo-baixa/" class="dropdown-item">Protótipo de Baixa Fidelidade</a>
 </li>
     </ul>
   </li>
             
-<li >
-    <a href="../../identidade-visual.md">Identidade Visual</a>
+<li>
+    <a href="../../identidade-visual.md" class="dropdown-item">Identidade Visual</a>
 </li>
             
   <li class="dropdown-submenu">
-    <a href="#">Requisitos</a>
+    <a href="#" class="dropdown-item">Requisitos</a>
     <ul class="dropdown-menu">
             
   <li class="dropdown-submenu">
-    <a href="#">Pré rastreabilidade</a>
+    <a href="#" class="dropdown-item">Pré rastreabilidade</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../rich-picture/">Rich Picture</a>
+<li>
+    <a href="../rich-picture/" class="dropdown-item">Rich Picture</a>
 </li>
             
-<li >
-    <a href="../5w2h.md">5W2H</a>
+<li>
+    <a href="../5w2h/" class="dropdown-item">5W2H</a>
 </li>
             
-<li >
-    <a href="../mapa-mental.md">Mapa Mental</a>
+<li>
+    <a href="../mapa-mental/" class="dropdown-item">Mapa Mental</a>
 </li>
             
-<li >
-    <a href="../causa-efeito/">Diagrama de causa e efeito</a>
+<li>
+    <a href="../causa-efeito/" class="dropdown-item">Diagrama de causa e efeito</a>
 </li>
     </ul>
   </li>
             
   <li class="dropdown-submenu">
-    <a href="#">Elicitação</a>
+    <a href="#" class="dropdown-item">Elicitação</a>
     <ul class="dropdown-menu">
             
-<li class="active">
-    <a href="./">Brainstorming</a>
+<li>
+    <a href="./" class="dropdown-item active">Brainstorming</a>
 </li>
     </ul>
   </li>
             
-<li >
-    <a href="../">Modelagem</a>
+<li>
+    <a href="../" class="dropdown-item">Modelagem</a>
 </li>
     </ul>
   </li>
@@ -120,94 +107,94 @@
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Processos/Metodologias/Abordagens</a>
+    <a href="#" class="dropdown-item">Módulo Processos/Metodologias/Abordagens</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../">x</a>
+<li>
+    <a href="../" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Projeto Orientado a Abordagens Tradicionais</a>
+    <a href="#" class="dropdown-item">Módulo Projeto Orientado a Abordagens Tradicionais</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../">Notação UML – Diagramas Estáticos</a>
+<li>
+    <a href="../" class="dropdown-item">Notação UML – Diagramas Estáticos</a>
 </li>
             
-<li >
-    <a href="../">Notação UML – Diagramas Dinâmicos</a>
+<li>
+    <a href="../" class="dropdown-item">Notação UML – Diagramas Dinâmicos</a>
 </li>
             
-<li >
-    <a href="../">Modelagem Ágil</a>
+<li>
+    <a href="../" class="dropdown-item">Modelagem Ágil</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Padrões de Projeto <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Padrões de Projeto <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Padrões de Projeto GRASPs</a>
+    <a href="#" class="dropdown-item">Módulo Padrões de Projeto GRASPs</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../">x</a>
+<li>
+    <a href="../" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Padrões de Projeto GoFs</a>
+    <a href="#" class="dropdown-item">Módulo Padrões de Projeto GoFs</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../">x</a>
+<li>
+    <a href="../" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Padrões de Projeto Extras</a>
+    <a href="#" class="dropdown-item">Módulo Padrões de Projeto Extras</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../">x</a>
+<li>
+    <a href="../" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Arquitetura de Software & Reutilização <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Arquitetura de Software & Reutilização <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Estilos e Padrões Arquiteturais</a>
+    <a href="#" class="dropdown-item">Módulo Estilos e Padrões Arquiteturais</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../">x</a>
+<li>
+    <a href="../" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Módulo Reutilização de Software</a>
+    <a href="#" class="dropdown-item">Módulo Reutilização de Software</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../">x</a>
+<li>
+    <a href="../" class="dropdown-item">x</a>
 </li>
     </ul>
   </li>
@@ -215,19 +202,19 @@
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="../causa-efeito/">
+                            <li class="nav-item">
+                                <a rel="prev" href="../causa-efeito/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li class="disabled">
-                                <a rel="prev" >
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -237,18 +224,29 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#brainstorming"> Brainstorming</a></li>
-            <li><a href="#historico-de-versao">Histórico de versão</a></li>
-            <li><a href="#metodologia">Metodologia</a></li>
-            <li><a href="#referencias">Referências</a></li>
-    </ul>
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#brainstorming" class="nav-link"> Brainstorming</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-                <div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
 
 <h1 id="brainstorming"><center> Brainstorming</h1>
-<h2 id="historico-de-versao">Histórico de versão</h2>
+<h3 id="historico-de-versao">Histórico de versão<br></h3>
 <table>
 <thead>
 <tr>
@@ -271,10 +269,16 @@
 <td>Adição dos requisitos e referências</td>
 <td>Geraldo Victor, Lucas Lopes, Damarcones Porto, Isabella Carneiro, Kalebe Lopes, Erick Giffoni</td>
 </tr>
+<tr>
+<td>15.02.2021</td>
+<td>0.3</td>
+<td>Modificação da nomenclatura dos requisitos</td>
+<td>Rafaella Junqueira</td>
+</tr>
 </tbody>
 </table>
-<h2 id="metodologia">Metodologia</h2>
-<p>Brainstorming é uma técnica que consiste em uma ou várias reuniões que permitem que as pessoas sugiram e explorem ideias, o que pode levar a soluções criativas para o problema. O número de ideias geradas deve ser bem grande, pois quanto mais ideias forem propostas, maior será a chance de aparecerem boas ideias. Os participantes também devem ser encorajados a combinar ou enriquecer as ideias uns dos outros.</p>
+<h3 id="metodologia">Metodologia</h3>
+<p><br>Brainstorming é uma técnica que consiste em uma ou várias reuniões que permitem que as pessoas sugiram e explorem ideias, o que pode levar a soluções criativas para o problema. O número de ideias geradas deve ser bem grande, pois quanto mais ideias forem propostas, maior será a chance de aparecerem boas ideias. Os participantes também devem ser encorajados a combinar ou enriquecer as ideias uns dos outros.</p>
 <p>Nesta técnica é designada uma pessoa para registrar todas as ideias. À medida que as ideias forem surgindo, elas devem ser expostas de forma que todos os participantes possam vê-la. Analisar as ideias é a fase final do brainstorming. Nessa fase é realizada uma revisão das ideias, uma de cada vez. As consideradas valiosas pelo grupo são mantidas e classificadas em ordem de prioridade.</p>
 <p align="justify"><em>(Sommerville, 2003)</em> </p>
 
@@ -290,117 +294,126 @@
 <li>Rafaella Junqueira </li>
 </ul>
 <h3 id="resultado">Resultado</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hU7_6EAonpo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<p>Após a reunião remota foi discutido quais seriam ideias que poderiam ser interessantes para a nossa aplicação.
-Através das ideias foram levantados os seguintes requisitos: </p>
+<p><br></p>
+<div align="center">
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/hU7_6EAonpo" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+</div>
+<p><br>
+Após a reunião remota foi discutido quais seriam ideias que poderiam ser interessantes para a nossa aplicação.
+Através das ideias foram levantados os seguintes requisitos: <br></p>
 <table>
 <thead>
 <tr>
-<th>Número</th>
+<th align="center">Número</th>
 <th>Requisito</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1</td>
+<td align="center">BS01</td>
 <td>O usuário deve ser capaz de realizar o login</td>
 </tr>
 <tr>
-<td>2</td>
+<td align="center">BS02</td>
 <td>O usuário deve ser capaz de realizar o cadastro</td>
 </tr>
 <tr>
-<td>3</td>
+<td align="center">BS03</td>
 <td>O usuário deve ser capaz de alterar e recuperar a senha</td>
 </tr>
 <tr>
-<td>4</td>
+<td align="center">BS04</td>
 <td>O visitante deve ser capaz de consultar horários e dias disponíveis</td>
 </tr>
 <tr>
-<td>5</td>
+<td align="center">BS05</td>
 <td>O visitante deve ser capaz de visualizar tabelas de preços</td>
 </tr>
 <tr>
-<td>6</td>
+<td align="center">BS06</td>
 <td>O visitante deve ser capaz ver a lista de funcionários</td>
 </tr>
 <tr>
-<td>7</td>
+<td align="center">BS07</td>
 <td>O cliente deve ser capaz avaliar funcionários</td>
 </tr>
 <tr>
-<td>8</td>
+<td align="center">BS08</td>
 <td>O visitante deve ser capaz de visualisar perfil do funcionário</td>
 </tr>
 <tr>
-<td>9</td>
+<td align="center">BS09</td>
 <td>O visitante deve ser capaz de visualizar galeria de serviços</td>
 </tr>
 <tr>
-<td>10</td>
+<td align="center">BS10</td>
 <td>O sistema deve ser capaz de consumir a api externa de fotos para mostrar serviços realizados</td>
 </tr>
 <tr>
-<td>11</td>
+<td align="center">BS11</td>
 <td>O cliente deve poder receber e enviar notificação de atraso no agendamento</td>
 </tr>
 <tr>
-<td>12</td>
+<td align="center">BS12</td>
 <td>O cliente pode solicitar um agendamento ou reagendar um horário</td>
 </tr>
 <tr>
-<td>13</td>
+<td align="center">BS13</td>
 <td>O funcionário deve poder marcar os seus horários de trabalhos disponíveis</td>
 </tr>
 <tr>
-<td>14</td>
+<td align="center">BS14</td>
 <td>O funcionário deve poder visualizar os agendamentos marcados</td>
 </tr>
 <tr>
-<td>15</td>
+<td align="center">BS15</td>
 <td>O administrador deve ser capaz de cadastrar serviços</td>
 </tr>
 <tr>
-<td>16</td>
+<td align="center">BS16</td>
 <td>O administrador deve gerenciar permissões de usuário</td>
 </tr>
 <tr>
-<td>17</td>
+<td align="center">BS17</td>
 <td>O administrador deve ser capaz de gerenciar os usuários</td>
 </tr>
 <tr>
-<td>18</td>
+<td align="center">BS18</td>
 <td>O sistema deve ser capaz de gerenciar os serviços de filas de atendimento por funcionário</td>
 </tr>
 <tr>
-<td>19</td>
+<td align="center">BS19</td>
 <td>O sistema deve ser capaz de realizar um orçamento de uma ordem de serviço</td>
 </tr>
 <tr>
-<td>20</td>
+<td align="center">BS20</td>
 <td>O sistema deve ser capaz de calcular o tempo de uma ordem de serviço</td>
 </tr>
 <tr>
-<td>21</td>
+<td align="center">BS21</td>
 <td>O sistema deve ser capaz de organizar serviços simultâneos</td>
 </tr>
 <tr>
-<td>22</td>
+<td align="center">BS22</td>
 <td>O sistema deve ser capaz de enviar notificação de agendamento de serviços</td>
 </tr>
 <tr>
-<td>23</td>
+<td align="center">BS23</td>
 <td>O sistema deve ser capaz de disponibilizar uma agenda de horários disponíveis</td>
 </tr>
 </tbody>
 </table>
-<h2 id="referencias">Referências</h2>
-<ul>
-<li>Livro: SOMMERVILLE, Ian. Engenharia de Software. 9a edição, São Paulo: Pearson, 2011.</li>
-<li>Livro: BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. 1a edição, Rio de Janeiro: Elsevier, 2010.</li>
-</ul></div>
+<h3 id="referencias">Referências</h3>
+<p><br>
+SOMMERVILLE, Ian. <strong>Engenharia de Software</strong>. 9a edição, São Paulo: Pearson, 2011.</p>
+<p>BARBOSA, S. D. J.; SILVA, B. S. <strong>Interação Humano-Computador</strong>. 1a edição, Rio de Janeiro: Elsevier, 2010.</p></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
@@ -414,21 +427,21 @@ Através das ideias foram levantados os seguintes requisitos: </p>
         <script src="../../js/base.js" defer></script>
         <script src="../../search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -437,12 +450,12 @@ Através das ideias foram levantados os seguintes requisitos: </p>
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">
