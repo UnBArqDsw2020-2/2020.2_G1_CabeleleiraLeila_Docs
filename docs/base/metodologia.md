@@ -14,24 +14,24 @@
 ## 3. Metodologias Ágeis
 
 ### 3.1 Scrum
-  Sprint:
-  Sprint Planning:
-  Sprint Backlog:
-  Product Backlog:
-  Sprint Review:
+  * Sprint:
+  * Sprint Planning:
+  * Sprint Backlog:
+  * Product Backlog:
+  * Sprint Review:
 
 ### 3.2 KANBAN
-  ZenHub:
-  Backlog:
-  Em andamento:
-  Revisão:
-  Concluído:
+  * ZenHub:
+  * Backlog:
+  * Em andamento:
+  * Revisão:
+  * Concluído:
 
 ### 3.3 XP  
-  Programação em pares:
-  Integração Contínua:
-  Feedback:
-  Refatoração:
+  * Programação em pares:
+  * Integração Contínua:
+  * Feedback:
+  * Refatoração:
   
 ### 3.4 Ferramentas
 
