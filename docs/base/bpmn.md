@@ -8,6 +8,7 @@
 | 17.02.2021 | 0.4 | Adição do diagrama de Sprint Planning | Rafaella Junqueira |
 | 17.02.2021 | 0.5 | Adição do diagrama de Daily | Rafaella Junqueira |
 | 17.02.2021 | 1.0 | Adição do diagrama de Sprint Review e referências | Rafaella Junqueira |
+| 17.02.2021 | 1.1 | Adição do diagrama de desenvolvimento do projeto | Rafaella Junqueira
 
 ## Metodologia
 
@@ -55,11 +56,21 @@ Este projeto utiliza elementos de diferentes metodologias, como pode ser melhor 
     </figcaption>
 </p><br>
 
+### Desenvolvimento
+<p align='center'>
+<img src="../../img/bpmn/bpmn-desenvolvimento.png">
+    <figcaption align='center'>
+        <b>Figura 4: Processo de desenvolvimento das issues</b>
+        <br>
+    <small>Fonte: autor</small>
+    </figcaption>
+</p><br>
+
 ### Daily
 <p align='center'>
 <img src="../../img/bpmn/bpmn-daily.png">
     <figcaption align='center'>
-        <b>Figura 4: Processo de realização da Daily</b>
+        <b>Figura 5: Processo de realização da Daily</b>
         <br>
     <small>Fonte: autor</small>
     </figcaption>
@@ -69,7 +80,7 @@ Este projeto utiliza elementos de diferentes metodologias, como pode ser melhor 
 <p align='center'>
 <img src="../../img/bpmn/bpmn-sprint-review.png">
     <figcaption align='center'>
-        <b>Figura 5: Processo de Sprint Review </b>
+        <b>Figura 6: Processo de Sprint Review </b>
         <br>
     <small>Fonte: autor</small>
     </figcaption>
