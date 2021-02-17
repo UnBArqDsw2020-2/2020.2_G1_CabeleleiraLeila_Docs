@@ -3,6 +3,7 @@
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
 | 16.02.2021 | 0.1 | Criação do documento | Isabella Carneiro |
+| 16.02.2021 | 0.2 | Linkagem de telas | Damarcones Porto |
 
 ### Metodologia
 Para a realização dos protótipos de alta fidelidade foi utilizado o software Figma por ser de fácil utilização e possuir ótimas funcionalidades.
