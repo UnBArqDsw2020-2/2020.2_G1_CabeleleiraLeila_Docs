@@ -30,6 +30,6 @@ O diagrama abaixo explicita as ideias da equipe acerca do tema escolhido para o 
 ### Referências
 <br>
 
-SERRANO, Milene. **Mapa Mental**, 2021. Material apresentado na Disciplina de Arquitetura de Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 8 de fevereiro de 2021
+SERRANO, Milene. **Mapa Mental**, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 8 de fevereiro de 2021
 
 SBCOACHING. **Mapa Mental: O que é e Como Fazer**. Disponível em: [https://www.sbcoaching.com.br/blog/mapa-mental/](https://www.sbcoaching.com.br/blog/mapa-mental/) Acesso em: 8 de fevereiro de 2021.
