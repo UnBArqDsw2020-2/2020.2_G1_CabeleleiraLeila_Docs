@@ -2,11 +2,12 @@
 ### Histórico de versão 
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 17.02.2021 | 0.1 | Criação do documento | Rafaella Junqueira |
+| 16.02.2021 | 0.1 | Criação do documento | Rafaella Junqueira |
 | 17.02.2021 | 0.2 | Adição de metodologia e macroprocesso geral | Rafaella Junqueira |
 | 17.02.2021 | 0.3 | Adição do diagrama do macroprocesso detalhado | Rafaella Junqueira |
 | 17.02.2021 | 0.4 | Adição do diagrama de Sprint Planning | Rafaella Junqueira |
 | 17.02.2021 | 0.5 | Adição do diagrama de Daily | Rafaella Junqueira |
+| 17.02.2021 | 1.0 | Adição do diagrama de Sprint Review e referências | Rafaella Junqueira |
 
 ## Metodologia
 
@@ -63,3 +64,20 @@ Este projeto utiliza elementos de diferentes metodologias, como pode ser melhor 
     <small>Fonte: autor</small>
     </figcaption>
 </p><br>
+
+### Sprint Review
+<p align='center'>
+<img src="../../img/bpmn/bpmn-sprint-review.png">
+    <figcaption align='center'>
+        <b>Figura 5: Processo de Sprint Review </b>
+        <br>
+    <small>Fonte: autor</small>
+    </figcaption>
+</p><br>
+
+### Referências
+<br>
+
+SERRANO, Milene. **BPMN**, 2021. Vídeo-aulas complementares apresentadas na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 10 de fevereiro de 2021.
+
+EUAX CONSULTING. **O que é BPMN (Business Process Model and Notation) e como aplicar essa notação na Modelagem de Processos**. Disponível em: [https://www.euax.com.br/2017/02/o-que-e-bpmn-business-process-model-and-notation/](https://www.euax.com.br/2017/02/o-que-e-bpmn-business-process-model-and-notation/). Acesso em 17 de fevereiro de 2021.
