@@ -17,11 +17,19 @@ O Mapa Mental é uma ferramenta que permite a organização de seu conteúdo de 
 
 O diagrama abaixo explicita as ideias da equipe acerca do tema escolhido para o projeto, as quais serviram como insumos para elicitação dos requisitos.
 
-![mapa-mental](../img/base/mapa-mental.jpg)
+<br>
+<p align="center">
+<img src='../../img/mapa-mental.jpg'>
+  <figcaption align='center'>
+    <b>Figura 1: Mapa Mental</b>
+    </br>
+    <small>Fonte: Autor</small>
+  </figcaption>
+</p></br>
 
 ### Referências
 <br>
 
-SERRANO, Milene. **Mapa Mental**, 2021. Material apresentado na Disciplina de Arquitetura de Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 8 de fevereiro de 2021
+SERRANO, Milene. **Mapa Mental**, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 8 de fevereiro de 2021
 
 SBCOACHING. **Mapa Mental: O que é e Como Fazer**. Disponível em: [https://www.sbcoaching.com.br/blog/mapa-mental/](https://www.sbcoaching.com.br/blog/mapa-mental/) Acesso em: 8 de fevereiro de 2021.
