@@ -18,7 +18,7 @@
   3. Quais os serviços prestados? 
   4. Qual é a quantidade aproximada de clientes/mês? 
   5. Os funcionários costumam ficar desocupados? 
-  6. Se a resposta anterior foi “sim”, em quais momentos do dia isso ocorre com mais frequência? 
+  6. Se a resposta anterior foi “sim”, qual os dias e horários que isso ocorre com mais frequência? 
   7. Qual é o tempo médio de espera para ser atendido? 
   8. Como é feito o registro de um serviço prestado?
   10. Já houve erro do profissional ao executar um serviço? Se sim, qual foi o motivo?
