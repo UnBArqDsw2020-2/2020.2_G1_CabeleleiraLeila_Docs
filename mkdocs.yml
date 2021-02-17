@@ -33,7 +33,8 @@ nav:
           - Brainstorming: base/brainstorming.md
         - Modelagem: base/
     - Módulo Processos/Metodologias/Abordagens:
-      - x: base/
+      - Metodologia: base/metodologia.md
+      - Modelagem BPMN: base/bpmn.md
   # - Modelagem:
   #   - Módulo Projeto Orientado a Abordagens Tradicionais:
   #     - Notação UML – Diagramas Estáticos: base/
