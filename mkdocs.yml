@@ -27,7 +27,9 @@ nav:
           - Diagrama de causa e efeito: base/causa-efeito.md
         - Elicitação:
           - Brainstorming: base/brainstorming.md
+          - Entrevista: base/entrevista.md
         - Modelagem: base/
+      - Metodologia: base/metodologia.md
     - Módulo Processos/Metodologias/Abordagens:
       - x: base/
   - Modelagem:

@@ -5,21 +5,17 @@
 | -- | -- | -- | -- |
 | 16.02.2021 | 0.1 | Criação do documento | [Kalebe Lopes](https://github.com/KalebeLopes), [Isabella Carneiro](https://github.com/isabellacgmsa)|
 | 17.02.2021 | 0.2 | Adição de alguns tópicos | [Isabella Carneiro](https://github.com/isabellacgmsa)|
+| 17.02.2021 | 0.3 | Adição de alguns tópicos | [Kalebe Lopes](https://github.com/KalebeLopes)|
 
 ## 1. Introdução
 O documento de metodologia busca descrever as abordagens utilizadas durante o processo de desenvolvimento desse projeto. Nele será descrito quais metodologias foram usadas como referência, e quais métodos foram adotados para o nosso contexto. Esse documento também visa explorar como a equipe se organizou e comunicou durante o projeto.
 
-## 2. Planejamento
-
-
-## 3. Metodologias Ágeis
+## 2. Metodologias Ágeis
 Todas as metodologias adotadas durante esse projeto tem relação com dois princípios fundamentais do desenvolvimento ágil de software.
 
 Com base nesses princípios, foi utilizado partes de várias metodologias já conhecidas como SCRUM, Kanban e XP com o objetivo de utilizar uma metodologia que melhor adaptasse ao nosso contexto.
 
-3.1 SCRUM
-
-### 3.1 Scrum
+### 2.1. Scrum
 O Scrum é um framework de gerenciamento de projetos, da organização ao desenvolvimento ágil de produtos complexos e adaptativos com o mais alto valor possível, através de várias técnicas, utilizando desde o início de 1990 e que atualmente é utilizado em mais de 60% dos projetos ágeis em todo o mundo.
 
 Essa metodologia define várias atividades que devem ocorrer durante o processo de desenvolvimento. No nosso contexto foram adotadas as seguintes atividades: Product Backlog, Sprints, Sprint Planning, Sprint Review, Daily Meeting,
@@ -35,12 +31,14 @@ No nosso contexto, o projeto e suas entregas estão definidos no plano de ensino
 Com isso em mente, é realizado reuniões nas segundas-feiras para definir quais as atividades devem ser priorizadas, com base na milestones mais próxima da data atual. Uma vez definido as atividades, é definido os responsáveis e a data de término da sprint.
 
 #### Daily Meeting:
-Na metodologia Scrum é recomendado que se realize reuninões de status do projeto diariamente, sendo essa reunião conhecida como daily meeting. Essa reunião é sempre realizada em um mesmo horário e deve durar no máximo 15 minutos. O objetivo é deixar todos os integrantes cientes do trabalho um do outro, desse modo cada participante deve responder a três perguntas:
+Na metodologia Scrum é recomendado que se realize reuninões de status do projeto diariamente, sendo essa reunião conhecida como daily meeting. Essa reunião é sempre realizada em um mesmo horário e deve durar no máximo 15 minutos. O objetivo é deixar todos os integrantes cientes do trabalho um do outro, desse modo cada participante deve responder três perguntas:
 
 O que você tem feito da daily passada para a daily atual?
 O que você está planejando fazer da daily atual para a daily de amanhã?
 Você tem algum problema impedindo você de realizar sua atividade?
+
 No contexto do nosso trabalho, será realizado por um grupo separado do Telegram unicamente para as dailys, de modo que fique organizada a conversa.
+
 #### Product Backlog: 
 Product backlog é um dos artefatos descritos pelo SCRUM. Esse artefato é uma lista dinâmica de requisitos do projeto, ou seja, são as atividades e limitações que o projeto deve realizar ou está sujeito para que seja bem sucedido. 
 
@@ -60,22 +58,41 @@ No nosso contexto, os sprints review ocorrem em duas etapas. A etapa de validaç
 
 A segunda etapa ocorre antes da sprint review, onde é discutido as dificuldades enfrentadas e as sugestões de melhoria para a próxima sprint.
 
-### 3.2 KANBAN
+### 2.2. KANBAN
 Kanban é um quadro de cartões, sendo que cada cartão representa uma atividade, onde é controlado os fluxos em que cada cartão se encontra. Esses fluxos podem ser vários, dependendo do processo em questão, mas no geral são 3 fluxos principais: "a fazer", "fazendo" e "feito".
-#### ZenHub:
-#### Backlog:
-#### Em andamento:
-#### Revisão:
-#### Concluído:
 
-### 3.3 XP
+#### Backlog: 
+É a lista que contém todas as tarefas a serem feitas para a conclusão do projeto.
+#### Em andamento: 
+É a "coluna" que armazena as tarefas que estão em andamento. No nosso contexto, são as issues que estão abertas.
+#### Revisão:
+É a "coluna" que armazena as tarefas que estão sob revisão. No nosso contexto, é a análise dos critérios de aceitação definidos na criação das issues no momento em que um pull request é aberto.
+#### Concluído:
+É a "coluna" que armazena as tarefas já revisadas. No nosso contexto, são as issues na qual seus pull requerts já foram verificados e aceitos.
+
+### 2.3. XP
 Extreme Programming é uma metodologia com foco em agilidade de equipes e qualidade de projetos, apoiada em valores como simplicidade, comunicabilidade e feedback. Objetivando a execução de projetos dentro prazo e do orçamento, fazendo que o cliente fique satisfeito com os resultados sem que a equipe do projeto seja sobrecarregada. 
 #### Programação em pares:
+A produção do software é feita em pares, isso significa que duas pessoas focam em resolver um determinado problema. A ideia por trás dessa prática é que dois cérebros e quatro olhos são melhores que um cérebro e dois olhos. Além de possibilitar a revisão contínua do código,  a identificação de eventuais erros no momento da digitação e uma solução mais rápida aos problemas, faz com que a qualidade do código aumente e a quantidade de linhas diminua.
 #### Integração Contínua:
+A Integração Contínua é uma prática utilizada para construir ou integrar as etapas do desenvolvimento de um software, de modo que o código principal permaneça sem bugs ao final de cada uma das etapas. No nosso contexto, utilizamos o GitHub para fazer o versionamento do sistema e, a cada nova construção ou integração de diferentes funcionalidades, é realizada a revisão dos seus critérios de aceitação.      
 #### Feedback:
+O feedback constante é uma característica marcante do XP. É o processo de troca de informações que ocorre entre clientes e a equipe de desenvolvimento durante a produção de um software. O feedback rápido visa descobrir possíveis problemas prematuros e facilita a resolução dos mesmos.
 #### Refatoração:
-  
-### 3.4 Ferramentas
+Refatorar é uma forma positiva de aumentar a usabilidade do software. Promove um design simples e torna o projeto final um produto de sucesso e qualidade. As funcionalidades do sistema devem ser refatoradas sempre que for necessário.
+
+## 3. Ferramentas
+<img src='https://user-images.githubusercontent.com/44823367/108258632-01158d00-713f-11eb-9df5-5c7262bc1dbc.jpg' style='margin-top:10px;margin-bottom:30px;'>
+
+* GitHub: Utilizado para fazer a hospedagem do código-fonte e o versionamento do projeto.
+* Telegram: Utilizado para agilizar a comunicação entre a equipe e realizar o daily meeting.  
+* Zenhub: 
+* OneDrive:
+* Balsamiq:
+* Figma:
+* Google Meet:
 
 ## 4. Referências
 - Extreme Programming. Disponível em https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498
+- Refactoring in Extreme Programming. Disponível em https://hygger.io/blog/refactoring-in-extreme-programming/#:~:text=Refactoring%20is%20especially%20necessary%20in,fast%20as%20it%20is%20possible.
+
