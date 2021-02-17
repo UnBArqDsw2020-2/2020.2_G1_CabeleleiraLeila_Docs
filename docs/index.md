@@ -1,4 +1,7 @@
-![logo](img/logos/logo1.png)
+<p align='center'>
+  <img width="70%" src="../../img/logos/logo1.png">
+  </img>
+</p>
 
 ## Cabeleleila Leila
 
