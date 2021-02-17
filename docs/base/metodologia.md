@@ -6,6 +6,7 @@
 | 16.02.2021 | 0.1 | Criação do documento | [Kalebe Lopes](https://github.com/KalebeLopes), [Isabella Carneiro](https://github.com/isabellacgmsa)|
 | 17.02.2021 | 0.2 | Adição de alguns tópicos | [Isabella Carneiro](https://github.com/isabellacgmsa)|
 | 17.02.2021 | 0.3 | Adição de alguns tópicos | [Kalebe Lopes](https://github.com/KalebeLopes)|
+| 17.02.2021 | 0.4 | Adição das ferramentas | [Kalebe Lopes](https://github.com/KalebeLopes)|
 
 ## 1. Introdução
 O documento de metodologia busca descrever as abordagens utilizadas durante o processo de desenvolvimento desse projeto. Nele será descrito quais metodologias foram usadas como referência, e quais métodos foram adotados para o nosso contexto. Esse documento também visa explorar como a equipe se organizou e comunicou durante o projeto.
@@ -84,15 +85,15 @@ Refatorar é uma forma positiva de aumentar a usabilidade do software. Promove u
 ## 3. Ferramentas
 <img src='https://user-images.githubusercontent.com/44823367/108258632-01158d00-713f-11eb-9df5-5c7262bc1dbc.jpg' style='margin-top:10px;margin-bottom:30px;'>
 
-* GitHub: Utilizado para fazer a hospedagem do código-fonte e o versionamento do projeto.
-* Telegram: Utilizado para agilizar a comunicação entre a equipe e realizar o daily meeting.  
-* Zenhub: 
-* OneDrive:
-* Balsamiq:
-* Figma:
-* Google Meet:
+* **GitHub**: Utilizado para fazer a hospedagem do código-fonte e o versionamento do projeto.
+* **Telegram**: Utilizado para agilizar a comunicação entre a equipe e realizar o daily meeting.  
+* **Zenhub**: Utilizado para aplicarmos o método Kanban no projeto.
+* **OneDrive**: Utilizado para armazenar documentos criados pelo time.
+* **Balsamiq**: Utilizado para a criação do protótipo de baixa fidelidade.
+* **Figma**: Utilizado para a criação do protótipo de alta fidelidade.
+* **Google** Meet: Utilizado para fazer reuniões de forma remota com os integrantes da equipe.
 
 ## 4. Referências
-- Extreme Programming. Disponível em https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498
-- Refactoring in Extreme Programming. Disponível em https://hygger.io/blog/refactoring-in-extreme-programming/#:~:text=Refactoring%20is%20especially%20necessary%20in,fast%20as%20it%20is%20possible.
-
+- Extreme Programming. Disponível em https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498. Último acesso 17/02/2021.
+- Refactoring in Extreme Programming. Disponível em https://hygger.io/blog/refactoring-in-extreme-programming/#:~:text=Refactoring%20is%20especially%20necessary%20in,fast%20as%20it%20is%20possible. Último acesso 17/02/2021.
+- Stock. Disponível em: https://unbarqdsw.github.io/2020.1_G12_Stock/#/Project/Metodologias. Último acesso 17/02/2021.
