@@ -34,9 +34,10 @@ nav:
         - Elicitação:
           - Brainstorming: base/brainstorming.md
           - Entrevista: base/entrevista.md
+          - MoSCoW: base/moscow.md
         - Modelagem: base/
       - Metodologia: base/metodologia.md
-    - Módulo Processos/Metodologias/Abordagens:
+    # - Módulo Processos/Metodologias/Abordagens:
   #      - x: base/
   # - Modelagem:
   #   - Módulo Projeto Orientado a Abordagens Tradicionais:
