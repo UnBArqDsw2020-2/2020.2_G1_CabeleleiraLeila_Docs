@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>5W2H - Leila's</title>
+        <title>Modelagem BPMN - Leila's</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -83,7 +83,7 @@
 </li>
             
 <li>
-    <a href="./" class="dropdown-item active">5W2H</a>
+    <a href="../5w2h/" class="dropdown-item">5W2H</a>
 </li>
             
 <li>
@@ -135,7 +135,7 @@
 </li>
             
 <li>
-    <a href="../bpmn/" class="dropdown-item">Modelagem BPMN</a>
+    <a href="./" class="dropdown-item active">Modelagem BPMN</a>
 </li>
     </ul>
   </li>
@@ -150,12 +150,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../rich-picture/" class="nav-link">
+                                <a rel="prev" href="../metodologia/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../mapa-mental/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -177,8 +177,16 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#5w2h" class="nav-link"> 5W2H</a>
+            <li class="nav-item" data-level="1"><a href="#modelagem-bpmn" class="nav-link"> Modelagem BPMN</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#metodologia" class="nav-link">Metodologia</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#processos-do-projeto" class="nav-link">Processos do projeto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -186,8 +194,8 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="5w2h"><center> 5W2H</h1>
-<h3 id="historico-de-versao">Histórico de versão<br></h3>
+<h1 id="modelagem-bpmn"><center> Modelagem BPMN</h1>
+<h3 id="historico-de-versao">Histórico de versão</h3>
 <table>
 <thead>
 <tr>
@@ -199,98 +207,127 @@
 </thead>
 <tbody>
 <tr>
-<td>10.02.2021</td>
+<td>16.02.2021</td>
 <td>0.1</td>
 <td>Criação do documento</td>
 <td>Rafaella Junqueira</td>
 </tr>
 <tr>
-<td>10.02.2021</td>
+<td>17.02.2021</td>
 <td>0.2</td>
-<td>Adição da tabela do artefato</td>
+<td>Adição de metodologia e macroprocesso geral</td>
 <td>Rafaella Junqueira</td>
 </tr>
 <tr>
-<td>16.02.2021</td>
+<td>17.02.2021</td>
 <td>0.3</td>
-<td>Refatoração da tabela</td>
-<td>Rafaella Junqueira <br> Erick Giffoni</td>
+<td>Adição do diagrama do macroprocesso detalhado</td>
+<td>Rafaella Junqueira</td>
 </tr>
 <tr>
-<td>16.02.2021</td>
+<td>17.02.2021</td>
+<td>0.4</td>
+<td>Adição do diagrama de Sprint Planning</td>
+<td>Rafaella Junqueira</td>
+</tr>
+<tr>
+<td>17.02.2021</td>
+<td>0.5</td>
+<td>Adição do diagrama de Daily</td>
+<td>Rafaella Junqueira</td>
+</tr>
+<tr>
+<td>17.02.2021</td>
 <td>1.0</td>
-<td>Inclusão do framework 5W2H em versão visual</td>
-<td>Rafaella Junqueira <br> Erick Giffoni</td>
+<td>Adição do diagrama de Sprint Review e referências</td>
+<td>Rafaella Junqueira</td>
+</tr>
+<tr>
+<td>17.02.2021</td>
+<td>1.1</td>
+<td>Adição do diagrama de desenvolvimento do projeto</td>
+<td>Rafaella Junqueira</td>
 </tr>
 </tbody>
 </table>
-<h3 id="metodologia">Metodologia</h3>
+<h2 id="metodologia">Metodologia</h2>
 <div align="justify">
-
-<br>O Framework 5W2H é uma ferramenta administrativa de atividades, prazos e responsabilidades que devem ser desenvolvidas com clareza e eficiência pela equipe do projeto. 
-<br>O objetivo deste artefato é mapear, de maneira organizada e simplificada, o que será feito, porque, onde, quem irá fazer, quando será feito, como e quanto custará.<br><br>
+<br>
+A notação BPMN (Business Process Model and Notation) refere-se à representação gráfica de processos, por meio de diagramas, seguindo um padrão de modelagem. Esse padrão possui um conjunto de símbolos e regras que permite modelar diferentes fluxos de processos, com vários níveis de detalhamento.
+<br><br>
+O BPMN permite criar processos de negócio, definir melhorias em processos já existentes, documentar e disseminar processos (novos ou existentes). Definir novos processos e fluxos de trabalho, ajudar na identificação dos requisitos de software (mais especificamente para a área de TI – Tecnologia da Informação) e automatizar processos.
+<br><br>
+A modelagem com BPMN mostra-se bastante eficiente uma vez que permite aos interessado no processo terem uma visão gráfica como é fluxo de tarefas, expressando de maneira simples e direta todo o processo de negócio. Assim, é possível visualizar cada etapa do processo e seus responsáveis, e ter clareza quanto ao funcionamento do negócio e facilitando a identificação de pontos de melhoria do processo.
 </div>
-
-<h3 id="tabela-5w2h">Tabela 5W2H</h3>
 <p><br></p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th><center>5W2H - Visão Estratégica</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>O que?</strong></td>
-<td>Sistema de agendamento de horários para os serviços prestados por um salão de beleza. Promotor de interação entre clientes e funcionários.</td>
-</tr>
-<tr>
-<td><strong>Por que?</strong></td>
-<td>Modernizar o controle da agenda do salão, aumentar a visibilidade do estabelecimento e facilitar o agendamento dos serviços.</td>
-</tr>
-<tr>
-<td><strong>Onde?</strong></td>
-<td>O software será construído para um salão específico, Cabeleileila Leila, mas pode ser adaptado para utilização em qualquer salão de beleza. Criado na UnB, campus Gama (FGA).</td>
-</tr>
-<tr>
-<td><strong>Quando?</strong></td>
-<td>Entre 01/fev e 07/maio de 2021.</td>
-</tr>
-<tr>
-<td><strong>Quem?</strong></td>
-<td>Poderá ser acessado por pessoas interessadas nos serviços oferecidos e construído pelo grupo 1 da disciplina de Arquitetura e Desenho de Software. Possíveis patrocinadores para o salão.</td>
-</tr>
-<tr>
-<td><strong>Como?</strong></td>
-<td>A solução será construída como aplicação web de forma responsiva, permitindo acesso via computadores, notebooks e smartphones.</td>
-</tr>
-<tr>
-<td><strong>Quanto?</strong></td>
-<td>Será feita uma estimativa de preço.</td>
-</tr>
-<tr>
-<td><br></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h3 id="5w2h-versao-visual">5W2H versão visual</h3>
-<p><br></p>
-<p align="center">
-<img src='../../img/5w2h.jpg'>
-  <figcaption align='center'>
-    <b>Figura 1: Framework 5W2H</b>
-    </br>
-    <small>Fonte: Autor</small>
-  </figcaption>
+<h2 id="processos-do-projeto">Processos do projeto</h2>
+<p><br>
+Este projeto utiliza elementos de diferentes metodologias, como pode ser melhor observado no documento de <a href="../metodologia/">metodologia</a>, ao longo de seu desenvolvimento. Os diagramas a seguir representam o o macroprocesso sobre como é realizado e cada um dos processos envolvidos.
+<br></p>
+<h3 id="macroprocesso-geral">Macroprocesso - geral</h3>
+<p align='center'>
+<img src="../../img/bpmn/bpmn-metodologia-geral.png">
+    <figcaption align='center'>
+        <b>Figura 1: Metodologia geral simplificada</b>
+        <br>
+    <small>Fonte: autor</small>
+    </figcaption>
 </p>
-<p></br></p>
+<p><br></p>
+<h3 id="macroprocesso-detalhado">Macroprocesso - detalhado</h3>
+<p align='center'>
+<img src="../../img/bpmn/bpmn-metodologia-expandido.png">
+    <figcaption align='center'>
+        <b>Figura 2: Metodologia geral detalhada</b>
+        <br>
+    <small>Fonte: autor</small>
+    </figcaption>
+</p>
+<p><br></p>
+<h3 id="sprint-planning">Sprint Planning</h3>
+<p align='center'>
+<img src="../../img/bpmn/bpmn-sprint-planning.png">
+    <figcaption align='center'>
+        <b>Figura 3: Processo de Sprint Planning</b>
+        <br>
+    <small>Fonte: autor</small>
+    </figcaption>
+</p>
+<p><br></p>
+<h3 id="desenvolvimento">Desenvolvimento</h3>
+<p align='center'>
+<img src="../../img/bpmn/bpmn-desenvolvimento.png">
+    <figcaption align='center'>
+        <b>Figura 4: Processo de desenvolvimento das issues</b>
+        <br>
+    <small>Fonte: autor</small>
+    </figcaption>
+</p>
+<p><br></p>
+<h3 id="daily">Daily</h3>
+<p align='center'>
+<img src="../../img/bpmn/bpmn-daily.png">
+    <figcaption align='center'>
+        <b>Figura 5: Processo de realização da Daily</b>
+        <br>
+    <small>Fonte: autor</small>
+    </figcaption>
+</p>
+<p><br></p>
+<h3 id="sprint-review">Sprint Review</h3>
+<p align='center'>
+<img src="../../img/bpmn/bpmn-sprint-review.png">
+    <figcaption align='center'>
+        <b>Figura 6: Processo de Sprint Review </b>
+        <br>
+    <small>Fonte: autor</small>
+    </figcaption>
+</p>
+<p><br></p>
 <h3 id="referencias">Referências</h3>
 <p><br></p>
-<p>SERRANO, Milene. <strong>5W2H</strong>, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 10 de fevereiro de 2021.</p>
-<p>TREASY. <strong>O que é 5W2H: reduza incertezas, ganhe produtividade e aprenda como fazer um plano de ação.</strong> Disponível em <a href="https://www.treasy.com.br/blog/5w2h/">https://www.treasy.com.br/blog/5w2h/</a> Acesso em: 10 de fevereiro de 2021</p>
-<p><strong>ANÁLISE 5W2H - O que é e como USAR de forma RÁPIDA e DIRETA!</strong> Disponível em: <a href="https://www.youtube.com/watch?v=RTiugdJLQDA">https://www.youtube.com/watch?v=RTiugdJLQDA</a>. Acesso em: 10 de fevereiro de 2021.</p></div>
+<p>SERRANO, Milene. <strong>BPMN</strong>, 2021. Vídeo-aulas complementares apresentadas na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 10 de fevereiro de 2021.</p>
+<p>EUAX CONSULTING. <strong>O que é BPMN (Business Process Model and Notation) e como aplicar essa notação na Modelagem de Processos</strong>. Disponível em: <a href="https://www.euax.com.br/2017/02/o-que-e-bpmn-business-process-model-and-notation/">https://www.euax.com.br/2017/02/o-que-e-bpmn-business-process-model-and-notation/</a>. Acesso em 17 de fevereiro de 2021.</p></div>
             </div>
         </div>
 
