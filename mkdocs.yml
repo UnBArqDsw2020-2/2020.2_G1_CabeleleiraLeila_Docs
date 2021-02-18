@@ -32,6 +32,7 @@ nav:
         - Elicitação:
           - Brainstorming: base/brainstorming.md
           - Entrevista: base/entrevista.md
+          - MoSCoW: base/moscow.md
         - Modelagem: base/
     - Módulo Processos/Metodologias/Abordagens:
       - x: base/
