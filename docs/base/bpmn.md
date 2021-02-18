@@ -27,64 +27,63 @@ Este projeto utiliza elementos de diferentes metodologias, como pode ser melhor 
 <br>
 
 ### Macroprocesso - geral
-<p align='center'>
-<img src="../../img/bpmn/bpmn-metodologia-geral.png">
-    <figcaption align='center'>
-        <b>Figura 1: Metodologia geral simplificada</b>
-        <br>
+
+[<div align="center"><img width="auto" height="auto" src="../../img/bpmn/bpmn-metodologia-geral.png"/></div>](../../img/bpmn/bpmn-metodologia-geral.png)
+
+<figcaption align='center'>
+    <b>Figura 1: Metodologia geral simplificada</b>
+    <br>
     <small>Fonte: autor</small>
-    </figcaption>
-</p><br>
+</figcaption>
+<br>
 
 ### Macroprocesso - detalhado
-<p align='center'>
-<img src="../../img/bpmn/bpmn-metodologia-expandido.png">
-    <figcaption align='center'>
-        <b>Figura 2: Metodologia geral detalhada</b>
-        <br>
+
+[<div align="center"><img width="auto" height="auto" src="../../img/bpmn/bpmn-metodologia-expandido.png"/></div>](../img/bpmn/bpmn-metodologia-expandido.png)
+<figcaption align='center'>
+    <b>Figura 2: Metodologia geral detalhada</b>
+    <br>
     <small>Fonte: autor</small>
-    </figcaption>
-</p><br>
+</figcaption>
+<br>
 
 ### Sprint Planning
-<p align='center'>
-<img src="../../img/bpmn/bpmn-sprint-planning.png">
-    <figcaption align='center'>
-        <b>Figura 3: Processo de Sprint Planning</b>
-        <br>
+[<div align="center"><img width="auto" height="auto" src="../../img/bpmn/bpmn-sprint-planning.png"/></div>](../../img/bpmn/bpmn-sprint-planning.png)
+
+<figcaption align='center'>
+    <b>Figura 3: Processo de Sprint Planning</b>
+    <br>
     <small>Fonte: autor</small>
-    </figcaption>
-</p><br>
+</figcaption>
+<br>
 
 ### Desenvolvimento
-<p align='center'>
-<img src="../../img/bpmn/bpmn-desenvolvimento.png">
-    <figcaption align='center'>
-        <b>Figura 4: Processo de desenvolvimento das issues</b>
-        <br>
+[<div align="center"><img width="auto" height="auto" src="../../img/bpmn/bpmn-desenvolvimento.png"/></div>](../../img/bpmn/bpmn-desenvolvimento.png)
+
+<figcaption align='center'>
+    <b>Figura 4: Processo de desenvolvimento das issues</b>
+    <br>
     <small>Fonte: autor</small>
-    </figcaption>
-</p><br>
+</figcaption>
+<br>
 
 ### Daily
-<p align='center'>
-<img src="../../img/bpmn/bpmn-daily.png">
-    <figcaption align='center'>
-        <b>Figura 5: Processo de realização da Daily</b>
-        <br>
+[<div align="center"><img width="auto" height="auto" src="../../img/bpmn/bpmn-daily.png"/></div>](../../img/bpmn/bpmn-daily.png)
+<figcaption align='center'>
+    <b>Figura 5: Processo de realização da Daily</b>
+    <br>
     <small>Fonte: autor</small>
-    </figcaption>
-</p><br>
+</figcaption>
+<br>
 
 ### Sprint Review
-<p align='center'>
-<img src="../../img/bpmn/bpmn-sprint-review.png">
-    <figcaption align='center'>
-        <b>Figura 6: Processo de Sprint Review </b>
-        <br>
+[<div align="center"><img width="auto" height="auto" src="../../img/bpmn/bpmn-sprint-review.png"/></div>](../../img/bpmn/bpmn-sprint-review.png)
+<figcaption align='center'>
+    <b>Figura 6: Processo de Sprint Review </b>
+    <br>
     <small>Fonte: autor</small>
-    </figcaption>
-</p><br>
+</figcaption>
+<br>
 
 ### Referências
 <br>
