@@ -4,7 +4,8 @@
 | 17.02.2021 | [Rafaella Junqueira](https://github.com/RafaellaJunqueira) | Mila Junia |
 
 <br>
-Entrevista realizada com a entrevistada Mila Junia Silva, dona do Mila Junia Studio. A entrevistada atestou ter lido e concordado com o [Termo de Consentimento]() criado pela equipe para utilização das informações coletadas. Devido à dificuldade de encontrar um horário para entrevista que fosse compatível com ambas as partes, entrevistadora e participante, esta entrevista foi realizada de forma escrita e, posteriormente, transcrita para o presente documento, conforme pode ser observado abaixo.
+
+Entrevista realizada com a entrevistada Mila Junia Silva, dona do Mila Junia Studio. A entrevistada atestou ter lido e concordado com o [Termo de Consentimento](../img/termo-consentimento.png) criado pela equipe para utilização das informações coletadas. Devido à dificuldade de encontrar um horário para entrevista que fosse compatível com ambas as partes, entrevistadora e participante, esta entrevista foi realizada de forma escrita e, posteriormente, transcrita para o presente documento, conforme pode ser observado abaixo.
 <br>
 
 Nº | Pergunta | Resposta |

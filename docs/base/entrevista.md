@@ -7,6 +7,7 @@
 | 17.02.2021 | 0.2 | Adição das perguntas | [Kalebe Lopes](https://github.com/KalebeLopes)|
 | 17.02.2021 | 0.3 | Refatoração do documento | [Rafaella Junqueira](https://github.com/RafaellaJunqueira)|
 | 18.02.2021 | 0.4 | Adição da entrevista 1 | [Kalebe Lopes](https://github.com/KalebeLopes)|
+| 18.02.2021 | 0.5 | Adição da entrevista 2 | [Rafaella Junqueira](https://github.com/RafaellaJunqueira)|
 
 
 ## Introdução
@@ -19,13 +20,14 @@ De acordo com Barbosa e Silva (2010), entrevistas permite ao avaliador coletar d
 </div><br>
 
 ## Metodologia
-<div align="justify">
+<p align="justify">
 Para entrevista desta fase do projeto, optamos por seguir o modelo de entrevista fechada, onde serão feitas várias perguntas pré-definidas com o objetivo de extrair dos stakeholders o máximo de informações importantes para o sistema.
 <br><br> 
 As perguntas foram listadas de acordo com os interesses dos entrevistadores a fim de conduzir o stakeholder no decorrer da entrevista e possibilitar uma futura comparação entre as respostas. Dado que o intuito desta entrevista é entender a visão dos prestadores de serviços da área de tratamentos de beleza, os participantes selecionados foram aqueles que encaixam-se no perfil de proprietários de estabelecimento de beleza, e não no perfil de cliente.
-<br><br> 
-Foram acordados data e horário para as entrevistas, esclarecido seu propósito e como ela seria executada. Após o esclarecimento dos detalhes da pesquisa, foi apresentado um [termo de consentimento]() e, caso o participante estivesse de acordo, a entrevista era iniciada
-</div><br>
+</p>
+Foram acordados data e horário para as entrevistas, esclarecido seu propósito e como ela seria executada. Após o esclarecimento dos detalhes da pesquisa, foi apresentado um [Termo de Consentimento](../img/termo-consentimento.png) e, caso o participante estivesse de acordo, a entrevista era iniciada
+
+<br>
 
 ## Perguntas
 
@@ -48,7 +50,6 @@ Número | Pergunta |
 16| Existe alguém responsável por fazer a distribuição dos clientes entre os profissionais disponíveis? 
 17| O estabelecimento já possui sistema de agendamento? Se sim, como funciona? 
 18| O que não pode faltar em um sistema de agendamento? 
-
 <br>
 
 ## Resultado das entrevistas
