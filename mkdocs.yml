@@ -3,15 +3,6 @@ site_name: Leila's
 theme: 
   name: journal
   include_sidebar: true
-# theme: cosmo
-# theme: flatly
-# theme: litera
-# theme: lumen
-# theme: minty
-# theme: pulse
-# theme: simplex
-# theme: united
-# theme: gitbook
 
 nav:
   - Home: index.md
@@ -20,7 +11,7 @@ nav:
       - Design Sprint: base/design-sprint.md
       - Prototipação:
         - Protótipo de Baixa Fidelidade: base/prototipo-baixa.md
-        - Protótipo de Baixa Fidelidade: base/prototipo-alta.md
+        - Protótipo de Alta Fidelidade: base/prototipo-alta.md
         - Testes de protótipos: base/teste-prototipo.md
       - Identidade Visual: base/identidade-visual.md
       - Requisitos: 
@@ -29,8 +20,11 @@ nav:
           - 5W2H: base/5w2h.md
           - Mapa Mental: base/mapa-mental.md
           - Diagrama de causa e efeito: base/causa-efeito.md
+          - Plano de gerenciamento de riscos: base/plano-de-risco.md
+          - Estimativas: base/estimativas.md  
         - Elicitação:
           - Brainstorming: base/brainstorming.md
+          - Entrevista: base/entrevista.md
         - Modelagem: base/
     - Módulo Processos/Metodologias/Abordagens:
       - Metodologia: base/metodologia.md
