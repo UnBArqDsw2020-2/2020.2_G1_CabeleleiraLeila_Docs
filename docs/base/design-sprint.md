@@ -3,7 +3,8 @@
 ### Histórico de versão<br>
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 10.02.2021 | 0.1 | Criação do documento, adição de metodologia e artefatos desenvolvidos | Rafaella Junqueira |<br>
+| 10.02.2021 | 0.1 | Criação do documento, adição de metodologia e artefatos desenvolvidos | Rafaella Junqueira |
+| 18.02.2021 | 0.2 | Adição de links dos documentosn relacionados | Isabella Carneiro |<br>
 
 ### Metodologia
 <br>
@@ -34,8 +35,8 @@ Ao final do Sprint Design, com a coleta dos feedbacks dos usuários a respeito d
 1 | [Mapa Mental](../base/mapa-mental.md)<!--<br>[Questionário]()<br>[Causa e efeito]()-->
 2 | [Brainstorming](../base/brainstorming.md)<!--<br>[Rich Pictures]()-->
 3 | [5W2H](../base/5w2h.md)<!-- [Plano de custo e esforço]()<br>[Plano de riscos]()-->
-4 | [Protótipo de baixa fidelidade]() <br>[Protótipo de alta fidelidade]()
-5 | [Testes com os protótipos]()
+4 | [Protótipo de baixa fidelidade](../base/prototipo-baixa.md) <br>[Protótipo de alta fidelidade](../base/prototipo-alta.md)
+5 | [Testes com os protótipos](../base/teste-prototipo.md)
 
 
 ### Referências
