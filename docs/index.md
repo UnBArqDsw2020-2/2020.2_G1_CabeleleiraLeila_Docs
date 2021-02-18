@@ -1,8 +1,8 @@
 ![logo](img/logos/logo1.png)
 
-## Cabeleleira Leila
+## Cabeleleila Leila
 
-O Salão da Cabeleleira Leila é uma aplicação que visa facilitar o  gerenciamento de um salão de beleza por meio do cadastramento de clientes e agendamento dos serviços oferecidos pelo estabelecimento.
+O Salão da Cabeleleira Leila é uma aplicação que visa facilitar o  gerenciamento de um salão de beleza por meio do cadastro de clientes e agendamento dos serviços oferecidos pelo estabelecimento.
 
 A aplicação permitirá que o cliente consulte os tipos de serviços prestados e seus respectivos preços, consulte a agenda de cada especialidade e os horários livres. Além de permitir que o cliente acesse o perfil dos profissionais que atuam no local.   
 
@@ -17,7 +17,7 @@ A aplicação permitirá que o cliente consulte os tipos de serviços prestados 
     <img src="img/equipe/isabella.jpeg">
   </div>
   <div class="member">
-    <p>Érick Giffoni</p>
+    <p>Erick Giffoni</p>
     <img src="img/equipe/erick.jpeg">
   </div>
   <div class="member">
@@ -51,10 +51,10 @@ A aplicação permitirá que o cliente consulte os tipos de serviços prestados 
   }
   .member img {
     position: relative;
-    width: 250px;
+    width: 640px;
     opacity: 1;
     border-style: solid;
-    border-radius: 200px;
+    border-radius: 640px;
     border-width: 1px; 
     border-color: rgba(0,0,0,0.3);
     z-index: 3;
