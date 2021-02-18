@@ -3,15 +3,6 @@ site_name: Leila's
 theme: 
   name: journal
   include_sidebar: true
-# theme: cosmo
-# theme: flatly
-# theme: litera
-# theme: lumen
-# theme: minty
-# theme: pulse
-# theme: simplex
-# theme: united
-# theme: gitbook
 
 nav:
   - Home: index.md
@@ -36,9 +27,9 @@ nav:
           - Entrevista: base/entrevista.md
           - MoSCoW: base/moscow.md
         - Modelagem: base/
+    - Módulo Processos/Metodologias/Abordagens:
       - Metodologia: base/metodologia.md
-    # - Módulo Processos/Metodologias/Abordagens:
-  #      - x: base/
+      - Modelagem BPMN: base/bpmn.md
   # - Modelagem:
   #   - Módulo Projeto Orientado a Abordagens Tradicionais:
   #     - Notação UML – Diagramas Estáticos: base/
