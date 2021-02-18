@@ -14,13 +14,17 @@
 A entrevista é uma técnica simples e direta para realizar a coleta de informações importantes sobre determinado assunto. A comunicação entre as partes interessadas é feita para determinar quais são os requisitos necessários para o desenvolvimento do sistema. 
 <br><br>
 As entrevistas possibilitam a coleta de informações qualitativas e podem ser classificadas como fechadas ou abertas. As entrevistas do tipo fechadas são baseadas em um conjunto pré-existente de perguntas, enquanto as do tipo abertas não têm um script predefinido, adaptando-se de acordo com o conhecimento do entrevistado.
+<br><br>
+De acordo com Barbosa e Silva (2010), entrevistas permite ao avaliador coletar dados detalhados e profundos das experiências individuais do grupo de foco. Essa abordagem permite a coleta de muitas informações e possui um formato flexível, que facilita o direcionamento da coleta de dados de acordo com o cenário do usuário
 </div><br>
 
 ## Metodologia
 <div align="justify">
 Para entrevista desta fase do projeto, optamos por seguir o modelo de entrevista fechada, onde serão feitas várias perguntas pré-definidas com o objetivo de extrair dos stakeholders o máximo de informações importantes para o sistema.
 <br><br> 
-As perguntas foram listadas de acordo com os interesses dos entrevistadores a fim de conduzir o stakeholder no decorrer da entrevista e possibilitar uma futura comparação entre as respostas. Dado que o intuito desta entrevista é entender a visão dos prestadores de serviços da área de tratamentos de beleza, a pessoa entrevistada encaixa-se no perfil de proprietárias de estabelecimento de beleza, e não no perfil de cliente.
+As perguntas foram listadas de acordo com os interesses dos entrevistadores a fim de conduzir o stakeholder no decorrer da entrevista e possibilitar uma futura comparação entre as respostas. Dado que o intuito desta entrevista é entender a visão dos prestadores de serviços da área de tratamentos de beleza, os participantes selecionados foram aqueles que encaixam-se no perfil de proprietários de estabelecimento de beleza, e não no perfil de cliente.
+<br><br> 
+Foram acordados data e horário para as entrevistas, esclarecido seu propósito e como ela seria executada. Após o esclarecimento dos detalhes da pesquisa, foi apresentado um [termo de consentimento]() e, caso o participante estivesse de acordo, a entrevista era iniciada
 </div><br>
 
 ## Perguntas
@@ -46,15 +50,21 @@ Número | Pergunta |
 18| O que não pode faltar em um sistema de agendamento? 
 
 <br>
+
 ## Resultado das entrevistas
 <br>
+
 #### [Entrevista 1 - Elder Araújo dos Santos, 24 anos](entrevista1.md)
+#### [Entrevista 2 - Mila Junia Silva](entrevista2.md)
 <br>
 
 ## Requisitos elicitados
+<br>
 
-### Legenda
+
+<!-- ### Legenda -->
 
 ### Referências
+<br>
 
 BARBOSA, Simone; DINIZ, Bruno. **Interação Humano-Computador**, Editora Elsevier, Rio de Janeiro, 2010.
