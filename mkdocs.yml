@@ -3,15 +3,6 @@ site_name: Leila's
 theme: 
   name: journal
   include_sidebar: true
-# theme: cosmo
-# theme: flatly
-# theme: litera
-# theme: lumen
-# theme: minty
-# theme: pulse
-# theme: simplex
-# theme: united
-# theme: gitbook
 
 nav:
   - Home: index.md
@@ -36,7 +27,7 @@ nav:
           - Entrevista: base/entrevista.md
         - Modelagem: base/
       - Metodologia: base/metodologia.md
-    - Módulo Processos/Metodologias/Abordagens:
+    # - Módulo Processos/Metodologias/Abordagens:
   #      - x: base/
   # - Modelagem:
   #   - Módulo Projeto Orientado a Abordagens Tradicionais:
