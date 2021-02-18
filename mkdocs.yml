@@ -1,6 +1,8 @@
 site_name: Leila's
 
-theme: journal
+theme: 
+  name: journal
+  include_sidebar: true
 # theme: cosmo
 # theme: flatly
 # theme: litera
@@ -18,7 +20,9 @@ nav:
       - Design Sprint: base/design-sprint.md
       - Prototipação:
         - Protótipo de Baixa Fidelidade: base/prototipo-baixa.md
-      - Identidade Visual: identidade-visual.md
+        - Protótipo de Alta Fidelidade: base/prototipo-alta.md
+        - Testes de protótipos: base/teste-prototipo.md
+      - Identidade Visual: base/identidade-visual.md
       - Requisitos: 
         - Pré rastreabilidade: 
           - Rich Picture: base/rich-picture.md
@@ -31,20 +35,20 @@ nav:
         - Modelagem: base/
     - Módulo Processos/Metodologias/Abordagens:
       - x: base/
-  - Modelagem:
-    - Módulo Projeto Orientado a Abordagens Tradicionais:
-      - Notação UML – Diagramas Estáticos: base/
-      - Notação UML – Diagramas Dinâmicos: base/
-      - Modelagem Ágil: base/
-  - Padrões de Projeto:
-    - Módulo Padrões de Projeto GRASPs:
-      - x: base/
-    - Módulo Padrões de Projeto GoFs:
-      - x: base/
-    - Módulo Padrões de Projeto Extras:
-      - x: base/
-  - Arquitetura de Software & Reutilização:
-    - Módulo Estilos e Padrões Arquiteturais:
-      - x: base/
-    - Módulo Reutilização de Software: 
-      - x: base/
+  # - Modelagem:
+  #   - Módulo Projeto Orientado a Abordagens Tradicionais:
+  #     - Notação UML – Diagramas Estáticos: base/
+  #     - Notação UML – Diagramas Dinâmicos: base/
+  #     - Modelagem Ágil: base/
+  # - Padrões de Projeto:
+  #   - Módulo Padrões de Projeto GRASPs:
+  #     - x: base/
+  #   - Módulo Padrões de Projeto GoFs:
+  #     - x: base/
+  #   - Módulo Padrões de Projeto Extras:
+  #     - x: base/
+  # - Arquitetura de Software & Reutilização:
+  #   - Módulo Estilos e Padrões Arquiteturais:
+  #     - x: base/
+  #   - Módulo Reutilização de Software: 
+  #     - x: base/
