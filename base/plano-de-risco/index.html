@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Plano de gerenciamento de riscos - Leila's</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Leila's</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Base <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Módulo Projeto Não Orientado a Abordagens Específicas</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../design-sprint/" class="dropdown-item">Design Sprint</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Prototipação</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../prototipo-baixa/" class="dropdown-item">Protótipo de Baixa Fidelidade</a>
+</li>
+            
+<li>
+    <a href="../prototipo-alta/" class="dropdown-item">Protótipo de Alta Fidelidade</a>
+</li>
+            
+<li>
+    <a href="../teste-prototipo/" class="dropdown-item">Testes de protótipos</a>
+</li>
+    </ul>
+  </li>
+            
+<li>
+    <a href="../identidade-visual/" class="dropdown-item">Identidade Visual</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Requisitos</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Pré rastreabilidade</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../rich-picture/" class="dropdown-item">Rich Picture</a>
+</li>
+            
+<li>
+    <a href="../5w2h/" class="dropdown-item">5W2H</a>
+</li>
+            
+<li>
+    <a href="../mapa-mental/" class="dropdown-item">Mapa Mental</a>
+</li>
+            
+<li>
+    <a href="../causa-efeito/" class="dropdown-item">Diagrama de causa e efeito</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active">Plano de gerenciamento de riscos</a>
+</li>
+            
+<li>
+    <a href="../estimativas/" class="dropdown-item">Estimativas</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Elicitação</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../brainstorming/" class="dropdown-item">Brainstorming</a>
+</li>
+            
+<li>
+    <a href="../entrevista/" class="dropdown-item">Entrevista</a>
+</li>
+    </ul>
+  </li>
+            
+<li>
+    <a href="../" class="dropdown-item">Modelagem</a>
+</li>
+    </ul>
+  </li>
+            
+<li>
+    <a href="../metodologia/" class="dropdown-item">Metodologia</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../causa-efeito/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../estimativas/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#plano-de-gerenciamento-de-riscos" class="nav-link"> Plano de Gerenciamento de Riscos</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#plano-de-gerenciamento-de-riscos_1" class="nav-link">Plano de gerenciamento de riscos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#resultados" class="nav-link">Resultados</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="plano-de-gerenciamento-de-riscos"><center> Plano de Gerenciamento de Riscos</h1>
+<p><br></p>
+<h3 id="historico-de-versao">Histórico de versão</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>13.02.2021</td>
+<td>0.1</td>
+<td>Criação do documento</td>
+<td>Bruna Almeida</td>
+</tr>
+<tr>
+<td>14.02.2021</td>
+<td>0.2</td>
+<td>Adição do Plano de gerenciamento de riscos</td>
+<td>Damarcones Porto, Bruna Almeida</td>
+</tr>
+</tbody>
+</table>
+<h3 id="participantes">Participantes</h3>
+<ul>
+<li>Bruna Almeida </li>
+<li>Damarcones Porto</li>
+</ul>
+<p><br></p>
+<h2 id="plano-de-gerenciamento-de-riscos_1">Plano de gerenciamento de riscos</h2>
+<p align="justify"> Os objetivos do gerenciamento dos riscos do projeto são aumentar a probabilidade e o impacto dos       eventos positivos e reduzir a probabilidade e o impacto dos eventos negativos no projeto.</p>
+<p align="justify"><em>Guia PMBOK®</em></p>
+
+<h3 id="planejando-o-gerenciamento-dos-riscos">Planejando o gerenciamento dos riscos</h3>
+<p align="justify">Nessa etapa é definido como serão conduzidas  as  atividades  de  gerenciamento dos riscos do projeto. O principal benefício deste processo é que ele garante que o grau, tipo, e visibilidade do gerenciamento dos riscos sejam proporcionais tanto aos riscos quanto à importância do projeto para a organização. O plano de gerenciamento dos riscos é vital na comunicação, obtenção de acordo e apoio das partes interessadas para garantir que o processo de gerenciamento dos riscos seja apoiado e executado de maneira efetiva.</p>
+<p><br></p>
+<h3 id="identificando-os-riscos">Identificando os riscos</h3>
+<p align="justify">Na fase de Identificação dos riscos, é preciso determinar quais riscos podem afetar o projeto e documentar suas características. O principal benefício desse processo é a documentação dos riscos existentes e o conhecimento e a capacidade que ele fornece à equipe do projeto de antecipar os eventos.</p>
+<p align="justify">Identificar os riscos é um processo iterativo, pois novos riscos podem surgir ou se tornar evidentes durante o ciclo de vida do projeto. A frequência da iteração e participação em cada ciclo variará de acordo com a situação.</p>
+<p><br></p>
+<h3 id="realizando-a-analise-qualitativa-e-quantitativa-dos-riscos">Realizando a análise qualitativa e quantitativa dos riscos</h3>
+<p align="justify">A realização da análise qualitativa dos riscos é o processo de priorização de riscos para ação posterior através da avaliação e combinação de sua probabilidade de ocorrência e impacto. Já a análise quantitativa dos riscos é o processo de analisar numericamente o efeito dos riscos identificados nos objetivos gerais do projeto.</p>
+<p align="justify">As tabelas 1 e 2 apresentam as classificações de probabilidade e impacto:</p>
+
+<h4 id="probabilidade">Probabilidade</h4>
+<table>
+<thead>
+<tr>
+<th>Probabilidade</th>
+<th>Intervalo</th>
+<th>Peso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Muito baixa</td>
+<td>0% a 20%</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>21% a 40%</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>41% a 60%</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Alta</td>
+<td>61% a 80%</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Muito alta</td>
+<td>81% a 100%</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<div>
+    <figcaption><center><i>Tabela 1 - Classificação de probabilidade.</i></figcaption>
+</div>
+
+<p></br></p>
+<h4 id="impactos">Impactos</h4>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Descrição</th>
+<th>Peso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Muito baixo</td>
+<td>De pouca relevância para o projeto</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Baixo</td>
+<td>Expressa pouco impacto sobre o projeto</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Médio</td>
+<td>Impacto considerável</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Alto</td>
+<td>Grande impacto no projeto</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Muito alto</td>
+<td>Impede o prosseguimento do projeto</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<div>
+    <figcaption><center><i>Tabela 2 - Classificação dos impactos.</i></figcaption>
+</div>
+<p></br></p>
+<h4 id="categoria-dos-riscos">Categoria dos riscos</h4>
+<div class="toolgrid">
+  <div>
+        <center><img height="500px" src="../../img/diagrama-riscos.png"> 
+    </div>
+    <figcaption><center><i>Diagrama 1 - Categorização dos riscos.</i></figcaption>
+</div>
+<p></br></p>
+<h5 id="tecnico">Técnico</h5>
+<p align="justify">Trata das habilidades, requisitos, equipamentos e logística que serão avaliados no desenvolvimento do projeto.</p>
+
+<h5 id="externo">Externo</h5>
+<p align="justify">Trata-se de tudo aquilo fora do ambiente de trabalho que pode influenciar a equipe e o projeto, de maneira positiva ou negativa.</p>
+
+<h5 id="organizacional">Organizacional</h5>
+<p align="justify">Ações tomadas pela equipe de desenvolvimento que podem ou não estar de acordo com o planejamento inicial.</p>
+
+<h5 id="gerenciamento-de-projeto">Gerenciamento de projeto</h5>
+<p align="justify">Levantamento de possíveis acontecimentos que possam mudar os prazos ou tarefas designadas previamente.</p>
+
+<p></br></p>
+<h3 id="planejando-as-respostas-aos-riscos">Planejando as respostas aos riscos</h3>
+<p align="justify">Planejar  as  respostas  aos  riscos  é  o  processo  de  desenvolvimento  de  opções  e  ações  para  aumentar  as  oportunidades e reduzir as ameaças aos objetivos do projeto. O principal benefício deste processo é a abordagem dos riscos por prioridades, injetando recursos e atividades no cronograma e no plano de gerenciamento do projeto, conforme necessário.</p>
+<p align="justify">A prioridade é obtida a partir do produto entre os níveis de probabilidade e impacto.</p>
+
+<p><br></p>
+<h2 id="resultados">Resultados</h2>
+<h3 id="tabelas-de-riscos">Tabelas de riscos</h3>
+<p align="justify">As tabelas a seguir apresentam os riscos levantados, classificados a partir da categorização previamente elicitada.</p>
+
+<h4 id="riscos-tecnicos">Riscos técnicos</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Descrição do risco</th>
+<th align="center">Consequência</th>
+<th align="center">Impacto</th>
+<th align="center">Probabilidade</th>
+<th align="center">Prioridade</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Trabalho fora do escopo</td>
+<td align="center">Perda de tempo</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">6</td>
+<td align="center">Analisar melhor o escopo do projeto</td>
+</tr>
+<tr>
+<td align="center">Escopo mal definido</td>
+<td align="center">Tempo e esforço gastos sem necessidade</td>
+<td align="center">2</td>
+<td align="center">3</td>
+<td align="center">6</td>
+<td align="center">Refinar os requisitos levantados</td>
+</tr>
+<tr>
+<td align="center">Erros constantes na aplicação</td>
+<td align="center">Atraso nas entregas</td>
+<td align="center">5</td>
+<td align="center">2</td>
+<td align="center">10</td>
+<td align="center">Treinamento da equipe para utilização das tecnologias definidas</td>
+</tr>
+<tr>
+<td align="center">Dificuldade de membros com tecnologias utilizadas</td>
+<td align="center">Atraso nas entregas, dificuldade de interação entre a equipe e baixa qualidade do produto final</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">8</td>
+<td align="center">Treinamento da equipe para utilização das tecnologias definidas</td>
+</tr>
+</tbody>
+</table>
+<div>
+    <figcaption><center><i>Tabela 3 - Riscos técnicos.</i></figcaption>
+</div>
+
+<h4 id="riscos-externos">Riscos externos</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Descrição do risco</th>
+<th align="center">Consequência</th>
+<th align="center">Impacto</th>
+<th align="center">Probabilidade</th>
+<th align="center">Prioridade</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Membro ou familiar com covid-19</td>
+<td align="center">Desmotivação do componente/equipe</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">9</td>
+<td align="center">Tomar todos os cuidados necessários</td>
+</tr>
+</tbody>
+</table>
+<div>
+    <figcaption><center><i>Tabela 4 - Riscos externos.</i></figcaption>
+</div>
+
+<h4 id="riscos-organizacionais">Riscos organizacionais</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Descrição do risco</th>
+<th align="center">Consequência</th>
+<th align="center">Impacto</th>
+<th align="center">Probabilidade</th>
+<th align="center">Prioridade</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Desistência de membros</td>
+<td align="center">Sobrecarga de trabalho para o restante da equipe</td>
+<td align="center">4</td>
+<td align="center">1</td>
+<td align="center">4</td>
+<td align="center">Motivar os integrantes</td>
+</tr>
+<tr>
+<td align="center">Falta de comunicação entre membros</td>
+<td align="center">Atraso nas entregas e retrabalho</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">9</td>
+<td align="center">Melhorar a dinâmica das reuniões e estimular o entrosamento da equipe</td>
+</tr>
+<tr>
+<td align="center">Atraso nas entregas</td>
+<td align="center">Impedimento da continuidade do projeto</td>
+<td align="center">5</td>
+<td align="center">3</td>
+<td align="center">15</td>
+<td align="center">Melhor gerenciamento dos prazos de entrega</td>
+</tr>
+<tr>
+<td align="center">Foco em atividades pouco relevantes para o projeto</td>
+<td align="center">Tempo e energia desperdiçados</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">4</td>
+<td align="center">Monitoramento constante por parte do líder</td>
+</tr>
+</tbody>
+</table>
+<div>
+    <figcaption><center><i>Tabela 5 - Riscos organizacionais.</i></figcaption>
+</div>
+
+<h4 id="riscos-de-gerencia-de-projeto">Riscos de gerência de projeto</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Descrição do risco</th>
+<th align="center">Consequência</th>
+<th align="center">Impacto</th>
+<th align="center">Probabilidade</th>
+<th align="center">Prioridade</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Mudança no cronograma de atividades</td>
+<td align="center">Possível atraso nas entregas</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">8</td>
+<td align="center">Ter total controle sobre os prazos de entrega</td>
+</tr>
+<tr>
+<td align="center">Cronograma inviável</td>
+<td align="center">Sobrecarga da equipe</td>
+<td align="center">5</td>
+<td align="center">3</td>
+<td align="center">15</td>
+<td align="center">Planejamento de cronograma condizente com a realidade</td>
+</tr>
+<tr>
+<td align="center">Gerenciamento da equipe ruim</td>
+<td align="center">Desmotivação da equipe e produto final de baixa qualidade</td>
+<td align="center">5</td>
+<td align="center">1</td>
+<td align="center">5</td>
+<td align="center">Constante avaliação por parte dos membros, sobre a liderança</td>
+</tr>
+</tbody>
+</table>
+<div>
+    <figcaption><center><i>Tabela 6 - Riscos de gerência de projeto.</i></figcaption>
+</div>
+
+<p><br></p>
+<h3 id="controlando-os-riscos">Controlando os riscos</h3>
+<p align="justify">Controlar os riscos é o processo de implementação de planos de respostas aos riscos, acompanhamento dos riscos identificados, monitoramento dos riscos residuais, identificação de novos riscos e avaliação da eficácia do processo de riscos durante todo o projeto. O principal benefício desse processo é a melhoria do grau de eficiência da abordagem dos riscos no decorrer de todo o ciclo de vida do projeto, a fim de otimizar continuamente as respostas aos riscos.</p>
+<p align="justify">As respostas planejadas aos riscos que estão incluídas no registro dos riscos são executadas durante o  ciclo de vida do projeto, mas o trabalho do projeto deve ser continuamente monitorado em busca de riscos novos, modificados e desatualizados.</p>
+<p></br></p>
+<h3 id="referencias">Referências</h3>
+<ul>
+<li>
+<p>PMI. Um guia do conhecimento em gerenciamento de projetos (Guia PMBOK). Quinta Edição. Newtown Square, Pennsylvania 19073-3299 USA: Project Management Institute, Inc., 2013.</p>
+</li>
+<li>
+<p><i>"Plano de gerenciamento de riscos"</i>. <b>A monitoria</b>, disponível em: <a href="2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/">2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/</a>.</p>
+</li>
+<li>
+<p><i>"Plano de riscos"</i>. <b>Triagil</b>, disponível em: <a href="https://unbarqdsw.github.io/2020.1_G1_Triagil/base/documentos/plano_risco/">unbarqdsw.github.io/2020.1_G1_Triagil/base/documentos/plano_risco/</a>.</p>
+</li>
+<li>
+<p>Diagrama 1 desenvolvido na plataforma <a href="https://app.diagrams.net/">Draw.io</a>.</p>
+</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
