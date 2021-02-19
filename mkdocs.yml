@@ -28,6 +28,7 @@ nav:
           - Plano de gerenciamento de riscos: base/plano-de-risco.md
         - Elicitação:
           - Brainstorming: base/brainstorming.md
+          - Questionário: base/questionario.md
         - Modelagem: base/
     - Módulo Processos/Metodologias/Abordagens:
       - x: base/

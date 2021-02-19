@@ -32,7 +32,7 @@ A aplicação permitirá que o cliente consulte os tipos de serviços prestados 
   </div>
   <div class="member">
     <p>Bruna Almeida</p>
-    <img src="img/equipe/bruna.jpeg">
+    <img src="img/equipe/bruna.jpg">
   </div>
   <div class="member">
     <p>Kalebe Lopes</p>
@@ -40,7 +40,7 @@ A aplicação permitirá que o cliente consulte os tipos de serviços prestados 
   </div>
   <div class="member">
     <p>Damarcones Porto</p>
-    <img src="img/equipe/damarcones.jpeg">
+    <img src="img/equipe/damarcones.jpg">
   </div>
 </div>
    
