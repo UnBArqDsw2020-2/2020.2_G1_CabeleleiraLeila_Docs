@@ -5,8 +5,8 @@
 
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
-| 12/02/2021 | 1.0.0 | Criação do documento | Lucas Lopes
-| 12/02/2021 | 1.0.0 | Correção de horas| Lucas Lopes
+| 12/02/2021 | 0.1 | Criação do documento | Lucas Lopes
+| 12/02/2021 | 0.2 | Correção de horas| Lucas Lopes
 
 ## Estimativa de custo
 
