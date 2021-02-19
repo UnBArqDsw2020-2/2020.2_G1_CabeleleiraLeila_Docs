@@ -5,7 +5,8 @@
 
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
-| 12/02/2021 | 1.0 | Criação do documento | Lucas Lopes
+| 12/02/2021 | 1.0.0 | Criação do documento | Lucas Lopes
+| 12/02/2021 | 1.0.0 | Correção de horas| Lucas Lopes
 
 ## Estimativa de custo
 
@@ -49,7 +50,7 @@ Tabela de custo hora/nível
 |22 | O sistema deve ser capaz de enviar notificação de agendamento de serviços| 20h|
 |23 | O sistema deve ser capaz de disponibilizar uma agenda de horários disponíveis| 30h|
 
-**Total de horas: 380 horas estimadas**
+**Total de horas: 420 horas estimadas**
 <hr>
 
 ## Orçamento
