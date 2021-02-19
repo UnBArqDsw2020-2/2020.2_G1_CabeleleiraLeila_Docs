@@ -24,6 +24,7 @@ nav:
           - Estimativas: base/estimativas.md  
         - Elicitação:
           - Brainstorming: base/brainstorming.md
+          - Questionário: base/questionario.md
           - Entrevista: base/entrevista.md
           - MoSCoW: base/moscow.md
         - Modelagem: base/
