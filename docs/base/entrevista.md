@@ -72,21 +72,29 @@ Número | Pergunta |
 
 | Número | Requisito |
 |:-----: | --------- |
-|EN01, [BS04](brainstorming.md?id=04) | O visitante deve ser capaz de consultar horários e dias disponíveis |
-|EN02, [BS06](brainstorming.md?id=06) | O visitante deve ser capaz ver a lista de funcionários |
-|EN03, [BS08](brainstorming.md?id=08) | O visitante deve ser capaz de visualisar perfil do funcionário |
-|EN04, [BS11](brainstorming.md?id=11) | O cliente deve poder receber e enviar notificação de atraso no agendamento |
-|EN05, [BS12](brainstorming.md?id=12) | O cliente pode solicitar um agendamento ou reagendar um horário |
-|EN06, [BS14](brainstorming.md?id=14) | O cliente pode solicitar um agendamento ou reagendar um horário |
-|EN07, [BS15](brainstorming.md?id=15) | O administrador deve ser capaz de cadastrar serviços |
-|EN08, [BS18](brainstorming.md?id=18) | O sistema deve ser capaz de gerenciar os serviços de filas de atendimento por funcionário |
-|EN09, [BS20](brainstorming.md?id=20) | O sistema deve ser capaz de calcular o tempo de uma ordem de serviço |
-|EN10, [BS22](brainstorming.md?id=22) | O sistema deve ser capaz de enviar notificação de agendamento de serviços |
-|EN11, [BS23](brainstorming.md?id=23) | O sistema deve ser capaz de disponibilizar uma agenda de horários disponíveis |
-
+|EN01, [BS04](../base/brainstorming.md#requisitos-elicitados) | O visitante deve ser capaz de consultar horários e dias disponíveis |
+|EN02, [BS06](brainstorming.md#requisitos-elicitados) | O visitante deve ser capaz ver a lista de funcionários |
+|EN03, [BS08](brainstorming.md#requisitos-elicitados) | O visitante deve ser capaz de visualisar perfil do funcionário |
+|EN04, [BS11](brainstorming.md#requisitos-elicitados) | O cliente deve poder receber e enviar notificação de atraso no agendamento |
+|EN05, [BS12](brainstorming.md#requisitos-elicitados) | O cliente pode solicitar um agendamento ou reagendar um horário |
+|EN06, [BS14](brainstorming.md#requisitos-elicitados) | O cliente pode solicitar um agendamento ou reagendar um horário |
+|EN07, [BS15](brainstorming.md#requisitos-elicitados) | O administrador deve ser capaz de cadastrar serviços |
+|EN08, [BS18](brainstorming.md#requisitos-elicitados) | O sistema deve ser capaz de gerenciar os serviços de filas de atendimento por funcionário |
+|EN09, [BS20](brainstorming.md#requisitos-elicitados) | O sistema deve ser capaz de calcular o tempo de uma ordem de serviço |
+|EN10, [BS22](brainstorming.md#requisitos-elicitados) | O sistema deve ser capaz de enviar notificação de agendamento de serviços |
+|EN11, [BS23](brainstorming.md#requisitos-elicitados) | O sistema deve ser capaz de disponibilizar uma agenda de horários disponíveis |
 
 <br>
+
+## Considerações Finais
+
+Todos os que participaram do [Brainstorming](brainstorming.md) frequentam, pelo menos 1 vez por mês, salões de beleza ou barbearias. Por esse motivo, já tínhamos em mente uma ideia de como esses estabelecimentos funcionam. <br>
+Portanto, os requisitos elicitados entrevista serviram não só para validar os requisitos já elicitados no [Brainstorming](brainstorming.md) como também para reforçar o pensamento da equipe sobre o tema proposto.    
+
+<br>
+
 ### Referências
+
 <br>
 
 * BARBOSA, Simone; DINIZ, Bruno. **Interação Humano-Computador**, Editora Elsevier, Rio de Janeiro, 2010.
