@@ -26,6 +26,7 @@ nav:
           - Brainstorming: base/brainstorming.md
           - Entrevista: base/entrevista.md
           - MoSCoW: base/moscow.md
+          - Backlog: base/backlog.md
         - Modelagem: base/
     - Módulo Processos/Metodologias/Abordagens:
       - Metodologia: base/metodologia.md

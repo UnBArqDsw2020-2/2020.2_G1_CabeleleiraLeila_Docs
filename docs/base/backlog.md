@@ -26,7 +26,7 @@
 
 <div class="toolgrid">
   <div>
-        <center><img height="500px" src="../../img/backlog.png"> 
+        <center><img height="300px" src="../../img/backlog.png"> 
     </div>
     <figcaption><center><i>Figura 1 - Backlog do Produto</i></figcaption>
 </div>
