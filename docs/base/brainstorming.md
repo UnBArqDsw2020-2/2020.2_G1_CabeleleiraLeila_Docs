@@ -43,6 +43,8 @@ Nesta técnica é designada uma pessoa para registrar todas as ideias. À medida
 Após a reunião remota foi discutido quais seriam ideias que poderiam ser interessantes para a nossa aplicação.
 Através das ideias foram levantados os seguintes requisitos: <br>
 
+#### Requisitos elicitados
+
 | Número | Requisito|
 | :--: | -- |
 | BS01 | O usuário deve ser capaz de realizar o login|
