@@ -21,10 +21,16 @@
 Aplicação web para gerenciamento de um salão de beleza que permita conferir o cadastro de clientes e o agendamento de atendimentos.
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
+![prototipacao](https://github.com/UnBArqDsw2020-2/2020.2_G1_CabeleleiraLeila/blob/main/docs/img/entrega1/print4.png)
+![pre-rastreabilidade](https://github.com/UnBArqDsw2020-2/2020.2_G1_CabeleleiraLeila/blob/main/docs/img/entrega1/print1.png)
+![elicitacao](https://github.com/UnBArqDsw2020-2/2020.2_G1_CabeleleiraLeila/blob/main/docs/img/entrega1/print3.png)
+![bpmn](https://github.com/UnBArqDsw2020-2/2020.2_G1_CabeleleiraLeila/blob/main/docs/img/entrega1/print2.png)
 
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione o(s)s vídeo(s) da Primeira Entrega.
+[Vídeo 1 - Artefatos gerados](https://www.youtube.com/watch?v=NRkoYo-4yMs&feature=youtu.be)
+
+[Vídeo 2 - Metodologia e modelagem BPMN](https://www.youtube.com/watch?v=dlOgSIGCpgI&feature=youtu.be)
+
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
