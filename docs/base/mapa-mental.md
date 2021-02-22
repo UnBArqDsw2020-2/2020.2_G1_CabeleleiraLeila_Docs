@@ -18,14 +18,13 @@ O Mapa Mental é uma ferramenta que permite a organização de seu conteúdo de 
 O diagrama abaixo explicita as ideias da equipe acerca do tema escolhido para o projeto, as quais serviram como insumos para elicitação dos requisitos.
 
 <br>
-<p align="center">
-<img src='../../img/mapa-mental.jpg'>
-  <figcaption align='center'>
-    <b>Figura 1: Mapa Mental</b>
-    </br>
-    <small>Fonte: Autor</small>
-  </figcaption>
-</p></br>
+[<div align="center"><img width="auto" height="auto" src="../../img/mapa-mental.jpg"/></div>](../../img/mapa-mental.jpg)
+<figcaption align='center'>
+  <b>Figura 1: Mapa Mental</b>
+  </br>
+  <small>Fonte: Autor</small>
+</figcaption>
+</br>
 
 ### Referências
 <br>
