@@ -5,6 +5,7 @@
 | -- | -- | -- | -- |
 | 26.02.2021 | 0.1 | Criação do documento | Erick Giffoni|
 | 26.02.2021 | 0.2 | Adiciona a metodologia utilizada | Erick Giffoni|
+| 26.02.2021 | 0.3 | Adiciona o diagrama na versão 1 | Erick Giffoni, Lucas Lopes|
 
 ## Metodologia
   
@@ -33,9 +34,11 @@ classes existentes no referido projeto.
 
 A ideia é 
 
-<a href="">
-> Diagrama de Agregação e Composição - v1.0<br>
-![agregacao-composicao]()
+<a href="https://unbbr-my.sharepoint.com/:i:/g/personal/160010900_aluno_unb_br/EcwQ-rqfxWpKpvmscK5laT4BH3og0hySa9Y5mS5UDzF8eg?e=5BK3JS">
+
+> Diagrama de Agregação e Composição - v1.0<br><br>
+![agregacao-composicao](../img/modelagem/estatica/agregacao-composicao/diagramaAgregacaoComposicao.jpg)
+
 </a>
 
 Nessa primeira versão, 
