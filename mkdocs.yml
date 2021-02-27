@@ -28,6 +28,7 @@ nav:
           - Entrevista: base/entrevista.md
           - MoSCoW: base/moscow.md
           - Backlog: base/backlog.md 
+          - Reuniões: base/reunioes.md
     - Módulo Processos/Metodologias/Abordagens:
       - Metodologia: base/metodologia.md
       - Modelagem BPMN: base/bpmn.md
