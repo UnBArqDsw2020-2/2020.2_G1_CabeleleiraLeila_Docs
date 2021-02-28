@@ -4,6 +4,7 @@
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
 | 17.02.2021 | 0.1 | Criação do documento | Geraldo Victor|
+| 27.02.2021 | 0.2 | Adição de novos requisitos a partir do documento de Reuniões | Lucas Lopes, Bruna Almeida|
 
 ## Considerações iniciais
  <p>Este será o método de priorização que o grupo utilizará para basear os artefatos das fases de modelagem, análise e pós-rastreabilidade. Os requisitos analisados são os levantados no <a href="../../base/brainstorming/" >brainstorming</a>, dessa forma poderemos ter visão do quanto cada requisito deve ser priorizado.</p>
@@ -61,6 +62,9 @@
 | BS21 | O sistema deve ser capaz de organizar serviços simultâneos|Must|
 | BS22 | O sistema deve ser capaz de enviar notificação de agendamento de serviços|Must|
 | BS23 | O sistema deve ser capaz de disponibilizar uma agenda de horários disponíveis|Must|
+| RE01 | Adicionar avaliações por serviço prestado | Could |
+| RE02 | Adicionar uma confirmação por pedido de serviços concluidos | Could |
+| RE03 | Adicionar curtidas por atendimento de funcionário | Could |
 
 ## Referências
 - SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07;
