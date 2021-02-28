@@ -1,17 +1,19 @@
 # Estimativas
 
-## Histórico de versão
+### Histórico de versão
 
 
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
-| 12/02/2021 | 1.0 | Criação do documento | Lucas Lopes
+| 12/02/2021 | 0.1 | Criação do documento | Lucas Lopes
+| 12/02/2021 | 0.2 | Correção de horas| Lucas Lopes
+| 27/02/2021 | 0.3 | Adição e atualização das estimativas com incremento do documento de Reuniões ao documento Moskow| Lucas Lopes, Damarcones Porto|
 
-## Estimativa de custo
+### Estimativas de custo
 
-Estimativa de custo de desenvolvimento com base no valor/hora por desenvolvedores.
+Este documento visa realizar estimativas de custo de desenvolvimento com base no valor/hora por desenvolvedores por demandas, funcionalidades, a serem entregues  com base no documento MOSKOW.
 
-## Custo de mão-de-obra
+### Custo de mão-de-obra
 
 Tabela de custo hora/nível
 
@@ -21,7 +23,7 @@ Tabela de custo hora/nível
 | Pleno | R$ 40,00 |
 | Senior | R$ 55,00 |
 
-## Requisitos a serem desenvolvidos
+### Requisitos
 
 | Número | Requisito| Horas
 | -- | -- | --|
@@ -48,11 +50,13 @@ Tabela de custo hora/nível
 |21 | O sistema deve ser capaz de organizar serviços simultâneos| 25h|
 |22 | O sistema deve ser capaz de enviar notificação de agendamento de serviços| 20h|
 |23 | O sistema deve ser capaz de disponibilizar uma agenda de horários disponíveis| 30h|
-
-**Total de horas: 380 horas estimadas**
+|24 | Adicionar avaliações por serviço prestado | 45h |
+|25 | Adicionar uma confirmação por pedido de serviços concluidos | 15h |
+|26 | Adicionar curtidas por atendimento de funcionário | 20h |
+**Total de horas: 500 horas estimadas**
 <hr>
 
-## Orçamento
+### Orçamento
 
 <style type="text/css">
 	table.tableizer-table {
@@ -101,11 +105,19 @@ Tabela de custo hora/nível
  <tr><td>21</td><td>25</td><td>2</td><td>1</td><td>1</td><td>R$ 1.350,00</td><td>R$ 1.000,00</td><td>R$ 1.375,00</td><td>R$ 3.725,00</td></tr>
  <tr><td>22</td><td>20</td><td>2</td><td>1</td><td>1</td><td>R$ 1.080,00</td><td>R$ 800,00</td><td>R$ 1.100,00</td><td>R$ 2.980,00</td></tr>
  <tr><td>23</td><td>35</td><td>2</td><td>1</td><td>1</td><td>R$ 1.890,00</td><td>R$ 1.400,00</td><td>R$ 1.925,00</td><td>R$ 5.215,00</td></tr>
- <tr><td>Total</td><td class="bold">420</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Júnior</td><td>Pleno</td><td>Senior</td><td>Somatório</td></tr>
- <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="bold">R$ 21.870,00</td><td class="bold">R$ 15.600,00</td><td class="bold">R$ 14.850,00</td><td class="bold">R$ 52.320,00</td>
+  <tr><td>24</td><td>45</td><td>2</td><td>1</td><td>1</td><td>R$ 2.430,00</td><td>R$ 1.800,00</td><td>R$ 2.475,00</td><td>R$ 6.705,00</td></tr>
+ <tr><td>25</td><td>15</td><td>2</td><td>1</td><td>1</td><td>R$ 810,00</td><td>R$ 600,00</td><td>R$ 0,00</td><td>R$ 1.410,00</td></tr>
+ <tr><td>26</td><td>20</td><td>2</td><td>1</td><td>1</td><td>R$ 1.080,00</td><td>R$ 800,00</td><td>R$ 0,00</td><td>R$ 1.880,00</td></tr>
+
+ <tr><td>Total</td><td class="bold">500</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Júnior</td><td>Pleno</td><td>Senior</td><td>Somatório</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="bold">R$ 26.190,00</td><td class="bold">R$ 18.800,00</td><td class="bold">R$ 17.325,00</td><td class="bold">R$ 62.315,00</td>
 </tbody></table>
 
 
-## Prazo
+### Prazo
 
-Considerando um mês como 168 horas temos um prazo aproximado de 2 mês e 11 dias
+Considerando um mês como 168 horas temos um prazo aproximado de 2 mês e 21 dias
+
+### Referências
+
+- Documentos de requisitos utilizados para elaboração: Moskow.

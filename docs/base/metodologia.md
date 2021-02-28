@@ -91,7 +91,7 @@ Refatorar é uma forma positiva de aumentar a usabilidade do software. Promove u
 * **OneDrive**: Utilizado para armazenar documentos criados pelo time.
 * **Balsamiq**: Utilizado para a criação do protótipo de baixa fidelidade.
 * **Figma**: Utilizado para a criação do protótipo de alta fidelidade.
-* **Google** Meet: Utilizado para fazer reuniões de forma remota com os integrantes da equipe.
+* **Google Meet**: Utilizado para fazer reuniões de forma remota com os integrantes da equipe.
 
 ## 4. Referências
 - Extreme Programming. Disponível em https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498. Último acesso 17/02/2021.

@@ -28,7 +28,7 @@ nav:
           - Entrevista: base/entrevista.md
           - MoSCoW: base/moscow.md
           - Backlog: base/backlog.md 
-        - Modelagem: base/
+          - Reuniões: base/reunioes.md
     - Módulo Processos/Metodologias/Abordagens:
       - Metodologia: base/metodologia.md
       - Modelagem BPMN: base/bpmn.md
@@ -36,7 +36,7 @@ nav:
     - Módulo Projeto Orientado a Abordagens Tradicionais:
       - Notação UML – Diagramas Estáticos: 
         - Diagrama de Classes: base/diagramaClasse.md
-
+        - Diagrama de Agregação e Composição: modelagem/agregacao-composicao.md
   #     - Notação UML – Diagramas Dinâmicos: base/
   #     - Modelagem Ágil: base/
   # - Padrões de Projeto:

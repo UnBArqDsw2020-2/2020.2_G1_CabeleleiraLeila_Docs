@@ -5,6 +5,7 @@
 | -- | -- | -- | -- |
 | 10.02.2021 | 0.1 | Criação do documento | Isabella Carneiro |
 | 12.02.2021 | 0.2 | Adição dos elementos de identidade visual | Isabella Carneiro |
+| 27.02.2021 | 0.3 | Tradução de mensagem de erro ao exibir PDF | Lucas Lopes Pereira |
 
 ### Metodologia
 Para a realização dos protótipos de baixa fidelidade foi utilizado o software balsamiq por ter os traços de baixa fidelidade. 
@@ -15,7 +16,7 @@ Tal protótipo tem como objetivo analisar apenas se as funcionalidades estão de
 
 <object data="../../img/PROTÓTIPO DE BAIXA FIDELIDADE.pdf" type="application/pdf" width="820px" height="400px">
 <embed src="../../img/PROTÓTIPO DE BAIXA FIDELIDADE.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../../img/PROTÓTIPO DE BAIXA FIDELIDADE.pdf">Download PDF</a>.</p>
+        <p>O navegador não suporta arquivos PDF. Por favor, realize o download do PDF para visualizar: <a href="../../img/PROTÓTIPO DE BAIXA FIDELIDADE.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
