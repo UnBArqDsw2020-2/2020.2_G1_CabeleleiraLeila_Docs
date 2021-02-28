@@ -17,7 +17,7 @@
 ## Diagramas de Atividades
 <br>
 
-<p align="justify"> Esse tipo de diagrama assim como os diagramas de casos de uso e de estado, é usado para descrever as funcionalidades importantes de cada aplicação. Sua utilização é um método rápido para o amplo entendimento de toda a equipe de produção e clientes. Com o diagrama de atividades é possível ter uma visão rápida e clara dos processos que serão necessários na aplicação. </p>
+<p align="justify"> Esse tipo de diagrama, assim como os diagramas de casos de uso e de estado, é usado para descrever as funcionalidades importantes da aplicação. Com o diagrama de atividades é possível ter uma visão rápida e clara dos processos que serão necessários na aplicação, facilitando o entendimento de toda equipe de produção e clientes. </p>
 
 ## Diagramas
 <br>
@@ -28,7 +28,7 @@
   <div>
         <center><img height="900px" src="../../img/diagrama_atividades/diagrama_tarefas_login.png"> 
     </div>
-    <figcaption><center><i>Diagrama 01- Realização de Login.</i></figcaption>
+    <figcaption><center><i>Diagrama 01 - Realização de Login.</i></figcaption>
 </div>
 </br>
 
@@ -38,7 +38,7 @@
   <div>
         <center><img height="900px" src="../../img/diagrama_atividades/diagrama_tarefas_cadastro.png"> 
     </div>
-    <figcaption><center><i>Diagrama 02- Realização de Cadastro.</i></figcaption>
+    <figcaption><center><i>Diagrama 02 - Realização de Cadastro.</i></figcaption>
 </div>
 </br>
 
@@ -48,7 +48,7 @@
   <div>
         <center><img height="900px" src="../../img/diagrama_atividades/diagrama_tarefas_marcar_horario.png"> 
     </div>
-    <figcaption><center><i>Diagrama 03- Realização de Marcação de Horário.</i></figcaption>
+    <figcaption><center><i>Diagrama 03 - Realização de Marcação de Horário.</i></figcaption>
 </div>
 </br>
 
@@ -58,7 +58,7 @@
   <div>
         <center><img height="900px" src="../../img/diagrama_atividades/diagrama_tarefas_avaliacao.png"> 
     </div>
-    <figcaption><center><i>Diagrama 04- Realização de Avaliação.</i></figcaption>
+    <figcaption><center><i>Diagrama 04 - Realização de Avaliação.</i></figcaption>
 </div>
 </br>
 
