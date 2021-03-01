@@ -7,6 +7,7 @@
 | 27.02.2021 | 0.1 | Criação do documento |Damarcones Porto|
 | 28.02.2021 | 0.2 | Adição dos Diagramas de Atividades |Bruna Almeida, Damarcones Porto|
 | 01.03.2021 | 0.3 | Revisão do documento de Diagramas de Atividades |Isabella Carneiro|
+| 01.03.2021 | 0.4 | Revisão do documento de Diagramas de Atividades |Erick Giffoni|
 
 ### Participantes
 
