@@ -6,6 +6,7 @@
 | -- | -- | -- | -- |
 | 27.02.2021 | 0.1 | Criação do documento |Damarcones Porto|
 | 28.02.2021 | 0.2 | Adição dos Diagramas de Atividades |Bruna Almeida, Damarcones Porto|
+| 01.03.2021 | 0.3 | Revisão do documento de Diagramas de Atividades |Isabella Carneiro|
 
 ### Participantes
 
@@ -17,7 +18,7 @@
 ## Diagramas de Atividades
 <br>
 
-<p align="justify"> Esse tipo de diagrama, assim como os diagramas de casos de uso e de estado, é usado para descrever as funcionalidades importantes da aplicação. Com o diagrama de atividades é possível ter uma visão rápida e clara dos processos que serão necessários na aplicação, facilitando o entendimento de toda equipe de produção e clientes. </p>
+<p align="justify"> O Diagrama de Atividades, assim como os diagramas de casos de uso e de estado, é usado para descrever as funcionalidades importantes da aplicação. Com o diagrama de atividades é possível ter uma visão rápida e clara dos processos que serão necessários na aplicação, facilitando o entendimento de toda equipe de produção e clientes. </p>
 
 ## Diagramas
 <br>
