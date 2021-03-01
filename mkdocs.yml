@@ -34,6 +34,7 @@ nav:
       - Modelagem BPMN: base/bpmn.md
   - Modelagem:
     - Módulo Projeto Orientado a Abordagens Tradicionais:
+      - Diagrama de Casos de Uso: modelagem/diagrama-casos-uso.md
       - Notação UML – Diagramas Estáticos:
         - Diagrama de Agregação e Composição: modelagem/agregacao-composicao.md
   #     - Notação UML – Diagramas Dinâmicos: base/
