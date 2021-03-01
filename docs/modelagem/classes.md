@@ -5,6 +5,7 @@
 | -- | -- | -- | -- |
 | 25.02.2021 | 0.1 | Criação do diagrama de classe, relacionamentos e atributos | [Kalebe Lopes](https://github.com/KalebeLopes), [Lucas Lopes](https://github.com/LucasPLopes)|
 | 27.02.2021 | 0.2 | Adição da introdução e metodologia | [Kalebe Lopes](https://github.com/KalebeLopes)|
+| 01.03.2021 | 0.3 | Atualização e refatoração de diagrama | [Kalebe Lopes](https://github.com/KalebeLopes), [Lucas Lopes](https://github.com/LucasPLopes)|
 
 
 ## Introdução
@@ -29,10 +30,12 @@ A equipe optou por utilizar a ferramenta StarUML, pois ela nos permite uma fáci
 
 ## Diagramas
 <br>
-[![ ](https://user-images.githubusercontent.com/44823367/109164840-a345fe00-7759-11eb-8514-9eae096f23da.jpg)](https://user-images.githubusercontent.com/44823367/109164840-a345fe00-7759-11eb-8514-9eae096f23da.jpg)
-<div align="center"> 
-diagrama de classe V.1
-</div><br> 
+Versão 1.0
+![Versão 1.0](../../img/modelagem/estatica/classes/classes_v1.jpg)
+Versão 2.0
+![Versão 2.0](../../img/modelagem/estatica/classes/classes_v2.svg)
+
+
 
 ## Referências
 - StarUML. Disponível em : [https://staruml.io/](https://staruml.io/).

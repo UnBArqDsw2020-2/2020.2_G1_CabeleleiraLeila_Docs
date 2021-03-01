@@ -35,7 +35,7 @@ nav:
   - Modelagem:
     - Módulo Projeto Orientado a Abordagens Tradicionais:
       - Notação UML – Diagramas Estáticos: 
-        - Diagrama de Classes: base/diagramaClasse.md
+        - Diagrama de Classes: modelagem/classes.md
         - Diagrama de Agregação e Composição: modelagem/agregacao-composicao.md
   #     - Notação UML – Diagramas Dinâmicos: base/
   #     - Modelagem Ágil: base/
