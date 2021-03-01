@@ -7,9 +7,10 @@
 | 26.02.2021 | 0.2 | Adiciona a metodologia utilizada | Erick Giffoni|
 | 26.02.2021 | 0.3 | Adiciona o diagrama na versão 1 | Erick Giffoni, Lucas Lopes|
 | 26.02.2021 | 1.0 | Apresentação do resultado obtido na primeira versão| Erick Giffoni|
+| 01.03.2021 | 1.1 | Reestrutura o documento com Introdução| Erick Giffoni|
 
-## Metodologia
-  
+## Introdução
+
 O Diagrama de Agregação e Composição representa como as diferentes classes de<br>
 um projeto de software se relacionam. Dessa forma, ele se parece com a representação<br>
 de relacionamentos entre entidades de um banco de dados, por exemplo, por meio do<br>
@@ -18,6 +19,8 @@ diagrama de entidade-relacionamento.
 O foco não é mostrar com detalhes os métodos e os atributos de cada classe, mas sim<br>
 deixar claro como elas se comunicam, como dependem umas das outras etc. Assim, ficam<br>
 visíveis aspectos como modularidade, coesão e acoplamento.
+
+## Metodologia
 
 Para realizar esse diagrama para o projeto do sistema do Salão da Leila, nossa equipe<br>
 baseou-se no Diagrama de Classes que fora previamente projetado. Houve uma renião virtual<br>
