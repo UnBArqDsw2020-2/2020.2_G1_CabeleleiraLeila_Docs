@@ -109,9 +109,13 @@ Vide abaixo :
    </a>
 
 Mais ainda, essa terceira versão demonstra algumas aplicações concorrentes ao sistema do Salão da Leila.
+
 ## Referências
 
-Livro: SOMMERVILLE, Ian. Engenharia de Software. 9a edição, São Paulo: Pearson, 2011.
-Livro: BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. 1a edição, Rio de Janeiro: Elsevier, 2010.
-Videoaula - DSW - Base - RichPicture. SERRANO, Milene. Universidade de Brasília, 2021.
-Canva. Disponível em : [canva.com](https://www.canva.com/en_gb/) .
+Livro: SOMMERVILLE, Ian. **Engenharia de Software**. 9a edição, São Paulo: Pearson, 2011.
+
+Livro: BARBOSA, S. D. J.; SILVA, B. S. **Interação Humano-Computador**. 1a edição, Rio de Janeiro: Elsevier, 2010.
+
+SERRANO, Milene. **Base - RichPicture**, 2021. Material apresentado na Disciplina de Arquitetura de Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 10 de fevereiro de 2021
+
+**Canva**. Disponível em : [canva.com](https://www.canva.com/en_gb/) .
