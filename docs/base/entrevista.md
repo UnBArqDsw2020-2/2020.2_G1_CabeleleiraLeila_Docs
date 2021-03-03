@@ -8,6 +8,12 @@
 | 17.02.2021 | 0.3 | Refatoração do documento | [Rafaella Junqueira](https://github.com/RafaellaJunqueira)|
 | 18.02.2021 | 0.4 | Adição da entrevista 1 | [Kalebe Lopes](https://github.com/KalebeLopes)|
 | 18.02.2021 | 0.5 | Adição da entrevista 2 | [Rafaella Junqueira](https://github.com/RafaellaJunqueira)|
+| 03.03.2021 | 0.5 | Revisão do documento | [Isabella Carneiro](https://github.com/isabellacgmsa)|
+
+## Participantes
+* Rafaella Junqueira
+* Kalebe Lopes
+* Isabella Carneiro (Revisão)
 
 
 ## Introdução
@@ -97,5 +103,5 @@ Portanto, os requisitos elicitados entrevista serviram não só para validar os 
 
 <br>
 
-* BARBOSA, Simone; DINIZ, Bruno. **Interação Humano-Computador**, Editora Elsevier, Rio de Janeiro, 2010.
-* Stock. Disponível em: https://unbarqdsw.github.io/2020.1_G12_Stock/#/Project/Metodologias. Último acesso 18/02/2021.
+BARBOSA, Simone; DINIZ, Bruno. **Interação Humano-Computador**, Editora Elsevier, Rio de Janeiro, 2010.
+Stock. Disponível em: https://unbarqdsw.github.io/2020.1_G12_Stock/#/Project/Metodologias. Último acesso 18/02/2021.
