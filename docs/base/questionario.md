@@ -126,6 +126,6 @@
 
 ### Referências
 
-- Livro: BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. 1ª edição, Rio de Janeiro: Elsevier, 2010.
-- O questionário foi desenvolvido na plataforma <a href="https://www.google.com/forms/about/">Google Forms</a>.
-- <i>"Questionário"</i>. <b>Prefeitura de Águas Lindas de Goiás</b>, disponível em: <a href="https://interacao-humano-computador.github.io/2020.1-Prefeiturade-Aguas-Lindas-de-Goias/perfil_usuario/questionario/">interacao-humano-computador.github.io/2020.1-Prefeiturade-Aguas-Lindas-de-Goias/perfil_usuario/questionario/</a>
+Livro: BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. 1ª edição, Rio de Janeiro: Elsevier, 2010.
+O questionário foi desenvolvido na plataforma <a href="https://www.google.com/forms/about/">Google Forms</a>.
+<i>"Questionário"</i>. <b>Prefeitura de Águas Lindas de Goiás</b>, disponível em: <a href="https://interacao-humano-computador.github.io/2020.1-Prefeiturade-Aguas-Lindas-de-Goias/perfil_usuario/questionario/">interacao-humano-computador.github.io/2020.1-Prefeiturade-Aguas-Lindas-de-Goias/perfil_usuario/questionario/</a>
