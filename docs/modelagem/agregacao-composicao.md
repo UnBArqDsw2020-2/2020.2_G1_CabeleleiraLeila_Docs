@@ -16,7 +16,7 @@
 
 * Erick Giffoni
 * Lucas Lopes Pereira
-* Rafaella Junqueira 
+* Rafaella Junqueira (Revisão)
 * Isabella Carneiro (Revisão)
 <br>
 
