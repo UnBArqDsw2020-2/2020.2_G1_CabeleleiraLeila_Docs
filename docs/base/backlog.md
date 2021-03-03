@@ -5,6 +5,7 @@
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
 | 19.02.2021 | 0.1 | Criação do documento |Damarcones Porto, Erick Giffoni, Lucas Lopes |
+| 03.03.2021 | 0.1 | Revisão do documento |Isabella Carneiro |
 
 
 ### Participantes
@@ -12,6 +13,7 @@
 * Damarcones Porto
 * Erick Giffoni
 * Lucas Lopes
+* Isabella Carneiro
 
 <br>
 
@@ -28,7 +30,11 @@
   <div>
         <center><img height="300px" src="../../img/backlog.png"> 
     </div>
+   <br>
     <figcaption><center><i>Figura 1 - Backlog do Produto</i></figcaption>
+</div>
+   </div>
+    <figcaption><center><i>Autores: Damarcones Porto, Erick Giffoni e Lucas Lopes</i></figcaption>
 </div>
 </br>
 
@@ -36,4 +42,4 @@
 
 ### Referências
 
-- PMI. Um guia do conhecimento em gerenciamento de projetos (Guia PMBOK). Quinta Edição. Newtown Square, Pennsylvania 19073-3299 USA: Project Management Institute, Inc., 2013.
+PMI. Um guia do conhecimento em gerenciamento de projetos (Guia PMBOK). Quinta Edição. Newtown Square, Pennsylvania 19073-3299 USA: Project Management Institute, Inc., 2013.
