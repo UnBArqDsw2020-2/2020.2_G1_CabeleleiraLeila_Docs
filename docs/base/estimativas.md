@@ -8,6 +8,13 @@
 | 12/02/2021 | 0.1 | Criação do documento | Lucas Lopes
 | 12/02/2021 | 0.2 | Correção de horas| Lucas Lopes
 | 27/02/2021 | 0.3 | Adição e atualização das estimativas com incremento do documento de Reuniões ao documento Moskow| Lucas Lopes, Damarcones Porto|
+| 03/03/2021 | 0.3 | Revisão dodcumento| Isabella Carneiro|
+
+### Participantes
+* Lucas Lopes
+* Damarcones Porto
+* Isabella Carneiro (Revisão)
+
 
 ### Estimativas de custo
 
@@ -120,4 +127,6 @@ Considerando um mês como 168 horas temos um prazo aproximado de 2 mês e 21 dia
 
 ### Referências
 
-- Documentos de requisitos utilizados para elaboração: Moskow.
+Documentos de requisitos utilizados para elaboração: Moskow.
+
+Video-Aula- DSW - Base - Estimativas <https://unbbr-my.sharepoint.com/:v:/g/personal/mileneserrano_unb_br/EQvzWZwb9llHjmuA0XrEAJ4BPdH0irPT8XMP6ZFN1iFUXA?e=HUMr5L>. Milene Serrano.
