@@ -1,5 +1,6 @@
 # <center> Diagrama de Classes
 <br>
+    
 ## Histórico de versão
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
@@ -7,11 +8,13 @@
 | 27.02.2021 | 0.2 | Adição da introdução e metodologia | [Kalebe Lopes](https://github.com/KalebeLopes)|
 | 01.03.2021 | 0.3 | Atualização e refatoração de diagrama | [Kalebe Lopes](https://github.com/KalebeLopes), [Lucas Lopes](https://github.com/LucasPLopes)|
 | 01.03.2021 | 0.4 | Rafatoração do documento | [Rafaella Junqueira](https://github.com/RafaellaJunqueira)|
+| 03.03.2021 | 0.4 | Revisão do documento | [Isabella Carneiro](https://github.com/isabellacgmsa)|
 
 ## Participantes
 - Kalebe Lopes
 - Lucas Lopes Pereira
 - Rafaella Junqueira
+- Isabella Carneiro (Revisão)
 <br>
 
 ## Introdução
@@ -42,7 +45,7 @@ A equipe optou por utilizar a ferramenta [StarUML](https://staruml.io/), pois el
 <figcaption align='center'>
     <b>Figura 1: Diagrama de Classes - v2.0 </b>
     <br>
-    <small>Autor: Kalebe Lopes e Lucas Lopes Pereira</small>
+    <small>Autores: Kalebe Lopes e Lucas Lopes Pereira</small>
 </figcaption>
 <br>
 
@@ -54,16 +57,16 @@ A equipe optou por utilizar a ferramenta [StarUML](https://staruml.io/), pois el
 <figcaption align='center'>
     <b>Figura 2: Diagrama de Classes - v1.0 </b>
     <br>
-    <small>Autor: Kalebe Lopes e Lucas Lopes Pereira</small>
+    <small>Autores: Kalebe Lopes e Lucas Lopes Pereira</small>
 </figcaption>
 <br>
 <!-- ![Versão 1.0](../../img/modelagem/estatica/classes/classes_v1.jpg) -->
 
 ## Referências
 <br>
-**What is Class Diagram?** Disponível em: [https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/). Acesso em 27 de fevereiro de 2021.
+- **What is Class Diagram?** Disponível em: [https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/). Acesso em 27 de fevereiro de 2021.
 
-SERRANO, Milene. **Modelagem -  Diagrama de Classes e Relacionamentos**, 2021. Vídeo-aulas complementares apresentadas na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 25 de fevereiro de 2021.
+- SERRANO, Milene. **Modelagem -  Diagrama de Classes e Relacionamentos**, 2021. Vídeo-aulas complementares apresentadas na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 25 de fevereiro de 2021.
 
-Bóson Treinamentos. **Videoaula - Diagrama de Classes e Relacionamentos.** Disponível em: [www.youtube.com/watch?v=IJtQWLnHvcQ&feature=youtu.be](www.youtube.com/watch?v=IJtQWLnHvcQ&feature=youtu.be). Acesso em: 25 de fevereiro de 2021.
+- Bóson Treinamentos. **Videoaula - Diagrama de Classes e Relacionamentos.** Disponível em: [www.youtube.com/watch?v=IJtQWLnHvcQ&feature=youtu.be](www.youtube.com/watch?v=IJtQWLnHvcQ&feature=youtu.be). Acesso em: 25 de fevereiro de 2021.
 
