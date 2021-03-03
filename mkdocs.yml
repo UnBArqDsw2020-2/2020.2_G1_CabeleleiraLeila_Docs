@@ -36,7 +36,8 @@ nav:
     - Módulo Projeto Orientado a Abordagens Tradicionais:
       - Notação UML – Diagramas Estáticos:
         - Diagrama de Agregação e Composição: modelagem/agregacao-composicao.md
-  #     - Notação UML – Diagramas Dinâmicos: base/
+      - Notação UML – Diagramas Dinâmicos:
+        - Diagrama de estados: base/diagrama-estados.md
   #     - Modelagem Ágil: base/
   # - Padrões de Projeto:
   #   - Módulo Padrões de Projeto GRASPs:
