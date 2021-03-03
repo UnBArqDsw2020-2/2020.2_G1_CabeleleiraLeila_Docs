@@ -33,13 +33,13 @@ Dessa forma foi possível fazer uma dedução mais objetiva das possíveis causa
 ### Resultado
 ![digrama causa efeito](../img/diagrama-causa-efeito.jpg)
 <figcaption align='center'>
-    <b>Figura 1: Diagrama Causa-Efeito</b>
+    <b><center>Figura 1: Diagrama Causa-Efeito</center></b>
     <br>
-    <small>Autor: Geraldo Victor</small>
+    <small><center>Autor: Geraldo Victor</center></small>
 </figcaption>
 <br>
 
-Após a confecção do diagrama foi possível notar que para cada uma das seguintes categorias foram identificadas as seguintes causas que afetam direta ou indiretamente os problemas levantados:
+<br> Após a confecção do diagrama foi possível notar que para cada uma das seguintes categorias foram identificadas as seguintes causas que afetam direta ou indiretamente os problemas levantados:
 
 - Estratégias: a estratégia utilizada pela maioria dos salões é pela ordem de chegada, o que pode causar certa dificuldade, uma vez que o cliente pode não ter tempo pra ir ao salão para marcar. Até mesmo pelo telefone a diferença do tempo em que o cliente manda mensagem até ser respondido pode significar a perda da vaga de atendimento no horário desejado.
 - Tecnologia: WhatsApp e Telegram são usados para o agendamento, porém, não possuem autogerenciamento. Por exemplo, um cliente não consegue saber quais dias já possuem atendimentos agendados para outras pessoas;
