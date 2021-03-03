@@ -58,9 +58,9 @@ Além disso, um 'Pedido' é agregado a 0 (zero) ou 1 (um) 'Funcionário', e essa
 ## Referências
 <br>
 
-- PRESSMAN, Roger S. **Engenharia de Software: uma abordagem profissional.** 7a edição, Porto Alegre, AMGH, 2011.
+PRESSMAN, Roger S. **Engenharia de Software: uma abordagem profissional.** 7a edição, Porto Alegre, AMGH, 2011.
 
-- SOMMERVILLE, Ian. **Engenharia de Software.** 9a edição, São Paulo, Pearson, 2011.
+SOMMERVILLE, Ian. **Engenharia de Software.** 9a edição, São Paulo, Pearson, 2011.
 
-- SERRANO, Milene. **Modelagem - Diagrama de Agregação e Composição**, 2021. Vídeo-aulas complementares apresentadas na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 26 de fevereiro de 2021.
+SERRANO, Milene. **Modelagem - Diagrama de Agregação e Composição**, 2021. Vídeo-aulas complementares apresentadas na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 26 de fevereiro de 2021.
 
