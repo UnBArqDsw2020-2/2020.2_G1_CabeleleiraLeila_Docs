@@ -11,6 +11,7 @@
 
 * Bruna Almeida 
 * Damarcones Porto
+* Isabella Carneiro (Revisão)
 
 <br>
 
@@ -159,10 +160,10 @@
 
 ### Referências
 
-- PMI. Um guia do conhecimento em gerenciamento de projetos (Guia PMBOK). Quinta Edição. Newtown Square, Pennsylvania 19073-3299 USA: Project Management Institute, Inc., 2013.
+PMI. Um guia do conhecimento em gerenciamento de projetos (Guia PMBOK). Quinta Edição. Newtown Square, Pennsylvania 19073-3299 USA: Project Management Institute, Inc., 2013.
 
-- <i>"Plano de gerenciamento de riscos"</i>. <b>A monitoria</b>, disponível em: <a href="2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/">2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/</a>.
+<i>"Plano de gerenciamento de riscos"</i>. <b>A monitoria</b>, disponível em: <a href="2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/">2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/controle_riscos/</a>.
 
-- <i>"Plano de riscos"</i>. <b>Triagil</b>, disponível em: <a href="https://unbarqdsw.github.io/2020.1_G1_Triagil/base/documentos/plano_risco/">unbarqdsw.github.io/2020.1_G1_Triagil/base/documentos/plano_risco/</a>.
+<i>"Plano de riscos"</i>. <b>Triagil</b>, disponível em: <a href="https://unbarqdsw.github.io/2020.1_G1_Triagil/base/documentos/plano_risco/">unbarqdsw.github.io/2020.1_G1_Triagil/base/documentos/plano_risco/</a>.
 
-- Diagrama 1 desenvolvido na plataforma <a href="https://app.diagrams.net/">Draw.io</a>.
+Diagrama 1 desenvolvido na plataforma <a href="https://app.diagrams.net/">Draw.io</a>.
