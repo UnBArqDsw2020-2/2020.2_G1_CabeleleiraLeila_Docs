@@ -26,4 +26,4 @@ Tal protótipo tem como objetivo analisar apenas se as funcionalidades estão de
 
 ## Referências
 
-Prototipação. http://web.mit.edu/6.813/www/sp17/classes/08-prototyping/. Acesso em 08 de fevereiro de 2021.
+**Prototipação**. Disponível em [http://web.mit.edu/6.813/www/sp17/classes/08-prototyping/](http://web.mit.edu/6.813/www/sp17/classes/08-prototyping/). Acesso em 08 de fevereiro de 2021.
