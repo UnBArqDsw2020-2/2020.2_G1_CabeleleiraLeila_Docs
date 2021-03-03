@@ -57,6 +57,7 @@ Além disso, um 'Pedido' é agregado a 0 (zero) ou 1 (um) 'Funcionário', e essa
 
 ## Referências
 <br>
+
 - PRESSMAN, Roger S. **Engenharia de Software: uma abordagem profissional.** 7a edição, Porto Alegre, AMGH, 2011.
 
 - SOMMERVILLE, Ian. **Engenharia de Software.** 9a edição, São Paulo, Pearson, 2011.
