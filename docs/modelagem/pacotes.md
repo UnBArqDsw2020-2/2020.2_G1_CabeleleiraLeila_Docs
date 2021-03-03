@@ -5,13 +5,17 @@
 
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 01.03.2021 | 0.1 | Criação do documento | Isabella Carneiro|
-| 01.03.2021 | 0.2 | Adição da introdução| Rafaella Junqueira|
+| 01.03.2021 | 0.1 | Criação do documento | Isabella Carneiro |
+| 01.03.2021 | 0.2 | Adição da introdução | Rafaella Junqueira |
 | 01.03.2021 | 0.3 | Adição da metodologia | Rafaella Junqueira |
+| 02.03.2021 | 0.4 | Adição do diagrama de pacotes Backend | Rafaella Junqueira, Lucas Lopes,<br>Isabella Carneiro, Geraldo Victor,<br>Kalebe Lopes |
 
 ### Participantes
 * Isabella Carneiro
 * Rafaella Junqueira
+* Lucas Lopes Pereira
+* Geraldo Victor
+* Kalebe Lopes
 
 ### Introdução
 <div align="justify"><br>
@@ -33,15 +37,34 @@ Diagramas de pacotes são interessantes pois fornecem uma visão clara da estrut
 
 ### Metodologia
 <br>
-A modelagem do diagrama de pacotes deste projeto foi realizada utilizando a ferramenta [Lucidchart](https://www.lucidchart.com/pages/pt) e consiste em representar apenas a relação de dependência em termos de uso e de acesso das classes, conforme podem ser acessadas no documento de [Diagrama de Classes](modelagem/classes.md).
-<br><br>
-A primeira versão do diagrama foi realizada de forma remota com a contribuição dos integrantes feita de forma escrita. Posteriormente, foi realizada uma reunião entre os integrantes para discussão do que fora modelado e prposição de melhorias para o diagrama, dando origem à versão final do artefato. 
+<div align="justify">
 
+A modelagem do diagrama de pacotes deste projeto foi realizada utilizando a ferramenta [Lucidchart](https://www.lucidchart.com/pages/pt) durante a reunião entre os integrantes do grupo, e consiste em representar a relação de dependência em termos de uso, acesso e importação de pacotes. A diagramação foi feita seguindo princípios de arquitetura limpa e boas práticas utilizadas para separação de pacotes em aplicações comerciais.
+</div>
 
-### Resultado
-<!-- <div align="justify"> -->
-    
-<!-- </div><br> -->
+### Diagrama de Pacotes
+<br>
+
+<!-- **Diagrama v2** -->
+
+<!-- [<div align="center"><img src="../../img/modelagem/estatica/NOMEDAIMAGEM"></div>](../../img/modelagem/estatica/NOMEDAIMAGEM)
+<figcaption align='center'>
+    <b>Figura 1 - </b>
+    <br>
+    <small>Autores: </small>
+</figcaption>
+<br> -->
+
+**Diagrama v1**
+
+[<div align="center"><img src="../../img/modelagem/estatica/pacotes-backend.svg"></div>](../../img/modelagem/estatica/pacotes-backend.svg)
+<figcaption align='center'>
+    <b>Figura 2 - Diagrama de Pacotes Backend</b>
+    <br>
+    <small>Autores: Rafaella Junqueira, Lucas Lopes, Isabella Carneiro, Geraldo Victor, Kalebe Lopes</small>
+</figcaption>
+<br>
+
 
 ### Referências 
 <br>
