@@ -6,6 +6,14 @@
 | 12.02.2021 | 0.1 | Criação do documento | Geraldo Victor|
 | 13.02.2021 | 0.2 | Adição de metodologia, participantes, resultado, conclusão e referências | Geraldo Victor|
 | 15.02.2021 | 0.3 | Revisão do documento | Rafaella Junqueira |
+| 03.03.2021 | 0.3 | Revisão do documento | Isabella Carneiro |
+
+
+### Participantes
+
+* Geraldo Victor
+* Isabella Carneiro (Revisão)
+* Rafaella Junqueira (Revisão)
 
 ## Metodologia
 
@@ -20,13 +28,16 @@ Para construção do diagrama de causa e efeito foram definidos os problemas e s
 - Medias sociais: por onde é feita a divulgação dos serviços prestados por aquele salão; 
 - Clientes: como os clientes são afetados pela forma de atendimento manual ou pelo telefone. 
 
-Dessa forma foi possível fazer uma dedução mais objetiva das possíveis causas e montar uma estratégia para resolver os problemas levantados.
-### Participantes
-
-* Geraldo Victor 
+Dessa forma foi possível fazer uma dedução mais objetiva das possíveis causas e montar uma estratégia para resolver os problemas levantados. 
 
 ### Resultado
 ![digrama causa efeito](../img/diagrama-causa-efeito.jpg)
+<figcaption align='center'>
+    <b>Figura 1: Diagrama Causa-Efeito</b>
+    <br>
+    <small>Autor: Geraldo Victor</small>
+</figcaption>
+<br>
 
 Após a confecção do diagrama foi possível notar que para cada uma das seguintes categorias foram identificadas as seguintes causas que afetam direta ou indiretamente os problemas levantados:
 
