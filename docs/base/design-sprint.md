@@ -7,7 +7,18 @@
 | 11.02.2021 | 0.2 | Adição de artefatos desenvolvidos | Rafaella Junqueira |
 | 18.02.2021 | 0.3 | Adição de links dos documentos relacionados | Isabella Carneiro |
 | 18.02.2021 | 0.4 | Adição do link para artefatos criados | Rafaella Junqueira |
-| 18.02.2021 | 1.0 | Inclusão da justificativa das escolhas | Rafaella Junqueira |<br>
+| 18.02.2021 | 1.0 | Inclusão da justificativa das escolhas | Rafaella Junqueira |
+|03.03.2021 | 1.0 | Revisão do documento | Isabella Carneiro |<br>
+
+## Participantes
+* Rafaella Junqueira
+* Isabella Carneiro
+* Geraldo Victor
+* Damarcones Porto
+* Bruna Almeida
+* Erick Giffoni
+* Kalebe Lopes
+* Lucas Lopes
 
 ### Metodologia
 <br>

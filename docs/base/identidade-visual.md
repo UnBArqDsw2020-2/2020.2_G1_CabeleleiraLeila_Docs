@@ -25,4 +25,4 @@ Foi utilizada a ferramenta Canva para construção da logo e do manual da identi
 
 ## Referências
 
-- Identidade Visual. https://smartalk.com.br/blog/identidade-visual/. Acesso em 08 de fevereiro de 2021.
+Identidade Visual. https://smartalk.com.br/blog/identidade-visual/. Acesso em 08 de fevereiro de 2021.
