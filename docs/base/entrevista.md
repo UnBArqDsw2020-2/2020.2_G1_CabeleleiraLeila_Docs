@@ -104,4 +104,5 @@ Portanto, os requisitos elicitados entrevista serviram não só para validar os 
 <br>
 
 BARBOSA, Simone; DINIZ, Bruno. **Interação Humano-Computador**, Editora Elsevier, Rio de Janeiro, 2010.
+
 Stock. Disponível em: https://unbarqdsw.github.io/2020.1_G12_Stock/#/Project/Metodologias. Último acesso 18/02/2021.
