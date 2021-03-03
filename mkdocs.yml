@@ -39,6 +39,8 @@ nav:
       - Notação UML – Diagramas Dinâmicos:
       #  - Modelagem Ágil:
         - Diagramas de Atividades: modelagem/diagrama_atividades.md
+        - Diagrama de estados: base/diagrama-estados.md
+  #     - Modelagem Ágil: base/
   # - Padrões de Projeto:
   #   - Módulo Padrões de Projeto GRASPs:
   #     - x: base/
