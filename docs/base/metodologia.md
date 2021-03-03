@@ -98,6 +98,9 @@ Refatorar é uma forma positiva de aumentar a usabilidade do software. Promove u
 * **Google Meet**: Utilizado para fazer reuniões de forma remota com os integrantes da equipe.
 
 ## 4. Referências
-Extreme Programming. Disponível em https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498. Último acesso 17/02/2021.
-Refactoring in Extreme Programming. Disponível em https://hygger.io/blog/refactoring-in-extreme-programming/#:~:text=Refactoring%20is%20especially%20necessary%20in,fast%20as%20it%20is%20possible. Último acesso 17/02/2021.
-Stock. Disponível em: https://unbarqdsw.github.io/2020.1_G12_Stock/#/Project/Metodologias. Último acesso 17/02/2021.
+
+DEVMEDIA, **Extreme Programming**. Disponível em [https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498]( https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498). Último acesso 17/02/2021.
+
+HYYGER BLOG, **Refactoring in Extreme Programming**. Disponível em [https://hygger.io/blog/refactoring-in-extreme-programming/#:~:text=Refactoring%20is%20especially%20necessary%20in,fast%20as%20it%20is%20possible](https://hygger.io/blog/refactoring-in-extreme-programming/#:~:text=Refactoring%20is%20especially%20necessary%20in,fast%20as%20it%20is%20possible). Último acesso 17/02/2021.
+
+STOCK. Disponível em: [https://unbarqdsw.github.io/2020.1_G12_Stock/#/Project/Metodologias](https://unbarqdsw.github.io/2020.1_G12_Stock/#/Project/Metodologias). Último acesso 17/02/2021.
