@@ -5,7 +5,7 @@
 | -- | -- | -- | -- |
 | 17.02.2021 | 0.1 | Criação do documento | Geraldo Victor|
 | 27.02.2021 | 0.2 | Adição de novos requisitos a partir do documento de Reuniões | Lucas Lopes, Bruna Almeida|
-
+| 03.03.2021 | 0.2 | Revisão do documento | Isabella Carneiro |
 ## Participantes
 - Geraldo Victor
 - Lucas Lopes
