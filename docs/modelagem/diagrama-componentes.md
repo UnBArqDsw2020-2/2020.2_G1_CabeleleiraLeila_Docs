@@ -56,6 +56,6 @@
 ### Referências
 
 Diagramas desenvolvidos na plataforma <a href="https://app.diagrams.net/">Draw.io</a>.
-<i>"Diagrama de componentes UML: o que é, como fazer e exemplos"</i>. Disponível em <a href=https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml>lucidchart.com</a>.
-<i>"O Guia Fácil de Diagramas de Componentes"</i>. Disponível em <a href=https://creately.com/blog/pt/diagrama/tutorial-de-diagrama-de-componentes-2>creately.com</a>.
-<i>Diagrama de Componentes</i>. Disponível em <a href=https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/componentes/diagrama_de_componentes.htm>homepages.dcc.ufmg.br</a>.
+<br>"Diagrama de componentes UML: o que é, como fazer e exemplos"</i>. Disponível em <a href=https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml>lucidchart.com</a>.
+<br>"O Guia Fácil de Diagramas de Componentes"</i>. Disponível em <a href=https://creately.com/blog/pt/diagrama/tutorial-de-diagrama-de-componentes-2>creately.com</a>.
+<br>Diagrama de Componentes</i>. Disponível em <a href=https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/componentes/diagrama_de_componentes.htm>homepages.dcc.ufmg.br</a>.
