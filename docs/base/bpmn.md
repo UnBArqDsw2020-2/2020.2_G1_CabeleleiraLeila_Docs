@@ -8,7 +8,12 @@
 | 17.02.2021 | 0.4 | Adição do diagrama de Sprint Planning | Rafaella Junqueira |
 | 17.02.2021 | 0.5 | Adição do diagrama de Daily | Rafaella Junqueira |
 | 17.02.2021 | 1.0 | Adição do diagrama de Sprint Review e referências | Rafaella Junqueira |
-| 17.02.2021 | 1.1 | Adição do diagrama de desenvolvimento do projeto | Rafaella Junqueira
+| 17.02.2021 | 1.1 | Adição do diagrama de desenvolvimento do projeto | Rafaella Junqueira |
+| 03.03.2021 | 1.1 | Revisão do documento | Isabella Carneiro |
+    
+## Participantes
+* Rafaella Junqueira
+* Isabella Carneiro (Revisão)
 
 ## Metodologia
 
@@ -33,7 +38,7 @@ Este projeto utiliza elementos de diferentes metodologias, como pode ser melhor 
 <figcaption align='center'>
     <b>Figura 1: Metodologia geral simplificada</b>
     <br>
-    <small>Fonte: autor</small>
+    <small>Autor: Rafaella Junqueira</small>
 </figcaption>
 <br>
 
@@ -43,7 +48,7 @@ Este projeto utiliza elementos de diferentes metodologias, como pode ser melhor 
 <figcaption align='center'>
     <b>Figura 2: Metodologia geral detalhada</b>
     <br>
-    <small>Fonte: autor</small>
+    <small>Autor: Rafaella Junqueira</small>
 </figcaption>
 <br>
 
@@ -53,7 +58,7 @@ Este projeto utiliza elementos de diferentes metodologias, como pode ser melhor 
 <figcaption align='center'>
     <b>Figura 3: Processo de Sprint Planning</b>
     <br>
-    <small>Fonte: autor</small>
+    <small>Autor: Rafaella Junqueira</small>
 </figcaption>
 <br>
 
@@ -63,7 +68,7 @@ Este projeto utiliza elementos de diferentes metodologias, como pode ser melhor 
 <figcaption align='center'>
     <b>Figura 4: Processo de desenvolvimento das issues</b>
     <br>
-    <small>Fonte: autor</small>
+    <small>Autor: Rafaella Junqueira</small>
 </figcaption>
 <br>
 
@@ -72,7 +77,7 @@ Este projeto utiliza elementos de diferentes metodologias, como pode ser melhor 
 <figcaption align='center'>
     <b>Figura 5: Processo de realização da Daily</b>
     <br>
-    <small>Fonte: autor</small>
+    <small>Autor: Rafaella Junqueira</small>
 </figcaption>
 <br>
 
@@ -81,7 +86,7 @@ Este projeto utiliza elementos de diferentes metodologias, como pode ser melhor 
 <figcaption align='center'>
     <b>Figura 6: Processo de Sprint Review </b>
     <br>
-    <small>Fonte: autor</small>
+    <small>Autor: Rafaella Junqueira</small>
 </figcaption>
 <br>
 

@@ -5,6 +5,12 @@
 | -- | -- | -- | -- |
 | 17.02.2021 | 0.1 | Criação do documento | Geraldo Victor|
 | 27.02.2021 | 0.2 | Adição de novos requisitos a partir do documento de Reuniões | Lucas Lopes, Bruna Almeida|
+| 03.03.2021 | 0.2 | Revisão do documento | Isabella Carneiro |
+## Participantes
+- Geraldo Victor
+- Lucas Lopes
+- Bruna Almeida
+- Isabella Carneiro (Revisão)
 
 ## Considerações iniciais
  <p>Este será o método de priorização que o grupo utilizará para basear os artefatos das fases de modelagem, análise e pós-rastreabilidade. Os requisitos analisados são os levantados no <a href="../../base/brainstorming/" >brainstorming</a>, dessa forma poderemos ter visão do quanto cada requisito deve ser priorizado.</p>
@@ -32,8 +38,6 @@
    <p align="justify"><em>(Wiegers e Beatty, 2013)</em> </p>
 </div>
 
-## Participantes
-- Geraldo Victor
 
 ## Resultado
 
@@ -67,4 +71,4 @@
 | RE03 | Adicionar curtidas por atendimento de funcionário | Could |
 
 ## Referências
-- SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07;
+SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07;

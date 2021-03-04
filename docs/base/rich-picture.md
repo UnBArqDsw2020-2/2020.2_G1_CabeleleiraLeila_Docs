@@ -11,6 +11,12 @@
 | 13.02.2021 | 2.5 | Adiciona Rich Picture 3| Erick Giffoni e Damarcones Porto|
 | 13.02.2021 | 3.0 | Adiciona hyperlinks das imagens do Rich Picture 3| Erick Giffoni|
 
+### Participantes
+
+* Erick Giffoni
+* Damarcones Porto
+* Isabella Carneiro (Revisão)
+
 ## Metodologia
   
 Rich Pictures são artefatos que podem ser utilizados logo no começo do processo de elicitação.<br>
@@ -20,10 +26,6 @@ O Rich Picture ajuda a entender melhor o contexto de uso de uma aplicação, por
 porque ele consegue ilustrar graficamente uma situação para a qual pretende-se construir um <br>
 software.
 
-### Participantes
-
-* Erick Giffoni
-* Damarcones Porto
 
 ## Resultado
 
@@ -107,9 +109,13 @@ Vide abaixo :
    </a>
 
 Mais ainda, essa terceira versão demonstra algumas aplicações concorrentes ao sistema do Salão da Leila.
+
 ## Referências
 
-- Livro: SOMMERVILLE, Ian. Engenharia de Software. 9a edição, São Paulo: Pearson, 2011.
-- Livro: BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. 1a edição, Rio de Janeiro: Elsevier, 2010.
-- Videoaula - DSW - Base - RichPicture. SERRANO, Milene. Universidade de Brasília, 2021.
-- Canva. Disponível em : [canva.com](https://www.canva.com/en_gb/) .
+Livro: SOMMERVILLE, Ian. **Engenharia de Software**. 9a edição, São Paulo: Pearson, 2011.
+
+Livro: BARBOSA, S. D. J.; SILVA, B. S. **Interação Humano-Computador**. 1a edição, Rio de Janeiro: Elsevier, 2010.
+
+SERRANO, Milene. **Base - RichPicture**, 2021. Material apresentado na Disciplina de Arquitetura de Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 10 de fevereiro de 2021
+
+**Canva**. Disponível em : [canva.com](https://www.canva.com/en_gb/) .

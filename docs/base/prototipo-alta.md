@@ -8,6 +8,11 @@
 | 17.02.2021 | 0.3 | Correção do link para protótipo | Rafaella Junqueira |
 | 17.02.2021 | 0.4 | Revisão do tópico metodologia | Rafaella Junqueira |
 
+## Participantes
+* Isabella Carneiro
+* Damarcones Porto
+* Rafaella Junqueira
+
 ## Metodologia
 
 <br>

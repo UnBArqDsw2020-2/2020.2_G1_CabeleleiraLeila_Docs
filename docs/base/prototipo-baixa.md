@@ -7,6 +7,10 @@
 | 12.02.2021 | 0.2 | Adição dos elementos de identidade visual | Isabella Carneiro |
 | 27.02.2021 | 0.3 | Tradução de mensagem de erro ao exibir PDF | Lucas Lopes Pereira |
 
+### Participantes
+- Isabella Carneiro
+- Lucas Lopes
+
 ### Metodologia
 Para a realização dos protótipos de baixa fidelidade foi utilizado o software balsamiq por ter os traços de baixa fidelidade. 
 Tal protótipo tem como objetivo analisar apenas se as funcionalidades estão de acordo com os requisitos que foram elicitados para a aplicação web da Cabeleleira Leila, não tendo total fidelidade ao design que será aplicado. 
@@ -22,4 +26,4 @@ Tal protótipo tem como objetivo analisar apenas se as funcionalidades estão de
 
 ## Referências
 
-- Prototipação. http://web.mit.edu/6.813/www/sp17/classes/08-prototyping/. Acesso em 08 de fevereiro de 2021.
+**Prototipação**. Disponível em [http://web.mit.edu/6.813/www/sp17/classes/08-prototyping/](http://web.mit.edu/6.813/www/sp17/classes/08-prototyping/). Acesso em 08 de fevereiro de 2021.
