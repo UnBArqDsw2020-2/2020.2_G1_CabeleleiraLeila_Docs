@@ -6,9 +6,11 @@
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
 | 28.02.2022 | 0.1 | Criação do documento | Damarcones Porto |
-| 02.03.2021 | 0.2 | Inclusão de diagramas v2 | Rafaella Junqueira<br>Geraldo Victor |
-| 03.03.2021 | 0.3 | Inclusão de diagramas v2 | Rafaella Junqueira<br>Isabella Carneiro<br>Damarcones Porto |
-| 03.03.2021 | 0.4 | Adição da introdução | Rafaella Junqueira<br>Geraldo Victor |
+| 29.02.2022 | 0.2 | Inclusão de diagramas v1 | Damarcones Porto<br>Geraldo Victor|
+| 02.03.2021 | 0.3 | Inclusão de diagramas v2 | Rafaella Junqueira<br>Geraldo Victor |
+| 03.03.2021 | 0.4 | Inclusão de diagramas v2 | Rafaella Junqueira<br>Isabella Carneiro<br>Damarcones Porto |
+| 03.03.2021 | 0.5 | Adição da introdução | Rafaella Junqueira<br>Geraldo Victor |
+| 04.03.2021 | 1.0 | Especificação dos casos de uso | Rafaella Junqueira |
 
 ### Participantes
 
@@ -28,20 +30,20 @@ O objetivo do diagrama de caso de uso em UML é demonstrar as diferentes maneira
 ## Metodologia
 <div align="justify">
 
-A criação dos casos de uso se deu durante reuniões entre os participantes em forma de discussão sobre o assunto, em um primeiro momento e, posteriormente, foi feita a modelagem dos diagramas para complementar os casos de uso que foram descritos em texto.
+A criação dos casos de uso se deu durante reuniões entre os participantes em forma de discussão sobre o assunto, em um primeiro momento e, posteriormente, foi feita a modelagem dos diagramas para complementar os casos de uso que foram descritos em texto. As primeiras versões dos diagramas foram criadas utilizando a ferramenta <a href = "https://app.diagrams.net/">Draw.io</a> e as segundas versões utilizaram a ferramenta <a href = "https://www.lucidchart.com">Lucidchart</a>.
 
 </div><br>
 
-## Diagramas de Casos de Uso
+## Diagramas
 <br>
 
 **v2**
 
 | ID | Diagrama | ID | Diagrama |
 | -- | --- | --- | --- |
-| UCD01 | [Cadastro de usuário](./diagramas-casos-uso/diagramas-v2/uc01.md) | UCD04 | [Recuperação de senha](./diagramas-casos-uso/diagramas-v2/uc04.md)  
-| UCD02 | [Realização de login](./diagramas-casos-uso/diagramas-v2/uc02.md) | UCD05 | [Gerenciamento interno](./diagramas-casos-uso/diagramas-v2/uc05.md)  
-| UCD03 | [Agendamento de horários](./diagramas-casos-uso/diagramas-v2/uc03.md) | UCD06 | [Gerenciamento de perfil de usuário](./diagramas-casos-uso/diagramas-v2/uc06.md) |
+| UCD01 | [Cadastrar usuários](./diagramas-casos-uso/diagramas-v2/uc01.md) | UCD04 | [Recuper senha](./diagramas-casos-uso/diagramas-v2/uc04.md)  
+| UCD02 | [Realizar login](./diagramas-casos-uso/diagramas-v2/uc02.md) | UCD05 | [Gerenciar estabelecimento](./diagramas-casos-uso/diagramas-v2/uc05.md)  
+| UCD03 | [Agendar horário](./diagramas-casos-uso/diagramas-v2/uc03.md) | UCD06 | [Gerenciar perfil de usuário](./diagramas-casos-uso/diagramas-v2/uc06.md) |
 
 <br>
 
