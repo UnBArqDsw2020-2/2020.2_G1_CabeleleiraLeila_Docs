@@ -13,7 +13,7 @@
 ## Participantes
 - Kalebe Lopes
 - Lucas Lopes Pereira
-- Rafaella Junqueira
+- Rafaella Junqueira (Revisão)
 - Isabella Carneiro (Revisão)
 <br>
 
@@ -64,9 +64,10 @@ A equipe optou por utilizar a ferramenta [StarUML](https://staruml.io/), pois el
 
 ## Referências
 <br>
-- **What is Class Diagram?** Disponível em: [https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/). Acesso em 27 de fevereiro de 2021.
 
-- SERRANO, Milene. **Modelagem -  Diagrama de Classes e Relacionamentos**, 2021. Vídeo-aulas complementares apresentadas na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 25 de fevereiro de 2021.
+**What is Class Diagram?** Disponível em: [https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/). Acesso em 27 de fevereiro de 2021.
 
-- Bóson Treinamentos. **Videoaula - Diagrama de Classes e Relacionamentos.** Disponível em: [www.youtube.com/watch?v=IJtQWLnHvcQ&feature=youtu.be](www.youtube.com/watch?v=IJtQWLnHvcQ&feature=youtu.be). Acesso em: 25 de fevereiro de 2021.
+SERRANO, Milene. **Modelagem -  Diagrama de Classes e Relacionamentos**, 2021. Vídeo-aulas complementares apresentadas na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 25 de fevereiro de 2021.
+
+Bóson Treinamentos. **Videoaula - Diagrama de Classes e Relacionamentos.** Disponível em: [www.youtube.com/watch?v=IJtQWLnHvcQ&feature=youtu.be](www.youtube.com/watch?v=IJtQWLnHvcQ&feature=youtu.be). Acesso em: 25 de fevereiro de 2021.
 
