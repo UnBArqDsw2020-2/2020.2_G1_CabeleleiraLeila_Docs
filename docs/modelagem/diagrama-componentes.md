@@ -17,7 +17,7 @@
 
 <br>
 
-## Metodologia
+## Introdução
 
 <p align="justify">Os diagramas de componentes são usados para visualizar a organização dos componentes do sistema e os relacionamentos de dependência entre eles.</p>
 <p align="justify">Os componentes podem ser um componente de software, como um banco de dados ou interface de usuário; ou um componente de hardware, como um circuito, microchip ou dispositivo; ou uma unidade de negócios, como fornecedor, folha de pagamento ou envio.</p>
@@ -38,6 +38,11 @@
 
 
 <br>
+
+## Metodologia
+
+A modelagem do diagrama de componentes foi desenvolvida utilizando a ferramenta [Draw.io](/https://app.diagrams.net/) durante a reunião entre os integrantes do grupo a fim de discutir a melhor forma de representar os componentes que serão utilizados ao longo do projeto e suas relações.
+
 
 ## Diagrama
 
