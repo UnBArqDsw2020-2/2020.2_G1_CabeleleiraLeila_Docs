@@ -9,12 +9,14 @@
 | 01.03.2021 | 0.3 | Atualização e refatoração de diagrama | [Kalebe Lopes](https://github.com/KalebeLopes), [Lucas Lopes](https://github.com/LucasPLopes)|
 | 01.03.2021 | 0.4 | Rafatoração do documento | [Rafaella Junqueira](https://github.com/RafaellaJunqueira)|
 | 03.03.2021 | 0.4 | Revisão do documento | [Isabella Carneiro](https://github.com/isabellacgmsa)|
+| 04.03.2021 | 0.4 | Revisão do documento | [Erick Giffoni](https://github.com/ErickGiffoni)
 
 ## Participantes
 - Kalebe Lopes
 - Lucas Lopes Pereira
 - Rafaella Junqueira (Revisão)
 - Isabella Carneiro (Revisão)
+- Erick Giffoni (Revisão)
 <br>
 
 ## Introdução
