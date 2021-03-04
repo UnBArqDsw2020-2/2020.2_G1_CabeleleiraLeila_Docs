@@ -17,7 +17,7 @@
 
 <br>
 
-## Metodologia
+## Introdução
 <br>
 
 <p align="justify"> O Diagrama de Atividades, assim como os diagramas de casos de uso e de estado, é usado para descrever as funcionalidades importantes da aplicação. Com o diagrama de atividades é possível ter uma visão rápida e clara dos processos que serão necessários na aplicação, facilitando o entendimento de toda equipe de produção e clientes. </p>
