@@ -9,6 +9,7 @@
 | 01.03.2021 | 0.2 | Adição da introdução | Rafaella Junqueira |
 | 01.03.2021 | 0.3 | Adição da metodologia | Rafaella Junqueira |
 | 02.03.2021 | 0.4 | Adição do diagrama de pacotes Backend | Rafaella Junqueira, Lucas Lopes,<br>Isabella Carneiro, Geraldo Victor,<br>Kalebe Lopes |
+| 04.03.2021 | 0.4 | Revisão do documento e sugestão de mudanças | Erick Giffoni |
 
 ### Participantes
 * Isabella Carneiro
@@ -16,6 +17,7 @@
 * Lucas Lopes Pereira
 * Geraldo Victor
 * Kalebe Lopes
+* Erick Giffoni (Revisão)
 
 ### Introdução
 <div align="justify"><br>
