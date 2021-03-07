@@ -34,7 +34,8 @@ nav:
       - Modelagem BPMN: base/bpmn.md
   - Modelagem:
     - Módulo Projeto Orientado a Abordagens Tradicionais:
-      - Notação UML – Diagramas Estáticos:
+      - Notação UML – Diagramas Estáticos: 
+        - Diagrama de Classes: modelagem/classes.md
         - Diagrama de Agregação e Composição: modelagem/agregacao-composicao.md
         - Diagrama de Pacotes: modelagem/pacotes.md
       - Notação UML – Diagramas Dinâmicos:
