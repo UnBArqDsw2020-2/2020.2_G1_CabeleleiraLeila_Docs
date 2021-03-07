@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Diagrama de Casos de Uso - Leila's</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Leila's</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Base <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Módulo Projeto Não Orientado a Abordagens Específicas</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/design-sprint/" class="dropdown-item">Design Sprint</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Prototipação</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/prototipo-baixa/" class="dropdown-item">Protótipo de Baixa Fidelidade</a>
+</li>
+            
+<li>
+    <a href="../../base/prototipo-alta/" class="dropdown-item">Protótipo de Alta Fidelidade</a>
+</li>
+            
+<li>
+    <a href="../../base/teste-prototipo/" class="dropdown-item">Testes de protótipos</a>
+</li>
+    </ul>
+  </li>
+            
+<li>
+    <a href="../../base/identidade-visual/" class="dropdown-item">Identidade Visual</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Requisitos</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Pré rastreabilidade</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/rich-picture/" class="dropdown-item">Rich Picture</a>
+</li>
+            
+<li>
+    <a href="../../base/5w2h/" class="dropdown-item">5W2H</a>
+</li>
+            
+<li>
+    <a href="../../base/mapa-mental/" class="dropdown-item">Mapa Mental</a>
+</li>
+            
+<li>
+    <a href="../../base/causa-efeito/" class="dropdown-item">Diagrama de causa e efeito</a>
+</li>
+            
+<li>
+    <a href="../../base/plano-de-risco/" class="dropdown-item">Plano de gerenciamento de riscos</a>
+</li>
+            
+<li>
+    <a href="../../base/estimativas/" class="dropdown-item">Estimativas</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Elicitação</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/brainstorming/" class="dropdown-item">Brainstorming</a>
+</li>
+            
+<li>
+    <a href="../../base/questionario/" class="dropdown-item">Questionário</a>
+</li>
+            
+<li>
+    <a href="../../base/entrevista/" class="dropdown-item">Entrevista</a>
+</li>
+            
+<li>
+    <a href="../../base/moscow/" class="dropdown-item">MoSCoW</a>
+</li>
+            
+<li>
+    <a href="../../base/backlog/" class="dropdown-item">Backlog</a>
+</li>
+            
+<li>
+    <a href="../../base/reunioes/" class="dropdown-item">Reuniões</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Módulo Processos/Metodologias/Abordagens</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/metodologia/" class="dropdown-item">Metodologia</a>
+</li>
+            
+<li>
+    <a href="../../base/bpmn/" class="dropdown-item">Modelagem BPMN</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Módulo Projeto Orientado a Abordagens Tradicionais</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Notação UML – Diagramas Estáticos</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../classes/" class="dropdown-item">Diagrama de Classes</a>
+</li>
+            
+<li>
+    <a href="../agregacao-composicao/" class="dropdown-item">Diagrama de Agregação e Composição</a>
+</li>
+            
+<li>
+    <a href="../pacotes/" class="dropdown-item">Diagrama de Pacotes</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Notação UML – Diagramas Dinâmicos</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active">Diagrama de Casos de Uso</a>
+</li>
+            
+<li>
+    <a href="../diagrama_atividades/" class="dropdown-item">Diagramas de Atividades</a>
+</li>
+            
+<li>
+    <a href="../../base/diagrama-estados/" class="dropdown-item">Diagrama de Estados</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../pacotes/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../diagrama_atividades/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#diagrama-de-casos-de-uso" class="nav-link"> Diagrama de Casos de Uso</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#introducao" class="nav-link">Introdução</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#metodologia" class="nav-link">Metodologia</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#diagramas" class="nav-link">Diagramas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#referencias" class="nav-link">Referências</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="diagrama-de-casos-de-uso"><center> Diagrama de Casos de Uso</h1>
+<p><br></p>
+<h3 id="historico-de-versao">Histórico de versão</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>28.02.2022</td>
+<td>0.1</td>
+<td>Criação do documento</td>
+<td>Damarcones Porto</td>
+</tr>
+<tr>
+<td>29.02.2022</td>
+<td>0.2</td>
+<td>Inclusão de diagramas v1</td>
+<td>Damarcones Porto<br>Geraldo Victor</td>
+</tr>
+<tr>
+<td>02.03.2021</td>
+<td>0.3</td>
+<td>Inclusão de diagramas v2</td>
+<td>Rafaella Junqueira<br>Geraldo Victor</td>
+</tr>
+<tr>
+<td>03.03.2021</td>
+<td>0.4</td>
+<td>Inclusão de diagramas v2</td>
+<td>Rafaella Junqueira<br>Isabella Carneiro<br>Damarcones Porto</td>
+</tr>
+<tr>
+<td>03.03.2021</td>
+<td>0.5</td>
+<td>Adição da introdução</td>
+<td>Rafaella Junqueira<br>Geraldo Victor</td>
+</tr>
+<tr>
+<td>04.03.2021</td>
+<td>1.0</td>
+<td>Especificação dos casos de uso</td>
+<td>Rafaella Junqueira</td>
+</tr>
+<tr>
+<td>05.03.2021</td>
+<td>1.1</td>
+<td>Correção de links e de redirecionamentos</td>
+<td>Lucas Lopes</td>
+</tr>
+<tr>
+<td>05.03.2021</td>
+<td>1.1</td>
+<td>Revisão do documento</td>
+<td>Lucas Lopes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="participantes">Participantes</h3>
+<ul>
+<li>Geraldo Victor </li>
+<li>Damarcones Porto</li>
+<li>Rafaella Junqueira</li>
+<li>Isabella Carneiro</li>
+<li>Lucas Lopes </li>
+</ul>
+<h2 id="introducao">Introdução</h2>
+<div align="justify">
+<br>
+Os diagramas de casos de uso representam as interações dos usuários com o sistema, dando uma visão geral sobre o relacionamento entre atores, casos de uso e sistema, além de auxiliar no entendimento quanto ao escopo do projeto e as metas que os usuários visam atingir por meio do sistema.
+<br><br>
+O objetivo do diagrama de caso de uso em UML é demonstrar as diferentes maneiras que o usuário pode interagir com um sistema, organizar os requisitos funcionais, especificando o contexto de uso para desses requisitos, e modelar um fluxo básico de eventos. 
+</div>
+<p><br></p>
+<h2 id="metodologia">Metodologia</h2>
+<div align="justify">
+
+A criação dos casos de uso se deu durante reuniões entre os participantes em forma de discussão sobre o assunto, em um primeiro momento e, posteriormente, foi feita a modelagem dos diagramas para complementar os casos de uso que foram descritos em texto. As primeiras versões dos diagramas foram criadas utilizando a ferramenta <a href = "https://app.diagrams.net/">Draw.io</a> e as segundas versões utilizaram a ferramenta <a href = "https://www.lucidchart.com">Lucidchart</a>.
+
+</div>
+<p><br></p>
+<h2 id="diagramas">Diagramas</h2>
+<p><br></p>
+<p><strong>v2</strong></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Diagrama</th>
+<th>ID</th>
+<th>Diagrama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UCD01</td>
+<td><a href="../diagramas-casos-uso/diagramas-v2/uc01/">Cadastrar usuários</a></td>
+<td>UCD04</td>
+<td><a href="../diagramas-casos-uso/diagramas-v2/uc04/">Recuper senha</a></td>
+</tr>
+<tr>
+<td>UCD02</td>
+<td><a href="../diagramas-casos-uso/diagramas-v2/uc02/">Realizar login</a></td>
+<td>UCD05</td>
+<td><a href="../diagramas-casos-uso/diagramas-v2/uc05/">Gerenciar estabelecimento</a></td>
+</tr>
+<tr>
+<td>UCD03</td>
+<td><a href="../diagramas-casos-uso/diagramas-v2/uc03/">Agendar horário</a></td>
+<td>UCD06</td>
+<td><a href="../diagramas-casos-uso/diagramas-v2/uc06/">Gerenciar perfil de usuário</a></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>v1</strong></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Diagrama</th>
+<th>ID</th>
+<th>Diagrama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UCD01</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc01/">Cadastrar usuário</a></td>
+<td>UCD09</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc09/">Ver localização da loja</a></td>
+</tr>
+<tr>
+<td>UCD02</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc02/">Realizar login</a></td>
+<td>UCD10</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc10/">Agendar horário </a></td>
+</tr>
+<tr>
+<td>UCD03</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc03/">Recuperar senha</a></td>
+<td>UCD11</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc11/">Avaliar serviço</a></td>
+</tr>
+<tr>
+<td>UCD04</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc04/">Notificar horário agendado antecipadamente</a></td>
+<td>UCD12</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc12/">Visualizar calendário para agendamento</a></td>
+</tr>
+<tr>
+<td>UCD05</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc05/">Notificar atraso do funcionário</a></td>
+<td>USD13</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc13/">Visualizar calendário para agendamento</a></td>
+</tr>
+<tr>
+<td>UCD06</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc06/">Gerenciar permissões de usuários</a></td>
+<td>USD14</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc14/">Visualizar agendamentos marcados pelos clientes</a></td>
+</tr>
+<tr>
+<td>UCD07</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc07/">Visualizar funcionários</a></td>
+<td>USD15</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc15/">Visualizar serviços com tabelas de preços</a></td>
+</tr>
+<tr>
+<td>UCD08</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc08/">Visualizar agendamentos</a></td>
+<td>USD16</td>
+<td><a href="../diagramas-casos-uso/diagramas-v1/uc16/">Adicionar produto ao carrinho</a></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<h2 id="referencias">Referências</h2>
+<p><br>
+Livro: VASQUEZ,C. E.; SIMÕES, G. S. <strong>Engenharia de Requisitos.</strong> BRASPORT. 1ª edição, 19 outubro 2016.</p>
+<p>LUCIDCHART, <strong>Diagrama de caso de uso UML: O que é, como fazer e exemplos</strong>. Disponível em: <a href="https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml">https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml</a> Acesso em: 03 de março de 2021.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
