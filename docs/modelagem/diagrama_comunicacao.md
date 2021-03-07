@@ -5,9 +5,10 @@
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
 | 04/03 | 0.1 | Criação do documento | Bruna |
-| 06/03 | 0.2 | Adição da introdução e referências | Bruna e Damarcones |
-| 07/03 | 0.3 | Adiciona diagrama genérico de comunicação | Bruna e Lucas |
-| 07/03 | 0.3 |Revisão do diagrama de comunicação | Isabella Carneiro |
+| 06/03 | 0.2 | Adição da introdução e referências | Bruna, Damarcones |
+| 07/03 | 0.3 | Adiciona diagrama genérico de comunicação | Lucas |
+| 07/03 | 0.4 |Revisão do diagrama de comunicação | Isabella |
+| 07/03 | 0.5 | Adiciona informações na metodologia | Bruna |
 
 
 ### Participantes
@@ -31,6 +32,7 @@
 ## Metodologia
 
 <p align="justify">O diagrama de comunicação referente ao projeto do Salão da Leila foi desenvolvido pelo integrante da equipe Lucas Lopes, com apoio dos integrantes Bruna Almeida e Damarcones Porto. A construção do diagrama se deu entre os dias 05 e 06 de março, através de reuniões online, utilizando a plataforma <a href=https://app.diagrams.net/>Draw.io</a> para a criação do diagrama.</p>
+<p align="justify">Para o diagrama foram utilizados componentes genéricos, pois representará uma comunicação genérica entre recursos e bases de operações <b>CRUD</b>.</p>
 
 <br>
 
