@@ -7,6 +7,7 @@
 | 04/03 | 0.1 | Criação do documento | Bruna |
 | 06/03 | 0.2 | Adição da introdução e referências | Bruna e Damarcones |
 | 07/03 | 0.3 | Adiciona diagrama genérico de comunicação | Bruna e Lucas |
+| 07/03 | 0.3 |Revisão do diagrama de comunicação | Isabella Carneiro |
 
 
 ### Participantes
@@ -14,6 +15,7 @@
 * Bruna Almeida 
 * Damarcones Porto
 * Lucas Lopes
+* Isabella Carneiro (Revisão)
 
 <br>
 
