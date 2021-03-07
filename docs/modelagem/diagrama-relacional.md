@@ -119,8 +119,14 @@ Tendo como referência o nosso <a href="../classes"> Diagrama de Classes</a> e n
 
 Para conseguirmos visualizar melhor o que fora definido anteriormente no ME-R, realizamos o DE-R para o sistema do salão da Leila, o qual encontra-se abaixo. Nele ficam visíveis as entidades, cada atributos delas, e os relacionamentos.
 
-
+<figcaption>
+ <center><i>Imagem 1 - DE-R versão 1.0</i>
+</figcaption>
 [![der](https://user-images.githubusercontent.com/44823367/110247730-75786a80-7f4c-11eb-85fd-35f4ef9cd6dd.jpg)](https://user-images.githubusercontent.com/44823367/110247730-75786a80-7f4c-11eb-85fd-35f4ef9cd6dd.jpg)
+<figcaption>
+ <center><i>Autores: Kalebe Lopes e Erick Giffoni</i>
+</figcaption>
+<br>
  
 Tomemos como exemplo a entidade FUNCIONARIO, que é uma especialização da entidade PESSOA, ou seja, contém todos os atributos de PESSOA, além dos atributos específicos de um funcionário. <br><br>
 O sistema do salão da leila funciona com base nos PEDIDOs. Dessa forma, o CLIENTE faz um ou vários PEDIDOs enquanto o FUNCIONARIO realiza esse(s) pedido(s).
@@ -129,7 +135,14 @@ O sistema do salão da leila funciona com base nos PEDIDOs. Dessa forma, o CLIEN
 <br>
 O próximo passo a ser feito para projetarmos o banco de dados, após a realização do DE-R, é o Diagrama Lógico de Dados. Nele são mostrados mais detalhes à respeito das entidades, das chaves primárias e estrangeiras, dos atributos, relacionamentos etc. Veja abaixo o DLD para o sistema do salão da Leila.
 <br><br>
+<figcaption>
+ <center><i>Imagem 2 - DLD versão 1.0</i>
+</figcaption>
 [![der](https://user-images.githubusercontent.com/44823367/110247767-9ccf3780-7f4c-11eb-9d49-2fb22cd4afc7.jpg)](https://user-images.githubusercontent.com/44823367/110247767-9ccf3780-7f4c-11eb-9d49-2fb22cd4afc7.jpg)
+<figcaption>
+ <center><i>Autores: Kalebe Lopes e Erick Giffoni</i>
+</figcaption>
+<br>
 
 O Diagrama Lógico de Dados representa todas as tabelas que serão implementadas no banco de dados. Ele especifica os atributos e chaves estrangeiras de cada tabela, além de informar sua cardidalidade.<br><br>
 Tomemos como exemplo a tabela cliente que se relaciona com a tabela pedido. Por meio da chave primária do CLIENTE, a qual é repassada para o PEDIDO, conseguimos recuperar todos os PEDIDOs que determinado CLIENTE solicitou. 
