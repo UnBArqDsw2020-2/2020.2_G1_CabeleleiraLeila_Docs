@@ -20,6 +20,7 @@
 * Damarcones Porto
 * Rafaella Junqueira
 * Isabella Carneiro
+* Lucas Lopes 
 
 ## Introdução
 <div align="justify">
