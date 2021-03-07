@@ -40,9 +40,9 @@ nav:
         - Diagrama de Pacotes: modelagem/pacotes.md
       - Notação UML – Diagramas Dinâmicos:
         - Diagrama de Casos de Uso: modelagem/diagrama-casos-uso.md
-        - Diagramas de Atividades: modelagem/diagrama_atividades.md
+        - Diagrama de Atividades: modelagem/diagrama_atividades.md
+        - Diagrama de sequência: modelagem/diagrama-sequencia.md
         - Diagrama de Estados: base/diagrama-estados.md
-  #     - Modelagem Ágil:
   # - Padrões de Projeto:
   #   - Módulo Padrões de Projeto GRASPs:
   #     - x: base/
