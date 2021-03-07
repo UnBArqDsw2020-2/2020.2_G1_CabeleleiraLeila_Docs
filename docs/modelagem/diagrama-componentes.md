@@ -7,6 +7,7 @@
 | 03.03.2021 | 0.1 | Criação do documento | Isabella Carneiro|
 | 03.03.2021 | 0.2 | Adição da metodologia e referências | Bruna Almeida |
 | 03.03.2021 | 0.3 | Adição do diagrama | Bruna Almeida, Isabella Carneiro, Damarcones Porto |
+| 07.03.2021 | 0.3 | Revisão do documento e sugestão de melhorias | Erick Giffoni |
 
 
 ### Participantes
@@ -14,6 +15,7 @@
 * Bruna Almeida 
 * Isabella Carneiro
 * Damarcones Porto
+* Erick Giffoni (Revisão)
 
 <br>
 
