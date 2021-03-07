@@ -55,9 +55,9 @@ A criação dos casos de uso se deu durante reuniões entre os participantes em 
 | UCD02 | [Realizar login](./diagramas-casos-uso/diagramas-v1/uc02.md) | UCD10 | [Agendar horário ](./diagramas-casos-uso/diagramas-v1/uc10.md)
 | UCD03 | [Recuperar senha](./diagramas-casos-uso/diagramas-v1/uc03.md) | UCD11 | [Avaliar serviço](./diagramas-casos-uso/diagramas-v1/uc11.md)
 | UCD04 | [Notificar horário agendado antecipadamente](./diagramas-casos-uso/diagramas-v1/uc04.md) | UCD12 | [Visualizar calendário para agendamento](./diagramas-casos-uso/diagramas-v1/uc12.md) 
-| UCD05 | [Notificar atraso do funcionário](./diagramas-casos-uso/diagramas-v1/uc05.md) | USD13 | [Visualizar calendário para agendamento](./diagramas-casos-uso/diagramas-v1/uc12.md)
-| UCD06 | [Gerenciar permissões de usuários](./diagramas-casos-uso/diagramas-v1/uc06.md) | USD14 |[Visualizar agendamentos marcados pelos clientes](./diagramas-casos-uso/diagramas-v1/uc13.md)
-| UCD07 | [Visualizar funcionários](./diagramas-casos-uso/diagramas-v1/uc07.md) | USD15 | [Visualizar serviços com tabelas de preços](./diagramas-casos-uso/diagramas-v1/uc14.md)
+| UCD05 | [Notificar atraso do funcionário](./diagramas-casos-uso/diagramas-v1/uc05.md) | USD13 | [Visualizar calendário para agendamento](./diagramas-casos-uso/diagramas-v1/uc13.md)
+| UCD06 | [Gerenciar permissões de usuários](./diagramas-casos-uso/diagramas-v1/uc06.md) | USD14 |[Visualizar agendamentos marcados pelos clientes](./diagramas-casos-uso/diagramas-v1/uc14.md)
+| UCD07 | [Visualizar funcionários](./diagramas-casos-uso/diagramas-v1/uc07.md) | USD15 | [Visualizar serviços com tabelas de preços](./diagramas-casos-uso/diagramas-v1/uc15.md)
 | UCD08 | [Visualizar agendamentos](./diagramas-casos-uso/diagramas-v1/uc08.md) | USD16 | [Adicionar produto ao carrinho](./diagramas-casos-uso/diagramas-v1/uc16.md)
 
 <br>
