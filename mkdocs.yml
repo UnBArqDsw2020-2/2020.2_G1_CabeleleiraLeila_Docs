@@ -42,6 +42,7 @@ nav:
       #  - Modelagem Ágil:
         - Diagramas de Atividades: modelagem/diagrama_atividades.md
         - Diagrama de estados: base/diagrama-estados.md
+        - Diagrama de sequência: modelagem/diagrama-sequencia.md
   #     - Modelagem Ágil: base/
   # - Padrões de Projeto:
   #   - Módulo Padrões de Projeto GRASPs:
