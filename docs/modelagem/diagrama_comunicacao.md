@@ -8,8 +8,8 @@
 | 06/03 | 0.2 | Adição da introdução e referências | Bruna, Damarcones |
 | 07/03 | 0.3 | Adiciona diagrama genérico de comunicação | Lucas |
 | 07/03 | 0.4 |Revisão do diagrama de comunicação | Isabella |
-| 07/03 | 0.5 | Adiciona informações na metodologia | Bruna |
-| 07/03 | 0.5 | Revisão do documento e sugestão de melhorias | Erick Giffoni |
+| 07/03 | 1.0 | Adiciona informações na metodologia | Bruna |
+| 07/03 | 1.0 | Revisão do documento e sugestão de melhorias | Erick Giffoni |
 
 
 ### Participantes
