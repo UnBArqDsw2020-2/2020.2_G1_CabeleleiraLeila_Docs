@@ -11,11 +11,13 @@
 | 06.03.2021 | 1.1 | Adição da introdução e refatoração das referências | Bruna Almeida, Damarcones Porto |
 | 06.03.2021 | 1.2 | Adição da metodologia | Bruna Almeida, Damarcones Porto |
 | 07.03.2021 | 1.3 | Alteração das descrições das imagens | Bruna Almeida, Damarcones Porto |
+| 07.03.2021 | 1.3 | Revisão do documento | Erick Giffoni |
 
 ### Participantes
 
 * Bruna Almeida 
 * Damarcones Porto
+* Erick Giffoni (Revisão)
 
 <br>
 
