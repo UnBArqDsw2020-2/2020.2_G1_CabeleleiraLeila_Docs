@@ -42,6 +42,7 @@ nav:
         - Diagrama de Casos de Uso: modelagem/diagrama-casos-uso.md
         - Diagramas de Atividades: modelagem/diagrama_atividades.md
         - Diagrama de Estados: base/diagrama-estados.md
+        - Diagrama Relacional: modelagem/diagrama-relacional.md
   #     - Modelagem Ágil:
   # - Padrões de Projeto:
   #   - Módulo Padrões de Projeto GRASPs:
