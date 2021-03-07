@@ -4,16 +4,20 @@
 ## Histórico de versão
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 25.02.2021 | 0.1 | Criação do diagrama de classe, relacionamentos e atributos | [Kalebe Lopes](https://github.com/KalebeLopes), [Lucas Lopes](https://github.com/LucasPLopes)|
-| 27.02.2021 | 0.2 | Adição da introdução e metodologia | [Kalebe Lopes](https://github.com/KalebeLopes)|
-| 01.03.2021 | 0.3 | Atualização e refatoração de diagrama | [Kalebe Lopes](https://github.com/KalebeLopes), [Lucas Lopes](https://github.com/LucasPLopes)|
-| 01.03.2021 | 0.4 | Rafatoração do documento | [Rafaella Junqueira](https://github.com/RafaellaJunqueira)|
-| 03.03.2021 | 0.4 | Revisão do documento | [Isabella Carneiro](https://github.com/isabellacgmsa)|
-| 04.03.2021 | 0.4 | Revisão do documento | [Erick Giffoni](https://github.com/ErickGiffoni)
+| 25.02.2021 | 0.1 | Criação do diagrama de classe, relacionamentos e atributos | Kalebe, Lucas
+| 27.02.2021 | 0.2 | Adição da introdução e metodologia | Kalebe
+| 01.03.2021 | 0.3 | Atualização e refatoração de diagrama | Kalebe, Lucas
+| 01.03.2021 | 0.4 | Rafatoração do documento | Rafaella
+| 03.03.2021 | 0.4 | Revisão do documento | Isabella
+| 04.03.2021 | 0.4 | Revisão do documento | Erick
+| 05.03.2021 | 0.5 | Incremento de atributo | Lucas, Geraldo
+| 05.03.2021 | 0.6 | Revisão  e remoção de links | Bruna
 
 ## Participantes
+- Bruna Almeida (revisão)
+- Geral Victor
 - Kalebe Lopes
-- Lucas Lopes Pereira
+- Lucas Lopes 
 - Rafaella Junqueira (Revisão)
 - Isabella Carneiro (Revisão)
 - Erick Giffoni (Revisão)
@@ -41,13 +45,24 @@ A equipe optou por utilizar a ferramenta [StarUML](https://staruml.io/), pois el
 ## Diagramas
 <br>
 
+**Versão 3.0**
+
+[<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/estatica/classes/classes_v3.png"></div>](../../img/modelagem/estatica/classes/classes_v3.svg)
+<figcaption align='center'>
+    <b>Figura 1: Diagrama de Classes - v3.0 </b>
+    <br>
+    <small>Autores: Geraldo e Lucas</small>
+</figcaption>
+<br>
+
+
 **Versão 2.0**
 
 [<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/estatica/classes/classes_v2.svg"></div>](../../img/modelagem/estatica/classes/classes_v2.svg)
 <figcaption align='center'>
     <b>Figura 1: Diagrama de Classes - v2.0 </b>
     <br>
-    <small>Autores: Kalebe Lopes e Lucas Lopes Pereira</small>
+    <small>Autores: Kalebe e Lucas</small>
 </figcaption>
 <br>
 
@@ -59,7 +74,7 @@ A equipe optou por utilizar a ferramenta [StarUML](https://staruml.io/), pois el
 <figcaption align='center'>
     <b>Figura 2: Diagrama de Classes - v1.0 </b>
     <br>
-    <small>Autores: Kalebe Lopes e Lucas Lopes Pereira</small>
+    <small>Autores: Kalebe e Lucas</small>
 </figcaption>
 <br>
 <!-- ![Versão 1.0](../../img/modelagem/estatica/classes/classes_v1.jpg) -->
