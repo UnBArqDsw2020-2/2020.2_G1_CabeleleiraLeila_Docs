@@ -11,6 +11,8 @@
 | 03.03.2021 | 0.4 | Inclusão de diagramas v2 | Rafaella Junqueira<br>Isabella Carneiro<br>Damarcones Porto |
 | 03.03.2021 | 0.5 | Adição da introdução | Rafaella Junqueira<br>Geraldo Victor |
 | 04.03.2021 | 1.0 | Especificação dos casos de uso | Rafaella Junqueira |
+| 05.03.2021 | 1.1 | Correção de links e de redirecionamentos | Lucas Lopes |
+| 05.03.2021 | 1.1 | Revisão do documento | Lucas Lopes |
 
 ### Participantes
 
