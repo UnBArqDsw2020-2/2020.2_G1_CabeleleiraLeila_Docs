@@ -10,6 +10,7 @@
 | 03.03.2021 | 1.0 | Adição de descrição dos diagramas |Bruna Almeida, Damarcones Porto|
 | 06.03.2021 | 1.1 | Adição da introdução e refatoração das referências | Bruna Almeida, Damarcones Porto |
 | 06.03.2021 | 1.2 | Adição da metodologia | Bruna Almeida, Damarcones Porto |
+| 07.03.2021 | 1.3 | Alteração das descrições das imagens | Bruna Almeida, Damarcones Porto |
 
 ### Participantes
 
@@ -28,14 +29,14 @@
 
 <br>
 
-<div class="toolgrid">
-  <div>
-        <center><img height="450px" src="../../img/diagrama_atividades/legenda-atividade.png"> 
-    </div>
-    <figcaption><center><i>Figura 01 - Símbolos utilizados no Diagrama de Atividades.</i></figcaption>
-</div>
-
+[<div align='center'><img height="400px" src="../../../../img/diagrama_atividades/legenda-atividade.png"></div>](../../img/../../img/diagrama_atividades/legenda-atividade.png)
+<figcaption align="center">
+    <b>Figura 01 - Símbolos utilizados no Diagrama de Atividades.</b>
+    <br>
+    <small>Autores: Bruna e Damarcones</small>
+</figcaption>
 </br>
+
 
 ## Metodologia
 
@@ -48,48 +49,60 @@
 
 ### Login (V0)
 
-<div class="toolgrid">
-  <div>
-        <center><img height="900px" src="../../img/diagrama_atividades/diagrama_tarefas_login.png"> 
-    </div>
-    <figcaption><center><i>Diagrama 01 - Realização de Login.</i></figcaption>
-</div>
+[<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_login.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_login.png)
+<figcaption align="center">
+    <b>Diagrama 01 - Realização de Login.</b>
+    <br>
+    <small>Autores: Bruna e Damarcones</small>
+</figcaption>
+</br>
 <p align="justify">O diagrama apresenta as ações necessárias para que seja possível realizar o login e suas possíveis ações, dependendo do que ocorra na requisição.</p>
+
 </br>
 
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
 ### Cadastro (V0)
 
-<div class="toolgrid">
-  <div>
-        <center><img height="900px" src="../../img/diagrama_atividades/diagrama_tarefas_cadastro.png"> 
-    </div>
-    <figcaption><center><i>Diagrama 02 - Realização de Cadastro.</i></figcaption>
-</div>
+
+[<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_cadastro.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_cadastro.png)
+<figcaption align="center">
+    <b>Diagrama 02 - Realização de Cadastro.</b>
+    <br>
+    <small>Autores: Bruna e Damarcones</small>
+</figcaption>
+</br>
 <p align="justify">O diagrama apresenta como se dará o processo de cadastro dos usuários e de funcionários.</p>
 </br>
 
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
 ### Marcar Horário (V0)
 
-<div class="toolgrid">
-  <div>
-        <center><img height="900px" src="../../img/diagrama_atividades/diagrama_tarefas_marcar_horario.png"> 
-    </div>
-    <figcaption><center><i>Diagrama 03 - Realização de Marcação de Horário.</i></figcaption>
-</div>
+[<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_marcar_horario.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_marcar_horario.png)
+<figcaption align="center">
+    <b>Diagrama 03 - Realização de Marcação de Horário.</b>
+    <br>
+    <small>Autores: Bruna e Damarcones</small>
+</figcaption>
+</br>
 <p align="justify">O diagrama descreve como realizar a marcação de horário e os possíveis filtros a serem utilizados para a marcação do mesmo.</p>
 </br>
 
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
 ### Avaliação (V0)
 
-<div class="toolgrid">
-  <div>
-        <center><img height="900px" src="../../img/diagrama_atividades/diagrama_tarefas_avaliacao.png"> 
-    </div>
-    <figcaption><center><i>Diagrama 04 - Realização de Avaliação.</i></figcaption>
-</div>
+
+
+[<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_avaliacao.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_avaliacao.png)
+<figcaption align="center">
+    <b>Diagrama 04 - Realização de Avaliação.</b>
+    <br>
+    <small>Autores: Bruna e Damarcones</small>
+</figcaption>
+</br>
 <p align="justify">Modo pelo qual será realizado a avaliação do serviço que foi utilizado no salão, juntamente com o funcionário que o realizou. </p>
 </br>
 
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
 ### Referências
 
 - <p align="justify">G. Booch, J. Rumbaugh, I. Jacobson. <b>UML, Guia do Usuário</b>. 2ª Ed., Editora Campus, 2005.</p>
