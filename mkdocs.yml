@@ -39,11 +39,10 @@ nav:
         - Diagrama de Agregação e Composição: modelagem/agregacao-composicao.md
         - Diagrama de Pacotes: modelagem/pacotes.md
       - Notação UML – Diagramas Dinâmicos:
-      #  - Modelagem Ágil:
-        - Diagramas de Atividades: modelagem/diagrama_atividades.md
-        - Diagrama de estados: base/diagrama-estados.md
+        - Diagrama de Casos de Uso: modelagem/diagrama-casos-uso.md
+        - Diagrama de Atividades: modelagem/diagrama_atividades.md
         - Diagrama de sequência: modelagem/diagrama-sequencia.md
-  #     - Modelagem Ágil: base/
+        - Diagrama de Estados: base/diagrama-estados.md
   # - Padrões de Projeto:
   #   - Módulo Padrões de Projeto GRASPs:
   #     - x: base/
