@@ -6,7 +6,8 @@
 
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 06.02.2021 | 0.1 | Criação do documento |Geraldo Victor, Damarcones|
+| 06.03.2021 | 0.1 | Criação do documento |Geraldo Victor, Damarcones|
+| 07.03.2021 | 0.2 | Adiciona Diagrama de Agendamento de Horário |Geraldo Victor, Damarcones|
 
 ### Participantes
 
@@ -39,6 +40,16 @@
 
 <figcaption align='center'>
   <b>Diagrama 1: Realizar login</b>
+  </br>
+  <small>Fonte: Geraldo Victor, Damarcones</small>
+</figcaption>
+
+### Agendamento de horário (V0)
+
+[<div><center><img src="../../img/diagrama_sequencia/diagrama-sequencia02.png"></div>](../../img/diagrama_sequencia/diagrama-sequencia02.png)
+
+<figcaption align='center'>
+  <b>Diagrama 2: Agendamento de horário</b>
   </br>
   <small>Fonte: Geraldo Victor, Damarcones</small>
 </figcaption>
