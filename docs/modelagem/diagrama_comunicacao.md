@@ -26,13 +26,11 @@
 
 ## Metodologia
 
-<p align="justify"></p>
-<p align="justify"></p>
-<p align="justify"></p>
+<p align="justify">O diagrama de comunicação referente ao projeto do Salão da Leila foi desenvolvido pelo integrante da equipe Lucas Lopes, com apoio dos integrantes Bruna Almeida e Damarcones Porto. A construção do diagrama se deu entre os dias 05 e 06 de março, através de reuniões online, utilizando a plataforma <a href=https://app.diagrams.net/>Draw.io</a> para a criação do diagrama.</p>
 
 <br>
 
-## Diagramas
+## Diagrama
 
 <!-- <div class="toolgrid">
   <div>
