@@ -9,6 +9,7 @@
 | 01.03.2021 | 0.3 | Revisão do documento de Diagramas de Atividades |Isabella Carneiro, Erick Giffoni|
 | 03.03.2021 | 1.0 | Adição de descrição dos diagramas |Bruna Almeida, Damarcones Porto|
 | 06.03.2021 | 1.1 | Adição da introdução e refatoração das referências | Bruna Almeida, Damarcones Porto |
+| 06.03.2021 | 1.2 | Adição da metodologia | Bruna Almeida, Damarcones Porto |
 
 ### Participantes
 
@@ -36,6 +37,12 @@
 
 </br>
 
+## Metodologia
+
+<p align="justify">Os diagramas foram desenvolvidos na plataforma <a href="https://app.diagrams.net/">Draw.io</a>, pelos integrantes Bruna Almeida e Damarcones Porto, entre os dias 27 e 28 de fevereiro de 2021. A construção dos diagramas se deu através de reuniões online.</p>
+
+<br>
+
 ## Diagramas
 <br>
 
@@ -47,7 +54,7 @@
     </div>
     <figcaption><center><i>Diagrama 01 - Realização de Login.</i></figcaption>
 </div>
-<p align="justify">O diagrmaa apresenta as ações necessárias para ser realizada o login e suas possíveis ações dependendo do que ocorra na requisição.</p>
+<p align="justify">O diagrama apresenta as ações necessárias para que seja possível realizar o login e suas possíveis ações, dependendo do que ocorra na requisição.</p>
 </br>
 
 ### Cadastro (V0)
@@ -80,7 +87,7 @@
     </div>
     <figcaption><center><i>Diagrama 04 - Realização de Avaliação.</i></figcaption>
 </div>
-<p align="justify">Maneira de como será realizado a avaliação do serviço que foi utilizado no salão juntamente com o funcionário que o realizou. </p>
+<p align="justify">Modo pelo qual será realizado a avaliação do serviço que foi utilizado no salão, juntamente com o funcionário que o realizou. </p>
 </br>
 
 ### Referências
@@ -89,5 +96,3 @@
 - <p align="justify"><b>O que é diagrama de atividades UML?</b>. Disponível em: <a href="https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml">lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml</a>. Acesso em 28 de fevereiro de 2021.</p>
 - <p align="justify"><b>Diagrama de Atividades</b>. Disponível em: <a href=https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/atividades/diagrama_de_atividades.htm>ufmg.br/~amendes/GlossarioUML/glossario/conteudo/atividades/diagrama_de_atividades.htm</a>. Acesso em 28 de fevereiro de 2021.</p>
 - <p align="justify"></a><b>Diagrama de Atividades</b>. Disponível em: <a href=http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/uml/diagramas/atividades/diag_atividades.htm>ufcg.edu.br/~jacques/cursos/map/html/uml/diagramas/atividades/diag_atividades.htm</a>. Acesso em 04 de março de 2021.</p>
-
-<!-- - Diagramas desenvolvidos na plataforma <a href="https://app.diagrams.net/">Draw.io</a>. -->
