@@ -6,6 +6,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Sprints: sprint.md
   - Base:
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Design Sprint: base/design-sprint.md
