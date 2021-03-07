@@ -4,8 +4,10 @@
 ### Histórico de versão
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 04/03 | 0.1 | Criação do documento | Bruna Almeida |
-| 06/03 | 0.2 | Adição da introdução e referências | Bruna Almeida e Damarcones Porto |
+| 04/03 | 0.1 | Criação do documento | Bruna |
+| 06/03 | 0.2 | Adição da introdução e referências | Bruna e Damarcones |
+| 07/03 | 0.3 | Adiciona diagrama genérico de comunicação | Bruna e Lucas |
+
 
 ### Participantes
 
@@ -32,15 +34,16 @@
 
 ## Diagrama
 
-<!-- <div class="toolgrid">
-  <div>
-        <center><img height="900px" src="../../img/diagrama_atividades/diagrama_tarefas_avaliacao.png"> 
-    </div>
-    <figcaption><center><i>Diagrama 04 - Realização de Avaliação.</i></figcaption>
-</div>
-<p align="justify">Maneira de como será realizado a avaliação do serviço que foi utilizado no salão juntamente com o funcionário que o realizou. </p> -->
+**Versão 1.0**
 
-</br>
+[<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/dinamica/diagrama-comunicacao.svg"></div>](../../img/modelagem/dinamica/diagrama-comunicacao.svg)
+<figcaption align='center'>
+    <b>Figura 1: Diagrama de Genérico Comunicação - v1.0 </b>
+    <br>
+    <small>Autores: Bruna  e Lucas </small>
+</figcaption>
+<br>
+
 
 
 ### Referências
