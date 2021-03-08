@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Diagrama de Pacotes - Leila's</title>
+        <title>Diagrama Relacional - Leila's</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -181,7 +181,7 @@
 </li>
             
 <li>
-    <a href="./" class="dropdown-item active">Diagrama de Pacotes</a>
+    <a href="../pacotes/" class="dropdown-item">Diagrama de Pacotes</a>
 </li>
     </ul>
   </li>
@@ -219,7 +219,7 @@
 </li>
             
 <li>
-    <a href="../diagrama-relacional/" class="dropdown-item">Diagrama Relacional</a>
+    <a href="./" class="dropdown-item active">Diagrama Relacional</a>
 </li>
     </ul>
   </li>
@@ -234,12 +234,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../diagrama-componentes/" class="nav-link">
+                                <a rel="prev" href="../diagrama-casos-uso/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../diagrama-sequencia/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -261,8 +261,32 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#diagrama-de-pacotes" class="nav-link">Diagrama de Pacotes</a>
+            <li class="nav-item" data-level="1"><a href="#diagrama-relacional" class="nav-link"> Diagrama Relacional</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#introducao" class="nav-link">Introdução</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#metodologia" class="nav-link">Metodologia</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#modelo-entidade-relacionamento-me-r" class="nav-link">Modelo Entidade-Relacionamento (ME-R)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#diagrama-entidade-relacionamento-de-r" class="nav-link">Diagrama Entidade-Relacionamento (DE-R)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#diagrama-logico-de-dados-dld" class="nav-link">Diagrama Lógico de Dados (DLD)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#referencias" class="nav-link">Referências</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -270,7 +294,7 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="diagrama-de-pacotes"><center>Diagrama de Pacotes</h1>
+<h1 id="diagrama-relacional"><center> Diagrama Relacional</h1>
 <p><br></p>
 <h3 id="historico-de-versao">Histórico de versão</h3>
 <table>
@@ -284,97 +308,178 @@
 </thead>
 <tbody>
 <tr>
-<td>01.03.2021</td>
+<td>07.03.2021</td>
 <td>0.1</td>
 <td>Criação do documento</td>
-<td>Isabella Carneiro</td>
+<td>Erick</td>
 </tr>
 <tr>
-<td>01.03.2021</td>
+<td>07.03.2021</td>
 <td>0.2</td>
-<td>Adição da introdução</td>
-<td>Rafaella Junqueira</td>
+<td>Adição dos diagramas</td>
+<td>Kalebe</td>
 </tr>
 <tr>
-<td>01.03.2021</td>
-<td>0.3</td>
-<td>Adição da metodologia</td>
-<td>Rafaella Junqueira</td>
+<td>07.03.2021</td>
+<td>1.0</td>
+<td>Adição da introdução, metodologia e comentários</td>
+<td>Erick, Kalebe</td>
 </tr>
 <tr>
-<td>02.03.2021</td>
-<td>0.4</td>
-<td>Adição do diagrama de pacotes Backend</td>
-<td>Rafaella Junqueira, Lucas Lopes,<br>Isabella Carneiro, Geraldo Victor,<br>Kalebe Lopes</td>
-</tr>
-<tr>
-<td>04.03.2021</td>
-<td>0.4</td>
-<td>Revisão do documento e sugestão de mudanças</td>
-<td>Erick Giffoni</td>
+<td>08.03.2021</td>
+<td>1.1</td>
+<td>Revisão</td>
+<td>Lucas</td>
 </tr>
 </tbody>
 </table>
 <h3 id="participantes">Participantes</h3>
 <ul>
-<li>Isabella Carneiro</li>
-<li>Rafaella Junqueira</li>
-<li>Lucas Lopes Pereira</li>
-<li>Geraldo Victor</li>
+<li>Erick Giffoni </li>
 <li>Kalebe Lopes</li>
-<li>Erick Giffoni (Revisão)</li>
+<li>Lucas Lopes (Revisão)</li>
 </ul>
-<h3 id="introducao">Introdução</h3>
-<div align="justify"><br>
-Um Diagrama de Pacotes atua como complemento do Diagrama de Classes, tratando-se de um diagrama estático que permite organizar o sistema como se representasse uma visão em módulos. Um diagrama de pacotes é composto de pacotes e relacionamentos entre pacotes, ou seja, é a representação de um grupo de classes ou outros elementos que se relacionam uns com os outros através de uma relação de dependência.
-<br><br>
-O pacote é um meio disponibilizado pela UML para organizar os diversos elementos ou modelos em grupos e nele podem ser incluídas classes, interfaces, componentes, diagramas ou até outros pacotes. Já a relação de dependência indica que um item depende da especificação de outro item. Essa relação entre pacotes pode ser classificada em cinco tipos de dependência:<br><br>
+<h2 id="introducao">Introdução</h2>
+<p>É fundamental que um bom projeto de engenharia de software tenha um bom projeto de<br>
+banco de dados. Nesse sentido, aqui apresentamos o ME-R, o DE-R e o DLD para o sistema<br>
+do salão da Leila. <br></p>
+<p>ME-R, ou Modelo Entidade-Relacionamento, representa nosso banco de dados em um nível<br>
+conceitual. Nele trazemos as representações de nossas entidades, os atributos de cada<br>
+uma delas e, por fim, cada relacionamento existente entre as entidades.<br></p>
+<p>DE-R, ou Diagrama Entidade-Relacionamento, baseia-se no ME-R e traz uma representação,<br>
+no formato de diagrama, sobre as entidades, os atributos e os relacionamentos. Esse diagrama<br>
+fornece uma visão um pouco mais próxima do nível lógico.<br></p>
+<p>DLD, ou Diagrama Lógico de Dados, serve para especificar a um nível mais lógico as entidades,<br>
+cada atributo com seus tipos (literal, inteiro, por exemplo), bem como os relacionamentos<br>
+e as chaves de cada entidade - primárias ou estrangeiras.</p>
+<p><br></p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Utilizamos o Microsoft Word Online como ferramenta colaborativa para projetarmos o ME-R. O nosso time também fez reuniões para alinharmos as ideia e para trabalarmos em conjunto. <br> 
+Já para a construção do DE-R e do DLD, escolhemos a ferramenta CASE brModelo, a qual fornece funcionamento adequado para isso. Mais ainda, em um momento inicial, a ferramenta whimsical também foi utilizada para o DE-R.</p>
+<p><br></p>
+<h2 id="modelo-entidade-relacionamento-me-r">Modelo Entidade-Relacionamento (ME-R)</h2>
+<div align="justify">
+Tendo como referência o nosso <a href="../classes"> Diagrama de Classes</a> e nosso <a href="../agregacao-composicao"> Diagrama de Agregação e Composição</a>, temos:
 </div>
 
+<p><br></p>
+<h3 id="entidades">Entidades</h3>
 <ul>
-<li><strong>Uso:</strong> um pacote/elemento precisa de outro para ter sua definição e implementação completa;</li>
-<li><strong>Acesso:</strong> um pacote necessita acessar as funções de outro pacote;</li>
-<li><strong>Importação:</strong> funcionalidade importada de um pacote para outro;</li>
-<li><strong>Abstração:</strong> relaciona dois elementos que representam a mesma ideia mas em níveis de abstração diferentes;</li>
-<li><strong>Disponibilização:</strong> mostra a implementação de um artefato em um alvo de implementação.</li>
+<li>PESSOA <br></li>
+<li>AUTENTICACAO <br></li>
+<li>SERVICO <br></li>
+<li>CLIENTE <br></li>
+<li>PEDIDO <br></li>
+<li>FUNCIONARIO <br></li>
+<li>ESPECIALIDADE <br></li>
 </ul>
-<div align="justify">
-
-Diagramas de pacotes são interessantes pois fornecem uma visão clara da estrutura hierárquica dos variados elementos UML dentro de um determinado sistema. Esses diagramas podem simplificar diagramas de classes complexos, criando elementos visuais organizados. 
-</div>
+<h3 id="atributos">Atributos</h3>
+<ul>
+<li>
+<p>PESSOA (<u>idPessoa</u>, <u>emailAutenticacao</u>, login, nome, dataNascimento, telefone, cpf) <br></p>
+</li>
+<li>
+<p>AUTENTICACAO (<u>login</u>, senha, email, {permissao}) <br></p>
+</li>
+<li>
+<p>SERVICO (<u>idServico</u>, descricao, valor) <br></p>
+</li>
+<li>
+<p>CLIENTE (<u>idCliente</u>, emailAutenticacao, idPessoa, {interesses}, observacao) <br></p>
+</li>
+<li>
+<p>PEDIDO (<u>idPedido</u>, idCliente, valor, data, confirmado) <br></p>
+</li>
+<li>
+<p>FUNCIONARIO (<u>idFuncionario</u>, emailAutenticacao, idPessoa, diaDisponivel, turnoAtendimento, foto) <br></p>
+</li>
+<li>
+<p>ESPECIALIDADE (<u>idEspecialidade</u>, idFuncionario nome, descricao) <br></p>
+</li>
+</ul>
+<h3 id="relacionamentos">Relacionamentos</h3>
 <p><br></p>
-<h3 id="metodologia">Metodologia</h3>
+<ul>
+<li>
+<p>PESSOA - tem - AUTENTICACAO </p>
+<ul>
+<li>Uma PESSOA faz uma AUTENTICACAO para usar a aplicação do Salão da Leila, e uma AUTENTICACAO é feita por uma PESSOA. <br></li>
+<li>Cardinalidade: 1:1 <br></li>
+</ul>
+</li>
+</ul>
 <p><br></p>
-<div align="justify">
-
-A modelagem do diagrama de pacotes deste projeto foi realizada utilizando a ferramenta [Lucidchart](https://www.lucidchart.com/pages/pt) durante a reunião entre os integrantes do grupo, e consiste em representar a relação de dependência em termos de uso, acesso e importação de pacotes. A diagramação foi feita seguindo princípios de arquitetura limpa e boas práticas utilizadas para separação de pacotes em aplicações comerciais.
-</div>
-
-<h3 id="diagrama-de-pacotes_1">Diagrama de Pacotes</h3>
+<ul>
+<li>
+<p>PEDIDO - tem - SERVICO </p>
+<ul>
+<li>Um PEDIDO tem um ou mais SERVICO, e SERVICO pode estar relacionado a nenhum ou a vários PEDIDO. <br></li>
+<li>Cardinalidade: M:N <br></li>
+</ul>
+</li>
+</ul>
 <p><br></p>
-<!-- **Diagrama v2** -->
-
-<!-- [<div align="center"><img src="../../img/modelagem/estatica/NOMEDAIMAGEM"></div>](../../img/modelagem/estatica/NOMEDAIMAGEM)
-<figcaption align='center'>
-    <b>Figura 1 - </b>
-    <br>
-    <small>Autores: </small>
+<ul>
+<li>
+<p>CLIENTE - faz - PEDIDO </p>
+<ul>
+<li>Um CLIENTE faz um ou vários PEDIDO, e um PEDIDO é feito por  apenas um cliente. <br></li>
+<li>Cardinalidade: 1:N <br></li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<p>FUNCIONARIO  - realiza - PEDIDO </p>
+<ul>
+<li>Um FUNCIONARIO realiza nenhum ou vários PEDIDOS, e um PEDIDO é realizado por um ou vários FUNCIONARIOS <br></li>
+<li>Cardinalidade: M:N <br></li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<p>FUNCIONARIO – possui –  ESPECIALIDADE </p>
+<ul>
+<li>Um FUNCIONARIO possui uma ou várias ESPECIALIDADES, e uma ESPECIALIDADE pertence a somente um FUNCIONARIO. <br></li>
+<li>Cardinalidade: N:M <br></li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<h2 id="diagrama-entidade-relacionamento-de-r">Diagrama Entidade-Relacionamento (DE-R)</h2>
+<p>Para conseguirmos visualizar melhor o que fora definido anteriormente no ME-R, realizamos o DE-R para o sistema do salão da Leila, o qual encontra-se abaixo. Nele ficam visíveis as entidades, cada atributos delas, e os relacionamentos.</p>
+<figcaption>
+ <center><i>Imagem 1 - DE-R versão 1.0</i>
 </figcaption>
-<br> -->
-
-<p><strong>Diagrama v1</strong></p>
-<p><a href="../../img/modelagem/estatica/pacotes-backend.svg"><div align="center"><img src="../../img/modelagem/estatica/pacotes-backend.svg"></div></a></p>
-<figcaption align='center'>
-    <b>Figura 2 - Diagrama de Pacotes Backend</b>
-    <br>
-    <small>Autores: Rafaella Junqueira, Lucas Lopes, Isabella Carneiro, Geraldo Victor, Kalebe Lopes</small>
+<p><a href="https://user-images.githubusercontent.com/44823367/110247730-75786a80-7f4c-11eb-85fd-35f4ef9cd6dd.jpg"><img alt="der" src="https://user-images.githubusercontent.com/44823367/110247730-75786a80-7f4c-11eb-85fd-35f4ef9cd6dd.jpg" /></a></p>
+<figcaption>
+ <center><i>Autores: Kalebe Lopes e Erick Giffoni</i>
 </figcaption>
 <p><br></p>
-<h3 id="referencias">Referências</h3>
+<p>Tomemos como exemplo a entidade FUNCIONARIO, que é uma especialização da entidade PESSOA, ou seja, contém todos os atributos de PESSOA, além dos atributos específicos de um funcionário. <br><br>
+O sistema do salão da leila funciona com base nos PEDIDOs. Dessa forma, o CLIENTE faz um ou vários PEDIDOs enquanto o FUNCIONARIO realiza esse(s) pedido(s).</p>
+<h2 id="diagrama-logico-de-dados-dld">Diagrama Lógico de Dados (DLD)</h2>
 <p><br>
-SERRANO, Milene. <strong>Modelagem - Diagrama de Pacotes</strong>, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 01 de março de 2021.</p>
-<p>RIBEIRO, Antônio. <strong>Glossário UML - Diagrama de Pacotes</strong>, 2021. Disponível em: <a href="https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/pacotes/diagrama_de_pacotes.html">https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/pacotes/diagrama_de_pacotes.html</a> Acesso em: 01 de merço de 2021.</p>
-<p>Lucidchart. <strong>Tudo sobre diagramas de pacotes UML</strong>. Disponível em: <a href="https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml">https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml</a> Acesso em: 01 de março de 2021.</p></div>
+O próximo passo a ser feito para projetarmos o banco de dados, após a realização do DE-R, é o Diagrama Lógico de Dados. Nele são mostrados mais detalhes à respeito das entidades, das chaves primárias e estrangeiras, dos atributos, relacionamentos etc. Veja abaixo o DLD para o sistema do salão da Leila.
+<br><br></p>
+<figcaption>
+ <center><i>Imagem 2 - DLD versão 1.0</i>
+</figcaption>
+<p><a href="https://user-images.githubusercontent.com/44823367/110247767-9ccf3780-7f4c-11eb-9d49-2fb22cd4afc7.jpg"><img alt="der" src="https://user-images.githubusercontent.com/44823367/110247767-9ccf3780-7f4c-11eb-9d49-2fb22cd4afc7.jpg" /></a></p>
+<figcaption>
+ <center><i>Autores: Kalebe Lopes e Erick Giffoni</i>
+</figcaption>
+<p><br></p>
+<p>O Diagrama Lógico de Dados representa todas as tabelas que serão implementadas no banco de dados. Ele especifica os atributos e chaves estrangeiras de cada tabela, além de informar sua cardidalidade.<br><br>
+Tomemos como exemplo a tabela cliente que se relaciona com a tabela pedido. Por meio da chave primária do CLIENTE, a qual é repassada para o PEDIDO, conseguimos recuperar todos os PEDIDOs que determinado CLIENTE solicitou. </p>
+<h2 id="referencias">Referências</h2>
+<p><br></p>
+<p>PRESSMAN, Roger S. <strong>Engenharia de Software: uma abordagem profissional.</strong> 7a edição, Porto Alegre, AMGH, 2011.</p>
+<p>RISSOLI, Vandor Roberto Vilardi. <strong>Sistemas de Bancos de Dados.</strong> Disciplina ministrada<br>
+na Universidade de Brasília para o curso de Engenharia de Software.</p></div>
             </div>
         </div>
 
