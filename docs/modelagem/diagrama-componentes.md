@@ -32,7 +32,7 @@
 [<div align="center"><img width="auto" height="auto" src="../../img/legendas_elementos.png"/></div>](../../img/legendas_elementos.png)
 
 <figcaption><center>
-    <b>Figura 1: Legenda para os componentes utilizados no diagrama.</b>
+    <b>Figura 1 - Legenda para os componentes utilizados no diagrama.</b>
     <br>
     <small>Autor: Damarcones Porto</small>
 </figcaption>
@@ -51,7 +51,7 @@ A modelagem do diagrama de componentes foi desenvolvida utilizando a ferramenta 
 [<div align="center"><img width="auto" height="auto" src="../../img/diagrama-componentes.png"/></div>](../../img/diagrama-componentes.png)
 
 <figcaption><center>
-    <b>Figura 2: Diagrama de componentes.</b>
+    <b>Figura 2 - Diagrama de componentes.</b>
     <br>
     <small>Autores: Isabella Carneiro, Damarcones Porto</small>
 </figcaption>
@@ -62,7 +62,8 @@ A modelagem do diagrama de componentes foi desenvolvida utilizando a ferramenta 
 
 ### Referências
 
-Diagramas desenvolvidos na plataforma <a href="https://app.diagrams.net/">Draw.io</a>.
-<br>"Diagrama de componentes UML: o que é, como fazer e exemplos"</i>. Disponível em <a href=https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml>lucidchart.com</a>.
-<br>"O Guia Fácil de Diagramas de Componentes"</i>. Disponível em <a href=https://creately.com/blog/pt/diagrama/tutorial-de-diagrama-de-componentes-2>creately.com</a>.
-<br>Diagrama de Componentes</i>. Disponível em <a href=https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/componentes/diagrama_de_componentes.htm>homepages.dcc.ufmg.br</a>.
+Lucidchart. **"Diagrama de componentes UML: o que é, como fazer e exemplos"**. Disponível em <a href=https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml>https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml</a>.
+
+Creately, **"O Guia Fácil de Diagramas de Componentes"**. Disponível em <a href=https://creately.com/blog/pt/diagrama/tutorial-de-diagrama-de-componentes-2>https://creately.com/blog/pt/diagrama/tutorial-de-diagrama-de-componentes-</a>.
+
+RIBEIRO, A. **Diagrama de Componentes**. Disponível em <a href=https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/componentes/diagrama_de_componentes.htm>https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/componentes/diagrama_de_componentes.htm</a>.
