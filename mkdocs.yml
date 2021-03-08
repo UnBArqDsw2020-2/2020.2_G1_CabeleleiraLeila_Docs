@@ -40,12 +40,12 @@ nav:
         - Diagrama de Agregação e Composição: modelagem/agregacao-composicao.md
         - Diagrama de Componentes: modelagem/diagrama-componentes.md
         - Diagrama de Pacotes: modelagem/pacotes.md
+        - Diagrama de Classe Abstrata: modelagem/diagrama-abstrata.md
       - Notação UML – Diagramas Dinâmicos:
         - Diagrama de Sequência: modelagem/diagrama-sequencia.md
         - Diagrama de Comunicação: modelagem/diagrama_comunicacao.md
         - Diagrama de Atividades: modelagem/diagrama_atividades.md
         - Diagrama de Estados: modelagem/diagrama-estados.md
-        - Diagrama de Classe Abstrata: modelagem/diagrama-abstrata.md
     - Extras:
       - Diagrama de Casos de Uso: modelagem/diagrama-casos-uso.md
       - Diagrama Relacional: modelagem/diagrama-relacional.md
