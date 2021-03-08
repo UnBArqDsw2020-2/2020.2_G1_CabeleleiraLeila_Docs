@@ -6,7 +6,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Sprints: sprint.md
+  - Sprints: sprints.md
   - Base:
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Design Sprint: base/design-sprint.md
@@ -41,12 +41,12 @@ nav:
         - Diagrama de Componentes: modelagem/diagrama-componentes.md
         - Diagrama de Pacotes: modelagem/pacotes.md
       - Notação UML – Diagramas Dinâmicos:
-        - Diagrama de Casos de Uso: modelagem/diagrama-casos-uso.md
         - Diagrama de Atividades: modelagem/diagrama_atividades.md
         - Diagrama de sequência: modelagem/diagrama-sequencia.md
         - Diagrama de Estados: base/diagrama-estados.md
         - Diagrama Relacional: modelagem/diagrama-relacional.md
-  #     - Modelagem Ágil:
+    - Extras:
+      - Diagrama de Casos de Uso: modelagem/diagrama-casos-uso.md
   # - Padrões de Projeto:
   #   - Módulo Padrões de Projeto GRASPs:
   #     - x: base/
