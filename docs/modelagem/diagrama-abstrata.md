@@ -8,9 +8,8 @@
 | 08.03.2021 | 0.2 | Diagrama de classe abstrata | Kalebe, Lucas
 | 08.03.2021 | 0.3 | Adiciona introdução e metodologia | Kalebe, Lucas
 | 08.03.2021 | 0.4 | Adiciona descrição| Kalebe, Lucas
-| 08.03.2021 | 0.4 | Revisão do documento | Erick Giffoni
-
-
+| 08.03.2021 | 0.4 | Revisão do documento | Erick
+| 08.03.2021 | 1.0 | Revisão do documento | Lucas
 
 ## Participantes
 - Kalebe Lopes
