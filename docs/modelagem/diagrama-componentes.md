@@ -4,10 +4,12 @@
 ### Histórico de versão
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 03.03.2021 | 0.1 | Criação do documento | Isabella Carneiro|
-| 03.03.2021 | 0.2 | Adição da metodologia e referências | Bruna Almeida |
-| 03.03.2021 | 1.0 | Adição do diagrama | Bruna Almeida, Isabella Carneiro, Damarcones Porto |
-| 07.03.2021 | 1.0 | Revisão do documento e sugestão de melhorias | Erick Giffoni |
+| 03.03.2021 | 0.1 | Criação do documento | Isabella|
+| 03.03.2021 | 0.2 | Adição da metodologia e referências | Bruna |
+| 03.03.2021 | 1.0 | Adição do diagrama | Bruna, Damarcones, Isabella |
+| 07.03.2021 | 1.0 | Revisão do documento| Erick |
+| 08.03.2021 | 1.1 | Revisão do documento| Lucas |
+
 
 
 ### Participantes
@@ -16,6 +18,7 @@
 * Isabella Carneiro
 * Damarcones Porto
 * Erick Giffoni (Revisão)
+* Lucas Lopes (Revisão)
 
 <br>
 
