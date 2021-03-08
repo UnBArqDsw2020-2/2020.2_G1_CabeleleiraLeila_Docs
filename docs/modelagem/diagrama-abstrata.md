@@ -8,18 +8,20 @@
 | 08.03.2021 | 0.2 | Diagrama de classe abstrata | Kalebe, Lucas
 | 08.03.2021 | 0.3 | Adiciona introdução e metodologia | Kalebe, Lucas
 | 08.03.2021 | 0.4 | Adiciona descrição| Kalebe, Lucas
+| 08.03.2021 | 0.4 | Revisão do documento | Erick Giffoni
 
 
 
 ## Participantes
 - Kalebe Lopes
 - Lucas Lopes 
+- Erick Giffoni (Revisão)
 
 <br>
 
 ## Introdução
 <p align="justify">
-Uma classe abstrata é uma classe que serve de modelo para outras classes. Ou seja, ela sempre será uma superclasse genérica, e seuas subclasses serão mais específicas.<br>
+Uma classe abstrata é uma classe que serve de modelo para outras classes. Ou seja, ela sempre será uma superclasse genérica, e suas subclasses serão mais específicas.<br>
 Já a classe concreta é uma classe que possui atributos, métodos e pode ser instanciada, ou seja, permite a criação de novos objetos a partir dela. A classe concreta pode ser herdada por outras classes. 
 
 </p>
