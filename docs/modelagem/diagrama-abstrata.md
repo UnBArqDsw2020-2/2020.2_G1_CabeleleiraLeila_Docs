@@ -1,4 +1,4 @@
-# <center> Diagrama de Classes
+# <center> Diagrama de classe Abstrata
 <br>
     
 ## Histórico de versão
