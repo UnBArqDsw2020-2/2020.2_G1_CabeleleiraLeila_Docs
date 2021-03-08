@@ -5,15 +5,17 @@
 
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 07.03.2021 | 0.1 | Criação do documento | [Erick Giffoni](https://github.com/ErickGiffoni) |
-| 07.03.2021 | 0.2 | Adição dos diagramas | [Kalebe Lopes](https://github.com/KalebeLopes) |
-| 07.03.2021 | 1.0 | Adição da introdução, metodologia e comentários  | [Erick Giffoni](https://github.com/ErickGiffoni), <br> [Kalebe Lopes](https://github.com/KalebeLopes) |
+| 07.03.2021 | 0.1 | Criação do documento |Erick |
+| 07.03.2021 | 0.2 | Adição dos diagramas | Kalebe |
+| 07.03.2021 | 1.0 | Adição da introdução, metodologia e comentários  | Erick, Kalebe|
+| 08.03.2021 | 1.1 | Revisão  | Lucas|
 
 
 ### Participantes
 
 * Erick Giffoni 
 * Kalebe Lopes
+* Lucas Lopes (Revisão)
  
 
 ## Introdução
