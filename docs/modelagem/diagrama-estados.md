@@ -3,15 +3,17 @@
 ## Histórico de versão
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 24.02.2021 | 0.1 | Criação do documento | Isabella Carneiro, Bruna Almeida |
-| 26.02.2021 | 0.2 | Inserção do diagrama | Isabella Carneiro, Damarcones Porto |
-| 02.03.2021 | 0.3 | Adição de participantes, Metodologia e referências | Geraldo Victor |
+| 24.02.2021 | 0.1 | Criação do documento | Isabella, Bruna |
+| 26.02.2021 | 0.2 | Inserção do diagrama | Isabella, Damarcones |
+| 02.03.2021 | 0.3 | Adição de participantes, Metodologia e referências | Geraldo |
+| 08.03.2021 | 0.4 | Revisão do documento | Lucas |
 
 ### Participantes
-- Isabella Carneiro
-- Geraldo Victor
 - Bruna Almeida
 - Damarcones Porto
+- Geraldo Victor
+- Isabella Carneiro
+- Lucas Lopes (Revisão)
 
 ### Introdução
 <div align="justify">O diagrama de estados é um diagrama que mostra discretamente o comportamento designado de parte de um sistema através de estados finitos de transições. Ele ajuda a identificar os fluxos dos processos envolvidos na aplicação, onde eles começam, terminam ou se repetem até que uma dada condição seja satisfeita. O diagrama de estados é de grande valia pois esclarece para a equipe qual deverá ser o fluxo da aplicação para o agendamento de um horário.

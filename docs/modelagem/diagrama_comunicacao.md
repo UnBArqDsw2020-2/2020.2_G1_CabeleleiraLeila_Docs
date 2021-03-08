@@ -9,7 +9,8 @@
 | 07/03 | 0.3 | Adiciona diagrama genérico de comunicação | Lucas |
 | 07/03 | 0.4 |Revisão do diagrama de comunicação | Isabella |
 | 07/03 | 1.0 | Adiciona informações na metodologia | Bruna |
-| 07/03 | 1.0 | Revisão do documento| Erick Giffoni |
+| 07/03 | 1.0 | Revisão do documento| Erick |
+| 08/03 | 1.1 | Revisão do documento| Lucas |
 
 
 ### Participantes
