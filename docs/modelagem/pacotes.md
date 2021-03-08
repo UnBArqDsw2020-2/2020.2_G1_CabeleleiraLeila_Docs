@@ -5,16 +5,17 @@
 
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 01.03.2021 | 0.1 | Criação do documento | Isabella Carneiro |
-| 01.03.2021 | 0.2 | Adição da introdução | Rafaella Junqueira |
-| 01.03.2021 | 0.3 | Adição da metodologia | Rafaella Junqueira |
-| 02.03.2021 | 0.4 | Adição do diagrama de pacotes Backend | Rafaella Junqueira, Lucas Lopes,<br>Isabella Carneiro, Geraldo Victor,<br>Kalebe Lopes |
-| 04.03.2021 | 0.4 | Revisão do documento e sugestão de mudanças | Erick Giffoni |
+| 01.03.2021 | 0.1 | Criação do documento | Isabella |
+| 01.03.2021 | 0.2 | Adição da introdução | Rafaella |
+| 01.03.2021 | 0.3 | Adição da metodologia | Rafaella |
+| 02.03.2021 | 0.4 | Adição do diagrama de pacotes Backend | Rafaella, Lucas, Isabella, Geraldo, Kalebe |
+| 04.03.2021 | 0.4 | Revisão do documento | Erick |
+| 08.03.2021 | 0.5 | Revisão do documento | Lucas |
 
 ### Participantes
 * Isabella Carneiro
 * Rafaella Junqueira
-* Lucas Lopes Pereira
+* Lucas Lopes (Revisão)
 * Geraldo Victor
 * Kalebe Lopes
 * Erick Giffoni (Revisão)
