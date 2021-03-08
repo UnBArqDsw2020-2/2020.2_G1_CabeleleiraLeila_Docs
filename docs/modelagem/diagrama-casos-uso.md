@@ -5,14 +5,14 @@
 
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 28.02.2022 | 0.1 | Criação do documento | Damarcones Porto |
-| 29.02.2022 | 0.2 | Inclusão de diagramas v1 | Damarcones Porto<br>Geraldo Victor|
-| 02.03.2021 | 0.3 | Inclusão de diagramas v2 | Rafaella Junqueira<br>Geraldo Victor |
-| 03.03.2021 | 0.4 | Inclusão de diagramas v2 | Rafaella Junqueira<br>Isabella Carneiro<br>Damarcones Porto |
-| 03.03.2021 | 0.5 | Adição da introdução | Rafaella Junqueira<br>Geraldo Victor |
-| 04.03.2021 | 1.0 | Especificação dos casos de uso | Rafaella Junqueira |
-| 05.03.2021 | 1.1 | Correção de links e de redirecionamentos | Lucas Lopes |
-| 05.03.2021 | 1.1 | Revisão do documento | Lucas Lopes |
+| 28.02.2022 | 0.1 | Criação do documento | Damarcones |
+| 29.02.2022 | 0.2 | Inclusão de diagramas v1 | Damarcones, Geraldo|
+| 02.03.2021 | 0.3 | Inclusão de diagramas v2 | Rafaella, Geraldo |
+| 03.03.2021 | 0.4 | Inclusão de diagramas v2 | Rafaella, Isabella, Damarcones |
+| 03.03.2021 | 0.5 | Adição da introdução | Rafaella, Geraldo |
+| 04.03.2021 | 1.0 | Especificação dos casos de uso | Rafaella |
+| 05.03.2021 | 1.1 | Correção de links e de redirecionamentos | Lucas |
+| 08.03.2021 | 1.1 | Revisão do documento | Lucas |
 
 ### Participantes
 
@@ -20,7 +20,7 @@
 * Damarcones Porto
 * Rafaella Junqueira
 * Isabella Carneiro
-* Lucas Lopes 
+* Lucas Lopes (Revisão)
 
 ## Introdução
 <div align="justify">
