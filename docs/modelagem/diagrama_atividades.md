@@ -4,20 +4,23 @@
 ### Histórico de versão
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 27.02.2021 | 0.1 | Criação do documento |Damarcones Porto|
-| 28.02.2021 | 0.2 | Adição dos Diagramas de Atividades |Bruna Almeida, Damarcones Porto|
-| 01.03.2021 | 0.3 | Revisão do documento de Diagramas de Atividades |Isabella Carneiro, Erick Giffoni|
-| 03.03.2021 | 1.0 | Adição de descrição dos diagramas |Bruna Almeida, Damarcones Porto|
-| 06.03.2021 | 1.1 | Adição da introdução e refatoração das referências | Bruna Almeida, Damarcones Porto |
-| 06.03.2021 | 1.2 | Adição da metodologia | Bruna Almeida, Damarcones Porto |
-| 07.03.2021 | 1.3 | Alteração das descrições das imagens | Bruna Almeida, Damarcones Porto |
-| 07.03.2021 | 1.3 | Revisão do documento | Erick Giffoni |
+| 27.02.2021 | 0.1 | Criação do documento |Damarcones|
+| 28.02.2021 | 0.2 | Adição dos Diagramas de Atividades |Bruna, Damarcones|
+| 01.03.2021 | 0.3 | Revisão do documento de Diagramas de Atividades |Isabella, Erick|
+| 03.03.2021 | 1.0 | Adição de descrição dos diagramas |Bruna, Damarcones|
+| 06.03.2021 | 1.1 | Adição da introdução e refatoração das referências | Bruna, Damarcones |
+| 06.03.2021 | 1.2 | Adição da metodologia | Bruna, Damarcones |
+| 07.03.2021 | 1.3 | Alteração das descrições das imagens | Bruna, Damarcones |
+| 07.03.2021 | 1.3 | Revisão do documento | Erick |
+| 08.03.2021 | 1.4 | Revisão do documento | Lucas |
 
 ### Participantes
 
 * Bruna Almeida 
 * Damarcones Porto
 * Erick Giffoni (Revisão)
+* Isabella Carneiro
+* Lucas Lopes (Revisão)
 
 <br>
 
@@ -52,7 +55,7 @@
 ### Diagramas
 <br>
 
-#### Login (V0)
+#### Login (V1)
 
 [<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_login.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_login.png)
 <figcaption align="center">
@@ -66,7 +69,7 @@
 </br>
 
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
-### Cadastro (V0)
+### Cadastro (V1)
 
 
 [<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_cadastro.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_cadastro.png)
@@ -80,7 +83,7 @@
 </br>
 
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
-### Marcar Horário (V0)
+### Marcar Horário (V1)
 
 [<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_marcar_horario.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_marcar_horario.png)
 <figcaption align="center">
@@ -93,7 +96,7 @@
 </br>
 
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
-### Avaliação (V0)
+### Avaliação (V1)
 
 
 
