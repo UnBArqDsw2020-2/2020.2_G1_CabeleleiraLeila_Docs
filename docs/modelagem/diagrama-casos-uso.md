@@ -70,3 +70,5 @@ A criação dos casos de uso se deu durante reuniões entre os participantes em 
 Livro: VASQUEZ,C. E.; SIMÕES, G. S. **Engenharia de Requisitos.** BRASPORT. 1ª edição, 19 outubro 2016.
 
 LUCIDCHART, **Diagrama de caso de uso UML: O que é, como fazer e exemplos**. Disponível em: [https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml](https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml) Acesso em: 03 de março de 2021.
+
+BÓSON Treinamentos. **Curso de UML - Diagramas de casos de uso**. Disponível em:[https://www.youtube.com/watch?v=tezLX9quOVc](https://www.youtube.com/watch?v=tezLX9quOVc) . Acesso em: 3 de março de 2021.
