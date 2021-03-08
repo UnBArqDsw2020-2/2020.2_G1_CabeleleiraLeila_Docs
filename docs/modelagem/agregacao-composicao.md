@@ -4,18 +4,19 @@
 ## Histórico de versão
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 26.02.2021 | 0.1 | Criação do documento | Erick Giffoni|
-| 26.02.2021 | 0.2 | Adiciona a metodologia utilizada | Erick Giffoni|
-| 26.02.2021 | 0.3 | Adiciona o diagrama na versão 1 | Erick Giffoni, Lucas Lopes|
-| 26.02.2021 | 1.0 | Apresentação do resultado obtido na primeira versão| Erick Giffoni|
-| 01.03.2021 | 1.1 | Reestrutura o documento com Introdução| Erick Giffoni|
-| 01.03.2021 | 1.2 | Revisão e padronização do documento | Rafaella Junqueira |
-| 03.03.2021 | 1.2 | Revisão do documento | Isabella Carneiro |
+| 26.02.2021 | 0.1 | Criação do documento | Erick |
+| 26.02.2021 | 0.2 | Adiciona a metodologia utilizada | Erick |
+| 26.02.2021 | 0.3 | Adiciona o diagrama na versão 1 | Erick, Lucas|
+| 26.02.2021 | 1.0 | Apresentação do resultado obtido na primeira versão| Erick |
+| 01.03.2021 | 1.1 | Reestrutura o documento com Introdução| Erick |
+| 01.03.2021 | 1.2 | Revisão e padronização do documento | Rafaella |
+| 03.03.2021 | 1.2 | Revisão do documento | Isabella  |
+| 07.03.2021 | 1.2 | Revisão do documento | Lucas |
 
 ### Participantes
 
 * Erick Giffoni
-* Lucas Lopes Pereira
+* Lucas Lopes Pereira (Revisão)
 * Rafaella Junqueira (Revisão)
 * Isabella Carneiro (Revisão)
 <br>
