@@ -45,6 +45,7 @@ nav:
         - Diagrama de Comunicação: modelagem/diagrama_comunicacao.md
         - Diagrama de Atividades: modelagem/diagrama_atividades.md
         - Diagrama de Estados: modelagem/diagrama-estados.md
+        - Diagrama de Classe Abstrata: modelagem/diagrama-abstrata.md
     - Extras:
       - Diagrama de Casos de Uso: modelagem/diagrama-casos-uso.md
       - Diagrama Relacional: modelagem/diagrama-relacional.md
