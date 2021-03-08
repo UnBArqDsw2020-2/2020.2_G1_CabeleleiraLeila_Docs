@@ -35,7 +35,10 @@ Aplicação web para gerenciamento de um salão de beleza que permita conferir o
 
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
+| | |
+| --| --|
+|![estatica](https://github.com/UnBArqDsw2020-2/2020.2_G1_CabeleleiraLeila/blob/main/docs/img/entrega1/modalagem-1.PNG)| ![dinamica](https://github.com/UnBArqDsw2020-2/2020.2_G1_CabeleleiraLeila/blob/main/docs/img/entrega1/modalagem-2.PNG)|
+|![extra](https://github.com/UnBArqDsw2020-2/2020.2_G1_CabeleleiraLeila/blob/main/docs/img/entrega1/modalagem-3.PNG)
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
 Adicione o(s)s vídeo(s) da Segunda Entrega.
