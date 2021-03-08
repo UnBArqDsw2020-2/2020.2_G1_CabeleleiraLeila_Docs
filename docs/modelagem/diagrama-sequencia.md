@@ -5,15 +5,17 @@
 
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 06.03.2021 | 0.1 | Criação do documento |Geraldo Victor, Damarcones|
-| 07.03.2021 | 0.2 | Adição Diagrama de Agendamento de Horário |Geraldo Victor, Damarcones|
-| 07.03.2021 | 0.3 | Adição diagramas restantes | Geraldo Victor, Rafaella Junqueira|
-| 07.03.2021 | 1.0 | Adição de introdução e metodologia | Rafaella Junqueira|
+| 06.03.2021 | 0.1 | Criação do documento |Geraldo, Damarcones|
+| 07.03.2021 | 0.2 | Adição Diagrama de Agendamento de Horário |Geraldo, Damarcones|
+| 07.03.2021 | 0.3 | Adição diagramas restantes | Geraldo, Rafaella|
+| 07.03.2021 | 1.0 | Adição de introdução e metodologia | Rafaella|
+| 08.03.2021 | 1.1 | Revisão do documento | Lucas |
 
 ### Participantes
 
 * Geraldo Victor
 * Damarcones Porto
+* Lucas Lopes (Revisão)
 * Rafaella Junqueira
 <br>
 
@@ -31,7 +33,7 @@ Este diagrama é lido de cima para baixo, seguindo as linhas de vida de cada obj
 Os diagramas foram criados durante reuniões entre os integrantes e utilizou-se a ferramenta <a href="https://www.lucidchart.com/">LucidChart</a> para realizar a modelagem. O desenvolvimento desses diagramas foi pensado para ilustrar os cenários de uso, para certificar a compreensão lógica de cada cenário de uso do sistema, e a lógica dos métodos, visando explorar as lógicas de funções e procedimentos utilizados no sistema.
 </div><br>
 
-### Diagramas - V0
+### Diagramas - V1
 
 <br>
 
