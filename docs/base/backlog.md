@@ -8,13 +8,14 @@
 | 03.03.2021 | 0.1 | Revisão do documento |Isabella |
 | 06.03.2021 | 1.0 | Revisão e reestruturação do documento |Erick|
 | 06.03.2021 | 2.0 | Documenta a versão 2.0 do backlog |Erick|
+| 08.03.2021 | 2.1 | Revisão do documento|Lucas|
 
 
 ### Participantes
  
 * Damarcones Porto
 * Erick Giffoni
-* Lucas Lopes
+* Lucas Lopes (Revisão)
 * Isabella Carneiro (Revisão)
 
 <br>
