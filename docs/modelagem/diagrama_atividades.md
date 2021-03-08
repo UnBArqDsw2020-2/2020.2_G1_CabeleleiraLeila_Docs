@@ -46,10 +46,13 @@
 
 <br>
 
-## Diagramas
+### Metodologia
+<p align="justify"><br>Os diagramas foram desenvolvidos durante vídeo-chamadas envolvendo os participantes deste documento, onde o assunto foi discutido e, então, os diagramas foram modelados. A modelagem foi feita utilizando a ferramenta <a href="https://app.diagrams.net/">Draw.io</a>.</p><br>
+
+### Diagramas
 <br>
 
-### Login (V0)
+#### Login (V0)
 
 [<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_login.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_login.png)
 <figcaption align="center">

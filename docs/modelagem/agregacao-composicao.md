@@ -10,6 +10,15 @@
 | 26.02.2021 | 1.0 | Apresentação do resultado obtido na primeira versão| Erick Giffoni|
 | 01.03.2021 | 1.1 | Reestrutura o documento com Introdução| Erick Giffoni|
 | 01.03.2021 | 1.2 | Revisão e padronização do documento | Rafaella Junqueira |
+| 03.03.2021 | 1.2 | Revisão do documento | Isabella Carneiro |
+
+### Participantes
+
+* Erick Giffoni
+* Lucas Lopes Pereira
+* Rafaella Junqueira (Revisão)
+* Isabella Carneiro (Revisão)
+<br>
 
 ## Introdução
 <div align="justify"><br>
@@ -23,12 +32,6 @@ O foco não é mostrar com detalhes os métodos e os atributos de cada classe, m
 <br>
 Para realizar esse diagrama para o projeto do sistema do Salão da Leila, nossa equipe baseou-se no Diagrama de Classes que fora previamente projetado. Houve uma renião virtual na qual nós fizemos a diagramação completa das agregações e das composições entre as classes existentes no referido projeto. O diagrama foi realizada utilizando a ferramenta [Diagrams.net](https://www.diagrams.net).<br>
 
-### Participantes
-
-* Erick Giffoni
-* Lucas Lopes Pereira
-* Rafaella Junqueira 
-<br>
 
 ## Resultado
 <br>
@@ -42,7 +45,7 @@ Veja abaixo como ficou a primeira versão desse diagrama em notação UML:
 <figcaption align='center'>
     <b>Figura 1: Diagrama de Agregação e Composição</b>
     <br>
-    <small>Autor: Erick Giffoni e Lucas Lopes Pereira</small>
+    <small>Autores: Erick Giffoni e Lucas Lopes Pereira</small>
 </figcaption>
 <br>
 
@@ -54,6 +57,7 @@ Além disso, um 'Pedido' é agregado a 0 (zero) ou 1 (um) 'Funcionário', e essa
 
 ## Referências
 <br>
+
 PRESSMAN, Roger S. **Engenharia de Software: uma abordagem profissional.** 7a edição, Porto Alegre, AMGH, 2011.
 
 SOMMERVILLE, Ian. **Engenharia de Software.** 9a edição, São Paulo, Pearson, 2011.

@@ -6,6 +6,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Sprints: sprints.md
   - Base:
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Design Sprint: base/design-sprint.md
@@ -34,13 +35,19 @@ nav:
       - Modelagem BPMN: base/bpmn.md
   - Modelagem:
     - Módulo Projeto Orientado a Abordagens Tradicionais:
-      - Notação UML – Diagramas Estáticos:
+      - Notação UML – Diagramas Estáticos: 
+        - Diagrama de Classes: modelagem/classes.md
         - Diagrama de Agregação e Composição: modelagem/agregacao-composicao.md
+        - Diagrama de Componentes: modelagem/diagrama-componentes.md
+        - Diagrama de Pacotes: modelagem/pacotes.md
       - Notação UML – Diagramas Dinâmicos:
-      #  - Modelagem Ágil:
-        - Diagramas de Atividades: modelagem/diagrama_atividades.md
-        - Diagrama de estados: base/diagrama-estados.md
-  #     - Modelagem Ágil: base/
+        - Diagrama de Sequência: modelagem/diagrama-sequencia.md
+        - Diagrama de Comunicação: modelagem/diagrama_comunicacao.md
+        - Diagrama de Atividades: modelagem/diagrama_atividades.md
+        - Diagrama de Estados: modelagem/diagrama-estados.md
+    - Extras:
+      - Diagrama de Casos de Uso: modelagem/diagrama-casos-uso.md
+      - Diagrama Relacional: modelagem/diagrama-relacional.md
   # - Padrões de Projeto:
   #   - Módulo Padrões de Projeto GRASPs:
   #     - x: base/

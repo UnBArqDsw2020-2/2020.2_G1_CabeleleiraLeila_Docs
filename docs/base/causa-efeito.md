@@ -6,6 +6,14 @@
 | 12.02.2021 | 0.1 | Criação do documento | Geraldo Victor|
 | 13.02.2021 | 0.2 | Adição de metodologia, participantes, resultado, conclusão e referências | Geraldo Victor|
 | 15.02.2021 | 0.3 | Revisão do documento | Rafaella Junqueira |
+| 03.03.2021 | 0.3 | Revisão do documento | Isabella Carneiro |
+
+
+### Participantes
+
+* Geraldo Victor
+* Isabella Carneiro (Revisão)
+* Rafaella Junqueira (Revisão)
 
 ## Metodologia
 
@@ -20,15 +28,18 @@ Para construção do diagrama de causa e efeito foram definidos os problemas e s
 - Medias sociais: por onde é feita a divulgação dos serviços prestados por aquele salão; 
 - Clientes: como os clientes são afetados pela forma de atendimento manual ou pelo telefone. 
 
-Dessa forma foi possível fazer uma dedução mais objetiva das possíveis causas e montar uma estratégia para resolver os problemas levantados.
-### Participantes
-
-* Geraldo Victor 
+Dessa forma foi possível fazer uma dedução mais objetiva das possíveis causas e montar uma estratégia para resolver os problemas levantados. 
 
 ### Resultado
 ![digrama causa efeito](../img/diagrama-causa-efeito.jpg)
+<figcaption align='center'>
+    <b><center>Figura 1: Diagrama Causa-Efeito</center></b>
+    <br>
+    <small><center>Autor: Geraldo Victor</center></small>
+</figcaption>
+<br>
 
-Após a confecção do diagrama foi possível notar que para cada uma das seguintes categorias foram identificadas as seguintes causas que afetam direta ou indiretamente os problemas levantados:
+<br> Após a confecção do diagrama foi possível notar que para cada uma das seguintes categorias foram identificadas as seguintes causas que afetam direta ou indiretamente os problemas levantados:
 
 - Estratégias: a estratégia utilizada pela maioria dos salões é pela ordem de chegada, o que pode causar certa dificuldade, uma vez que o cliente pode não ter tempo pra ir ao salão para marcar. Até mesmo pelo telefone a diferença do tempo em que o cliente manda mensagem até ser respondido pode significar a perda da vaga de atendimento no horário desejado.
 - Tecnologia: WhatsApp e Telegram são usados para o agendamento, porém, não possuem autogerenciamento. Por exemplo, um cliente não consegue saber quais dias já possuem atendimentos agendados para outras pessoas;
