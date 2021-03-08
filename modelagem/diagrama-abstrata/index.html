@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Diagrama de Estados - Leila's</title>
+        <title>Diagrama de Classe Abstrata - Leila's</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -185,7 +185,7 @@
 </li>
             
 <li>
-    <a href="../diagrama-abstrata/" class="dropdown-item">Diagrama de Classe Abstrata</a>
+    <a href="./" class="dropdown-item active">Diagrama de Classe Abstrata</a>
 </li>
     </ul>
   </li>
@@ -207,7 +207,7 @@
 </li>
             
 <li>
-    <a href="./" class="dropdown-item active">Diagrama de Estados</a>
+    <a href="../diagrama-estados/" class="dropdown-item">Diagrama de Estados</a>
 </li>
     </ul>
   </li>
@@ -238,12 +238,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../diagrama_atividades/" class="nav-link">
+                                <a rel="prev" href="../pacotes/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../diagrama-casos-uso/" class="nav-link">
+                                <a rel="next" href="../diagrama-sequencia/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -265,9 +265,25 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#diagrama-de-estados" class="nav-link"> Diagrama de Estados</a>
+            <li class="nav-item" data-level="1"><a href="#diagrama-de-classes" class="nav-link"> Diagrama de Classes</a>
               <ul class="nav flex-column">
             <li class="nav-item" data-level="2"><a href="#historico-de-versao" class="nav-link">Histórico de versão</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#participantes" class="nav-link">Participantes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#introducao" class="nav-link">Introdução</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#metodologia" class="nav-link">Metodologia</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#diagramas" class="nav-link">Diagramas</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -282,7 +298,7 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="diagrama-de-estados"><center> Diagrama de Estados</h1>
+<h1 id="diagrama-de-classes"><center> Diagrama de Classes</h1>
 <p><br></p>
 <h2 id="historico-de-versao">Histórico de versão</h2>
 <table>
@@ -296,56 +312,73 @@
 </thead>
 <tbody>
 <tr>
-<td>24.02.2021</td>
+<td>07.03.2021</td>
 <td>0.1</td>
-<td>Criação do documento</td>
-<td>Isabella, Bruna</td>
+<td>Criação do documento e adição dos textos</td>
+<td>Kalebe</td>
 </tr>
 <tr>
-<td>26.02.2021</td>
+<td>08.03.2021</td>
 <td>0.2</td>
-<td>Inserção do diagrama</td>
-<td>Isabella, Damarcones</td>
+<td>Diagrama de classe abstrata</td>
+<td>Kalebe, Lucas</td>
 </tr>
 <tr>
-<td>02.03.2021</td>
+<td>08.03.2021</td>
 <td>0.3</td>
-<td>Adição de participantes, Metodologia e referências</td>
-<td>Geraldo</td>
+<td>Adiciona introdução e metodologia</td>
+<td>Kalebe, Lucas</td>
+</tr>
+<tr>
+<td>08.03.2021</td>
+<td>0.4</td>
+<td>Adiciona descrição</td>
+<td>Kalebe, Lucas</td>
 </tr>
 <tr>
 <td>08.03.2021</td>
 <td>0.4</td>
 <td>Revisão do documento</td>
+<td>Erick</td>
+</tr>
+<tr>
+<td>08.03.2021</td>
+<td>1.0</td>
+<td>Revisão do documento</td>
 <td>Lucas</td>
 </tr>
 </tbody>
 </table>
-<h3 id="participantes">Participantes</h3>
+<h2 id="participantes">Participantes</h2>
 <ul>
-<li>Bruna Almeida</li>
-<li>Damarcones Porto</li>
-<li>Geraldo Victor</li>
-<li>Isabella Carneiro</li>
-<li>Lucas Lopes (Revisão)</li>
+<li>Kalebe Lopes</li>
+<li>Lucas Lopes </li>
+<li>Erick Giffoni (Revisão)</li>
 </ul>
-<h3 id="introducao">Introdução</h3>
-<div align="justify">O diagrama de estados é um diagrama que mostra discretamente o comportamento designado de parte de um sistema através de estados finitos de transições. Ele ajuda a identificar os fluxos dos processos envolvidos na aplicação, onde eles começam, terminam ou se repetem até que uma dada condição seja satisfeita. O diagrama de estados é de grande valia pois esclarece para a equipe qual deverá ser o fluxo da aplicação para o agendamento de um horário.
-</div>
 <p><br></p>
-<h3 id="metodologia">Metodologia</h3>
-<div align="justify">A modelagem do diagrama de estados foi desenvolvida utilizando a ferramenta <a href="https://app.diagrams.net/">Draw.io</a> durante a reunião entre os integrantes do grupo. O diagrama foi elaborado através da identificação do fluxo que o sistema deve seguir para marcar um horário. </div>
-<p><br></p>
-<h3 id="diagrama">Diagrama</h3>
-<p><a href="../../img/diagrama-estado.jpg"><div align="center"><img width="auto" height="auto" src="../../img/diagrama-estado.jpg"/></div></a></p>
-<figcaption><center>
-    <b>Figura 2 - Diagrama de componentes.</b>
+<h2 id="introducao">Introdução</h2>
+<p align="justify">
+Uma classe abstrata é uma classe que serve de modelo para outras classes. Ou seja, ela sempre será uma superclasse genérica, e suas subclasses serão mais específicas.<br>
+Já a classe concreta é uma classe que possui atributos, métodos e pode ser instanciada, ou seja, permite a criação de novos objetos a partir dela. A classe concreta pode ser herdada por outras classes. 
+
+</p>
+
+<h2 id="metodologia">Metodologia</h2>
+<p>Para a criação dos diagramas, a equipe responsável se reuniu virtualmente através da ferramenta Google Meet. Além disso, utilizamos a ferramenta STAR UML, a qual fornece uma interface amigável e funcionamento adequado para diagramas.</p>
+<h2 id="diagramas">Diagramas</h2>
+<p>No nosso diagrama a classe <strong>Base</strong> é nossa classe modelo, classe abstrata, que servirá para conter informações e propriedades comuns a todas outras classes do domínio da aplicação,  ao serem persistidas através de algum <strong>ORM</strong>,  podemos ter a versabilidade de alterar as propriedades de identificação comum e específicas de acordo com a documentação de SGBD distintos.</p>
+<p><strong>Versão 1.0</strong></p>
+<p><a href="../../img/modelagem/estatica/abstrata.svg"><div align="center"><img hight="auto" width="auto" src="../../img/modelagem/estatica/abstrata.svg"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 2: Diagrama de classe abstrata - v1.0 </b>
     <br>
-    <small>Autores: Isabella Carneiro</small>
+    <small>Autores: Kalebe e Lucas</small>
 </figcaption>
 <p><br></p>
 <h2 id="referencias">Referências</h2>
-<p>SERRANO, Milene. <strong>Modelagem - Diagrama de Estados</strong>, 2021. Vídeo-aulas complementares apresentadas na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 26 de fevereiro de 2021.</p></div>
+<p><br></p>
+<p><strong>Conceitos de Orientação a Objetos/Classe Abstrata</strong> Disponível em: <a href="https://pt.wikiversity.org/wiki/Conceitos_de_Orienta%C3%A7%C3%A3o_a_Objetos/Classe_Abstrata#:~:text=Al%C3%A9m%20disso%2C%20ela%20n%C3%A3o%20pode,um%20m%C3%A9todo%20abstrato%2C%20sem%20corpo.">https://pt.wikiversity.org/wiki/Conceitos_de_Orienta%C3%A7%C3%A3o_a_Objetos/Classe_Abstrata</a>. Acesso em 8 de março de 2021.</p>
+<p>SERRANO, Milene. <strong>Modelagem -  Classe Concreta &amp; Abstrata &amp; Sobrescrita &amp; Sobrecarga</strong>, 2021. Vídeo-aulas complementares apresentadas na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 25 de fevereiro de 2021.</p></div>
             </div>
         </div>
 
