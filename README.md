@@ -41,7 +41,12 @@ Aplicação web para gerenciamento de um salão de beleza que permita conferir o
 |![extra](https://github.com/UnBArqDsw2020-2/2020.2_G1_CabeleleiraLeila/blob/main/docs/img/extras.PNG)
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione o(s)s vídeo(s) da Segunda Entrega.
+
+
+|Vídeo 1 - Modelagem estática | Vídeo 2 - Modelagem ágil | Vídeo 3 - Modelagem dinâmica |
+| --- | --- | --- |
+| [![Vídeo 1 - Modelagem estática](https://github.com/UnBArqDsw2020-2/2020.2_G1_CabeleleiraLeila/blob/main/docs/img/entrega2/entrega2-video1.png)](https://www.youtube.com/watch?v=BR9lSBv7ylo) | [![Vídeo 2 - Modelagem ágil](https://github.com/UnBArqDsw2020-2/2020.2_G1_CabeleleiraLeila/blob/main/docs/img/entrega2/entrega2-video2.png)](https://www.youtube.com/watch?v=WUUA8HYRZHI) | [![Vídeo 3 - Modelagem dinâmica](https://github.com/UnBArqDsw2020-2/2020.2_G1_CabeleleiraLeila/blob/main/docs/img/entrega2/entrega2-video3.png)](https://www.youtube.com/watch?v=wAQ3i8FMgao) |
+
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
