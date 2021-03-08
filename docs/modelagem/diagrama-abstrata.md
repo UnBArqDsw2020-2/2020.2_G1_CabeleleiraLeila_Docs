@@ -5,6 +5,8 @@
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
 | 07.03.2021 | 0.1 | Criação do documento e adição dos textos | Kalebe
+| 08.03.2021 | 0.2 | Diagrama de classe abstrata | Kalebe, Lucas
+
 
 
 ## Participantes
@@ -25,6 +27,15 @@ Para a criação dos diagramas, a equipe responsável se reuniu virtualmente atr
 
 ## Diagramas
 
+**Versão 1.0**
+
+[<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/estatica/abstrata.svg"></div>](../../img/modelagem/estatica/abstrata.svg)
+<figcaption align='center'>
+    <b>Figura 2: Diagrama de classe abstrata - v1.0 </b>
+    <br>
+    <small>Autores: Kalebe e Lucas</small>
+</figcaption>
+<br>
 
 ## Referências
 <br>
