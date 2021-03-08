@@ -4,17 +4,18 @@
 ### Histórico de versão
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
-| 19.02.2021 | 0.1 | Criação do documento |Damarcones Porto, Erick Giffoni, Lucas Lopes |
-| 03.03.2021 | 0.1 | Revisão do documento |Isabella Carneiro |
-| 06.03.2021 | 1.0 | Revisão e reestruturação do documento |Erick Giffoni|
-| 06.03.2021 | 2.0 | Documenta a versão 2.0 do backlog |Erick Giffoni|
+| 19.02.2021 | 0.1 | Criação do documento |Damarcones, Erick, Lucas |
+| 03.03.2021 | 0.1 | Revisão do documento |Isabella |
+| 06.03.2021 | 1.0 | Revisão e reestruturação do documento |Erick|
+| 06.03.2021 | 2.0 | Documenta a versão 2.0 do backlog |Erick|
+| 08.03.2021 | 2.1 | Revisão do documento|Lucas|
 
 
 ### Participantes
  
 * Damarcones Porto
 * Erick Giffoni
-* Lucas Lopes
+* Lucas Lopes (Revisão)
 * Isabella Carneiro (Revisão)
 
 <br>
