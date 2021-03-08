@@ -1,4 +1,4 @@
-# <center> Diagrama de Atividades
+# <center> Diagrama de Componentes
 <br>
 
 ### Histórico de versão
@@ -6,7 +6,8 @@
 | -- | -- | -- | -- |
 | 03.03.2021 | 0.1 | Criação do documento | Isabella Carneiro|
 | 03.03.2021 | 0.2 | Adição da metodologia e referências | Bruna Almeida |
-| 03.03.2021 | 0.3 | Adição do diagrama | Bruna Almeida, Isabella Carneiro, Damarcones Porto |
+| 03.03.2021 | 1.0 | Adição do diagrama | Bruna Almeida, Isabella Carneiro, Damarcones Porto |
+| 07.03.2021 | 1.0 | Revisão do documento e sugestão de melhorias | Erick Giffoni |
 
 
 ### Participantes
@@ -14,10 +15,11 @@
 * Bruna Almeida 
 * Isabella Carneiro
 * Damarcones Porto
+* Erick Giffoni (Revisão)
 
 <br>
 
-## Metodologia
+## Introdução
 
 <p align="justify">Os diagramas de componentes são usados para visualizar a organização dos componentes do sistema e os relacionamentos de dependência entre eles.</p>
 <p align="justify">Os componentes podem ser um componente de software, como um banco de dados ou interface de usuário; ou um componente de hardware, como um circuito, microchip ou dispositivo; ou uma unidade de negócios, como fornecedor, folha de pagamento ou envio.</p>
@@ -30,7 +32,7 @@
 [<div align="center"><img width="auto" height="auto" src="../../img/legendas_elementos.png"/></div>](../../img/legendas_elementos.png)
 
 <figcaption><center>
-    <b>Figura 1: Legenda para os componentes utilizados no diagrama.</b>
+    <b>Figura 1 - Legenda para os componentes utilizados no diagrama.</b>
     <br>
     <small>Autor: Damarcones Porto</small>
 </figcaption>
@@ -39,12 +41,17 @@
 
 <br>
 
+## Metodologia
+
+A modelagem do diagrama de componentes foi desenvolvida utilizando a ferramenta [Draw.io](/https://app.diagrams.net/) durante a reunião entre os integrantes do grupo a fim de discutir a melhor forma de representar os componentes que serão utilizados ao longo do projeto e suas relações.
+
+
 ## Diagrama
 
 [<div align="center"><img width="auto" height="auto" src="../../img/diagrama-componentes.png"/></div>](../../img/diagrama-componentes.png)
 
 <figcaption><center>
-    <b>Figura 2: Diagrama de componentes.</b>
+    <b>Figura 2 - Diagrama de componentes.</b>
     <br>
     <small>Autores: Isabella Carneiro, Damarcones Porto</small>
 </figcaption>
@@ -55,7 +62,8 @@
 
 ### Referências
 
-- Diagramas desenvolvidos na plataforma <a href="https://app.diagrams.net/">Draw.io</a>.
-- <i>"Diagrama de componentes UML: o que é, como fazer e exemplos"</i>. Disponível em <a href=https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml>lucidchart.com</a>.
-- <i>"O Guia Fácil de Diagramas de Componentes"</i>. Disponível em <a href=https://creately.com/blog/pt/diagrama/tutorial-de-diagrama-de-componentes-2>creately.com</a>.
-- <i>Diagrama de Componentes</i>. Disponível em <a href=https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/componentes/diagrama_de_componentes.htm>homepages.dcc.ufmg.br</a>.
+Lucidchart. **"Diagrama de componentes UML: o que é, como fazer e exemplos"**. Disponível em <a href=https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml>https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml</a>.
+
+Creately, **"O Guia Fácil de Diagramas de Componentes"**. Disponível em <a href=https://creately.com/blog/pt/diagrama/tutorial-de-diagrama-de-componentes-2>https://creately.com/blog/pt/diagrama/tutorial-de-diagrama-de-componentes-</a>.
+
+RIBEIRO, A. **Diagrama de Componentes**. Disponível em <a href=https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/componentes/diagrama_de_componentes.htm>https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/componentes/diagrama_de_componentes.htm</a>.
