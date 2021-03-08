@@ -12,7 +12,7 @@
 | 03.03.2021 | 0.5 | Adição da introdução | Rafaella, Geraldo |
 | 04.03.2021 | 1.0 | Especificação dos casos de uso | Rafaella |
 | 05.03.2021 | 1.1 | Correção de links e de redirecionamentos | Lucas |
-| 08.03.2021 | 1.1 | Revisão do documento | Lucas |
+| 08.03.2021 | 1.2 | Revisão do documento | Lucas |
 
 ### Participantes
 
