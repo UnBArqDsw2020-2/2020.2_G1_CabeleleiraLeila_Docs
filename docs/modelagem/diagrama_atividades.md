@@ -13,6 +13,7 @@
 | 07.03.2021 | 1.3 | Alteração das descrições das imagens | Bruna, Damarcones |
 | 07.03.2021 | 1.3 | Revisão do documento | Erick |
 | 08.03.2021 | 1.4 | Revisão do documento | Lucas |
+| 09.03.2021 | 1.5 | Correção do endereçamento das imagens e texto incoerente | Damarcones |
 
 ### Participantes
 
@@ -34,7 +35,7 @@
 
 <br>
 
-[<div align='center'><img height="400px" src="../../../../img/diagrama_atividades/legenda-atividade.png"></div>](../../img/../../img/diagrama_atividades/legenda-atividade.png)
+[<div align='center'><img height="400px" src="../../img/diagrama_atividades/legenda-atividade.png"></div>](/../../img/diagrama_atividades/legenda-atividade.png)
 <figcaption align="center">
     <b>Figura 01 - Símbolos utilizados no Diagrama de Atividades.</b>
     <br>
@@ -49,15 +50,12 @@
 
 <br>
 
-### Metodologia
-<p align="justify"><br>Os diagramas foram desenvolvidos durante vídeo-chamadas envolvendo os participantes deste documento, onde o assunto foi discutido e, então, os diagramas foram modelados. A modelagem foi feita utilizando a ferramenta <a href="https://app.diagrams.net/">Draw.io</a>.</p><br>
-
-### Diagramas
+## Diagramas
 <br>
 
 #### Login (V1)
 
-[<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_login.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_login.png)
+[<div align='center'><img hight="auto" width="auto" src="../../img/diagrama_atividades/diagrama_tarefas_login.png"></div>](../../img/diagrama_atividades/diagrama_tarefas_login.png)
 <figcaption align="center">
     <b>Diagrama 01 - Realização de Login.</b>
     <br>
@@ -72,7 +70,7 @@
 ### Cadastro (V1)
 
 
-[<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_cadastro.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_cadastro.png)
+[<div align='center'><img hight="auto" width="auto" src="../../img/diagrama_atividades/diagrama_tarefas_cadastro.png"></div>](../../img/diagrama_atividades/diagrama_tarefas_cadastro.png)
 <figcaption align="center">
     <b>Diagrama 02 - Realização de Cadastro.</b>
     <br>
@@ -85,7 +83,7 @@
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
 ### Marcar Horário (V1)
 
-[<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_marcar_horario.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_marcar_horario.png)
+[<div align='center'><img hight="auto" width="auto" src="../../img/diagrama_atividades/diagrama_tarefas_marcar_horario.png"></div>](../../img/diagrama_atividades/diagrama_tarefas_marcar_horario.png)
 <figcaption align="center">
     <b>Diagrama 03 - Realização de Marcação de Horário.</b>
     <br>
@@ -100,7 +98,7 @@
 
 
 
-[<div align='center'><img hight="auto" width="auto" src="../../../../img/diagrama_atividades/diagrama_tarefas_avaliacao.png"></div>](../../img/../../img/diagrama_atividades/diagrama_tarefas_avaliacao.png)
+[<div align='center'><img hight="auto" width="auto" src="../../img/diagrama_atividades/diagrama_tarefas_avaliacao.png"></div>](../../img/diagrama_atividades/diagrama_tarefas_avaliacao.png)
 <figcaption align="center">
     <b>Diagrama 04 - Realização de Avaliação.</b>
     <br>
