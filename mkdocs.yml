@@ -8,13 +8,14 @@ nav:
   - Home: index.md
   - Sprints: sprints.md
   - Base:
+    - Extras: 
+        - Identidade Visual: base/identidade-visual.md
+        - Protótipo de Baixa Fidelidade: base/prototipo-baixa.md
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Design Sprint: base/design-sprint.md
       - Prototipação:
-        - Protótipo de Baixa Fidelidade: base/prototipo-baixa.md
         - Protótipo de Alta Fidelidade: base/prototipo-alta.md
         - Testes de protótipos: base/teste-prototipo.md
-      - Identidade Visual: base/identidade-visual.md
       - Requisitos: 
         - Pré rastreabilidade: 
           - Rich Picture: base/rich-picture.md
