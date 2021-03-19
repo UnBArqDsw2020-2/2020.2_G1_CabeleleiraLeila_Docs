@@ -28,9 +28,12 @@ A criação do protótipo de alta fidelidade foi realizada por utilizando o soft
 
 ## Protótipo de Alta Fidelidade
 <br>
-Clique sobre a imagem para ser redirecionado ao protótipo.
 
-[<div align="center"><img width="auto" height="auto" src="../../img/site-leila.png"/></div>](https://www.figma.com/proto/eYvDYCd2yQv9j4QpTPepAx/Untitled?scaling=min-zoom&node-id=31%3A355)
+<object data="../../img/prototipo_alta.pdf" type="application/pdf" width="820px" height="400px">
+<embed src="../../img/prototipo_alta.pdf">
+        <p>O navegador não suporta arquivos PDF. Por favor, realize o download do PDF para visualizar: <a href="../../img/prototipo_alta.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 ## Referências
 
