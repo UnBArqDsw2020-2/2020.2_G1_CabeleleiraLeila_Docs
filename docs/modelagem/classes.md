@@ -47,7 +47,7 @@ A equipe optou por utilizar a ferramenta [StarUML](https://staruml.io/), pois el
 
 **Versão 3.0**
 
-[<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/estatica/classes/classes_v3.png"></div>](../../img/modelagem/estatica/classes/classes_v3.svg)
+[<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/estatica/classes/classes_v3.png"></div>](../../img/modelagem/estatica/classes/classes_v3.png)
 <figcaption align='center'>
     <b>Figura 1: Diagrama de Classes - v3.0 </b>
     <br>
