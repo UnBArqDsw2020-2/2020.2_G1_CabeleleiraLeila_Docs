@@ -52,6 +52,7 @@ nav:
   - Padrões de Projeto:
     - Módulo Padrões de Projeto GRASPs:
       - GRASP Controller: padroes/controller.md
+      - GRASP Baixo Acoplamento: padroes/baixo-acoplamento.md
   #   - Módulo Padrões de Projeto GoFs:
   #     - x: base/
   #   - Módulo Padrões de Projeto Extras:
