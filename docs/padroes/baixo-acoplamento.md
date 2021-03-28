@@ -1,6 +1,7 @@
 # <center> GRASP Baixo Acoplamento
 <br>
 ### Histórico de versão<br>
+    
 |Data | Versão | Descrição | Autor(es)|
 | -- | -- | -- | -- |
 | 25.03.2021 | 0.1 | Criação do documento | Rafaella Junqueira<br>Kalebe Lopes|
