@@ -1,17 +1,21 @@
 # <center> GRASP Controller
 <br>
+    
 ### Histórico de versão<br>
-|Data | Versão | Descrição | Autor(es)
+
+|Data | Versão | Descrição | Autor(es)|
 | -- | -- | -- | -- |
 | 25.03.2021 | 0.1 | Criação do documento | Rafaella Junqueira<br>Erick Giffoni|
 | 25.03.2021 | 0.2 | Adição do diagrama UML | Rafaella Junqueira<br>Kalebe Lopes |
 | 28.03.2021 | 1.0 | Revisão e edição final da versão 1.0 | Erick Giffoni |
+| 28.03.2021 | 1.0 | Revisão do documento | Isabella Carneiro |
 
 ### Participantes
 
 * Rafaella Junqueira
 * Kalebe Lopes
 * Erick Giffoni
+* Isabella Carneiro
 
 ### Introdução
 <div align="justify">
