@@ -1,11 +1,12 @@
 # <center> GRASP Baixo Acoplamento
 <br>
 ### Histórico de versão<br>
-|Data | Versão | Descrição | Autor(es)
+|Data | Versão | Descrição | Autor(es)|
 | -- | -- | -- | -- |
 | 25.03.2021 | 0.1 | Criação do documento | Rafaella Junqueira<br>Kalebe Lopes|
 | 25.03.2021 | 0.2 | Adição do diagrama UML | Rafaella Junqueira<br>Kalebe Lopes|
-| 28.03.2021 | 1.0 | Edição e revisão final da versão 1.0 | Erick Giffoni |
+| 28.03.2021 | 1.0 | Edição e revisão da versão 1.0 | Erick Giffoni |
+| 28.03.2021 | 1.0 | Revisão do documento | Isabella Carneiro |
 
 
 ### Participantes
@@ -13,6 +14,7 @@
 * Rafaella Junqueira
 * Kalebe Lopes
 * Erick Giffoni
+* Isabella Carneiro
 
 ### Introdução
 <div align="justify">
@@ -22,12 +24,12 @@ O padrão de Baixo Acoplamento é um padrão de avaliação, que determina como 
 
 </div>
 
-### Aplicação no projeto
+### Aplicações no projeto
 <div align="justify">
 
 Os códigos criados utilizam a divisão de responsabilidades entre as classes, de modo que, para a evitar a dependência entre elas, existem interfaces que abarcam os métodos comuns a todas. Assim, caso haja necessidade de mudanças, basta alterar apenas a interface específica daquela classe.
 <br><br>
-As imagens abaixo exemplificam o baixo acoplamento entre a classe de serviço, ServicoService, e a interface ServicoRepository, a qual herda a implementação dos métodos advindos da interface CrudRepository. Além disso, nos exemplos é possível perceber aspectos relacionados ao polimorfismo, como, por exemplo, a sobrescrita de métodos.
+As imagens abaixo exemplificam o baixo acoplamento entre a classe de serviço ServicoService e a interface ServicoRepository, a qual herda a implementação dos métodos advindos da interface CrudRepository. Além disso, nos exemplos é possível perceber aspectos relacionados ao polimorfismo, como, por exemplo, a sobrescrita de métodos.
 </div><br>
 
 
