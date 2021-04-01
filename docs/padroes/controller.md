@@ -23,7 +23,6 @@
 O padrão Controller (ou Controlador) é aquele que atribui a responsabilidade de lidar com os eventos do sistema para uma classe que representa um cenário de caso de uso do sistema global. Um objeto controlador é um objeto de interface não-usuário, responsável por receber ou manipular um evento do sistema. O controlador é definido como o primeiro objeto além da camada UI que recebe e coordena as operações do sistema, e deve delegar o trabalho a ser feito aos outros objetos.
 <br><br>
 O padrão visa responder a seguinte pergunta: Quem deve ser o responsável por lidar com um evento de uma interface de entrada?. Ainda, esse padrão pode ser considerado uma parte da camada de aplicação/serviço, uma vez que a aplicação tenha feito uma distinção explícita entre a camada de aplicativo/serviço e a camada de domínio em um sistema orientado a objetos.
-
 </div><br>
 
 ### Aplicação no projeto
@@ -39,7 +38,7 @@ A parte Backend do projeto está estruturada de forma que o diretório web/resou
 </figcaption>
 <br>
 <div>
-O exemplo abaixo mostra o controlador dos serviços, ServicoResource.java, em que cada tipo de requisição https é mapeada por um método específico. Cada método irá capturar um tipo de requisição (o evento de entrada), como, por exemplo, um get, put, post ou delete, e atribuir a responsabilidade de tratar esse evento ao arquivo ServicoService.java .
+O exemplo abaixo mostra o controlador dos serviços, ServicoResource.java, em que cada tipo de requisição https é mapeada por um método específico. Cada método irá capturar um tipo de requisição (o evento de entrada), e exemplo de um get, put, post ou delete, e atribuir a responsabilidade de tratar esse evento ao arquivo ServicoService.java .
 </div>
 
 [<div align="center"><img src="../../img/padroes/servico-resource.png"></div>](../../img/padroes/servico-resource.png)
