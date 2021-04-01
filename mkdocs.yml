@@ -50,11 +50,11 @@ nav:
       - Diagrama de Casos de Uso: modelagem/diagrama-casos-uso.md
       - Diagrama Relacional: modelagem/diagrama-relacional.md
   - Padrões de Projeto:
-    - Módulo Padrões de Projeto GRASPs:
-      - GRASP Controller: padroes/controller.md
-      - GRASP Baixo Acoplamento: padroes/baixo-acoplamento.md
-  #   - Módulo Padrões de Projeto GoFs:
-  #     - x: base/
+    - Módulo Padrões de Projeto GRASPs: padroes/grasps.md
+    - Módulo Padrões de Projeto GoFs:
+      - GOF Abstract: padroes/gof-abstract-factory.md
+    # - GRASP Controller: padroes/controller.md
+    # - GRASP Baixo Acoplamento: padroes/baixo-acoplamento.md
   #   - Módulo Padrões de Projeto Extras:
   #     - x: base/
   # - Arquitetura de Software & Reutilização:
