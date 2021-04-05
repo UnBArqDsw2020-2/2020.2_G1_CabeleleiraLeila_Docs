@@ -51,8 +51,7 @@ nav:
       - Diagrama Relacional: modelagem/diagrama-relacional.md
   - Padrões de Projeto:
     - Módulo Padrões de Projeto GRASPs: padroes/grasps.md
-    - Módulo Padrões de Projeto GoFs:
-      - GOF Abstract: padroes/gof-abstract-factory.md
+    - Módulo Padrões de Projeto GoFs: padroes/gofs.md
   #   - Módulo Padrões de Projeto Extras:
   #     - x: base/
   # - Arquitetura de Software & Reutilização:

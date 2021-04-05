@@ -1,4 +1,4 @@
-# <center> Padrões GRASP's
+# <center> Padrões GRASP
 <br>
     
 ### Histórico de versão<br>
