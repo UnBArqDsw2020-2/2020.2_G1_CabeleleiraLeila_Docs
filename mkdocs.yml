@@ -53,6 +53,7 @@ nav:
     - Módulo Padrões de Projeto GRASPs: padroes/grasps.md
     - Módulo Padrões de Projeto GoFs:
       - GOF Abstract: padroes/gof-abstract-factory.md
+      - GOF Singleton: padroes/gof-singleton.md
   #   - Módulo Padrões de Projeto Extras:
   #     - x: base/
   # - Arquitetura de Software & Reutilização:
