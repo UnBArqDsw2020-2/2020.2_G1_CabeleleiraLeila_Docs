@@ -2,7 +2,6 @@ site_name: Leila's
 
 theme: 
   name: journal
-  include_sidebar: true
 
 nav:
   - Home: index.md
@@ -50,11 +49,9 @@ nav:
     - Extras:
       - Diagrama de Casos de Uso: modelagem/diagrama-casos-uso.md
       - Diagrama Relacional: modelagem/diagrama-relacional.md
-  # - Padrões de Projeto:
-  #   - Módulo Padrões de Projeto GRASPs:
-  #     - x: base/
-  #   - Módulo Padrões de Projeto GoFs:
-  #     - x: base/
+  - Padrões de Projeto:
+    - Módulo Padrões de Projeto GRASPs: padroes/grasps.md
+    - Módulo Padrões de Projeto GoFs: padroes/gofs.md
   #   - Módulo Padrões de Projeto Extras:
   #     - x: base/
   # - Arquitetura de Software & Reutilização:
