@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Módulo Padrões de Projeto GoFs - Leila's</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Leila's</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../sprints/" class="nav-link">Sprints</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Base <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Extras</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/identidade-visual/" class="dropdown-item">Identidade Visual</a>
+</li>
+            
+<li>
+    <a href="../../base/prototipo-baixa/" class="dropdown-item">Protótipo de Baixa Fidelidade</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Módulo Projeto Não Orientado a Abordagens Específicas</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/design-sprint/" class="dropdown-item">Design Sprint</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Prototipação</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/prototipo-alta/" class="dropdown-item">Protótipo de Alta Fidelidade</a>
+</li>
+            
+<li>
+    <a href="../../base/teste-prototipo/" class="dropdown-item">Testes de protótipos</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Requisitos</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Pré rastreabilidade</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/rich-picture/" class="dropdown-item">Rich Picture</a>
+</li>
+            
+<li>
+    <a href="../../base/5w2h/" class="dropdown-item">5W2H</a>
+</li>
+            
+<li>
+    <a href="../../base/mapa-mental/" class="dropdown-item">Mapa Mental</a>
+</li>
+            
+<li>
+    <a href="../../base/causa-efeito/" class="dropdown-item">Diagrama de causa e efeito</a>
+</li>
+            
+<li>
+    <a href="../../base/plano-de-risco/" class="dropdown-item">Plano de gerenciamento de riscos</a>
+</li>
+            
+<li>
+    <a href="../../base/estimativas/" class="dropdown-item">Estimativas</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Elicitação</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/brainstorming/" class="dropdown-item">Brainstorming</a>
+</li>
+            
+<li>
+    <a href="../../base/questionario/" class="dropdown-item">Questionário</a>
+</li>
+            
+<li>
+    <a href="../../base/entrevista/" class="dropdown-item">Entrevista</a>
+</li>
+            
+<li>
+    <a href="../../base/moscow/" class="dropdown-item">MoSCoW</a>
+</li>
+            
+<li>
+    <a href="../../base/reunioes/" class="dropdown-item">Reuniões</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Módulo Processos/Metodologias/Abordagens</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/metodologia/" class="dropdown-item">Metodologia</a>
+</li>
+            
+<li>
+    <a href="../../base/bpmn/" class="dropdown-item">Modelagem BPMN</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Módulo Projeto Orientado a Abordagens Tradicionais</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/backlog/" class="dropdown-item">Modelagem Ágil</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Notação UML – Diagramas Estáticos</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../modelagem/classes/" class="dropdown-item">Diagrama de Classes</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/agregacao-composicao/" class="dropdown-item">Diagrama de Agregação e Composição</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama-componentes/" class="dropdown-item">Diagrama de Componentes</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/pacotes/" class="dropdown-item">Diagrama de Pacotes</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama-abstrata/" class="dropdown-item">Diagrama de Classe Abstrata</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Notação UML – Diagramas Dinâmicos</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../modelagem/diagrama-sequencia/" class="dropdown-item">Diagrama de Sequência</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama_comunicacao/" class="dropdown-item">Diagrama de Comunicação</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama_atividades/" class="dropdown-item">Diagrama de Atividades</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama-estados/" class="dropdown-item">Diagrama de Estados</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Extras</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../modelagem/diagrama-casos-uso/" class="dropdown-item">Diagrama de Casos de Uso</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama-relacional/" class="dropdown-item">Diagrama Relacional</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Padrões de Projeto <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../grasps/" class="dropdown-item">Módulo Padrões de Projeto GRASPs</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Módulo Padrões de Projeto GoFs</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../grasps/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#padroes-gof" class="nav-link"> Padrões GoF</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#referencias" class="nav-link">Referências</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="padroes-gof"><center> Padrões GoF</h1>
+<p><br></p>
+<h3 id="historico-de-versao">Histórico de versão<br></h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>04.04.2021</td>
+<td>0.1</td>
+<td>Criação do documento</td>
+<td>Rafaella Junqueira<br>Geraldo Victor<br>Isabella Carneiro</td>
+</tr>
+<tr>
+<td>04.04.2021</td>
+<td>0.2</td>
+<td>Adição do conteúdo criacionais</td>
+<td>Rafaella Junqueira<br>Geraldo Victor<br>Isabella Carneiro</td>
+</tr>
+<tr>
+<td>04.04.2021</td>
+<td>0.3</td>
+<td>Adição do conteúdo comportamentais</td>
+<td>Geraldo Victor<br> Rafaella Junqueira<br>Kalebe Lopes</td>
+</tr>
+<tr>
+<td>04.04.2021</td>
+<td>0.4</td>
+<td>Adição do conteúdo estruturais</td>
+<td>Lucas Lopes<br>Rafaella Junqueira<br>Erick Giffoni</td>
+</tr>
+</tbody>
+</table>
+<h3 id="participantes">Participantes</h3>
+<ul>
+<li>Rafaella Junqueira</li>
+<li>Kalebe Lopes</li>
+<li>Erick Giffoni</li>
+<li>Isabella Carneiro</li>
+<li>Geraldo Victor
+<br></li>
+</ul>
+<h3 id="padroes-utilizados-no-projeto">Padrões utilizados no projeto</h3>
+<ul>
+<li><a href="../gof-abstract-factory/">Abstract Factory</a><br></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+</ul>
+<p><br></p>
+<h3 id="introducao">Introdução</h3>
+<div align="justify">
+
+<p>Um padrão de projeto é uma solução geral para um problema que ocorre com frequência dentro de um determinado contexto no projeto de software. Os padrões são melhores práticas formalizadas podem ser usadas para resolver problemas comuns ao projetar uma aplicação e, quando se referem a projeto orientados a objeto, normalmente mostram relacionamentos e interações entre classes ou objetos.<p>
+<p>
+
+Esses padrões de projeto visam facilitar a reutilização de soluções de desenho e facilitar a comunicação, documentação e aprendizado dos sistemas de software. Os padrões GoF são divididos em 3 categorias: <a href="#criacionais">criacionais</a>,  <a href="#comportamentais">comportamentais</a> e <a href="#estruturais">estruturais</a>, que abarcam um total de 24 tipos de padrões.
+<p>
+
+</div>
+
+<h3 id="criacionais">Criacionais</h3>
+<div align="justify">
+<p>Os padrões de criação são aqueles que abstraem e/ou adiam o processo criação dos objetos, ajudando a tornar um sistema que não seja dependente da maneira como seus objetos são criados, compostos e representados. Estes padrões fornecem vários mecanismos de criação de objetos, que aumentam a flexibilidade e reutilização de código já existente.</p>
+Esta categoria abarca os padrões:</p>
+</div>
+<ul>
+<li><strong>Singleton</strong>: assegura que somente um objeto de uma determinada classe seja criado em todo o projeto;</li>
+<li><strong>Abstract</strong> Factory: permite que um cliente crie famílias de objetos sem especificar suas classes concretas;</li>
+<li><strong>Builder</strong>: encapsular a construção de um produto e permitir que ele seja construído em etapas;</li>
+<li><strong>Prototype</strong>: permite você criar novas instancias simplesmente copiando instancias existentes;</li>
+<li><strong>Factory Mathod</strong>: as subclasses decidem quais classes concretas serão criadas.</li>
+</ul>
+<h3 id="comportamentais">Comportamentais</h3>
+<div align="justify">
+<p>Os padrões de comportamento se concentram nas atribuições de responsabilidades entre os objetos, mas não descrevem apenas padrões de objetos ou de classes, mas também os padrões de comunicação entre os objetos.</p>
+Esta categoria abarca os padrões:</p>
+</div>
+<ul>
+<li><strong>Chain of Responsability</strong>: permite dar a mais de um objeto a oportunidade de processar uma solicitação;</li>
+<li><strong>Command</strong>: encapsula uma solicitação como um objeto;</li>
+<li><strong>Iterator</strong>: fornece uma maneira de acessar seqüencialmente uma coleção de objetos sem expor a sua implementação;</li>
+<li><strong>Mediator</strong>: centraliza operações complexas de comunicação e controle entre objetos relacionados;</li>
+<li><strong>Memento</strong>: permite restaurar um objeto a um dos seus estados prévios, por exemplo, quando o usuário seleciona um “desfazer”;</li>
+<li><strong>Observer</strong>: permite notificar outros objetos quando ocorre uma mudança de estado;</li>
+<li><strong>State</strong>: encapsula comportamentos baseados em estados e usa a delegação para alternar comportamentos;</li>
+<li><strong>Strategy</strong>: encapsula comportamentos intercambiáveis e usa a delegação para decidir qual deles será usado;</li>
+<li><strong>Template Method</strong>: As subclasses decidem como implementar os passos de um algoritimo;</li>
+<li><strong>Visitor</strong>: permite acrescentar novos recursos a um composto de objetos e o encapsulamento não é importante;</li>
+</ul>
+<h3 id="estruturais">Estruturais</h3>
+<div align="justify">
+<p>Os padrões estruturais se preocupam com a forma como classes e objetos são compostos para formar estruturas maiores. Quando aplicados à orientação a objetos, as classes utilizam a herança para compor interfaces ou implementações, e  os de objeto descrevem maneiras de compor objetos para obter novas funcionalidades. Estes padrões explicam como montar objetos e classes em estruturas maiores mas ainda mantendo essas estruturas flexíveis e eficientes.</p>
+Esta categoria abarca os padrões:</p>
+</div>
+<ul>
+<li><strong>Decorator</strong>: envelopa um objeto para fornecer novos comportamentos;</li>
+<li><strong>Proxy</strong>: envelopa um objeto para controlar o acesso a ele;</li>
+<li><strong>FlyWeigth</strong>: uma instancia de uma classe pode ser usada para fornecer muitas “instancias virtuais”;</li>
+<li><strong>Facade</strong>: simplifica a interface de um conjunto de classes;</li>
+<li><strong>Composite</strong>: Os clientes tratam as coleções de objetos e os objetos individuais de maneira uniforme;</li>
+<li><strong>Bridge</strong>: permite criar uma ponte para variar não apenas a sua implementação, como também as suas abstrações;</li>
+<li><strong>Adapter</strong>: envelopa um objeto e fornece a ele uma interface diferente;</li>
+</ul>
+<h2 id="referencias">Referências</h2>
+<p><br>
+SERRANO, Milene. <strong>Padrões GoF</strong>, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de Engenharia de Software da UnB, FGA. Acesso em 10 de março de 2021.</p>
+<p>DEVMEDIA, <strong>Design Patterns: Padrões “GoF”</strong>. Disponível em <a href="https://www.devmedia.com.br/design-patterns-padroes-gof/16781">https://www.devmedia.com.br/design-patterns-padroes-gof/16781</a> Acesso em 4 de abril de 2021.</p>
+<p>REFACTORING GURU, <strong>O Catálogo dos Padrões de Projeto</strong> Disponível em <a href="https://refactoring.guru/pt-br/design-patterns/catalog">https://refactoring.guru/pt-br/design-patterns/catalog</a> Acesso em 4 de abril de 2021.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
