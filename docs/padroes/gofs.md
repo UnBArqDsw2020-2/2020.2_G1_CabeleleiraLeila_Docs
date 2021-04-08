@@ -27,7 +27,7 @@
 | Criacionais | [Builder](gof-builder.md)<br>[Singleton](gof-singleton.md)
 | Estruturais | [Decorator](gof-decorator.md)<br>[]()
 | Comportamentais | [Observer](gof-observer.md)<br>
-| Emergentes | [Injeção de dependência]()<br>
+| Emergentes | [Injeção de dependência](emergente-injecao-dependecia.md)<br>
 
 <br>
 
