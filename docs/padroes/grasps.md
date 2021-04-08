@@ -11,6 +11,7 @@
 | 28.03.2021 | 1.0 | Edição e revisão da versão 1.0 | Erick Giffoni |
 | 01.04.2021 | 1.1 | Refatoração do documento | Isabella Carneiro |
 | 05.04.2021 | 1.2 | Adição conteúdo Indireção | Rafaella Junqueira<br>Geraldo Victor<br>Kalebe Lopes |
+| 07.04.2021 | 1.3 | Adição do conteúdo Inversão de controle | Rafaella Junqueira |
 
 ### Participantes
 
@@ -25,6 +26,7 @@
 - [Baixo acoplamento](#baixo-acoplamento)<br>
 - [Controller](#controller)<br> 
 - [Indireção](#indirecao)<br>
+- [Inversão de controle](#inversao-de-controle)
 <br>
 
 ### Introdução
@@ -104,6 +106,17 @@ componentes que não mais dependem um do outro: ambos dependem da indireção</p
 <p>Os dados do backend são retornados em forma de arquivos .json e estes serão consumidos pelo framework Angular, responsável por realizar a exibição do conteúdo por meio de componentes html. Os comportamentos desses componentes são definidos em arquivos do tipo typescript e estilizados em arquivos css.</p>
 </div>
 
+## <center> Inversão de controle
+<div align="justify"><br>
+<p>A inversão de controle é um termo amplo onde a responsabilidade de informar a implementação a ser utilizada deixa de ser da classe, e passa a ser do consumidor da classe. Esse padrão auxilia a seguir os princípios SOLID, princípios esses que auxiliam a diminuir o acoplamento, facilitar a manutenção, facilitar a automação de testes, dentre outros benefícios.</p>
+<p>Este padrão indica que módulos de alto nível não devem depender de módulos de baixo nível, ambos devem depender da abstração. E as abstrações não devem depender de detalhes, mas de outras abstrações. A inversão de controle é implementada quando se aplica o padrão <a href="../emergente-injecao-dependencia">injeção de dependência</a></p>
+</div>
+
+### Aplicações no projeto
+<div align="justify"><br>
+<p></p>
+</div>
+
 ## Referências
 <br>
 Universidade Federal de Uberlândia. **Padrões GRASPs** Disponível em [http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf](http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf). Acesso em 12 de março de 2021.
@@ -115,3 +128,5 @@ DEVMEDIA, **Desenvolvimento com qualidade com GRASP** Disponível em [https://ww
 DEVMEDIA, **Padrão MVC - Java Magazine** Disponível em [https://www.devmedia.com.br/padrao-mvc-java-magazine/21995#2](https://www.devmedia.com.br/padrao-mvc-java-magazine/21995#2) Acesso em 1 de abril de 2021.
 
 DEVMEDIA, **Java Spring MVC: Criando Aplicações Web em Java** Disponível em [https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521](https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521) Acesso em 1 de abril de 2021.
+
+**Inversão de Controle** Disponível em [http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C](http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C) Acesso em 
