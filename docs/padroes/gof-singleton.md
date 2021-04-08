@@ -63,15 +63,6 @@ O diagrama UML representa a forma como o padrão está sendo empregado no projet
 <figcaption align="center">
     <b>Figura 3 - Representação UML da classe JSpringFoxConfig</b>
 </figcaption>
-
-<br>
-
-<div align="justify">
-
-Vale lembrar que esse padrão está sendo amplamente utilizado no projeto, entretanto, para fins de explicação e para não tornar este documento longo, utilizamos apenas exemplos relacionados à classe SpringFoxConfig presente na aplicação.
-
-</div><br>
-
 <br>
 
 ## Referências
