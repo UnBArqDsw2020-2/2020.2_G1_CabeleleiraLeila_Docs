@@ -13,6 +13,9 @@
 
 ### Participantes
 
+* Bruna Almeida
+* Damarcones Porto
+* Lucas Lopes
 * Rafaella Junqueira
 * Kalebe Lopes
 * Erick Giffoni

@@ -27,6 +27,7 @@ Esse padrão pode ser usado quando uma modificação do estado de um objeto impl
 Uma das vantagens de se usar o Observer é que ele permite um acoplamento mínimo entre o Sujeito (Subjet) e o Observador (Observer). Outra vantagem oferecida por este padrão é poder reutilizar Sujeitos sem reutilizar os seus observadores e vice-versa.
 </div><br>
 
+
 ### Metodologia
 
 <div align="justify">
@@ -35,35 +36,36 @@ A documentação e modelagem do padrão Observer foi desenvolvida a partir de um
 
 ### Aplicação no projeto
 <div align="justify">
-
+O projeto utiliza este padrão principalmente na criação, edição e exclusão de serviçoes. Nos exemplos a seguir estão implementadas as classes ServicoService e ServicosComponent, que estão se comunicando para efetuar a manipulação dos serviços.
 
 </div> <br>
 
 [<div align="center"><img src="../../img/padroes/gofs/observer-1.png"></div>](../../img/padroes/gofs/observer-1.png)
 <figcaption align="center">
-    <b>Figura 1 - Representação da classe SpringFoxConfig.</b>
+    <b>Figura 1 - Representação da classe ServicoService.</b>
 </figcaption>
 <br>
 
-[<div align="center"><img src="../../img/padroes/gofs/observer-2.png"></div>](../../img/padroes/gofs/observer-2.png)
-<figcaption align="center">
-    <b>Figura 2 - Representação da classe SpringFoxConfig.</b>
-</figcaption>
-<br>
 
 [<div align="center"><img src="../../img/padroes/gofs/observer-3.png"></div>](../../img/padroes/gofs/observer-3.png)
 <figcaption align="center">
-    <b>Figura 2 - Representação da classe SpringFoxConfig.</b>
+    <b>Figura 2 - Representação da classe ServicosComponent.</b>
 </figcaption>
 <br>
-
 
 
 
 ### Modelagem UML
 <div align="justify">
-
+O diagrama UML representa a forma como o padrão está sendo empregado no projeto, exemplificando o uso entre as classes ServicosComponent e ServicoService. 
 </div> <br>
+
+[<div align="center"><img src="../../img/padroes/gofs/uml-observer.jpg"></div>](../../img/padroes/gofs/uml-observer.jpg)
+<figcaption align="center">
+    <b>Figura 3 - Representação UML das classes ServicosComponent e ServicoService</b>
+</figcaption>
+<br>
+
 
 ### Referências
 
@@ -76,5 +78,3 @@ MEDIUM, **Implementando Padrão de Projeto Observer no Java**. Disponível em: [
 ANDRÉ CELESTINO, **[Delphi] Design Patterns GoF – Observer**. Disponível em: [andrecelestino.com/delphi-design-patterns-observer/](http://www.andrecelestino.com/delphi-design-patterns-observer/). Acesso em 7 de abril de 2021.
 
 MACORATTI, **O padrão de projeto Observer**. Disponível em: [macoratti.net/13/03/net_obs1.htm](http://www.macoratti.net/13/03/net_obs1.htm). Acesso em 7 de abril de 2021.
-
-
