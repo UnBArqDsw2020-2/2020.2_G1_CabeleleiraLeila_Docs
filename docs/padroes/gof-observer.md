@@ -6,6 +6,7 @@
 |Data | Versão | Descrição | Autor(es)|
 | -- | -- | -- | -- |
 | 07.04.2021 | 0.1 | Criação do documento | Bruna Almeida<br>Damarcones Porto<br>Isabella Carneiro<br>Lucas Lopes|
+| 08.04.2021 | 1.0 | Adição da aplicação no projeto e diagrama UML | Bruna Almeida<br>Damarcones Porto|
 
 ### Participantes
 
@@ -17,44 +18,13 @@
 ### Introdução
 <div align="justify">
 
-O Observer é um padrão de projeto comportamental que permite que você defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando.
-
-O padrão de projeto (Design Pattern) Observer é um padrão comportamental que representa uma relação de 1-N (de um para muitos) entre objetos. Assim quando um objeto altera o seu estado os objetos dependentes serão notificados/informados/avisados e atualizados de forma automática.
-
-Vantagens em usar o padrão Observer:
-
-    Permite um acoplamento mínimo entre o Sujeito(Subjet) e o Observador(Observer)
-
-        Pode reutilizar Sujeitos sem reutilizar os seus observadores e vice-versa;
-        Os Observadores podem ser adicionados sem modificar o Sujeito;
-        Todo sujeito conhece a sua lista de Observadores;
-        O Sujeito não precisa conhecer a classe concreta de um observador, apenas que cada observador implementa a interface update();
-        O Subjeito e Observador podem pertencer a diferentes camadas de abstração;
-
-Quando usar o padrão Observer ?
-
-    Quando uma modificação do estado de um objeto implica modificações em outros objetos;
-    Quando um objeto deve ser capaz de notificar outros objetos, mas sem pressupostos sobre os objetos a serem notificados;
-    Quando uma abstração possuir dois aspectos e um depende do outro;
-    Quando não desejamos um forte acoplamento com os objetos que necessitam conhecer estas modificações;
-
-O padrão Observer funciona como assinaturas de jornais e revistas, ou seja, temos uma editora que publica as edições e pessoas que assinam os jornais ou revistas dessa editora e sempre recebem as novas edições assim que elas são publicadas. Enquanto a pessoa é assinante ela continua recebendo as edições na sua casa. Se a pessoa cancelar a assinatura do jornal ou da revista ela para de receber as edições.
-
-O padrão Observer funciona da mesma forma, no entanto, tem-se que a editora (que publica) é o chamado SUBJECT no Padrão Observer e os assinantes (que recebem as novas publicações) são os chamados OBSERVER.
-
-Os OBSERVERs registram-se no SUBJECT para receber atualizações quando os dados do SUBJECT são alterados. Os OBSERVERs também podem cancelar o seu registro e dessa forma não receber mais nenhuma atualização do SUBJECT.
-
-
+O Observer é um padrão de projeto comportamental que permite que se defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando. O padrão Observer representa uma relação de 1-N (de um para muitos) entre objetos. Assim quando um objeto altera o seu estado os objetos dependentes serão notificados/informados/avisados e atualizados de forma automática.
 <br><br>
 
-
-
+Esse padrão pode ser usado quando uma modificação do estado de um objeto implica modificações em outros objetos; quando um objeto deve ser capaz de notificar outros objetos, mas sem pressupostos sobre os objetos a serem notificados; ou quando uma abstração possuir dois aspectos e um depende do outro.
 <br><br>
 
-
-
-<br><br>
-
+Uma das vantagens de se usar o Observer é que ele permite um acoplamento mínimo entre o Sujeito (Subjet) e o Observador (Observer). Outra vantagem oferecida por este padrão é poder reutilizar Sujeitos sem reutilizar os seus observadores e vice-versa.
 </div><br>
 
 ### Metodologia
@@ -69,11 +39,42 @@ A documentação e modelagem do padrão Observer foi desenvolvida a partir de um
 
 </div> <br>
 
+[<div align="center"><img src="../../img/padroes/gofs/observer-1.png"></div>](../../img/padroes/gofs/observer-1.png)
+<figcaption align="center">
+    <b>Figura 1 - Representação da classe SpringFoxConfig.</b>
+</figcaption>
+<br>
+
+[<div align="center"><img src="../../img/padroes/gofs/observer-2.png"></div>](../../img/padroes/gofs/observer-2.png)
+<figcaption align="center">
+    <b>Figura 2 - Representação da classe SpringFoxConfig.</b>
+</figcaption>
+<br>
+
+[<div align="center"><img src="../../img/padroes/gofs/observer-3.png"></div>](../../img/padroes/gofs/observer-3.png)
+<figcaption align="center">
+    <b>Figura 2 - Representação da classe SpringFoxConfig.</b>
+</figcaption>
+<br>
+
+
+
+
 ### Modelagem UML
 <div align="justify">
 
 </div> <br>
 
 ### Referências
+
+DEVMEDIA, **Padrão de Projeto Observer em Java**. Disponível em: [devmedia.com.br/padrao-de-projeto-observer-em-java/26163](https://www.devmedia.com.br/padrao-de-projeto-observer-em-java/26163). Acesso em 7 de abril de 2021.
+
+REFACTORING, **Observer**. Disponível em: [refactoring.guru/pt-br/design-patterns/observer](https://refactoring.guru/pt-br/design-patterns/observer). Acesso em 7 de abril de 2021.
+
+MEDIUM, **Implementando Padrão de Projeto Observer no Java**. Disponível em: [medium.com/@FernandoUnix/implementando-padr%C3%A3o-de-projeto-observer-no-java-78ebb79b832b](https://medium.com/@FernandoUnix/implementando-padr%C3%A3o-de-projeto-observer-no-java-78ebb79b832b). Acesso em 7 de abril de 2021.
+
+ANDRÉ CELESTINO, **[Delphi] Design Patterns GoF – Observer**. Disponível em: [andrecelestino.com/delphi-design-patterns-observer/](http://www.andrecelestino.com/delphi-design-patterns-observer/). Acesso em 7 de abril de 2021.
+
+MACORATTI, **O padrão de projeto Observer**. Disponível em: [macoratti.net/13/03/net_obs1.htm](http://www.macoratti.net/13/03/net_obs1.htm). Acesso em 7 de abril de 2021.
 
 
