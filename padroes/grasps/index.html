@@ -302,11 +302,7 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#inversao-de-controle" class="nav-link"> Inversão de controle</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#referencias" class="nav-link">Referências</a>
+            <li class="nav-item" data-level="2"><a href="#polimorfismo" class="nav-link"> Polimorfismo</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -371,6 +367,12 @@
 <td>1.3</td>
 <td>Adição do conteúdo Inversão de controle</td>
 <td>Rafaella Junqueira<br>Geraldo Victor<br>Kalebe Lopes</td>
+</tr>
+<tr>
+<td>08.04.2021</td>
+<td>1.3</td>
+<td>Adição conteúdo Polimorfismo</td>
+<td>Erick Giffoni<br>Kalebe Lopes</td>
 </tr>
 </tbody>
 </table>
@@ -465,33 +467,60 @@ componentes que não mais dependem um do outro: ambos dependem da indireção</p
 <p>Os dados do backend são retornados em forma de arquivos .json e estes serão consumidos pelo framework Angular, responsável por realizar a exibição do conteúdo por meio de componentes html. Os comportamentos desses componentes são definidos em arquivos do tipo typescript e estilizados em arquivos css.</p>
 </div>
 
-<h2 id="inversao-de-controle"><center> Inversão de controle</h2>
+<h2 id="polimorfismo"><center> Polimorfismo</h2>
+<div align="justify"><br>
+ <p>Em Java, o polimorfismo é realizado substituindo um método de uma superclasse ou implementando uma interface. Os métodos substituídos implementados são polimórficos, pois uma classe cliente usa o mesmo método, mas o comportamento depende do tipo de objeto que está sendo referenciado.<br>O padrão Polimorfismo do GRASP trata de como uma responsabilidade geral é distribuída a um conjunto de classes ou interfaces.</p>
+
+### Aplicações no projeto
+<div align="justify"><br>
+<p>Esse padrão acontece de várias maneiras no projeto. Uma delas é a seguinte: utiliza-se uma interface chamada CrudRepository que contém métodos que realizam algumas operações básicas CRUD (create, read, update, delete). Para atender as necessidades do sistema, é necessário sobrepor alguns métodos da interface CrudRepository, como por exemplo o método "findByCpf"</p>
+</div>
+
+[<div align="center"><img src="../../img/padroes/interface.jpg"></div>](../../img/padroes/interface.jpg)
+<figcaption align='center'>
+    <b>Figura 4 - Exemplo Polimorfismo</b>
+    <br>
+    <small>Autores: Kalebe Lopes e Erick Giffoni</small>
+</figcaption>
+
+<div align="justify"><br>
+<p>Foi definido um novo método, o findByCpf, que encontra uma pessoa utilizando o cpf passado por parâmetro. Observe que esse método é uma sobreposição do método findById declarado na interface CrudRepository, dessa forma configurando um exemplo de polimorfismo aplicado no projeto.
+</p>
+</div>
+
+## <center> Inversão de controle
 <div align="justify"><br>
 <p>A inversão de controle é um termo amplo onde a responsabilidade de informar a implementação a ser utilizada deixa de ser da classe, e passa a ser do consumidor da classe. Esse padrão auxilia a seguir os princípios SOLID, princípios esses que auxiliam a diminuir o acoplamento, facilitar a manutenção, facilitar a automação de testes, dentre outros benefícios.</p>
 <p>Este padrão indica que módulos de alto nível não devem depender de módulos de baixo nível, ambos devem depender da abstração. E as abstrações não devem depender de detalhes, mas de outras abstrações. A inversão de controle é implementada quando se aplica o padrão <a href="../emergente-injecao-dependencia">injeção de dependência</a></p>
 </div>
 
-<h3 id="aplicacoes-no-projeto_3">Aplicações no projeto</h3>
+### Aplicações no projeto
 <div align="justify"><br>
 <p>A inverção de controle pode ser exemplificada utilizando a classe ServicoService, do frontend, que instancia via construtor a classe HttpClient. Porém, os métodos do HttpClient é chamado através pela classe ServicoUpdateComponent que não conhece a implementação dos mesmos. Deste modo, pode-se representar a aplicação do padrão de acordo com o seguinte diagrama UML:</p>
 </div>
 
-<p><a href="../../img/padroes/uml-inversao.png"><div align="center"><img src="../../img/padroes/uml-inversao.png"></div></a></p>
+[<div align="center"><img src="../../img/padroes/uml-inversao.png"></div>](../../img/padroes/uml-inversao.png)
 <figcaption align='center'>
     <b>Figura 4 - Representação da inversão de controle na classe ServicoService</b>
     <br>
     <small>Autores: Rafaella Junqueira e Garaldo Victor</small>
 </figcaption>
 
-<h2 id="referencias">Referências</h2>
-<p><br>
-Universidade Federal de Uberlândia. <strong>Padrões GRASPs</strong> Disponível em <a href="http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf">http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf</a>. Acesso em 12 de março de 2021.</p>
-<p>SERRANO, Milene. <strong>Demais GRASPs</strong>, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de Engenharia de Software da UnB, FGA. Acesso em 9 de março de 2021.</p>
-<p>DEVMEDIA, <strong>Desenvolvimento com qualidade com GRASP</strong> Disponível em <a href="https://www.devmedia.com.br/desenvolvimento-com-qualidade-com-grasp/28704">https://www.devmedia.com.br/desenvolvimento-com-qualidade-com-grasp/28704</a> Acesso em 9 de março de 2021.</p>
-<p>DEVMEDIA, <strong>Padrão MVC - Java Magazine</strong> Disponível em <a href="https://www.devmedia.com.br/padrao-mvc-java-magazine/21995#2">https://www.devmedia.com.br/padrao-mvc-java-magazine/21995#2</a> Acesso em 1 de abril de 2021.</p>
-<p>DEVMEDIA, <strong>Java Spring MVC: Criando Aplicações Web em Java</strong> Disponível em <a href="https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521">https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521</a> Acesso em 3 de abril de 2021.</p>
-<p><strong>Inversão de Controle</strong> Disponível em <a href="http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C">http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C</a> Acesso em </p>
-<p>CASTILHO, Robson, <strong>Princípios SOLID: Princípio da Inversão de Dependência (DIP)</strong> Disponível em <a href="https://robsoncastilho.com.br/2013/05/01/principios-solid-principio-da-inversao-de-dependencia-dip/">https://robsoncastilho.com.br/2013/05/01/principios-solid-principio-da-inversao-de-dependencia-dip/</a> Acesso em 5 de abril de 2021.</p></div>
+## Referências
+<br>
+Universidade Federal de Uberlândia. **Padrões GRASPs** Disponível em [http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf](http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf). Acesso em 12 de março de 2021.
+
+SERRANO, Milene. **Demais GRASPs**, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de Engenharia de Software da UnB, FGA. Acesso em 9 de março de 2021.
+
+DEVMEDIA, **Desenvolvimento com qualidade com GRASP** Disponível em [https://www.devmedia.com.br/desenvolvimento-com-qualidade-com-grasp/28704](https://www.devmedia.com.br/desenvolvimento-com-qualidade-com-grasp/28704) Acesso em 9 de março de 2021.
+
+DEVMEDIA, **Padrão MVC - Java Magazine** Disponível em [https://www.devmedia.com.br/padrao-mvc-java-magazine/21995#2](https://www.devmedia.com.br/padrao-mvc-java-magazine/21995#2) Acesso em 1 de abril de 2021.
+
+DEVMEDIA, **Java Spring MVC: Criando Aplicações Web em Java** Disponível em [https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521](https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521) Acesso em 3 de abril de 2021.
+
+CÓDIGO, Linha de. **Inversão de Controle** Disponível em [http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C](http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C) Acesso em 
+
+CASTILHO, Robson. **Princípios SOLID: Princípio da Inversão de Dependência (DIP)** Disponível em [https://robsoncastilho.com.br/2013/05/01/principios-solid-principio-da-inversao-de-dependencia-dip/](https://robsoncastilho.com.br/2013/05/01/principios-solid-principio-da-inversao-de-dependencia-dip/) Acesso em 5 de abril de 2021.</div>
             </div>
         </div>
 
