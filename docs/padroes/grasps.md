@@ -11,6 +11,8 @@
 | 28.03.2021 | 1.0 | Edição e revisão da versão 1.0 | Erick Giffoni |
 | 01.04.2021 | 1.1 | Refatoração do documento | Isabella Carneiro |
 | 05.04.2021 | 1.2 | Adição conteúdo Indireção | Rafaella Junqueira<br>Geraldo Victor<br>Kalebe Lopes |
+| 08.04.2021 | 1.3 | Adição conteúdo Polimorfismo | Erick Giffoni<br>Kalebe Lopes |
+
 
 ### Participantes
 
@@ -102,6 +104,28 @@ componentes que não mais dependem um do outro: ambos dependem da indireção</p
 
 <div align="justify"><br>
 <p>Os dados do backend são retornados em forma de arquivos .json e estes serão consumidos pelo framework Angular, responsável por realizar a exibição do conteúdo por meio de componentes html. Os comportamentos desses componentes são definidos em arquivos do tipo typescript e estilizados em arquivos css.</p>
+</div>
+
+## <center> Polimorfismo
+<div align="justify"><br>
+ <p>Em Java, o polimorfismo é realizado substituindo um método de uma superclasse ou implementando uma interface. Os métodos substituídos implementados são polimórficos, pois uma classe cliente usa o mesmo método, mas o comportamento depende do tipo de objeto que está sendo referenciado.<br>O padrão Polimorfismo do GRASP trata de como uma responsabilidade geral é distribuída a um conjunto de classes ou interfaces.</p>
+</div>
+
+### Aplicações no projeto
+<div align="justify"><br>
+<p>Esse padrão acontece de várias maneiras no projeto. Uma delas é a seguinte: utiliza-se uma interface chamada CrudRepository que contém métodos que realizam algumas operações básicas CRUD (create, read, update, delete). Para atender as necessidades do sistema, é necessário sobrepor alguns métodos da interface CrudRepository, como por exemplo o método "findByCpf"</p>
+</div>
+
+[<div align="center"><img src="../../img/padroes/interface.jpg"></div>](../../img/padroes/interface.jpg)
+<figcaption align='center'>
+    <b>Figura 4 - Exemplo Polimorfismo</b>
+    <br>
+    <small>Autores: Kalebe Lopes e Erick Giffoni</small>
+</figcaption>
+
+<div align="justify"><br>
+<p>Foi definido um novo método, o findByCpf, que encontra uma pessoa utilizando o cpf passado por parâmetro. Observe que esse método é uma sobreposição do método findById declarado na interface CrudRepository, dessa forma configurando um exemplo de polimorfismo aplicado no projeto.
+</p>
 </div>
 
 ## Referências
