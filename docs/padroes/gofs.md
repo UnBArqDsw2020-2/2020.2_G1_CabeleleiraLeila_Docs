@@ -9,6 +9,7 @@
 | 04.04.2021 | 0.2 | Adição do conteúdo criacionais | Rafaella Junqueira<br>Geraldo Victor<br>Isabella Carneiro |
 | 04.04.2021 | 0.3 | Adição do conteúdo comportamentais |Geraldo Victor<br> Rafaella Junqueira<br>Kalebe Lopes |
 | 04.04.2021 | 0.4 | Adição do conteúdo estruturais | Lucas Lopes<br>Rafaella Junqueira<br>Erick Giffoni |
+| 08.04.2021 | 0.5 | Adição do método Template Method | Bruna Almeida<br>Damarcones Porto<br>Isabella Carneiro <br> Lucas Lopes |
 
 
 ### Participantes
@@ -29,7 +30,7 @@
 | -- | -- |
 | Criacionais | [Builder](gof-builder.md)<br>[Singleton](gof-singleton.md)<br>[Abstract Factory](gof-abstract-factory.md)
 | Estruturais | [Decorator](gof-decorator.md)<br>[]()
-| Comportamentais | [Observer](gof-observer.md)<br>[Chain of Responsability](gof-chain-of-responsability.md)
+| Comportamentais | [Observer](gof-observer.md)<br>[Chain of Responsability](gof-chain-of-responsability.md)<br>[Template Method](template-method.md)
 | Emergentes | [Injeção de dependência](emergente-injecao-dependencia.md)<br>
 
 <br>
@@ -54,7 +55,7 @@ Esta categoria abarca os padrões:</p>
 - **Abstract** Factory: permite que um cliente crie famílias de objetos sem especificar suas classes concretas;
 - **Builder**: encapsular a construção de um produto e permitir que ele seja construído em etapas;
 - **Prototype**: permite você criar novas instancias simplesmente copiando instancias existentes;
-- **Factory Mathod**: as subclasses decidem quais classes concretas serão criadas.
+- **Factory Method**: as subclasses decidem quais classes concretas serão criadas.
 
 ### Comportamentais
 <div align="justify">
