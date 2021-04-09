@@ -12,6 +12,7 @@
 | 01.04.2021 | 1.1 | Refatoração do documento | Isabella Carneiro |
 | 05.04.2021 | 1.2 | Adição conteúdo Indireção | Rafaella Junqueira<br>Geraldo Victor<br>Kalebe Lopes |
 | 07.04.2021 | 1.3 | Adição do conteúdo Inversão de controle | Rafaella Junqueira<br>Geraldo Victor<br>Kalebe Lopes|
+| 08.04.2021 | 1.3 | Adição conteúdo Polimorfismo | Erick Giffoni<br>Kalebe Lopes |
 
 ### Participantes
 
@@ -26,6 +27,7 @@
 - [Baixo acoplamento](#baixo-acoplamento)<br>
 - [Controller](#controller)<br> 
 - [Indireção](#indirecao)<br>
+- [Polimorfismo](#polimorfismo)
 - [Inversão de controle](#inversao-de-controle)
 <br>
 
@@ -106,6 +108,29 @@ componentes que não mais dependem um do outro: ambos dependem da indireção</p
 <p>Os dados do backend são retornados em forma de arquivos .json e estes serão consumidos pelo framework Angular, responsável por realizar a exibição do conteúdo por meio de componentes html. Os comportamentos desses componentes são definidos em arquivos do tipo typescript e estilizados em arquivos css.</p>
 </div>
 
+## <center> Polimorfismo
+<div align="justify"><br>
+ <p>Em Java, o polimorfismo é realizado substituindo um método de uma superclasse ou implementando uma interface. Os métodos substituídos implementados são polimórficos, pois uma classe cliente usa o mesmo método, mas o comportamento depende do tipo de objeto que está sendo referenciado.</p>
+ <p>O padrão Polimorfismo do GRASP trata de como uma responsabilidade geral é distribuída a um conjunto de classes ou interfaces.</p>
+</div>
+
+### Aplicações no projeto
+<div align="justify"><br>
+<p>Esse padrão acontece de várias maneiras no projeto. Uma delas é a seguinte: utiliza-se uma interface chamada CrudRepository que contém métodos que realizam algumas operações básicas CRUD (create, read, update, delete). Para atender as necessidades do sistema, é necessário sobrepor alguns métodos da interface CrudRepository, como por exemplo o método "findByCpf"</p>
+</div>
+
+[<div align="center"><img src="../../img/padroes/interface.jpg"></div>](../../img/padroes/interface.jpg)
+<figcaption align='center'>
+    <b>Figura 4 - Exemplo Polimorfismo</b>
+    <br>
+    <small>Autores: Kalebe Lopes e Erick Giffoni</small>
+</figcaption>
+
+<div align="justify"><br>
+<p>Foi definido um novo método, o findByCpf, que encontra uma pessoa utilizando o cpf passado por parâmetro. Observe que esse método é uma sobreposição do método findById declarado na interface CrudRepository, dessa forma configurando um exemplo de polimorfismo aplicado no projeto.
+</p>
+</div>
+
 ## <center> Inversão de controle
 <div align="justify"><br>
 <p>A inversão de controle é um termo amplo onde a responsabilidade de informar a implementação a ser utilizada deixa de ser da classe, e passa a ser do consumidor da classe. Esse padrão auxilia a seguir os princípios SOLID, princípios esses que auxiliam a diminuir o acoplamento, facilitar a manutenção, facilitar a automação de testes, dentre outros benefícios.</p>
@@ -136,6 +161,6 @@ DEVMEDIA, **Padrão MVC - Java Magazine** Disponível em [https://www.devmedia.c
 
 DEVMEDIA, **Java Spring MVC: Criando Aplicações Web em Java** Disponível em [https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521](https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521) Acesso em 3 de abril de 2021.
 
-**Inversão de Controle** Disponível em [http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C](http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C) Acesso em 
+CÓDIGO, Linha de. **Inversão de Controle** Disponível em [http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C](http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C) Acesso em 
 
-CASTILHO, Robson, **Princípios SOLID: Princípio da Inversão de Dependência (DIP)** Disponível em [https://robsoncastilho.com.br/2013/05/01/principios-solid-principio-da-inversao-de-dependencia-dip/](https://robsoncastilho.com.br/2013/05/01/principios-solid-principio-da-inversao-de-dependencia-dip/) Acesso em 5 de abril de 2021.
+CASTILHO, Robson. **Princípios SOLID: Princípio da Inversão de Dependência (DIP)** Disponível em [https://robsoncastilho.com.br/2013/05/01/principios-solid-principio-da-inversao-de-dependencia-dip/](https://robsoncastilho.com.br/2013/05/01/principios-solid-principio-da-inversao-de-dependencia-dip/) Acesso em 5 de abril de 2021.
