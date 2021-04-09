@@ -32,7 +32,7 @@ A documentação deste padrão foi realizada em conjunto por meio de reunião vi
 ### Aplicação no projeto
 <div align="justify">
 
-O projeto utiliza diversas interfaces que derivam de uma interface principal denominada CrudRepository, e como exemplo disso, há a interface PessoaRepository. Deste modo, entende-se que a PessoaRepository representa a fábrica astrata enquanto a CrudRepository representa a fábrica concreta.
+O projeto utiliza diversas interfaces que derivam de uma interface principal denominada CrudRepository, e como exemplo disso, há a interface PessoaRepository. Deste modo, entende-se que a PessoaRepository representa a fábrica abstrata enquanto a CrudRepository representa a fábrica concreta.
 </div><br>
 
 [<div align="center"><img src="../../img/padroes/pessoa-repository.png"></div>](../../img/padroes/pessoa-repository.png)
