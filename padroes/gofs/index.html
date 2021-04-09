@@ -246,10 +246,6 @@
 <li>
     <a href="./" class="dropdown-item active">Módulo Padrões de Projeto GoFs</a>
 </li>
-                                    
-<li>
-    <a href="../emergente-injecao-dependencia/" class="dropdown-item">Módulo Padrões de Projeto Extras</a>
-</li>
                                 </ul>
                             </li>
                         </ul>
@@ -266,7 +262,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../emergente-injecao-dependencia/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -307,50 +303,41 @@
 <table>
 <thead>
 <tr>
-<th align="center">Data</th>
-<th align="center">Versão</th>
+<th>Data</th>
+<th>Versão</th>
 <th>Descrição</th>
 <th>Autor(es)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">04.04.2021</td>
-<td align="center">0.1</td>
+<td>04.04.2021</td>
+<td>0.1</td>
 <td>Criação do documento</td>
 <td>Rafaella Junqueira<br>Geraldo Victor<br>Isabella Carneiro</td>
 </tr>
 <tr>
-<td align="center">04.04.2021</td>
-<td align="center">0.2</td>
+<td>04.04.2021</td>
+<td>0.2</td>
 <td>Adição do conteúdo criacionais</td>
 <td>Rafaella Junqueira<br>Geraldo Victor<br>Isabella Carneiro</td>
 </tr>
 <tr>
-<td align="center">04.04.2021</td>
-<td align="center">0.3</td>
+<td>04.04.2021</td>
+<td>0.3</td>
 <td>Adição do conteúdo comportamentais</td>
 <td>Geraldo Victor<br> Rafaella Junqueira<br>Kalebe Lopes</td>
 </tr>
 <tr>
-<td align="center">04.04.2021</td>
-<td align="center">0.4</td>
+<td>04.04.2021</td>
+<td>0.4</td>
 <td>Adição do conteúdo estruturais</td>
 <td>Lucas Lopes<br>Rafaella Junqueira<br>Erick Giffoni</td>
-</tr>
-<tr>
-<td align="center">08.04.2021</td>
-<td align="center">0.5</td>
-<td>Adição do método Template Method</td>
-<td>Bruna Almeida<br>Damarcones Porto<br>Isabella Carneiro <br> Lucas Lopes</td>
 </tr>
 </tbody>
 </table>
 <h3 id="participantes">Participantes</h3>
 <ul>
-<li>Bruna Almeida</li>
-<li>Damarcones Porto</li>
-<li>Lucas Lopes</li>
 <li>Rafaella Junqueira</li>
 <li>Kalebe Lopes</li>
 <li>Erick Giffoni</li>
@@ -359,33 +346,14 @@
 <br></li>
 </ul>
 <h3 id="padroes-utilizados-no-projeto">Padrões utilizados no projeto</h3>
-<!-- - [Abstract Factory](gof-abstract-factory.md) // mudar!!! -->
-<table>
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Padrão</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Criacionais</td>
-<td><a href="../gof-builder/">Builder</a><br><a href="../gof-singleton/">Singleton</a><br><a href="../gof-abstract-factory/">Abstract Factory</a></td>
-</tr>
-<tr>
-<td>Estruturais</td>
-<td><a href="../gof-decorator/">Decorator</a><br><a href=""></a></td>
-</tr>
-<tr>
-<td>Comportamentais</td>
-<td><a href="../gof-observer/">Observer</a><br><a href="../gof-chain-of-responsability/">Chain of Responsability</a><br><a href="../template-method/">Template Method</a></td>
-</tr>
-<tr>
-<td>Emergentes</td>
-<td><a href="../emergente-injecao-dependencia/">Injeção de dependência</a><br></td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li><a href="../gof-abstract-factory/">Abstract Factory</a><br></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+</ul>
 <p><br></p>
 <h3 id="introducao">Introdução</h3>
 <div align="justify">
@@ -408,7 +376,7 @@ Esta categoria abarca os padrões:</p>
 <li><strong>Abstract</strong> Factory: permite que um cliente crie famílias de objetos sem especificar suas classes concretas;</li>
 <li><strong>Builder</strong>: encapsular a construção de um produto e permitir que ele seja construído em etapas;</li>
 <li><strong>Prototype</strong>: permite você criar novas instancias simplesmente copiando instancias existentes;</li>
-<li><strong>Factory Method</strong>: as subclasses decidem quais classes concretas serão criadas.</li>
+<li><strong>Factory Mathod</strong>: as subclasses decidem quais classes concretas serão criadas.</li>
 </ul>
 <h3 id="comportamentais">Comportamentais</h3>
 <div align="justify">
