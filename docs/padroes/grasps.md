@@ -11,7 +11,7 @@
 | 28.03.2021 | 1.0 | Edição e revisão da versão 1.0 | Erick Giffoni |
 | 01.04.2021 | 1.1 | Refatoração do documento | Isabella Carneiro |
 | 05.04.2021 | 1.2 | Adição conteúdo Indireção | Rafaella Junqueira<br>Geraldo Victor<br>Kalebe Lopes |
-| 07.04.2021 | 1.3 | Adição do conteúdo Inversão de controle | Rafaella Junqueira |
+| 07.04.2021 | 1.3 | Adição do conteúdo Inversão de controle | Rafaella Junqueira<br>Geraldo Victor<br>Kalebe Lopes|
 
 ### Participantes
 
@@ -114,8 +114,15 @@ componentes que não mais dependem um do outro: ambos dependem da indireção</p
 
 ### Aplicações no projeto
 <div align="justify"><br>
-<p></p>
+<p>A inverção de controle pode ser exemplificada utilizando a classe ServicoService, do frontend, que instancia via construtor a classe HttpClient. Porém, os métodos do HttpClient é chamado através pela classe ServicoUpdateComponent que não conhece a implementação dos mesmos. Deste modo, pode-se representar a aplicação do padrão de acordo com o seguinte diagrama UML:</p>
 </div>
+
+[<div align="center"><img src="../../img/padroes/uml-inversao.png"></div>](../../img/padroes/uml-inversao.png)
+<figcaption align='center'>
+    <b>Figura 4 - Representação da inversão de controle na classe ServicoService</b>
+    <br>
+    <small>Autores: Rafaella Junqueira e Garaldo Victor</small>
+</figcaption>
 
 ## Referências
 <br>
@@ -127,6 +134,8 @@ DEVMEDIA, **Desenvolvimento com qualidade com GRASP** Disponível em [https://ww
 
 DEVMEDIA, **Padrão MVC - Java Magazine** Disponível em [https://www.devmedia.com.br/padrao-mvc-java-magazine/21995#2](https://www.devmedia.com.br/padrao-mvc-java-magazine/21995#2) Acesso em 1 de abril de 2021.
 
-DEVMEDIA, **Java Spring MVC: Criando Aplicações Web em Java** Disponível em [https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521](https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521) Acesso em 1 de abril de 2021.
+DEVMEDIA, **Java Spring MVC: Criando Aplicações Web em Java** Disponível em [https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521](https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521) Acesso em 3 de abril de 2021.
 
 **Inversão de Controle** Disponível em [http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C](http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C) Acesso em 
+
+CASTILHO, Robson, **Princípios SOLID: Princípio da Inversão de Dependência (DIP)** Disponível em [https://robsoncastilho.com.br/2013/05/01/principios-solid-principio-da-inversao-de-dependencia-dip/](https://robsoncastilho.com.br/2013/05/01/principios-solid-principio-da-inversao-de-dependencia-dip/) Acesso em 5 de abril de 2021.
