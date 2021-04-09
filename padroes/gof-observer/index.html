@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title><center> GRASP Baixo Acoplamento - Leila's</title>
+        <title><center> GoF Observer - Leila's</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -246,6 +246,10 @@
 <li>
     <a href="../gofs/" class="dropdown-item">Módulo Padrões de Projeto GoFs</a>
 </li>
+                                    
+<li>
+    <a href="../emergente-injecao-dependencia/" class="dropdown-item">Módulo Padrões de Projeto Extras</a>
+</li>
                                 </ul>
                             </li>
                         </ul>
@@ -274,12 +278,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#grasp-baixo-acoplamento" class="nav-link"> GRASP Baixo Acoplamento</a>
+            <li class="nav-item" data-level="1"><a href="#gof-observer" class="nav-link"> GoF Observer</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#referencias" class="nav-link">Referências</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -287,7 +287,7 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="grasp-baixo-acoplamento"><center> GRASP Baixo Acoplamento</h1>
+<h1 id="gof-observer"><center> GoF Observer</h1>
 <p><br></p>
 <h3 id="historico-de-versao">Histórico de versão<br></h3>
 <table>
@@ -301,91 +301,75 @@
 </thead>
 <tbody>
 <tr>
-<td>25.03.2021</td>
+<td>07.04.2021</td>
 <td>0.1</td>
 <td>Criação do documento</td>
-<td>Rafaella Junqueira<br>Kalebe Lopes</td>
+<td>Bruna Almeida<br>Damarcones Porto<br>Isabella Carneiro<br>Lucas Lopes</td>
 </tr>
 <tr>
-<td>25.03.2021</td>
-<td>0.2</td>
-<td>Adição do diagrama UML</td>
-<td>Rafaella Junqueira<br>Kalebe Lopes</td>
-</tr>
-<tr>
-<td>28.03.2021</td>
+<td>08.04.2021</td>
 <td>1.0</td>
-<td>Edição e revisão da versão 1.0</td>
-<td>Erick Giffoni</td>
-</tr>
-<tr>
-<td>28.03.2021</td>
-<td>1.0</td>
-<td>Revisão do documento</td>
-<td>Isabella Carneiro</td>
+<td>Adição da aplicação no projeto e diagrama UML</td>
+<td>Bruna Almeida<br>Damarcones Porto</td>
 </tr>
 </tbody>
 </table>
 <h3 id="participantes">Participantes</h3>
 <ul>
-<li>Rafaella Junqueira</li>
-<li>Kalebe Lopes</li>
-<li>Erick Giffoni</li>
+<li>Bruna Almeida</li>
+<li>Damarcones Porto</li>
 <li>Isabella Carneiro</li>
+<li>Lucas Lopes</li>
 </ul>
 <h3 id="introducao">Introdução</h3>
 <div align="justify">
 
-O padrão de Baixo Acoplamento é um padrão de avaliação, que determina como atribuir responsabilidades de suporte de modo que o acoplamento entre classes permaneça baixo. A utilização deste padrão oferece benefícios, como menor dependência entre as classes, redução de impacto das mudanças e aumento do potencial de reutilização das classes.
+O Observer é um padrão de projeto comportamental que permite que se defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando. O padrão Observer representa uma relação de 1-N (de um para muitos) entre objetos. Assim quando um objeto altera o seu estado os objetos dependentes serão notificados/informados/avisados e atualizados de forma automática.
 <br><br>
 
-</div>
-
-<h3 id="aplicacoes-no-projeto">Aplicações no projeto</h3>
-<div align="justify">
-
-Os códigos criados utilizam a divisão de responsabilidades entre as classes, de modo que, para a evitar a dependência entre elas, existem interfaces que abarcam os métodos comuns a todas. Assim, caso haja necessidade de mudanças, basta alterar apenas a interface específica daquela classe.
+Esse padrão pode ser usado quando uma modificação do estado de um objeto implica modificações em outros objetos; quando um objeto deve ser capaz de notificar outros objetos, mas sem pressupostos sobre os objetos a serem notificados; ou quando uma abstração possuir dois aspectos e um depende do outro.
 <br><br>
-As imagens abaixo exemplificam o baixo acoplamento entre a classe de serviço ServicoService e a interface ServicoRepository, a qual herda a implementação dos métodos advindos da interface CrudRepository. Além disso, nos exemplos é possível perceber aspectos relacionados ao polimorfismo, como, por exemplo, a sobrescrita de métodos.
-</div>
-<p><br></p>
-<p><a href="../../img/padroes/servico-repository.png"><div align="center"><img src="../../img/padroes/servico-repository.png"></div></a></p>
-<figcaption align='center'>
-    <b>Figura 1 - Interface que implementa a interface crud</b>
-</figcaption>
-<p><br></p>
-<p><a href="../../img/padroes/servico-interface.png"><div align="center"><img src="../../img/padroes/servico-interface.png"></div></a></p>
-<figcaption align='center'>
-    <b>Figura 2 - Utilização da interface ServicoRepository pela classe ServicoService</b>
-</figcaption>
-<p><br></p>
-<div align="justify">
-Veja que a classe ServicoService, na figura 2, tem um atributo 'repository' do tipo ServicoRepository.
-</div>
 
+Uma das vantagens de se usar o Observer é que ele permite um acoplamento mínimo entre o Sujeito (Subjet) e o Observador (Observer). Outra vantagem oferecida por este padrão é poder reutilizar Sujeitos sem reutilizar os seus observadores e vice-versa.
+</div>
+<p><br></p>
+<h3 id="metodologia">Metodologia</h3>
+<div align="justify">
+A documentação e modelagem do padrão Observer foi desenvolvida a partir de uma reunião com alguns integrantes, na plataforma Discord. Além disso, o diagrama UML foi desenvolvido pelos integrantes através da plataforma <a href="https://app.diagrams.net/">Draw.io</a>.
+</div>
+<p><br></p>
+<h3 id="aplicacao-no-projeto">Aplicação no projeto</h3>
+<div align="justify">
+O projeto utiliza este padrão principalmente na criação, edição e exclusão de serviços. Nos exemplos a seguir estão implementadas as classes ServicoService e ServicosComponent, que estão se comunicando para efetuar a manipulação dos serviços.
+
+</div>
+<p><br></p>
+<p><a href="../../img/padroes/gofs/observer-1.png"><div align="center"><img src="../../img/padroes/gofs/observer-1.png"></div></a></p>
+<figcaption align="center">
+    <b>Figura 1 - Representação da classe ServicoService.</b>
+</figcaption>
+<p><br></p>
+<p><a href="../../img/padroes/gofs/observer-3.png"><div align="center"><img src="../../img/padroes/gofs/observer-3.png"></div></a></p>
+<figcaption align="center">
+    <b>Figura 2 - Representação da classe ServicosComponent.</b>
+</figcaption>
+<p><br></p>
 <h3 id="modelagem-uml">Modelagem UML</h3>
 <div align="justify">
-Para melhor representar o funcionamento do padrão GRASP de baixo acoplamento adotado no projeto, foi modelado um diagrama UML exemplificando a utilização da interface ServiceRepository por parte da classe de serviço intitulada ServicoService.
+O diagrama UML representa a forma como o padrão está sendo empregado no projeto, exemplificando o uso entre as classes ServicosComponent e ServicoService. 
 </div>
-
-<p><a href="../../img/padroes/baixo-acoplamento.png"><div align="center"><img src="../../img/padroes/baixo-acoplamento.png"></div></a></p>
-<figcaption align='center'>
-    <b>Figura 3 - Exemplo de uso de interface pela classe ServicoService</b>
-    <br>
-    <small>Autores: Rafaella Junqueira e Kalebe Lopes</small>
+<p><br></p>
+<p><a href="../../img/padroes/gofs/uml-observer.jpg"><div align="center"><img src="../../img/padroes/gofs/uml-observer.jpg"></div></a></p>
+<figcaption align="center">
+    <b>Figura 3 - Representação UML das classes ServicosComponent e ServicoService</b>
 </figcaption>
 <p><br></p>
-<div align="justify">
-Note, mais uma vez, que a classe ServicoService usa a ServicoRepository, e esta tem herança da CrudRepository.
-
-<br><br>
-
-Vale lembrar que esse padrão está sendo amplamente utilizado no projeto, entretanto, para fins de explicação e para não tornar este documento longo, utilizamos apenas exemplos relacionados aos serviços oferecidos pelo salão da Leila.
-</div>
-
-<h2 id="referencias">Referências</h2>
-<p><br></p>
-<p>Universidade Federal de Uberlândia. <strong>Padrões GRASPs</strong> Disponível em <a href="http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf">http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf</a>. Acesso em 12 de março de 2021.</p></div>
+<h3 id="referencias">Referências</h3>
+<p>DEVMEDIA, <strong>Padrão de Projeto Observer em Java</strong>. Disponível em: <a href="https://www.devmedia.com.br/padrao-de-projeto-observer-em-java/26163">devmedia.com.br/padrao-de-projeto-observer-em-java/26163</a>. Acesso em 7 de abril de 2021.</p>
+<p>REFACTORING, <strong>Observer</strong>. Disponível em: <a href="https://refactoring.guru/pt-br/design-patterns/observer">refactoring.guru/pt-br/design-patterns/observer</a>. Acesso em 7 de abril de 2021.</p>
+<p>MEDIUM, <strong>Implementando Padrão de Projeto Observer no Java</strong>. Disponível em: <a href="https://medium.com/@FernandoUnix/implementando-padr%C3%A3o-de-projeto-observer-no-java-78ebb79b832b">medium.com/@FernandoUnix/implementando-padr%C3%A3o-de-projeto-observer-no-java-78ebb79b832b</a>. Acesso em 7 de abril de 2021.</p>
+<p>ANDRÉ CELESTINO, <strong>[Delphi] Design Patterns GoF – Observer</strong>. Disponível em: <a href="http://www.andrecelestino.com/delphi-design-patterns-observer/">andrecelestino.com/delphi-design-patterns-observer/</a>. Acesso em 7 de abril de 2021.</p>
+<p>MACORATTI, <strong>O padrão de projeto Observer</strong>. Disponível em: <a href="http://www.macoratti.net/13/03/net_obs1.htm">macoratti.net/13/03/net_obs1.htm</a>. Acesso em 7 de abril de 2021.</p></div>
             </div>
         </div>
 
