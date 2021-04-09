@@ -36,7 +36,7 @@ A documentação e modelagem do padrão Observer foi desenvolvida a partir de um
 
 ### Aplicação no projeto
 <div align="justify">
-O projeto utiliza este padrão principalmente na criação, edição e exclusão de serviçoes. Nos exemplos a seguir estão implementadas as classes ServicoService e ServicosComponent, que estão se comunicando para efetuar a manipulação dos serviços.
+O projeto utiliza este padrão principalmente na criação, edição e exclusão de serviços. Nos exemplos a seguir estão implementadas as classes ServicoService e ServicosComponent, que estão se comunicando para efetuar a manipulação dos serviços.
 
 </div> <br>
 
