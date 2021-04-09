@@ -116,7 +116,7 @@ componentes que não mais dependem um do outro: ambos dependem da indireção</p
 <p>Esse padrão acontece de várias maneiras no projeto. Uma delas é a seguinte: utiliza-se uma interface chamada CrudRepository que contém métodos que realizam algumas operações básicas CRUD (create, read, update, delete). Para atender as necessidades do sistema, é necessário sobrepor alguns métodos da interface CrudRepository, como por exemplo o método "findByCpf"</p>
 </div>
 
-[<div align="center"><img src="../../img/padroes/interface.jpg"></div>](../../img/padroes/interface.jpg)
+[<div align="center"><img src="../../img/padroes/interface.png"></div>](../../img/padroes/interface.png)
 <figcaption align='center'>
     <b>Figura 4 - Exemplo Polimorfismo</b>
     <br>
