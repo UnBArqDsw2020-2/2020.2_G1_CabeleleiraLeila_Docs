@@ -6,6 +6,7 @@
 |Data | Versão | Descrição | Autor(es)|
 | -- | -- | -- | -- |
 | 07.04.2021 | 0.1 | Criação do documento | Rafaella Junqueira<br>Lucas Lopes<br>Geraldo Victor<br>Kalebe Lopes|
+| 07.04.2021 | 0.2 | Adicao do diagrama UML | Rafaella Junqueira<br>Geraldo Victor |
 
 ### Participantes
 
@@ -22,37 +23,56 @@
 
 ### Metodologia
 <div align="justify">
-<p>A documentação do padrão GoF Chain of Responsability, assim como a modelagem do diagrama UML, foi realizada por meio de reuniões da equipe através da plataforma Discord.
+<p>A documentação do padrão GoF Chain of Responsability, assim como a modelagem do diagrama UML, foi realizada por meio de reuniões da equipe através da plataforma Discord. O diagrama foi modelado utilizando a ferramenta <a href="https://www.lucidchart.com/">Lucidchart.</a>
 </div>
 
 ### Aplicação no projeto
 <div align="justify">
-<p>O padrão pode ser visto, por exemplo, quando aplicado às classes UsernameIsNotEmpty e PasswordIsNotEmptyProcess, onde o comportamento do processo é direcionado para o responsável de acordo com o pedido recebido.</p>
+<p>O padrão pode ser aplicado para validar os dados de realização de cadastro de usuários. A abstração da cadeia é representada pela interface SigupProcess, os processos são definidos pelas classes PasswordIsNotEmptyProcess, UsernameIsNotEmptyProcess e PasswordIsEqualProcess. A classe Client contém a chamada à cadeia de processos.</p>
 </div>
 
-[<div align="center"><img src="../../img/padroes/chain1.png"></div>](../../img/padroes/chain2.png)
+[<div align="center"><img src="../../img/padroes/chain-interface.png"></div>](../../img/padroes/chain-interface.png)
 <figcaption align='center'>
-    <b>Figura 1 - Representação da classe UsernameIsNotEmpty </b>
+    <b>Figura 1 - Abstração da cadeia de responsabilidades </b>
 </figcaption>
 <br>
 
-[<div align="center"><img src="../../img/padroes/chain2.png"></div>](../../img/padroes/chain2.png)
+[<div align="center"><img src="../../img/padroes/chain-processo-1.png"></div>](../../img/padroes/chain-processo-1.png)
 <figcaption align='center'>
-    <b>Figura 2 - Representação da classe PasswordIsNotEmptyProcess</b>
+    <b>Figura 2 - Representação de processos da cadeia </b>
 </figcaption>
 <br>
 
-<!-- ### Modelagem UML
-
-[<div align="center"><img src="../../img/padroes/"></div>](../../img/padroes/)
+[<div align="center"><img src="../../img/padroes/chain-processo-2.png"></div>](../../img/padroes/chain-processo-2.png)
 <figcaption align='center'>
-    <b>Figura X - </b>
+    <b>Figura 3 - Representação de processos da cadeia</b>
+</figcaption>
+<br>
+
+[<div align="center"><img src="../../img/padroes/chain-processo-3.png"></div>](../../img/padroes/chain-processo-3.png)
+<figcaption align='center'>
+    <b>Figura 4 - Representação de processos da cadeia</b>
+</figcaption>
+<br>
+
+[<div align="center"><img src="../../img/padroes/chain-client.png"></div>](../../img/padroes/chain-client.png)
+<figcaption align='center'>
+    <b>Figura 5 - Implementaçao do Cliente na cadeia de responsabilidade </b>
+</figcaption>
+<br>
+
+### Modelagem UML
+
+[<div align="center"><img src="../../img/padroes/uml-chain.png"></div>](../../img/padroes/uml-chain.png)
+<figcaption align='center'>
+    <b>Figura 6 - Diagrama UML da cadeia de responsabilidade</b>
     <br>
-    <small>Autores: Rafaella Junqueira e Lucas Lopes</small>
+    <small>Autores: Rafaella Junqueira e Geraldo Victor</small>
 </figcaption>
-<br> -->
+<br>
 
 ## Referências
 <br>
-REFACTORING GURU, **Chain of Responsibility**, Disponível em [https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility](https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility)
+REFACTORING GURU, **Chain of Responsibility**, Disponível em [https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility](https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility) Acesso em 7 de abril de 2021.
 
+WIKIPEDIA, **Chain of Responsibility** Disponível em [https://pt.wikipedia.org/wiki/Chain_of_Responsibility#Situa%C3%A7%C3%B5es_de_Uso](https://pt.wikipedia.org/wiki/Chain_of_Responsibility#Situa%C3%A7%C3%B5es_de_Uso) Acesso em 7 de abril de 2021.

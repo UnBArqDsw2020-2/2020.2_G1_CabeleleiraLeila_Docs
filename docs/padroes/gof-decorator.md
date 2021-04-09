@@ -53,7 +53,7 @@ O diagrama UML representa a forma como o padrão está sendo empregado no projet
 
 </div><br>
 
-[<div align="center"><img src="../../img/padroes/gofs/gof-decorator2.png"></div>](../../img/padroes/gof/gof-decorator2.png)
+[<div align="center"><img src="../../img/padroes/gofs/gof-decorator2.png"></div>](../../img/padroes/gofs/gof-decorator2.png)
 <figcaption align='center'>
     <b>Figura 2 - Representação do RequestMapping</b>
     <br>
