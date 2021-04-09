@@ -52,7 +52,7 @@ nav:
   - Padrões de Projeto:
     - Módulo Padrões de Projeto GRASPs: padroes/grasps.md
     - Módulo Padrões de Projeto GoFs: padroes/gofs.md
-  #   - Módulo Padrões de Projeto Extras:
+    - Módulo Padrões de Projeto Extras: padroes/emergente-injecao-dependencia.md
   #     - x: base/
   # - Arquitetura de Software & Reutilização:
   #   - Módulo Estilos e Padrões Arquiteturais:
