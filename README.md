@@ -49,7 +49,10 @@ Aplicação web para gerenciamento de um salão de beleza que permita conferir o
 
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
+| | |
+| --| --|
+|[![print1](https://user-images.githubusercontent.com/43728276/114250710-f627ed80-9974-11eb-94f8-b9fe11c65a59.png)](https://user-images.githubusercontent.com/43728276/114250710-f627ed80-9974-11eb-94f8-b9fe11c65a59.png)| [![print2](https://user-images.githubusercontent.com/43728276/114250811-5028b300-9975-11eb-9211-a79d88be439e.png)](https://user-images.githubusercontent.com/43728276/114250811-5028b300-9975-11eb-9211-a79d88be439e.png) |
+| [![print3](https://user-images.githubusercontent.com/43728276/114250848-6d5d8180-9975-11eb-92a7-d5a309a7fe29.png)](https://user-images.githubusercontent.com/43728276/114250848-6d5d8180-9975-11eb-92a7-d5a309a7fe29.png) | |
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 Adicione o(s)s vídeo(s) da Terceira Entrega.
