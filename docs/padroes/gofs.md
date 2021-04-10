@@ -29,7 +29,7 @@
 | Tipo | Padrão |
 | -- | -- |
 | Criacionais | [Builder](gof-builder.md)<br>[Singleton](gof-singleton.md)<br>[Abstract Factory](gof-abstract-factory.md)
-| Estruturais | [Decorator](gof-decorator.md)<br>[]()
+| Estruturais | [Decorator](gof-decorator.md)<br>[Proxy](gof-proxy.md)
 | Comportamentais | [Observer](gof-observer.md)<br>[Chain of Responsability](gof-chain-of-responsability.md)<br>[Template Method](template-method.md)
 | Emergentes | [Injeção de dependência](emergente-injecao-dependencia.md)<br>
 
