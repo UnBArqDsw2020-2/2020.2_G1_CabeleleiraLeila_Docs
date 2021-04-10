@@ -55,7 +55,12 @@ Aplicação web para gerenciamento de um salão de beleza que permita conferir o
 | [![print3](https://user-images.githubusercontent.com/43728276/114250848-6d5d8180-9975-11eb-92a7-d5a309a7fe29.png)](https://user-images.githubusercontent.com/43728276/114250848-6d5d8180-9975-11eb-92a7-d5a309a7fe29.png) | |
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione o(s)s vídeo(s) da Terceira Entrega.
+|Vídeo 1 - Padrões GRASP | Vídeo 2 - Padrões GoF | Vídeo 3 - Padrões Emergentes |
+| --- | --- | --- |
+| [![grasp-video](https://user-images.githubusercontent.com/43728276/114255270-c08dff00-998a-11eb-9ce3-5c5a687658ff.png)](https://www.youtube.com/watch?v=3xBkGICeDh0) | [![gof-video](https://user-images.githubusercontent.com/43728276/114255668-12cf2000-998b-11eb-9897-2b76db4267bd.png)](https://www.youtube.com/watch?v=jW_be7kyQ6w) | [![emergentes-video](https://user-images.githubusercontent.com/43728276/114255698-4316be80-998b-11eb-9c15-a31c0025ac61.png)](https://www.youtube.com/watch?v=1tMMz86mVTs) |
+
+
+
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
