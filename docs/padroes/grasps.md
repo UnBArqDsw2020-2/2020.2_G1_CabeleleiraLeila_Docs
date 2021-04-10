@@ -27,6 +27,7 @@
 - [Baixo acoplamento](#baixo-acoplamento)<br>
 - [Controller](#controller)<br> 
 - [Indireção](#indirecao)<br>
+- [Polimorfismo](#polimorfismo)
 - [Inversão de controle](#inversao-de-controle)
 <br>
 
@@ -109,7 +110,9 @@ componentes que não mais dependem um do outro: ambos dependem da indireção</p
 
 ## <center> Polimorfismo
 <div align="justify"><br>
- <p>Em Java, o polimorfismo é realizado substituindo um método de uma superclasse ou implementando uma interface. Os métodos substituídos implementados são polimórficos, pois uma classe cliente usa o mesmo método, mas o comportamento depende do tipo de objeto que está sendo referenciado.<br>O padrão Polimorfismo do GRASP trata de como uma responsabilidade geral é distribuída a um conjunto de classes ou interfaces.</p>
+ <p>Em Java, o polimorfismo é realizado substituindo um método de uma superclasse ou implementando uma interface. Os métodos substituídos implementados são polimórficos, pois uma classe cliente usa o mesmo método, mas o comportamento depende do tipo de objeto que está sendo referenciado.</p>
+ <p>O padrão Polimorfismo do GRASP trata de como uma responsabilidade geral é distribuída a um conjunto de classes ou interfaces.</p>
+</div>
 
 ### Aplicações no projeto
 <div align="justify"><br>
