@@ -31,8 +31,7 @@
 
   <li><b>Escalabilidade: </b>O software deve tornar possível sua evolução e manutenção.</li>
   <li><b> Segurança: </b>A aplicação deve manter os dados de usuários em total segurança.</li>
-  <li><b> Deploy: </b></li>
-  <li><b> Linguagem: </b>A aplicação deve conter um linguagem comum e de fácil entendimentopara os usuários. </li>
+  <li><b> Linguagem: </b>A aplicação deve conter um linguagem comum e de fácil entendimento para os usuários. </li>
   <li><b>Portabilidade: </b>A aplicação deve ser executada com desempenho igual ou similar nos navegadores Google Chrome e Mozila Firefox. </li>
   <li><b> Usabilidade: </b>A aplicação deve ser construída seguindo regras de usabilidade para atender a maioria dos usuários.</li>
   <li><b> Manutenibilidade: </b>A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal.</li>
@@ -42,7 +41,16 @@
 
 #### Restrições
 <ul>
-  <li><b>Tecnologias: </b>A aplicação deverá ser desenvolvida utilizando as seguintes linguagens de programação: Java com Springboot, Angular, Typescript, CSS, SQL. E o controle de versionamento deverá ser feito através da plataforma Github.</li>
+  <li><b>Tecnologias: </b>A aplicação deverá ser desenvolvida utilizando as seguintes ferramentas e tecnologias: 
+    <ul>
+        <li>Spring Boot: Framework escrito em Java para o desenvolvimento do back-end da aplicação</li>
+        <li>AngularJS: Framework escrito em JavaScript para o desenvolvimento do front-end da aplicação Web. Possui fácil              integração com o bootstrap e permite a utilização do HTML.</li>
+        <li>Typescript: Super conjunto do JavaScript, utilizado juntamente com o framework AngularJS na construção do front-            end</li>
+        <li>Bootstrap: Framework de CSS que torna fácil a criação de elementos em websites. Agiliza a criação de páginas                esteticamente agradáveis, pois seus padrões de design seguem os princípios de usabilidade para interfacrs</li>
+        <li>SQL: Banco de dados relacional que armazena os dados em tabelas. Utiliza a linguagem SQL para a manipulação                 dos dados</li>
+        <li>Github: Controle de versionamento da aplicação.</li>
+     </ul>
+  </li>
   <li><b>Conectividade: </b>A aplicação necessitará de conexão com a internet para funcionar.</li>
   <li><b>Prazo: </b>A aplicação deverá ser finalizada na data estipulada para entrega final.</li>
   <li><b>Idioma: </b>A aplicação deve ser voltada para a linguagem Português-Brasil.</li>
