@@ -9,6 +9,8 @@
 | 28.04.2021 | 0.2 | Adição da Introdução | Isabella Carneiro |
 | 30.04.2021 | 0.3 | Adição da introdução sobre Framework e Spring | Bruna Almeida<br>Damarcones Porto|
 | 30.04.2021 | 0.4 | Adição da introdução sobre bibliotecas | Bruna Almeida<br>Damarcones Porto<br>Isabella Carneiro |
+| 30.04.2021 | 0.5 | Adição das bibliotecas utilizadas no projeto | Bruna Almeida<br>Damarcones Porto |
+<br>
 
 ## Introdução
 <div align="justify">
@@ -45,8 +47,17 @@ Em programação, uma biblioteca é uma coleção de códigos voltados a resolve
 <br><br>
 Uma das grandes vantagens da criação de bibliotecas é que você pode utilizá-las em diferentes projetos. Essa prática vai ao encontro de um princípio muito importante de Clean Code: a divisão de responsabilidades. 
 <br><br>
-As bibliotecas utilizadas no código da aplicação Leila's serão descritas a seguir.
+As principais bibliotecas utilizadas no código da aplicação Leila's serão descritas a seguir.
 </div><br>
+
+<div align="justify"><b>JWT:</b> JSON Web Token(JWT) é um método RCT 7519 padrão da indústria para realizar autenticação entre duas partes por meio de um token assinado que autentica uma requisição web. Esse token é um código em Base64 que armazena objetos JSON com os dados que permitem a autenticação da requisição. No projeto, essa biblioteca está sendo utilizada para autenticação de Login e serviços.</div><br>
+
+
+<div align="justify"><b>SpringFox:</b> é uma ferramenta open source desenvolvida para integrar projetos Spring Boot com a especificação Swagger. A ferramenta fornece as anotações necessárias para a criação da documentação Swagger e uma interface amigável (SpringFox Swagger-UI) para expor as documentações da API Rest. No projeto, viabiliza os testes que simulam a utilização de um banco de dados, sem a necessidade de configurar propriamente um banco de dados.</div><br>
+
+<div align="justify"><b>Swagger:</b>Trata-se de uma aplicação open source que auxilia desenvolvedores nos processos de definir, criar, documentar e consumir APIs REST. Em suma, o Swagger visa padronizar este tipo de integração, descrevendo os recursos que uma API deve possuir, como endpoints, dados recebidos, dados retornados, códigos HTTP e métodos de autenticação, entre outros. O Swagger está sendo utilizado para demonstrar os métodos de escrita e leitura da aplicação Leila's</div><br> 
+<!-- Essas são as bibliotecas mais relevantes, acredito que só essas bastam -->
+
 
 ## Considerações finais
 
@@ -62,5 +73,14 @@ SOS. **O que são frameworks? Para que servem?**. Disponível em [https://www.so
 
 BE CODE. **Framework x Biblioteca x API. Entenda as diferenças!**. Disponível em [https://becode.com.br/framework-biblioteca-api-entenda-as-diferencas/](https://becode.com.br/framework-biblioteca-api-entenda-as-diferencas/).
 
-TREINA WEB. **Qual a diferença entre Framework e Biblioteca?**. Disponível em [https://www.treinaweb.com.br/blog/qual-a-diferenca-entre-framework-e-biblioteca/](https://www.treinaweb.com.br/blog/qual-a-diferenca-entre-framework-e-biblioteca/).
+TREINA WEB. **Qual a diferença entre Framework e Biblioteca?**. Disponível em [treinaweb.com.br/blog/qual-a-diferenca-entre-framework-e-biblioteca/](https://www.treinaweb.com.br/blog/qual-a-diferenca-entre-framework-e-biblioteca/).
+
+DEVMEDIA. **Como o JWT funciona**. Disponível em [https://www.devmedia.com.br/como-o-jwt-funciona/40265](https://www.devmedia.com.br/como-o-jwt-funciona/40265).
+
+TOTVS. **Documentação de APIs utilizando SpringFox**. Disponível em [https://tjf.totvs.com.br/docs/swagger-springfox](https://tjf.totvs.com.br/docs/swagger-springfox).
+
+GR1D. **Desenvolvedor, saiba como swagger pode ajudar você**. Disponível em [gr1d.io/insurance/trends/post/desenvolvedor-saiba-como-swagger-pode-ajudar-voce-4a3b1b49c0](https://gr1d.io/insurance/trends/post/desenvolvedor-saiba-como-swagger-pode-ajudar-voce-4a3b1b49c0).
+
+
+
 
