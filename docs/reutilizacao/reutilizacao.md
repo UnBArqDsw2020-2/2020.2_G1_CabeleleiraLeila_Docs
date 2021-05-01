@@ -10,7 +10,14 @@
 | 30.04.2021 | 0.3 | Adição da introdução sobre Framework e Spring | Bruna Almeida<br>Damarcones Porto|
 | 30.04.2021 | 0.4 | Adição da introdução sobre bibliotecas | Bruna Almeida<br>Damarcones Porto<br>Isabella Carneiro |
 | 30.04.2021 | 0.5 | Adição das bibliotecas utilizadas no projeto | Bruna Almeida<br>Damarcones Porto |
+| 01.05.2021 | 0.6 | Adição do React | Isabella Carneiro |
+
 <br>
+ 
+### Participantes
+* Isabella Carneiro
+* Bruan Almeida
+* Damarcones Porto
 
 ## Introdução
 <div align="justify">
@@ -30,13 +37,17 @@ No projeto Leila's, Frameworks foram utilizados tanto no Back-end quanto no Fron
 
 ### Reutilização no BackEnd
 
-#### Spring
+#### Spring 
 <div align="justify"> 
 O Spring é um framework de código aberto para plataformas Java. Com o objetivo de facilitar no desenvolvimento de aplicações, utilizando os conceitos de Inversão de Controle e Injeção de Dependências.
 </div><br>
 
 ### Reutilização no FrontEnd
 
+####  React 
+<div align="justify"> 
+O React é uma biblioteca JavaScript criada pelo Facebook para o desenvolvimento de aplicações front-end. Ele é baseado em componentes, o que permite o reaproveitamento de código e facilita a manutenção. No padrão de arquitetura MVC e ele é comparado ao desenvolvimento da camada View, que é a interface com o usuário (UI).
+</div><br>
 
 
 <br><br>
@@ -57,9 +68,6 @@ As principais bibliotecas utilizadas no código da aplicação Leila's serão de
 
 <div align="justify"><b>Swagger:</b>Trata-se de uma aplicação open source que auxilia desenvolvedores nos processos de definir, criar, documentar e consumir APIs REST. Em suma, o Swagger visa padronizar este tipo de integração, descrevendo os recursos que uma API deve possuir, como endpoints, dados recebidos, dados retornados, códigos HTTP e métodos de autenticação, entre outros. O Swagger está sendo utilizado para demonstrar os métodos de escrita e leitura da aplicação Leila's</div><br> 
 <!-- Essas são as bibliotecas mais relevantes, acredito que só essas bastam -->
-
-
-## Considerações finais
 
 
 ## Referências
