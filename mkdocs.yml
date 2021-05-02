@@ -53,7 +53,9 @@ nav:
     - Módulo Padrões de Projeto GRASPs: padroes/grasps.md
     - Módulo Padrões de Projeto GoFs: padroes/gofs.md
     - Módulo Padrões de Projeto Extras: padroes/emergente-injecao-dependencia.md
-  - Arquitetura de Software & Reutilização: reutilizacao/reutilizacao.md
+  - Arquitetura de Software & Reutilização:
+    - Documento de arquitetura de Software (DAS): reutilizacao/das.md
+    - Reutilização de Software: reutilizacao/reutilizacao.md
   #   - Módulo Estilos e Padrões Arquiteturais:
   #     - x: base/
   #   - Módulo Reutilização de Software: 
