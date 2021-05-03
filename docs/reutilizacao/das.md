@@ -199,7 +199,7 @@ As visões de arquitetura podem ser consideradas abstrações ou simplificaçõe
 
 ### 5.1 Diagrama de Contexto
 <div style="line-height:1.8" align="justify">
-<p>O diagrama de contexto é um gráfico, composto por um fluxo de dados que mostra as interfaces entre o projeto e a sua relação com o ambiente em que vai ser desenvolvido. O diagrama de contexto funciona como uma descrição dos processos sob a visão de mais alto nível.
+<p>O diagrama de contexto é um gráfico, composto por um fluxo de dados que mostra as interfaces  entre o projeto e a sua relação com o ambiente em que vai ser desenvolvido. O diagrama de contexto funciona como uma descrição dos processos sob a visão de mais alto nível. 
 </div>
 
 [<div align="center"><img hight="auto" width="auto" src="../../img/das/relacional.png"></div>](../../img/das/relacional.png)
