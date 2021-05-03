@@ -204,9 +204,9 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
 
 [<div align="center"><img hight="auto" width="auto" src="../../img/das/contexto.png"></div>](../../img/das/contexto.png)
 <figcaption align='center'>
-    <b>Figura 5 - Diagrama Relacional </b>
+    <b>Figura 5 - Diagrama de Contexto </b>
     <br>
-    <small>Autores: Rafaella Junqueira</small>
+    <small>Autores: Rafaella Junqueira e Geraldo Victor</small>
 </figcaption>
 <br>
 
@@ -276,7 +276,7 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
 ### 8.1 Visão Geral
 <p>A visão geral de implementação pode ser representada por meio do diagrama de classes do projeto, que se encontra abaixo.</p>
 
-[<div align="center"><img hight="auto" width="auto" src="../../img/das/implantacao.png"></div>](../../img/das/implantacao.png)
+[<div align="center"><img hight="auto" width="auto" src="../../img/das/"></div>](../../img/das/)
 <figcaption align='center'>
     <b>Figura 9 - Diagrama de Classes.</b>
     <br>
@@ -309,35 +309,48 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
 
 ## 9. Visão de Dados
 <div style="line-height:1.8" align="justify">
-Para a visão de dados, representamos aqui como o sistema da Leila's persiste nessas informações. O modelo de entidade-relacionamento (ME-R), bem como o diagrama entidade-relacionamento (DE-R), somado ao diagrama lógico de dados (DLD) foram utilizados. Por questões relacionadas ao tamanho deste documento, apresentamos abaixo somente o DE-R e o DLD.
+<p>Para a visão de dados, representamos aqui como o sistema da Leila's persiste nessas informações. O modelo de entidade-relacionamento (ME-R), bem como o diagrama entidade-relacionamento (DE-R), somado ao diagrama lógico de dados (DLD) foram utilizados. Por questões relacionadas ao tamanho deste documento, apresentamos abaixo somente o DE-R e o DLD.
 </div>
         
 ### 9.1 DE-R
 
+[<div align="center"><img hight="auto" width="auto" src="../../img/das/"></div>](../../img/das/)
+<figcaption align='center'>
+    <b>Figura 10 - DE-R </b>
+    <br>
+    <small>Autores: </small>
+</figcaption><br>
+
 ### 9.2 DLD
+
+[<div align="center"><img hight="auto" width="auto" src="../../img/das/"></div>](../../img/das/)
+<figcaption align='center'>
+    <b>Figura 11 - DLD </b>
+    <br>
+    <small>Autores: </small>
+</figcaption><br>
 
 ## 10. Tamanho e Performance
 <div style="line-height:1.8" align="justify">
+<p>O tamanho da aplicação, levando em consideração apenas o Back-end, foi estimado em 42.9Mb. Esse valor foi alcançado utilizando o comando “MVN install”, gerando um arquivo .jar, o que torna possível a execução do Back-end em qualquer sistema operacional que contenha Java.</p>
+<p>Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress.</p>
 
-
-O tamanho da aplicação, levando em consideração apenas o Back-end, foi estimado em 42.9Mb. Esse valor foi alcançado utilizando o comando “MVN install”, gerando um arquivo .jar, o que torna possível a execução do Back-end em qualquer sistema operacional que contenha Java.
-Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress.
 </div>
 
 
 ## 11. Qualidade
 <div style="line-height:1.8" align="justify">
+<p>A qualidade da aplicação pode ser mensurada a partir da abordagem NFR. O NFR Framework é uma abordagem para representar e analisar Requisitos Não-Funcionais. Seu objetivo é ajudar desenvolvedores na implementação de soluções personalizadas, levando em consideração as características do domínio e do sistema em questão. Tais características incluem Requisitos Não-funcionais, Requisitos funcionais, prioridades e carga de trabalho. Esses fatores determinam a escolha de alternativas de desenvolvimento para um determinado sistema (CHUNG et al., 2000).</p>
 
-A qualidade da aplicação pode ser mensurada a partir da abordagem NFR. O NFR Framework é uma abordagem para representar e analisar Requisitos Não-Funcionais. Seu objetivo é ajudar desenvolvedores na implementação de soluções personalizadas, levando em consideração as características do domínio e do sistema em questão. Tais características incluem Requisitos Não-funcionais, Requisitos funcionais, prioridades e carga de trabalho. Esses fatores determinam a escolha de alternativas de desenvolvimento para um determinado sistema (CHUNG et al., 2000).<br>
-
-A partir disso, foram levantados NFR’s que aumentam a qualidade do produto, em relação à eficiência, usabilidade, entre outros.
-* Usabilidade: A interface do sistema é simples, clara e de fácil interação, seguindo uma padronização de cores e fontes, definidas no documento de identidade visual.
-* Segurança: Quando o usuário acessa o sistema através de Login, um token temporário é criado, para realizar a autenticação do usuário e resgatar dados privativos do banco de dados.
-* Manutenabilidade: Todo o projeto Leila´s foi documentado no repositório do grupo. Isso facilita a consulta da documentação, e apoia a manutenibilidade do código.
-* Confiabilidade: o sistema foi desenvolvido para garantir que o mesmo se recupere em caso de falhas.
-* Portabilidade: A utilização do Docker garante um ambiente estável, o que auxilia na criação de possíveis novos módulos.<br>
-
-O projeto ainda está em fase de desenvolvimento até o presente momento (maio de 2021), portanto algumas métricas não podem ser obtidas.
+A partir disso, foram levantados NFR’s que aumentam a qualidade do produto, em relação à eficiência, usabilidade, entre outros:
+<ul>
+        <li><strong>Usabilidade:</strong> A interface do sistema é simples, clara e de fácil interação, seguindo uma padronização de cores e fontes, definidas no documento de identidade visual.</li>
+        <li><strong>Segurança:</strong> Quando o usuário acessa o sistema através de Login, um token temporário é criado, para realizar a autenticação do usuário e resgatar dados privativos do banco de dados.</li>
+        <li><strong>Manutenabilidade:</strong> Todo o projeto Leila´s foi documentado no repositório do grupo. Isso facilita a consulta da documentação, e apoia a manutenibilidade do código.</li>
+        <li><strong>Confiabilidade:</strong> o sistema foi desenvolvido para garantir que o mesmo se recupere em caso de falhas.</li>
+        <li><strong>Portabilidade:</strong> A utilização do Docker garante um ambiente estável, o que auxilia na criação de possíveis novos módulos./li>
+</ul>
+<p>O projeto ainda está em fase de desenvolvimento até o presente momento (maio de 2021), portanto algumas métricas não puderam ser obtidas.
 </div>
 
 ## Referências
