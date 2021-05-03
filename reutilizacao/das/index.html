@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Documento de arquitetura de Software (DAS) - Leila's</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Leila's</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../sprints/" class="nav-link">Sprints</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Base <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Extras</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/identidade-visual/" class="dropdown-item">Identidade Visual</a>
+</li>
+            
+<li>
+    <a href="../../base/prototipo-baixa/" class="dropdown-item">Protótipo de Baixa Fidelidade</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Módulo Projeto Não Orientado a Abordagens Específicas</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/design-sprint/" class="dropdown-item">Design Sprint</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Prototipação</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/prototipo-alta/" class="dropdown-item">Protótipo de Alta Fidelidade</a>
+</li>
+            
+<li>
+    <a href="../../base/teste-prototipo/" class="dropdown-item">Testes de protótipos</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Requisitos</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Pré rastreabilidade</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/rich-picture/" class="dropdown-item">Rich Picture</a>
+</li>
+            
+<li>
+    <a href="../../base/5w2h/" class="dropdown-item">5W2H</a>
+</li>
+            
+<li>
+    <a href="../../base/mapa-mental/" class="dropdown-item">Mapa Mental</a>
+</li>
+            
+<li>
+    <a href="../../base/causa-efeito/" class="dropdown-item">Diagrama de causa e efeito</a>
+</li>
+            
+<li>
+    <a href="../../base/plano-de-risco/" class="dropdown-item">Plano de gerenciamento de riscos</a>
+</li>
+            
+<li>
+    <a href="../../base/estimativas/" class="dropdown-item">Estimativas</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Elicitação</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/brainstorming/" class="dropdown-item">Brainstorming</a>
+</li>
+            
+<li>
+    <a href="../../base/questionario/" class="dropdown-item">Questionário</a>
+</li>
+            
+<li>
+    <a href="../../base/entrevista/" class="dropdown-item">Entrevista</a>
+</li>
+            
+<li>
+    <a href="../../base/moscow/" class="dropdown-item">MoSCoW</a>
+</li>
+            
+<li>
+    <a href="../../base/reunioes/" class="dropdown-item">Reuniões</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Módulo Processos/Metodologias/Abordagens</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/metodologia/" class="dropdown-item">Metodologia</a>
+</li>
+            
+<li>
+    <a href="../../base/bpmn/" class="dropdown-item">Modelagem BPMN</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Módulo Projeto Orientado a Abordagens Tradicionais</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../base/backlog/" class="dropdown-item">Modelagem Ágil</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Notação UML – Diagramas Estáticos</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../modelagem/classes/" class="dropdown-item">Diagrama de Classes</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/agregacao-composicao/" class="dropdown-item">Diagrama de Agregação e Composição</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama-componentes/" class="dropdown-item">Diagrama de Componentes</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/pacotes/" class="dropdown-item">Diagrama de Pacotes</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama-abstrata/" class="dropdown-item">Diagrama de Classe Abstrata</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Notação UML – Diagramas Dinâmicos</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../modelagem/diagrama-sequencia/" class="dropdown-item">Diagrama de Sequência</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama_comunicacao/" class="dropdown-item">Diagrama de Comunicação</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama_atividades/" class="dropdown-item">Diagrama de Atividades</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama-estados/" class="dropdown-item">Diagrama de Estados</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Extras</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../modelagem/diagrama-casos-uso/" class="dropdown-item">Diagrama de Casos de Uso</a>
+</li>
+            
+<li>
+    <a href="../../modelagem/diagrama-relacional/" class="dropdown-item">Diagrama Relacional</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Padrões de Projeto <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../padroes/grasps/" class="dropdown-item">Módulo Padrões de Projeto GRASPs</a>
+</li>
+                                    
+<li>
+    <a href="../../padroes/gofs/" class="dropdown-item">Módulo Padrões de Projeto GoFs</a>
+</li>
+                                    
+<li>
+    <a href="../../padroes/emergente-injecao-dependencia/" class="dropdown-item">Módulo Padrões de Projeto Extras</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Arquitetura de Software & Reutilização <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Documento de arquitetura de Software (DAS)</a>
+</li>
+                                    
+<li>
+    <a href="../reutilizacao/" class="dropdown-item">Reutilização de Software</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../padroes/emergente-injecao-dependencia/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../reutilizacao/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#documento-de-arquitetura-de-software" class="nav-link"> DOCUMENTO DE ARQUITETURA DE SOFTWARE</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#1-introducao" class="nav-link">1. Introdução</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#2-representacao-arquitetural" class="nav-link">2. Representação Arquitetural</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#3-objetivos-e-restricoes-da-arquitetura" class="nav-link">3. Objetivos e Restrições da Arquitetura</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#4-visoes-de-casos-de-uso" class="nav-link">4. Visões de Casos de Uso</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#5-visao-logica" class="nav-link">5. Visão Lógica</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#6-visao-de-processos" class="nav-link">6. Visão de Processos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#7-visao-de-implantacao" class="nav-link">7. Visão de Implantação</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#8-visao-de-implementacao" class="nav-link">8. Visão de Implementação</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#9-visao-de-dados" class="nav-link">9. Visão de Dados</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#10-tamanho-e-performance" class="nav-link">10. Tamanho e Performance</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#11-qualidade" class="nav-link">11. Qualidade</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#referencias" class="nav-link">Referências</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p><br></p>
+<h1 id="documento-de-arquitetura-de-software"><center> DOCUMENTO DE ARQUITETURA DE SOFTWARE</h1>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16.04.2021</td>
+<td>0.1</td>
+<td>Pontapé inicial do documento: formatação; adição do 1.1 Propósito</td>
+<td>Erick Giffoni; Isabella Carneiro</td>
+</tr>
+<tr>
+<td>17.04.2021</td>
+<td>0.2</td>
+<td>Adição inicial do 1.2 Escopo</td>
+<td>Erick Giffoni<br>Isabella Carneiro</td>
+</tr>
+<tr>
+<td>19.04.2021</td>
+<td>0.3</td>
+<td>Objetivos e restrições</td>
+<td>Damarcones Porto<br> Kalebe Lopes</td>
+</tr>
+<tr>
+<td>19.04.2021</td>
+<td>0.4</td>
+<td>Visão de casos de uso</td>
+<td>Bruna Almeida<br> Lucas Lopes <br> Damarcones Porto</td>
+</tr>
+<tr>
+<td>22.04.2021</td>
+<td>0.5</td>
+<td>Início da introdução</td>
+<td>Rafaella Junqueira<br>Geraldo Victor</td>
+</tr>
+<tr>
+<td>22.04.2021</td>
+<td>0.6</td>
+<td>Representação Arquitetural</td>
+<td>Rafaella Junqueira<br> Geraldo Victor</td>
+</tr>
+<tr>
+<td>22.04.2021</td>
+<td>0.7</td>
+<td>Overview da introdução</td>
+<td>Rafaella Junqueira<br> Geraldo Victor</td>
+</tr>
+<tr>
+<td>25.04.2021</td>
+<td>0.8</td>
+<td>Visão lógica</td>
+<td>Rafaella Junqueira<br> Isabella Carneiro</td>
+</tr>
+<tr>
+<td>26.04.2021</td>
+<td>0.9</td>
+<td>Visão lógica - diagrama de pacotes</td>
+<td>Rafaella Junqueira<br> Isabella Carneiro</td>
+</tr>
+<tr>
+<td>26.04.2021</td>
+<td>0.10</td>
+<td>Diagramas de casos de uso e descrição dos principais casos de uso</td>
+<td>Bruna Almeida<br> Lucas Lopes<br> Damarcones Porto</td>
+</tr>
+<tr>
+<td>27.04.2021</td>
+<td>0.11</td>
+<td>Visão de processos</td>
+<td>Bruna Almeida<br> Lucas Lopes<br> Damarcones Porto</td>
+</tr>
+<tr>
+<td>27.04.2021</td>
+<td>0.12</td>
+<td>Visão de implementação</td>
+<td>Bruna Almeida<br> Lucas Lopes<br> Damarcones Porto</td>
+</tr>
+<tr>
+<td>28.04.2021</td>
+<td>0.13</td>
+<td>Adiciona explicação sobre view no tópico 2</td>
+<td>Erick Giffoni</td>
+</tr>
+<tr>
+<td>28.04.2021</td>
+<td>0.14</td>
+<td>Adiciona visão de implantação</td>
+<td>Bruna Almeida<br> Lucas Lopes<br> Damarcones Porto</td>
+</tr>
+<tr>
+<td>29.04.2021</td>
+<td>0.15</td>
+<td>Visão de processos</td>
+<td>Erick Giffoni<br> Kalebe Lopes</td>
+</tr>
+<tr>
+<td>29.04.2021</td>
+<td>0.16</td>
+<td>Diagrama de componentes</td>
+<td>Erick Giffoni</td>
+</tr>
+<tr>
+<td>29.04.2021</td>
+<td>0.17</td>
+<td>Adição do DE-R e DLD</td>
+<td>Erick Giffoni</td>
+</tr>
+<tr>
+<td>29.04.2021</td>
+<td>0.18</td>
+<td>Visão geral - descrição das camadas do frontend</td>
+<td>Erick Giffoni</td>
+</tr>
+<tr>
+<td>01.05.2021</td>
+<td>0.19</td>
+<td>Formatação do documento</td>
+<td>Bruna Almeida<br> Damarcones Porto</td>
+</tr>
+<tr>
+<td>02.05.2021</td>
+<td>0.20</td>
+<td>Adiciona tópico de Tamanho e performance</td>
+<td>Bruna Almeida<br> Damarcones Porto</td>
+</tr>
+<tr>
+<td>02.05.2021</td>
+<td>0.21</td>
+<td>Adiciona tópico de Qualidade</td>
+<td>Bruna Almeida<br> Damarcones Porto</td>
+</tr>
+<tr>
+<td>02.05.2021</td>
+<td>0.22</td>
+<td>Visão lógica - Diagrama de contexto</td>
+<td>Rafaella Junqueira<br>Geraldo Victor</td>
+</tr>
+<tr>
+<td>02.05.2021</td>
+<td>0.23</td>
+<td>Tranferência do documento de .doc para markdown</td>
+<td>Isabella Carneiro</td>
+</tr>
+<tr>
+<td>02.05.2021</td>
+<td>0.24</td>
+<td>Tranferência do documento de .doc para markdown</td>
+<td>Rafaella Junqueira</td>
+</tr>
+</tbody>
+</table>
+<p><br><br></p>
+<h2 id="1-introducao">1. Introdução</h2>
+<div style="line-height:1.8" align="justify">
+<p>O documento de arquitetura de software fornece uma visão geral de arquitetura abrangente do sistema de software. Serve como um meio de comunicação entre o arquiteto de software e outros membros de equipe de projeto, com relação a decisões arquiteturalmente significativas tomadas sobre o projeto.</p>
+<p>O presente documento tem como objetivo descrever a arquitetura do projeto Cabeleleila Leila, uma aplicação web com o objetivo de facilitar e otimizar o sistema de agendamentos em um salão de beleza. Este documento oferece uma visão arquitetural geral do sistema, usando diversas visões, como visão de caso de uso, visão lógica, dentre outras, para representar diferentes aspectos do mesmo. O objetivo deste documento é capturar e comunicar as decisões arquiteturais significativas que foram tomadas no decorrer do processo de desenvolvimento.</p>
+</div>
+
+<h3 id="11-proposito">1.1 Propósito</h3>
+<div style="line-height:1.8" align="justify">
+<p>Este documento apresenta uma visão arquitetural compreensiva e holística a respeito do sistema do salão da Leila. Diferentes visões arquiteturais estão presentes aqui para representar determinados aspectos do sistema. Assim, é esperado capturar e expressar as decisões de arquitetura significativas que foram tomadas para consolidar a construção do sistema para o salão da Leila.
+
+<p>Esse documento está estruturado da seguinte maneira: primeiro, uma introdução geral sobre o projeto de arquitetura e sobre o sistema em questão; em seguida, a representação arquitetural é explicada, bem como quais visões esse documento aborda; as metas e restrições de arquitetura, na sequência, abordam requisitos de software e outros objetivos importantes para a arquitetura, estratégias etc. Logo, uma série de tópicos representando cada visão utilizada nesse projeto; depois, uma descrição do tamanho e do desempenho desse software; por fim, características de qualidade que se aplicam ao projeto são discutidas.
+</div>
+
+<p>A utilização desse documento é dada da seguinte forma:</p>
+<ul>
+<li><strong>Usuários do sistema</strong>: podem fazer consultas, caso desejem entender melhor o funcionamento do software;</li>
+<li><strong>Equipe de desenvolvimento</strong>: espera-se que desenvolva o software a partir do que está projetado aqui. Assim, fará consultas e, caso necessário, pedirá esclarecimentos ou mudanças para a equipe de arquitetos de software;</li>
+<li><strong>Equipe de bancos de dados</strong>: concorda em projetar e implementar o banco de acordo com os objetivos, as restrições e outros aspectos relevantes apresentados aqui,  para o contexto do banco;</li>
+<li><strong>Equipe de arquitetos</strong>: elabora, revisa, modifica e comunica esse documento de arquitetura para as outras partes interessadas apresentadas anteriormente.</li>
+</ul>
+<h3 id="12-escopo">1.2 Escopo</h3>
+<div style="line-height:1.8" align="justify">
+
+<p>O Salão da Cabeleleila Leila é uma aplicação que visa facilitar o gerenciamento de um salão de beleza por meio do cadastro de clientes e do agendamento dos serviços oferecidos pelo estabelecimento.</p>
+<p>A aplicação permite que o cliente consulte os tipos de serviços prestados, seus respectivos preços, os horários de atendimento e agende um pedido. Mais ainda, o cliente pode acessar o perfil dos profissionais que atuam no local, avaliar pedidos etc.</p>
+<p>Esse documento de arquitetura descreve como a aplicação funciona, quais são os requisitos para o funcionamento correto, quais são as restrições do sistema, caso existam, as tecnologias utilizadas, como o projeto está estruturado e organizado etc. Assim, esse é um dos principais documentos para o projeto do sistema do salão da Leila como um todo, sendo que ele afeta todos os interessados, desde o cliente do Salão aos desenvolvedores deste software.</p>
+</div>
+
+<h3 id="13-visao-geral">1.3 Visão Geral</h3>
+<div style="line-height:1.8" align="justify">
+<p>A arquitetura de um software, segundo as normas da IEEE, é a “organização fundamental de um sistema, expressa em seus componentes, nos relacionamentos entre eles e com o ambiente, e nos princípios que governam seu projeto e sua evolução”. O aplicação web Cabeleleila Leila será representada seguindo as seguintes visões arquiteturais:</p></div>
+
+<ul>
+<li><strong>Visão de Casos de Uso</strong>: Descreve a funcionalidade do sistema, suas interfaces externas, e seus principais usuários.</li>
+<li><strong>Visão Lógica</strong>: Descreve como o sistema é estruturado, em termos de unidades de implementação.</li>
+<li><strong>Visão de Processos</strong>: Descreve como o sistema de tempo-de-execução é estruturado na forma de um conjunto de elementos que têm interações e comportamento de tempo-de-execução.</li>
+<li><strong>Visão de implantação</strong>: Descreve como o sistema é mapeado para o hardware.</li>
+<li><strong>Visão de Implementação</strong>: Descreve como os artefatos de desenvolvimento estão organizados no sistema de arquivos.<br> </li>
+</ul>
+<h2 id="2-representacao-arquitetural">2. Representação Arquitetural</h2>
+<div style="line-height:1.8" align="justify">
+
+<p>O padrão arquitetural utilizado no projeto é um padrão que pode ser entendido como um padrão MVC (Model-View Controller). Este padrão tem como benefício o isolamento das regras de negócios da lógica de apresentação, ou seja, a interface do usuário, uma vez que essa comunicação entre interface e usuário é definida através de um controlador (controller) que separa as camadas.<br>
+
+<p>O modelo (model) tem a responsabilidade de gerenciar e controlar a forma como os dados se comportam por meio das funções, lógica e regras de negócios estabelecidas. É o detentor dos dados recebidos pela controller e aquele que envia as respostas mais adequadas; tanto a controller quanto a model são representadas com a utilização do framework Spring Boot utilizado no backend. A visão (view) também é responsável por apresentar as informações de forma visual ao usuário, representada neste projeto com a utilização do framework Angular.<br> 
+
+<p>Mais ainda, em relação ao backend, a parte de código que lida com mais proximidade e faz chamadas ao banco de dados representa uma view, pois faz a interface entre a requisição e os dados que ela busca. A informação é então retornada para a model, em seguida para a controller, então de volta ao frontend, o qual monta os dados recebidos e os exibe ao usuário (outra view, representando uma interface com o usuário).
+
+</div>
+
+<h3 id="21-diagrama-relacional">2.1 Diagrama Relacional</h3>
+<div style="line-height:1.8" align="justify">
+
+<p>O diagrama relacional representa a divisão da aplicação em microsserviços independentes referentes aos usuários, aos serviços oferecidos pelo salão e os agendamentos realizados.
+</div>
+
+<p><a href="../../img/das/relacional.png"><div align="center"><img hight="auto" width="auto" src="../../img/das/relacional.png"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 1 - Diagrama Relacional </b>
+    <br>
+    <small>Autores: Rafaella Junqueira e Geraldo Victor</small>
+</figcaption>
+<p><br></p>
+<div style="line-height:1.8" align="justify">
+<p>O usuário da aplicação realiza o login e recebe um token de acesso que permanece por um período limitado de tempo. Este token é passado para o banco de dados no momento em que se pretende cadastrar ou agendar um serviço na aplicação para que haja permissão para execução da ação.
+</div>
+
+<h3 id="22-spring-boot">2.2 Spring Boot</h3>
+<div style="line-height:1.8" align="justify">
+<p>O Spring é um framework open source para a plataforma Java, um framework não intrusivo, baseado nos padrões de projeto inversão de controle e injeção de dependência. O Spring Boot facilita a criação de aplicativos autônomos baseados em Spring de nível de produção.</p>
+</div>
+
+<h3 id="23-angular">2.3 Angular</h3>
+<div style="line-height:1.8" align="justify">
+<p>Angular é uma plataforma de desenvolvimento, construída em TypeScript. O Angular inclui uma estrutura baseada em componentes para a construção de aplicativos da web escalonáveis, uma coleção de bibliotecas bem integradas que cobrem uma ampla variedade de recursos, incluindo roteamento, gerenciamento de formulários e comunicação cliente-servidor.</p>
+</div>
+
+<h2 id="3-objetivos-e-restricoes-da-arquitetura">3. Objetivos e Restrições da Arquitetura</h2>
+<div style="line-height:1.8" align="justify">
+<p>Os objetivos arquiteturais dizem respeito às metas mais significativas impostas a um projeto, ou seja, é tudo aquilo que satisfaz as necessidades, expectativas e desejos dos Stakeholders. As restrições arquiteturais de um projeto referem-se aos fatores que limitam a execução da aplicação. Em outras palavras, as restrições podem ser definidas como condições impostas ao sistema, para que este funcione de acordo com o esperado pelos Stakeholders.</p>        
+<p>Definir as restrições de um projeto é importante porque assegura a viabilidade do empreendimento e a satisfação dos Stakeholders. Quando um projeto é restringido por fronteiras claras, através de regras bem formuladas, há uma delimitação no campo de atuação do gerente de projetos. Este tópico tem por finalidade descrever os objetivos e restrições cabíveis ao projeto Leila's.</p>
+</div>
+
+<h3 id="31-objetivos">3.1 Objetivos</h3>
+<div style="line-height:1.8" align="justify">
+
+<ul>
+        <li><strong>Escalabilidade</strong>: O software deve tornar possível sua evolução e manutenção.</li>
+        <li><strong>Segurança</strong>: A aplicação deve manter os dados dos usuários em total segurança através da utilização de ferramentas para a encriptação de dados.</li>
+        <li><strong>Linguagem</strong>: A aplicação deve conter uma linguagem comum e de fácil entendimento para os usuários.</li>
+        <li><strong>Portabilidade</strong>: A aplicação deve ser executada com desempenho igual ou similar nos navegadores Google Chrome e Mozila Firefox.</li>
+        <li><strong>Usabilidade</strong>: A aplicação deve ser construída seguindo regras de usabilidade para atender a maioria dos usuários.</li>
+        <li><strong>Manutenibilidade</strong>: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal. Para isso ser possível, o sistema foi escrito com base em padrões de projetos já conhecidos por grande parte dos desenvolvedores Java.</li>
+</ul>
+</div>
+
+<h3 id="32-restricoes">3.2 Restriçoes</h3>
+<div style="line-height:1.8" align="justify">
+<ul>
+<li>Tecnologias: A aplicação deverá ser desenvolvida utilizando as seguintes ferramentas e tecnologias:</li>
+        <ul>
+                <li>Spring Boot: Framework escrito em Java para o desenvolvimento do back-end da aplicação;</li>
+                <li>Angular: Framework escrito em JavaScript para o desenvolvimento do front-end da aplicação Web. Possui fácil integração com o bootstrap e permite a utilização do HTML;</li>
+                <li>Typescript: Super conjunto do JavaScript, utilizado juntamente ao framework Angular na construção do front- end;</li>
+                <li>Bootstrap: Framework de CSS que torna fácil a criação de elementos em websites. Agiliza a criação de páginas esteticamente agradáveis, pois seus padrões de design seguem os princípios de usabilidade para interfaces;</li>
+                <li>PostegresSQL: Banco de dados relacional que armazena os dados em tabelas. Utiliza a linguagem SQL para a manipulação dos dados;</li>
+                <li>Github: Controle de versionamento da aplicação.</li>
+        </ul>
+<li>Conectividade: A aplicação necessitará de conexão com a internet para funcionar.</li>
+<li>Prazo: A aplicação deverá ser finalizada na data estipulada para entrega final.</li>
+<li>Idioma: A aplicação deve ser voltada para a linguagem Português-Brasil.</li>
+<li>Público alvo: A aplicação deve atender usuários que desejam agendar serviços no salão Leila's.</li>
+</ul>
+</div>
+
+<h2 id="4-visoes-de-casos-de-uso">4. Visões de Casos de Uso</h2>
+<div style="line-height:1.8" align="justify">
+
+<p>O Caso de Uso tem como objetivo descrever como será o uso de uma funcionalidade de um sistema. Com base nisso, a visão de Caso de Uso exerce a função de listar casos de uso que representam alguma funcionalidade central e significativa no sistema final, ou seja, descreve cenários ou casos de uso consideráveis para o sistema.
+<p>A visão de caso de uso é um aspecto arquitetônico que ilustra os casos e cenários de uso que abrangem comportamento e/ou classes significativas do ponto de vista arquitetônico. Essa visão mostra um subconjunto arquitetonicamente significativo dos casos de uso e atores, que no projeto Leila's são: cliente, funcionário e administrador.
+<p>Os casos de uso levantados para o projeto estão listados abaixo. Aqueles que possuem um impacto mais significativo na arquitetura do projeto estão destacados em negrito, e serão descritos em detalhes posteriormente.
+
+<ul>
+        <li>UCD01 - Cadastrar usuários;</li>
+        <li>UCD02 - Realizar login;</li>
+        <li>UCD03 - Agendar horário;</li>
+        <li>UCD04 - Recuperar senha;</li>
+        <li>UCD05 - Gerenciar estabelecimento;</li>
+        <li>UCD06 - Gerenciar perfil de usuário.</li>
+</ul>
+</div>
+
+<p>Os diagramas de casos de uso gerais estão apresentados abaixo:</p>
+<p><a href="../../img/das/uc1.png"><div align="center"><img hight="auto" width="auto" src="../../img/das/uc1.png"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 2 - Diagrama de casos de uso geral para todo tipo de usuário </b>
+    <br>
+    <small>Autores: Bruna Almeida e Damarcones Porto</small>
+</figcaption>
+<p><br></p>
+<p><a href="../../img/das/uc2.png"><div align="center"><img hight="auto" width="auto" src="../../img/das/uc2.png"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 3 - Diagrama de casos de uso geral para funcionário </b>
+    <br>
+    <small>Autores: Bruna Almeida e Damarcones Porto</small>
+</figcaption>
+<p><br></p>
+<p><a href="../../img/das/uc3.png"><div align="center"><img hight="auto" width="auto" src="../../img/das/uc3.png"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 4 - Diagrama de casos de uso geral para cliente</b>
+    <br>
+    <small>Autores: Bruna Almeida e Damarcones Porto</small>
+</figcaption>
+<p><br></p>
+<p>Os casos de uso destacados anteriormente serão detalhados a seguir:</p>
+<div style="line-height:1.8" align="justify">
+<ul>
+<li> <strong>UCD03 - Agendar horário:</strong> este caso de uso ocorre quando o usuário cliente solicita um serviço disponível no salão. Após selecionar o serviço desejado, será apresentado ao cliente uma lista de horários disponíveis, e basta que o cliente selecione o horário pretendido e confirme a solicitação do serviço. Este caso de uso é exclusivo para o perfil de cliente.</li>
+<li><strong>UCD05 - Gerenciar estabelecimento:</strong> Caso de uso exclusivo para o perfil de administrador e ocorre quando o administrador deseja consultar serviços cadastrados no sistema, visualizar os agendamentos do salão, criar um usuário, modificar o tipo de permissão de um usuário cadastrado ou excluir um usuário cadastrado. Após fazer o que pretende no sistema, basta que o administrador confirme as alterações para que o sistema seja atualizado.</li>
+</ul>
+</div>
+
+<h2 id="5-visao-logica">5. Visão Lógica</h2>
+<div style="line-height:1.8" align="justify">
+<p>As visões de arquitetura podem ser consideradas abstrações ou simplificações dos modelos criados, em que se ressaltam as características importantes sem evidenciar os detalhes. A Visão Lógica é utilizada no fluxo de trabalho Análise e Design para fornecer uma base de compreensão da estrutura e da organização de design do sistema.</p>
+</div>
+
+<h3 id="51-diagrama-de-contexto">5.1 Diagrama de Contexto</h3>
+<div style="line-height:1.8" align="justify">
+<p>O diagrama de contexto é um gráfico, composto por um fluxo de dados que mostra as interfaces  entre o projeto e a sua relação com o ambiente em que vai ser desenvolvido. O diagrama de contexto funciona como uma descrição dos processos sob a visão de mais alto nível. 
+</div>
+
+<p><a href="../../img/das/contexto.png"><div align="center"><img hight="auto" width="auto" src="../../img/das/contexto.png"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 5 - Diagrama de Contexto </b>
+    <br>
+    <small>Autores: Rafaella Junqueira e Geraldo Victor</small>
+</figcaption>
+<p><br></p>
+<div style="line-height:1.8" align="justify">
+<p>O usuário faz suas interações com as interfaces criadas através do Framework Angular, cujos padrões de chamada são feitas via endpoint utilizando a tecnologia REST para web services. Essa integração de comunicação é feita do frontend para o backend, aqui desenvolvido utilizando o Framework Spring Boot. 
+<p>Por fim, as informações são validadas e carregadas através da técnica ORM (Object-relational mapping) com o Hibernate, que relaciona propriedades de uma classe com colunas do banco de dados, e então são retornadas ao usuário de acordo com a necessidade do que foi solicitado.
+</div>
+
+<h3 id="52-diagrama-de-pacotes">5.2 Diagrama de Pacotes</h3>
+<p><a href="../../img/das/pacotes.png"><div align="center"><img hight="auto" width="auto" src="../../img/das/pacotes.png"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 6 - Diagrama Relacional </b>
+    <br>
+    <small>Autores: Rafaella Junqueira e Isabella Carneiro</small>
+</figcaption>
+<p><br></p>
+<div style="line-height:1.8" align="justify">
+<p>Os arquivos existentes no diretório web/resources são aqueles que recebem as requisições advindas do frontend. Essas requisições são enviadas aos arquivos existentes no pacote de services, os quais utilizam métodos existentes nas interfaces do pacote repositories. Neste projeto, as interfaces utilizadas em repositories são "filhas" de uma interface pai denominada CrudRepository, sendo que essas são responsáveis em realizar a comunicação entre a aplicação e o banco de dados.
+</p></div>
+
+<h2 id="6-visao-de-processos">6. Visão de Processos</h2>
+<div style="line-height:1.8" align="justify">
+<p>O objetivo da visão de processos é mostrar a organização do processo do sistema, descrevendo como o sistema de tempo-de-execução é estruturado na forma de um conjunto de elementos que têm interações e comportamento de tempo-de-execução. Esta visão deve mostrar como se dá a comunicação entre os processos do sistema.</p>
+<p>A visão dos processos empregados no projeto, que ilustram os principais fluxos de comunicações do sistema, podem ser encontradas no diagrama de comunicação, que será apresentado a seguir, e no <a href="../../modelagem/diagrama-sequencia">diagramas de sequências.</a></p>
+</div>
+
+<p><a href="../../img/modelagem/dinamica/diagrama-comunicacao.svg"><div align="center"><img hight="auto" width="auto" src="../../img/modelagem/dinamica/diagrama-comunicacao.svg"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 7 - Diagrama de Comunicação </b>
+    <br>
+    <small>Autores: Bruna Almeida e Lucas Lopes</small>
+</figcaption>
+<p><br></p>
+<div style="line-height:1.8" align="justify">
+<p>O diagrama acima representa como acontece a comunicação entre o usuário e a aplicação, genericamente.</p>
+<p>A camada do cliente, a qual pode ser entendida como o frontend da Leila's, faz diversas requisições para suprir as necessidades do usuário por meio de uma interface com o backend. Cada requisição é recebida pela :GenericResource, a qual consegue entender e mapear a informação desejada. Assim, algum serviço (:GenericService) será acionado para responder aquela necessidade, sendo que, para efetivamente recuperar os dados requisitados, chama-se um :GenericRepository. Este interage de modo mais próximo ao banco de dados, recupera as informações e as envia de volta para o serviço que o chamou, e assim sucessivamente, até que a informação seja apresentada de volta ao usuário.</p>
+</div>
+
+<h3 id="61-principais-processos">6.1 Principais Processos</h3>
+<div style="line-height:1.8" align="justify">
+<ul>
+        <li><strong>createUsuario ():</strong> Esse processo é responsável pela criação de usuários do tipo cliente e funcionário, lembrando que o tipo administrador é criado diretamente no sistema;</li>
+        <li><strong>getServicos ():</strong> Busca os serviços cadastrados no sistema dependendo do objetivo da busca;</li>
+        <li><strong>gerenciarServicos ():</strong> Esse método edita os serviços nas características em que ele foi cadastrado ou mesmo exclusão/inclusão de serviços;</li>
+</ul>
+</div>
+
+<h2 id="7-visao-de-implantacao">7. Visão de Implantação</h2>
+<div style="line-height:1.8" align="justify">
+<p>Esta seção descreve como o sistema é mapeado para o hardware. Os dados da aplicação Web ficam armazenados no banco de dados PostgreSQL de tal maneira que quando requisitado pelo Back-end, construído em Java, realiza os serviços enviados através da interface, no caso o Front-end, desenvolvido em Angular, que por sua vez, mostra todas as informações necessárias ao usuário.</p>
+</div>
+
+<p><a href="../../img/das/implantacao.png"><div align="center"><img hight="auto" width="auto" src="../../img/das/implantacao.png"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 8 - Diagrama de Implantação.</b>
+    <br>
+    <small>Autores: Bruna Almeida e Lucas Lopes</small>
+</figcaption>
+<p><br></p>
+<h2 id="8-visao-de-implementacao">8. Visão de Implementação</h2>
+<div style="line-height:1.8" align="justify">
+<p>A finalidade da visão de implementação é captar as decisões de arquitetura tomadas para a implementação. Esta seção descreve a estrutura geral do modelo de implementação, a decomposição do software em camadas e subsistemas no modelo de implementação, e quaisquer componentes arquitetonicamente significativos.</p>
+</div>
+
+<h3 id="81-visao-geral">8.1 Visão Geral</h3>
+<p>A visão geral de implementação pode ser representada por meio do diagrama de classes do projeto, que se encontra abaixo.</p>
+
+<p><a href="../../img/modelagem/estatica/classes/classes_v3.png"><div align="center"><img hight="auto" width="auto" src="../../img/modelagem/estatica/classes/classes_v3.png"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 9 - Diagrama de Classes.</b>
+    <br>
+    <small>Autores: Geraldo Victor e Lucas Lopes</small>
+</figcaption>
+<p><br></p>
+<p>Outra representação de como os componentes do sistema são conectados pode ser vista no <a href="../../modelagem/diagrama-componentes">diagrama de componentes</a> desenvolvido para o projeto Leila´s.</p>
+
+<h3 id="82-camadas">8.2 Camadas</h3>
+<div style="line-height:1.8" align="justify">
+<p>O projeto é dividido em duas camadas: Front-end e Back-end:.</p>
+<strong>Front-end:</strong> os seguintes pacotes fazem parte do Front-end do projeto Leila’s:
+<ul>
+        <li>app: pode-se dizer que é o pacote principal, embora não atue sozinho. Toda a lógica da aplicação, projeto de páginas, rotas, componentes utilizados, arquivos auxiliares, funcionalidades etc estão presentes aqui;</li>
+        <li>assets: aqui ficam os "ativos" utilizados nas interfaces com o usuário, os quais incluem diversas imagens, logos etc.;</li>
+        <li>environments: representa um conjunto de configurações de ambiente para a aplicação, podendo incluir: variáveis; números de portas de serviços; URLs utilizadas etc.;</li>
+        <li>shared: aqui encontra-se arquivos, variáveis, interfaces, constantes etc, compartilhadas para a aplicação como um todo.</li>
+</ul>
+<strong>Back-end:</strong> os pacotes dessa camada estão descritos a seguir.
+<ul>
+        <li>Config: nela está contida as configurações iniciais do MVC e da classe SpringFoxConfig;</li>
+        <li>Domain: contém as entidades necessárias para o gerenciamento de usuários, tanto cliente quanto funcionário, sendo que o administrador já será setado automaticamente, e os serviços a serem oferecidos pelo estabelecimento;</li>
+        <li>Exceptions: É a responsável pelo lançamento de exceções decorrentes de erros;</li>
+        <li>Repositories: existe no contexto de executar requisições de método CRUD;</li>
+        <li>Security: toda regra de serviço envolvendo questões de segurança estão implementadas nele;</li>
+        <li>Service: no pacote service está contida a lógica que implementa a interface para o CRUD;</li>
+        <li>Web: responsável basicamente pelo controle de validação de entidades. Um exemplo é a classe UserController, que impede a duplicidade de nomes de usuários.</li>
+</ul>
+</div>
+
+<h2 id="9-visao-de-dados">9. Visão de Dados</h2>
+<div style="line-height:1.8" align="justify">
+<p>Para a visão de dados, representamos aqui como o sistema da Leila's persiste nessas informações. O modelo de entidade-relacionamento (ME-R), bem como o diagrama entidade-relacionamento (DE-R), somado ao diagrama lógico de dados (DLD) foram utilizados. Por questões relacionadas ao tamanho deste documento, apresentamos abaixo somente o DE-R e o DLD.
+</div>
+
+<h3 id="91-de-r">9.1 DE-R</h3>
+<p><a href="../../img/modelagem/dinamica/der-dld/der.jpg"><div align="center"><img hight="auto" width="auto" src="../../img/modelagem/dinamica/der-dld/der.jpg"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 10 - DE-R </b>
+    <br>
+    <small>Autores: Kalebe Lopes e Erick Giffoni</small>
+</figcaption>
+<p><br></p>
+<h3 id="92-dld">9.2 DLD</h3>
+<p><a href="../../img/modelagem/dinamica/der-dld/dld.jpg"><div align="center"><img hight="auto" width="auto" src="../../img/modelagem/dinamica/der-dld/dld.jpg"></div></a></p>
+<figcaption align='center'>
+    <b>Figura 11 - DLD </b>
+    <br>
+    <small>Autores: Kalebe Lopes e Erick Giffoni</small>
+</figcaption>
+<p><br></p>
+<h2 id="10-tamanho-e-performance">10. Tamanho e Performance</h2>
+<div style="line-height:1.8" align="justify">
+<p>O tamanho da aplicação, levando em consideração apenas o Back-end, foi estimado em 42.9Mb. Esse valor foi alcançado utilizando o comando “MVN install”, gerando um arquivo .jar, o que torna possível a execução do Back-end em qualquer sistema operacional que contenha Java.</p>
+<p>Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress.</p>
+
+</div>
+
+<h2 id="11-qualidade">11. Qualidade</h2>
+<div style="line-height:1.8" align="justify">
+<p>A qualidade da aplicação pode ser mensurada a partir da abordagem NFR. O NFR Framework é uma abordagem para representar e analisar Requisitos Não-Funcionais. Seu objetivo é ajudar desenvolvedores na implementação de soluções personalizadas, levando em consideração as características do domínio e do sistema em questão. Tais características incluem Requisitos Não-funcionais, Requisitos funcionais, prioridades e carga de trabalho. Esses fatores determinam a escolha de alternativas de desenvolvimento para um determinado sistema (CHUNG et al., 2000).</p>
+
+A partir disso, foram levantados NFR’s que aumentam a qualidade do produto, em relação à eficiência, usabilidade, entre outros:
+<ul>
+        <li><strong>Usabilidade:</strong> A interface do sistema é simples, clara e de fácil interação, seguindo uma padronização de cores e fontes, definidas no documento de identidade visual.</li>
+        <li><strong>Segurança:</strong> Quando o usuário acessa o sistema através de Login, um token temporário é criado, para realizar a autenticação do usuário e resgatar dados privativos do banco de dados.</li>
+        <li><strong>Manutenabilidade:</strong> Todo o projeto Leila´s foi documentado no repositório do grupo. Isso facilita a consulta da documentação, e apoia a manutenibilidade do código.</li>
+        <li><strong>Confiabilidade:</strong> o sistema foi desenvolvido para garantir que o mesmo se recupere em caso de falhas.</li>
+        <li><strong>Portabilidade:</strong> A utilização do Docker garante um ambiente estável, o que auxilia na criação de possíveis novos módulos./li>
+</ul>
+<p>O projeto ainda está em fase de desenvolvimento até o presente momento (maio de 2021), portanto algumas métricas não puderam ser obtidas.
+</div>
+
+<h2 id="referencias">Referências</h2>
+<p>DEVMEDIA, <strong>Introdução ao Padrão MVC</strong>. Disponível em: devmedia.com.br/introducao-ao-padrao-mvc/29308#MVC</p>
+<p>LEWAGON, <strong>O que é padrão MVC?</strong>. Disponível em: lewagon.com/pt-BR/blog/o-que-e-padrao-mvc </p>
+<p>SIGED, <strong>Documento de Arquitetura</strong>. Disponível em: fga-eps-mds.github.io/2020-2-SiGeD/architecturedocument/#arquitetura</p>
+<p>CIN, <strong>Conceito: Visão Lógica</strong>. Disponível em: cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/logical_view_C135365E.html</p>
+<p>ROBSON CAMARGO, <strong>Quais os benefícios de criar um diagrama de contexto?</strong>. Disponível em: robsoncamargo.com.br/blog/Quais-os-beneficios-de-criar-um-diagrama-de-contexto</p>
+<p>MICHAEL RICHARDSON, <strong>Concept: Use-Case View</strong>. Disponível em: michael-richardson.com/processes/rup_for_sqa/core.base_rup/guidances/concepts/use-case_view_11F15731.htm</p>
+<p>ECE, <strong>Use Case View</strong>. Disponível em: ece.uvic.ca/~itraore/seng422-05/notes/arch05-2.pdf</p>
+<p>ATÉ O MOMENTO, <strong>O que é caso de uso?</strong>. Disponível em: ateomomento.com.br/o-que-e-caso-de-uso/</p>
+<p>QRODÍZIO, <strong>Documento de Arquitetura</strong>. Disponível em: unbarqdsw.github.io/2020.1_G10_QRodizio/documento_de_arquitetura.html#historico-de-revisao</p>
+<p>WALDERSON, <strong>Conceito: Visão de Processos</strong>. Disponível em: walderson.com/IBM/RUP7/LargeProjects/core.base_rup/guidances/concepts/process_view_E3DD0B09.html</p>
+<p>TRT9, <strong>Diretriz: Visão Arquitetural</strong>. Disponível em: trt9.jus.br/pds/pdstrt9/guidances/guidelines/architectural_view_FF6EDA37.html</p>
+<p>UFPR, <strong>Visões Arquiteturais</strong>. Disponível em: https://www.inf.ufpr.br/andrey/ci163/VisoesAl.pdf</p>
+<p>WOCO, <strong>Documento de Arquitetura</strong>. Disponível em: unbarqdsw.github.io/2020.1_G9_WoCo/#/Arquitetura%20de%20Software/4.1%20Estilos%20e%20Padr%C3%B5es%20Arquiteturais/DAS?id=_7-vis%c3%a3o-de-implementa%c3%a7%c3%a3o</p>
+<p>TRIÁGIL, <strong>Documento de Arquitetura</strong>. Disponível em: unbarqdsw.github.io/2020.1_G1_Triagil/arquitetura_software_e_reutilizacao/documento_de_arquitetura/</p>
+<p>DIÁRIO DA SAÚDE, <strong>Documento de Arquitetura de Software (DAS)</strong>. Disponível em: https://unbarqdsw.github.io/2020.1_G5_Diario_da_Saude/#das/#visao-de-dados</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
