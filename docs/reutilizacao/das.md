@@ -1,28 +1,35 @@
+<br>
+
 # <center> DOCUMENTO DE ARQUITETURA DE SOFTWARE
+<br>
 
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
 | 16.04.2021 | 0.1 | Pontapé inicial do documento: formatação; adição do 1.1 Propósito | Erick Giffoni; Isabella Carneiro |
-| 17.04.2021 | 0.2 | Adição inicial do 1.2 Escopo | Erick Giffoni; Isabella Carneiro |
-| 19.04.2021 | 0.3 | Objetivos e restrições | Damarcones; Kalebe |
-| 19.04.2021 | 0.4 | Visão de casos de uso | Bruna Almeida, Lucas Lopes, Damarcones Porto |
-| 22.04.2021 | 0.5 | Início da introdução | Rafaella Junqueira, Geraldo Victor |
-| 22.04.2021 | 0.6 | Representação Arquitetural | Rafaella Junqueira, Geraldo Victor |
-| 22.04.2021 | 0.7 | Overview da introdução | Rafaella Junqueira, Geraldo Victor |
-| 25.04.2021 | 0.8 | Visão lógica | Rafaella Junqueira, Isabella Carneiro |
-| 26.04.2021 | 0.9 | Visão lógica - diagrama de pacotes | Rafaella Junqueira, Isabella Carneiro |
-| 26.04.2021 | 0.10 | Diagramas de casos de uso e descrição dos principais casos de uso | Bruna Almeida, Lucas Lopes, Damarcones Porto |
-| 27.04.2021 | 0.11 | Visão de processos | Bruna Almeida, Lucas Lopes, Damarcones Porto |
-| 27.04.2021 | 0.12 | Visão de implementação | Bruna Almeida, Lucas Lopes, Damarcones Porto |
-| 28.04.2021 | 0.13 | Adiciona explicação sobre view no tópico 2; faz uma correção gramatical no tópico 8.1 | Erick Giffoni |
-| 28.04.2021 | 0.14 | Adiciona visão de implantação | Bruna Almeida, Lucas Lopes, Damarcones Porto |
-| 29.04.2021 | 0.15 | Complementa detalhes no tópico 5.2; adiciona uma explicação para a visão de processos; descreve as camadas do frontend em 8.2; adiciona a imagem e o link para o diagrama de componentes em 8.1; início da Visão de Dados com a adição do DE-R e DLD| Erick Giffoni |
-| 01.05.2021 | 0.16 | Formatação do documento | Bruna Almeida, Damarcones Porto |
-| 02.05.2021 | 0.17 | Adiciona tópico de Tamanho e performance | Bruna Almeida, Damarcones Porto |
-| 02.05.2021 | 0.18 | Adiciona tópico de Qualidade | Bruna Almeida, Damarcones Porto |
-| 02.05.2021 | 0.19 | Visão lógica - Diagrama de contexto | Rafaella Junqueira,<br>Geraldo Victor |
-| 02.05.2021 | 0.20 | Tranferência do documento de .doc para markdown | Isabella Carneiro |
-| 02.05.2021 | 0.21 | Tranferência do documento de .doc para markdown | Rafaella Junqueira |
+| 17.04.2021 | 0.2 | Adição inicial do 1.2 Escopo | Erick Giffoni<br>Isabella Carneiro |
+| 19.04.2021 | 0.3 | Objetivos e restrições | Damarcones Porto<br> Kalebe Lopes |
+| 19.04.2021 | 0.4 | Visão de casos de uso | Bruna Almeida<br> Lucas Lopes <br> Damarcones Porto |
+| 22.04.2021 | 0.5 | Início da introdução | Rafaella Junqueira<br>Geraldo Victor |
+| 22.04.2021 | 0.6 | Representação Arquitetural | Rafaella Junqueira<br> Geraldo Victor |
+| 22.04.2021 | 0.7 | Overview da introdução | Rafaella Junqueira<br> Geraldo Victor |
+| 25.04.2021 | 0.8 | Visão lógica | Rafaella Junqueira<br> Isabella Carneiro |
+| 26.04.2021 | 0.9 | Visão lógica - diagrama de pacotes | Rafaella Junqueira<br> Isabella Carneiro |
+| 26.04.2021 | 0.10 | Diagramas de casos de uso e descrição dos principais casos de uso | Bruna Almeida<br> Lucas Lopes<br> Damarcones Porto |
+| 27.04.2021 | 0.11 | Visão de processos | Bruna Almeida<br> Lucas Lopes<br> Damarcones Porto |
+| 27.04.2021 | 0.12 | Visão de implementação | Bruna Almeida<br> Lucas Lopes<br> Damarcones Porto |
+| 28.04.2021 | 0.13 | Adiciona explicação sobre view no tópico 2 | Erick Giffoni |
+| 28.04.2021 | 0.14 | Adiciona visão de implantação | Bruna Almeida<br> Lucas Lopes<br> Damarcones Porto |
+| 29.04.2021 | 0.15 | Visão de processos | Erick Giffoni<br> Kalebe Lopes |
+| 29.04.2021 | 0.16 | Diagrama de componentes | Erick Giffoni |
+| 29.04.2021 | 0.17 | Adição do DE-R e DLD| Erick Giffoni |
+| 29.04.2021 | 0.18 | Visão geral - descrição das camadas do frontend | Erick Giffoni |
+| 01.05.2021 | 0.19 | Formatação do documento | Bruna Almeida<br> Damarcones Porto |
+| 02.05.2021 | 0.20 | Adiciona tópico de Tamanho e performance | Bruna Almeida<br> Damarcones Porto |
+| 02.05.2021 | 0.21 | Adiciona tópico de Qualidade | Bruna Almeida<br> Damarcones Porto |
+| 02.05.2021 | 0.22 | Visão lógica - Diagrama de contexto | Rafaella Junqueira<br>Geraldo Victor |
+| 02.05.2021 | 0.23 | Tranferência do documento de .doc para markdown | Isabella Carneiro |
+| 02.05.2021 | 0.24 | Tranferência do documento de .doc para markdown | Rafaella Junqueira |
+
 <br><br>
 
 ## 1. Introdução
@@ -232,7 +239,7 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
 
 <div style="line-height:1.8" align="justify">
 <p>O objetivo da visão de processos é mostrar a organização do processo do sistema, descrevendo como o sistema de tempo-de-execução é estruturado na forma de um conjunto de elementos que têm interações e comportamento de tempo-de-execução. Esta visão deve mostrar como se dá a comunicação entre os processos do sistema.</p>
-<p>A visão dos processos empregados no projeto, que ilustram os principais fluxos de comunicações do sistema, podem ser encontradas no diagrama de comunicação, que será apresentado a seguir, e no <a href="">diagramas de sequências.</a></p>
+<p>A visão dos processos empregados no projeto, que ilustram os principais fluxos de comunicações do sistema, podem ser encontradas no diagrama de comunicação, que será apresentado a seguir, e no <a href="../../modelagem/diagrama-sequencia">diagramas de sequências.</a></p>
 </div>
 
 [<div align="center"><img hight="auto" width="auto" src="../../img/das/"></div>](../../img/das/)
@@ -283,7 +290,7 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
     <small>Autores: Bruna Almeida e Lucas Lopes</small>
 </figcaption><br>
 
-<p>Outra representação de como os componentes do sistema são conectados pode ser vista no <a href="">diagrama de componentes</a> desenvolvido para o projeto Leila´s.</p>
+<p>Outra representação de como os componentes do sistema são conectados pode ser vista no <a href="../../modelagem/diagrama-componentes">diagrama de componentes</a> desenvolvido para o projeto Leila´s.</p>
 
 ### 8.2 Camadas
 <div style="line-height:1.8" align="justify">
