@@ -24,12 +24,13 @@
 | 02.05.2021 | 0.20 | Tranferência do documento de .word para .md | Isabella Carneiro |
 <br><br>
 
-## Introdução
+## 1. Introdução
 <div align="justify">
 O documento de arquitetura de software fornece uma visão geral de arquitetura abrangente do sistema de software. Serve como um meio de comunicação entre o arquiteto de software e outros membros de equipe de projeto, com relação a decisões arquiteturalmente significativas tomadas sobre o projeto.<br>
         
 O presente documento tem como objetivo descrever a arquitetura do projeto Cabeleleila Leila, uma aplicação web com o objetivo de facilitar e otimizar o sistema de agendamentos em um salão de beleza. Este documento oferece uma visão arquitetural geral do sistema, usando diversas visões, como visão de caso de uso, visão lógica, dentre outras, para representar diferentes aspectos do mesmo. O objetivo deste documento é capturar e comunicar as decisões arquiteturais significativas que foram tomadas no decorrer do processo de desenvolvimento.<br>
 </div>
+
 ### 1.1 Propósito
 <div align="justify">
 Este documento apresenta uma visão arquitetural compreensiva e holística a respeito do sistema do salão da Leila. Diferentes visões arquiteturais estão presentes aqui para representar determinados aspectos do sistema. Assim, é esperado capturar e expressar as decisões de arquitetura significativas que foram tomadas para consolidar a construção do sistema para o salão da Leila.
@@ -80,4 +81,33 @@ DIÁRIO DA SAÚDE, Documento de Arquitetura de Software (DAS). Disponível em: h
 * Visão de implantação: Descreve como o sistema é mapeado para o hardware.
 * Visão de Implementação: Descreve como os artefatos de desenvolvimento estão organizados no sistema de arquivos.
  
+<\div>
+
+## 2. Representação Arquitetural
+<div align = "justify">
+        
+O padrão arquitetural utilizado no projeto é um padrão que pode ser entendido como um padrão MVC (Model-View Controller). Este padrão tem como benefício o isolamento das regras de negócios da lógica de apresentação, ou seja, a interface do usuário, uma vez que essa comunicação entre interface e usuário é definida através de um controlador (controller) que separa as camadas.<br>
+
+O modelo (model) tem a responsabilidade de gerenciar e controlar a forma como os dados se comportam por meio das funções, lógica e regras de negócios estabelecidas. É o detentor dos dados recebidos pela controller e aquele que envia as respostas mais adequadas; tanto a controller quanto a model são representadas com a utilização do framework Spring Boot utilizado no backend. A visão (view) também é responsável por apresentar as informações de forma visual ao usuário, representada neste projeto com a utilização do framework Angular.<br> 
+
+Mais ainda, em relação ao backend, a parte de código que lida com mais proximidade e faz chamadas ao banco de dados representa uma view, pois faz a interface entre a requisição e os dados que ela busca. A informação é então retornada para a model, em seguida para a controller, então de volta ao frontend, o qual monta os dados recebidos e os exibe ao usuário (outra view, representando uma interface com o usuário).
+        
+<\div>
+
+### 2.1 Diagrama Relacional
+<div align = "justify">
+
+O diagrama relacional representa a divisão da aplicação em microsserviços independentes referentes aos usuários, aos serviços oferecidos pelo salão e os agendamentos realizados.
+<!--- colocar imagem -->
+O usuário da aplicação realiza o login e recebe um token de acesso que permanece por um período limitado de tempo. Este token é passado para o banco de dados no momento em que se pretende cadastrar ou agendar um serviço na aplicação para que haja permissão para execução da ação.
+<\div>
+
+### 2.2 Spring Boot
+<div align = "justify">
+O Spring é um framework open source para a plataforma Java, um framework não intrusivo, baseado nos padrões de projeto inversão de controle e injeção de dependência. O Spring Boot facilita a criação de aplicativos autônomos baseados em Spring de nível de produção.
+<\div>
+
+### 2.3 Angular
+<div align = "justify">
+Angular é uma plataforma de desenvolvimento, construída em TypeScript. O Angular inclui uma estrutura baseada em componentes para a construção de aplicativos da web escalonáveis, uma coleção de bibliotecas bem integradas que cobrem uma ampla variedade de recursos, incluindo roteamento, gerenciamento de formulários e comunicação cliente-servidor.
 <\div>
