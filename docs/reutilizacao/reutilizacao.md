@@ -10,7 +10,7 @@
 | 30.04.2021 | 0.3 | Adição da introdução sobre Framework e Spring | Bruna Almeida<br>Damarcones Porto|
 | 30.04.2021 | 0.4 | Adição da introdução sobre bibliotecas | Bruna Almeida<br>Damarcones Porto<br>Isabella Carneiro |
 | 30.04.2021 | 0.5 | Adição das bibliotecas utilizadas no projeto | Bruna Almeida<br>Damarcones Porto |
-| 01.05.2021 | 0.6 | Adição do React | Isabella Carneiro |
+| 01.05.2021 | 0.6 | Adição do Angular | Isabella Carneiro |
 
 <br>
  
@@ -44,9 +44,9 @@ O Spring é um framework de código aberto para plataformas Java. Com o objetivo
 
 ### Reutilização no FrontEnd
 
-####  React 
+####  Angular 
 <div align="justify"> 
-O React é uma biblioteca JavaScript criada pelo Facebook para o desenvolvimento de aplicações front-end. Ele é baseado em componentes, o que permite o reaproveitamento de código e facilita a manutenção. No padrão de arquitetura MVC e ele é comparado ao desenvolvimento da camada View, que é a interface com o usuário (UI).
+Angular é uma plataforma de desenvolvimento, construída em TypeScript. O Angular inclui uma estrutura baseada em componentes para a construção de aplicativos da web escalonáveis, uma coleção de bibliotecas bem integradas que cobrem uma ampla variedade de recursos, incluindo roteamento, gerenciamento de formulários e comunicação cliente-servidor.
 </div><br>
 
 
