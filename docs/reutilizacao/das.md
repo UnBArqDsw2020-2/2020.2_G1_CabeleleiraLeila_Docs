@@ -137,7 +137,7 @@ A utilização desse documento é dada da seguinte forma:
                 <li>Angular: Framework escrito em JavaScript para o desenvolvimento do front-end da aplicação Web. Possui fácil integração com o bootstrap e permite a utilização do HTML;</li>
                 <li>Typescript: Super conjunto do JavaScript, utilizado juntamente ao framework Angular na construção do front- end;</li>
                 <li>Bootstrap: Framework de CSS que torna fácil a criação de elementos em websites. Agiliza a criação de páginas esteticamente agradáveis, pois seus padrões de design seguem os princípios de usabilidade para interfaces;</li>
-                <li>H2 Database: Banco de dados relacional que armazena os dados em tabelas. Utiliza a linguagem SQL para a manipulação dos dados;</li>
+                <li>PostegresSQL: Banco de dados relacional que armazena os dados em tabelas. Utiliza a linguagem SQL para a manipulação dos dados;</li>
                 <li>Github: Controle de versionamento da aplicação.</li>
         </ul>
 <li>Conectividade: A aplicação necessitará de conexão com a internet para funcionar.</li>
@@ -242,11 +242,11 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
 <p>A visão dos processos empregados no projeto, que ilustram os principais fluxos de comunicações do sistema, podem ser encontradas no diagrama de comunicação, que será apresentado a seguir, e no <a href="../../modelagem/diagrama-sequencia">diagramas de sequências.</a></p>
 </div>
 
-[<div align="center"><img hight="auto" width="auto" src="../../img/das/"></div>](../../img/das/)
+[<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/dinamica/diagrama-comunicacao.svg"></div>](../../img/modelagem/dinamica/diagrama-comunicacao.svg)
 <figcaption align='center'>
     <b>Figura 7 - Diagrama de Comunicação </b>
     <br>
-    <small>Autores: </small>
+    <small>Autores: Bruna Almeida e Lucas Lopes</small>
 </figcaption><br>
 
 <div style="line-height:1.8" align="justify">
@@ -283,11 +283,11 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
 ### 8.1 Visão Geral
 <p>A visão geral de implementação pode ser representada por meio do diagrama de classes do projeto, que se encontra abaixo.</p>
 
-[<div align="center"><img hight="auto" width="auto" src="../../img/das/"></div>](../../img/das/)
+[<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/estatica/classes/classes_v3.png"></div>](../../img/modelagem/estatica/classes/classes_v3.png)
 <figcaption align='center'>
     <b>Figura 9 - Diagrama de Classes.</b>
     <br>
-    <small>Autores: Bruna Almeida e Lucas Lopes</small>
+    <small>Autores: Geraldo Victor e Lucas Lopes</small>
 </figcaption><br>
 
 <p>Outra representação de como os componentes do sistema são conectados pode ser vista no <a href="../../modelagem/diagrama-componentes">diagrama de componentes</a> desenvolvido para o projeto Leila´s.</p>
@@ -318,23 +318,23 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
 <div style="line-height:1.8" align="justify">
 <p>Para a visão de dados, representamos aqui como o sistema da Leila's persiste nessas informações. O modelo de entidade-relacionamento (ME-R), bem como o diagrama entidade-relacionamento (DE-R), somado ao diagrama lógico de dados (DLD) foram utilizados. Por questões relacionadas ao tamanho deste documento, apresentamos abaixo somente o DE-R e o DLD.
 </div>
-        
+
 ### 9.1 DE-R
 
-[<div align="center"><img hight="auto" width="auto" src="../../img/das/"></div>](../../img/das/)
+[<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/dinamica/der-dld/der.jpg"></div>](../../img/modelagem/dinamica/der-dld/der.jpg)
 <figcaption align='center'>
     <b>Figura 10 - DE-R </b>
     <br>
-    <small>Autores: </small>
+    <small>Autores: Kalebe Lopes e Erick Giffoni</small>
 </figcaption><br>
 
 ### 9.2 DLD
 
-[<div align="center"><img hight="auto" width="auto" src="../../img/das/"></div>](../../img/das/)
+[<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/dinamica/der-dld/dld.jpg"></div>](../../img/modelagem/dinamica/der-dld/dld.jpg)
 <figcaption align='center'>
     <b>Figura 11 - DLD </b>
     <br>
-    <small>Autores: </small>
+    <small>Autores: Kalebe Lopes e Erick Giffoni</small>
 </figcaption><br>
 
 ## 10. Tamanho e Performance
