@@ -194,7 +194,7 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
 
 ## 5. Visão Lógica
 <div style="line-height:1.8" align="justify">
-As visões de arquitetura podem ser consideradas abstrações ou simplificações dos modelos criados, em que se ressaltam as características importantes sem evidenciar os detalhes. A Visão Lógica é utilizada no fluxo de trabalho Análise e Design para fornecer uma base de compreensão da estrutura e da organização de design do sistema.
+<p>As visões de arquitetura podem ser consideradas abstrações ou simplificações dos modelos criados, em que se ressaltam as características importantes sem evidenciar os detalhes. A Visão Lógica é utilizada no fluxo de trabalho Análise e Design para fornecer uma base de compreensão da estrutura e da organização de design do sistema.</p>
 </div>
 
 ### 5.1 Diagrama de Contexto
@@ -202,11 +202,11 @@ As visões de arquitetura podem ser consideradas abstrações ou simplificaçõe
 <p>O diagrama de contexto é um gráfico, composto por um fluxo de dados que mostra as interfaces  entre o projeto e a sua relação com o ambiente em que vai ser desenvolvido. O diagrama de contexto funciona como uma descrição dos processos sob a visão de mais alto nível. 
 </div>
 
-[<div align="center"><img hight="auto" width="auto" src="../../img/das/relacional.png"></div>](../../img/das/relacional.png)
+[<div align="center"><img hight="auto" width="auto" src="../../img/das/contexto.png"></div>](../../img/das/contexto.png)
 <figcaption align='center'>
-    <b>Figura 1 - Diagrama Relacional </b>
+    <b>Figura 5 - Diagrama Relacional </b>
     <br>
-    <small>Autores: Rafaella Junqueira e Geraldo Victor.</small>
+    <small>Autores: Rafaella Junqueira</small>
 </figcaption>
 <br>
 
@@ -217,18 +217,56 @@ As visões de arquitetura podem ser consideradas abstrações ou simplificaçõe
 
 ### 5.2 Diagrama de Pacotes
 
+[<div align="center"><img hight="auto" width="auto" src="../../img/das/pacotes.png"></div>](../../img/das/pacotes.png)
+<figcaption align='center'>
+    <b>Figura 6 - Diagrama Relacional </b>
+    <br>
+    <small>Autores: Rafaella Junqueira e Isabella Carneiro</small>
+</figcaption><br>
+
+<div style="line-height:1.8" align="justify">
+<p>Os arquivos existentes no diretório web/resources são aqueles que recebem as requisições advindas do frontend. Essas requisições são enviadas aos arquivos existentes no pacote de services, os quais utilizam métodos existentes nas interfaces do pacote repositories. Neste projeto, as interfaces utilizadas em repositories são "filhas" de uma interface pai denominada CrudRepository, sendo que essas são responsáveis em realizar a comunicação entre a aplicação e o banco de dados.
+</p></div>
+
 ## 6. Visão de Processos
 
+<div style="line-height:1.8" align="justify">
+<p>O objetivo da visão de processos é mostrar a organização do processo do sistema, descrevendo como o sistema de tempo-de-execução é estruturado na forma de um conjunto de elementos que têm interações e comportamento de tempo-de-execução. Esta visão deve mostrar como se dá a comunicação entre os processos do sistema.</p>
+<p>A visão dos processos empregados no projeto, que ilustram os principais fluxos de comunicações do sistema, podem ser encontradas no diagrama de comunicação, que será apresentado a seguir, e no diagramas de sequências.</p>
+</div>
+
+[<div align="center"><img hight="auto" width="auto" src="../../img/das/"></div>](../../img/das/)
+<figcaption align='center'>
+    <b>Figura 7 - Diagrama de Comunicação </b>
+    <br>
+    <small>Autores: </small>
+</figcaption><br>
+
+<div style="line-height:1.8" align="justify">
+<p>O diagrama acima representa como acontece a comunicação entre o usuário e a aplicação, genericamente.</p>
+<p>A camada do cliente, a qual pode ser entendida como o frontend da Leila's, faz diversas requisições para suprir as necessidades do usuário por meio de uma interface com o backend. Cada requisição é recebida pela :GenericResource, a qual consegue entender e mapear a informação desejada. Assim, algum serviço (:GenericService) será acionado para responder aquela necessidade, sendo que, para efetivamente recuperar os dados requisitados, chama-se um :GenericRepository. Este interage de modo mais próximo ao banco de dados, recupera as informações e as envia de volta para o serviço que o chamou, e assim sucessivamente, até que a informação seja apresentada de volta ao usuário.</p>
+</div>
+
 ### 6.1 Principais Processos
-* createUsuario (): Esse processo é responsável pela criação de usuários do tipo cliente e funcionário, lembrando que o tipo administrador é criado diretamente no sistema;
-* getServicos (): Busca os serviços cadastrados no sistema dependendo do objetivo da busca;
-* gerenciarServicos (): Esse método edita os serviços nas características em que ele foi cadastrado ou mesmo exclusão/inclusão de serviços;
+<div style="line-height:1.8" align="justify">
+<ul>
+        <li><strong>createUsuario ():</strong> Esse processo é responsável pela criação de usuários do tipo cliente e funcionário, lembrando que o tipo administrador é criado diretamente no sistema;</li>
+        <li><strong>getServicos ():</strong> Busca os serviços cadastrados no sistema dependendo do objetivo da busca;</li>
+        <li><strong>gerenciarServicos ():</strong> Esse método edita os serviços nas características em que ele foi cadastrado ou mesmo exclusão/inclusão de serviços;</li>
+</ul>
+</div>
 
 ## 7. Visão de Implantação
 <div style="line-height:1.8" align="justify">
-Esta seção descreve como o sistema é mapeado para o hardware. Os dados da aplicação Web ficam armazenados no banco de dados PostgreSQL de tal maneira que quando requisitado pelo Back-end, construído em Java, realiza os serviços enviados através da interface, no caso o Front-end, desenvolvido em Angular, que por sua vez, mostra todas as informações necessárias ao usuário.
+<p>Esta seção descreve como o sistema é mapeado para o hardware. Os dados da aplicação Web ficam armazenados no banco de dados PostgreSQL de tal maneira que quando requisitado pelo Back-end, construído em Java, realiza os serviços enviados através da interface, no caso o Front-end, desenvolvido em Angular, que por sua vez, mostra todas as informações necessárias ao usuário.</p>
 </div>
-<!--- colocar imagem -->
+
+[<div align="center"><img hight="auto" width="auto" src="../../img/das/implantacao.png"></div>](../../img/das/implantacao.png)
+<figcaption align='center'>
+    <b>Figura 8 - Diagrama de Implantação.</b>
+    <br>
+    <small>Autores: Bruna Almeida e Lucas Lopes</small>
+</figcaption><br>
 
 ## 8. Visão de Implementação
 <div style="line-height:1.8" align="justify">
