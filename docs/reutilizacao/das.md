@@ -206,7 +206,7 @@ As visões de arquitetura podem ser consideradas abstrações ou simplificaçõe
 <figcaption align='center'>
     <b>Figura 1 - Diagrama Relacional </b>
     <br>
-    <small>Autores: Rafaella Junqueira e Geraldo Victor</small>
+    <small>Autores: Rafaella Junqueira e Geraldo Victor.</small>
 </figcaption>
 <br>
 
