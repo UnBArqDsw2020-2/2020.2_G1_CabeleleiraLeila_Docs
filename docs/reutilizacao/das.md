@@ -119,6 +119,7 @@ Os objetivos arquiteturais dizem respeito às metas mais significativas impostas
 Definir as restrições de um projeto é importante porque assegura a viabilidade do empreendimento e a satisfação dos Stakeholders. Quando um projeto é restringido por fronteiras claras, através de regras bem formuladas, há uma delimitação no campo de atuação do gerente de projetos. Este tópico tem por finalidade descrever os objetivos e restrições cabíveis ao projeto Leila's.
 
 <\div>
+
 ### 3.1 Objetivos
 <div align = "justify">
 * Escalabilidade: O software deve tornar possível sua evolução e manutenção.
@@ -142,3 +143,87 @@ Definir as restrições de um projeto é importante porque assegura a viabilidad
 * Idioma: A aplicação deve ser voltada para a linguagem Português-Brasil.
 * Público alvo: A aplicação deve atender usuários que desejam agendar serviços no salão Leila's.
 
+## 4. Visões de Casos de Uso
+
+## 5. Visão Lógica
+<div align = "justify">
+As visões de arquitetura podem ser consideradas abstrações ou simplificações dos modelos criados, em que se ressaltam as características importantes sem evidenciar os detalhes. A Visão Lógica é utilizada no fluxo de trabalho Análise e Design para fornecer uma base de compreensão da estrutura e da organização de design do sistema.
+<\div>
+
+### 5.1 Diagrama de Contexto
+
+### 5.2 Diagrama de Pacotes
+
+## 6. Visão de Processos
+
+### 6.1 Principais Processos
+* createUsuario (): Esse processo é responsável pela criação de usuários do tipo cliente e funcionário, lembrando que o tipo administrador é criado diretamente no sistema;
+* getServicos (): Busca os serviços cadastrados no sistema dependendo do objetivo da busca;
+* gerenciarServicos (): Esse método edita os serviços nas características em que ele foi cadastrado ou mesmo exclusão/inclusão de serviços;
+
+## 7. Visão de Implantação
+<div align = "justify">
+Esta seção descreve como o sistema é mapeado para o hardware. Os dados da aplicação Web ficam armazenados no banco de dados PostgreSQL de tal maneira que quando requisitado pelo Back-end, construído em Java, realiza os serviços enviados através da interface, no caso o Front-end, desenvolvido em Angular, que por sua vez, mostra todas as informações necessárias ao usuário.
+<\div>
+<!--- colocar imagem -->
+
+## 8. Visão de Implementação
+<div align = "justify">
+A finalidade da visão de implementação é captar as decisões de arquitetura tomadas para a implementação. Esta seção descreve a estrutura geral do modelo de implementação, a decomposição do software em camadas e subsistemas no modelo de implementação, e quaisquer componentes arquitetonicamente significativos.
+<\div>
+
+### 8.1 Visão Geral
+
+### 8.2 Camadas
+<div align = "justify">
+O projeto é dividido em duas camadas: Front-end e Back-end:.
+Front-end: os seguintes pacotes fazem parte do Front-end do projeto Leila’s:
+* app: pode-se dizer que é o pacote principal, embora não atue sozinho. Toda a lógica da aplicação, projeto de páginas, rotas, componentes utilizados, arquivos auxiliares, funcionalidades etc estão presentes aqui;
+* assets: aqui ficam os "ativos" utilizados nas interfaces com o usuário, os quais incluem diversas imagens, logos etc.;
+* environments: representa um conjunto de configurações de ambiente para a aplicação, podendo incluir: variáveis; números de portas de serviços; URLs utilizadas etc.;
+* shared: aqui encontra-se arquivos, variáveis, interfaces, constantes etc, compartilhadas para a aplicação como um todo.<br>
+
+Back-end: os pacotes dessa camada estão descritos a seguir.
+* Config: nela está contida as configurações iniciais do MVC e da classe SpringFoxConfig;
+* Domain: contém as entidades necessárias para o gerenciamento de usuários, tanto cliente quanto funcionário, sendo que o administrador já será setado automaticamente, e os serviços a serem oferecidos pelo estabelecimento;
+* Exceptions: É a responsável pelo lançamento de exceções decorrentes de erros;
+* Repositories: existe no contexto de executar requisições de método CRUD;
+* Security: toda regra de serviço envolvendo questões de segurança estão implementadas nele;
+* Service: no pacote service está contida a lógica que implementa a interface para o CRUD;
+* Web: responsável basicamente pelo controle de validação de entidades. Um exemplo é a classe UserController, que impede a duplicidade de nomes de usuários.
+<\div>
+
+## 9. Visão de Dados
+<div align = "justify">
+Para a visão de dados, representamos aqui como o sistema da Leila's persiste nessas informações. O modelo de entidade-relacionamento (ME-R), bem como o diagrama entidade-relacionamento (DE-R), somado ao diagrama lógico de dados (DLD) foram utilizados. Por questões relacionadas ao tamanho deste documento, apresentamos abaixo somente o DE-R e o DLD.
+<\div>
+        
+### 9.1 DE-R
+
+### 9.2 DLD
+
+## 10. Tamanho e Performance
+<div align = "justify">
+
+
+O tamanho da aplicação, levando em consideração apenas o Back-end, foi estimado em 42.9Mb. Esse valor foi alcançado utilizando o comando “MVN install”, gerando um arquivo .jar, o que torna possível a execução do Back-end em qualquer sistema operacional que contenha Java.
+Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress.
+<\div>
+
+
+## 11. Qualidade
+<div align = "justify">
+
+A qualidade da aplicação pode ser mensurada a partir da abordagem NFR. O NFR Framework é uma abordagem para representar e analisar Requisitos Não-Funcionais. Seu objetivo é ajudar desenvolvedores na implementação de soluções personalizadas, levando em consideração as características do domínio e do sistema em questão. Tais características incluem Requisitos Não-funcionais, Requisitos funcionais, prioridades e carga de trabalho. Esses fatores determinam a escolha de alternativas de desenvolvimento para um determinado sistema (CHUNG et al., 2000).<br>
+
+A partir disso, foram levantados NFR’s que aumentam a qualidade do produto, em relação à eficiência, usabilidade, entre outros.
+* Usabilidade: A interface do sistema é simples, clara e de fácil interação, seguindo uma padronização de cores e fontes, definidas no documento de identidade visual.
+* Segurança: Quando o usuário acessa o sistema através de Login, um token temporário é criado, para realizar a autenticação do usuário e resgatar dados privativos do banco de dados.
+* Manutenabilidade: Todo o projeto Leila´s foi documentado no repositório do grupo. Isso facilita a consulta da documentação, e apoia a manutenibilidade do código.
+* Confiabilidade: o sistema foi desenvolvido para garantir que o mesmo se recupere em caso de falhas.
+* Portabilidade: A utilização do Docker garante um ambiente estável, o que auxilia na criação de possíveis novos módulos.<br>
+
+O projeto ainda está em fase de desenvolvimento até o presente momento (maio de 2021), portanto algumas métricas não podem ser obtidas.
+
+
+<\div>
