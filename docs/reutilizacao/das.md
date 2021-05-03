@@ -111,3 +111,34 @@ O Spring é um framework open source para a plataforma Java, um framework não i
 <div align = "justify">
 Angular é uma plataforma de desenvolvimento, construída em TypeScript. O Angular inclui uma estrutura baseada em componentes para a construção de aplicativos da web escalonáveis, uma coleção de bibliotecas bem integradas que cobrem uma ampla variedade de recursos, incluindo roteamento, gerenciamento de formulários e comunicação cliente-servidor.
 <\div>
+        
+## 3. Objetivos e Restrições da Arquitetura
+<div align = "justify">
+Os objetivos arquiteturais dizem respeito às metas mais significativas impostas a um projeto, ou seja, é tudo aquilo que satisfaz as necessidades, expectativas e desejos dos Stakeholders. As restrições arquiteturais de um projeto referem-se aos fatores que limitam a execução da aplicação. Em outras palavras, as restrições podem ser definidas como condições impostas ao sistema, para que este funcione de acordo com o esperado pelos Stakeholders.<br>
+        
+Definir as restrições de um projeto é importante porque assegura a viabilidade do empreendimento e a satisfação dos Stakeholders. Quando um projeto é restringido por fronteiras claras, através de regras bem formuladas, há uma delimitação no campo de atuação do gerente de projetos. Este tópico tem por finalidade descrever os objetivos e restrições cabíveis ao projeto Leila's.
+
+<\div>
+### 3.1 Objetivos
+<div align = "justify">
+* Escalabilidade: O software deve tornar possível sua evolução e manutenção.
+* Segurança: A aplicação deve manter os dados dos usuários em total segurança através da utilização de ferramentas para a encriptação de dados.
+* Linguagem: A aplicação deve conter uma linguagem comum e de fácil entendimento para os usuários.
+* Portabilidade: A aplicação deve ser executada com desempenho igual ou similar nos navegadores Google Chrome e Mozila Firefox.
+* Usabilidade: A aplicação deve ser construída seguindo regras de usabilidade para atender a maioria dos usuários.
+* Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal. Para isso ser possível, o sistema foi escrito com base em padrões de projetos já conhecidos por grande parte dos desenvolvedores Java.
+<\div>
+
+### 3.2 Restriçoes 
+* Tecnologias: A aplicação deverá ser desenvolvida utilizando as seguintes ferramentas e tecnologias:
+        * Spring Boot: Framework escrito em Java para o desenvolvimento do back-end da aplicação;
+        * Angular: Framework escrito em JavaScript para o desenvolvimento do front-end da aplicação Web. Possui fácil integração com o bootstrap e permite a utilização do HTML;
+        * Typescript: Super conjunto do JavaScript, utilizado juntamente ao framework Angular na construção do front- end;
+        * Bootstrap: Framework de CSS que torna fácil a criação de elementos em websites. Agiliza a criação de páginas esteticamente agradáveis, pois seus padrões de design seguem os princípios de usabilidade para interfaces;
+        * PostgreSQL: Banco de dados relacional que armazena os dados em tabelas. Utiliza a linguagem SQL para a manipulação dos dados;
+        * Github: Controle de versionamento da aplicação.
+* Conectividade: A aplicação necessitará de conexão com a internet para funcionar.
+* Prazo: A aplicação deverá ser finalizada na data estipulada para entrega final.
+* Idioma: A aplicação deve ser voltada para a linguagem Português-Brasil.
+* Público alvo: A aplicação deve atender usuários que desejam agendar serviços no salão Leila's.
+
