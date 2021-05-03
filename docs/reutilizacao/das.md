@@ -232,7 +232,7 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
 
 <div style="line-height:1.8" align="justify">
 <p>O objetivo da visão de processos é mostrar a organização do processo do sistema, descrevendo como o sistema de tempo-de-execução é estruturado na forma de um conjunto de elementos que têm interações e comportamento de tempo-de-execução. Esta visão deve mostrar como se dá a comunicação entre os processos do sistema.</p>
-<p>A visão dos processos empregados no projeto, que ilustram os principais fluxos de comunicações do sistema, podem ser encontradas no diagrama de comunicação, que será apresentado a seguir, e no diagramas de sequências.</p>
+<p>A visão dos processos empregados no projeto, que ilustram os principais fluxos de comunicações do sistema, podem ser encontradas no diagrama de comunicação, que será apresentado a seguir, e no <a href="">diagramas de sequências.</a></p>
 </div>
 
 [<div align="center"><img hight="auto" width="auto" src="../../img/das/"></div>](../../img/das/)
@@ -270,28 +270,41 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
 
 ## 8. Visão de Implementação
 <div style="line-height:1.8" align="justify">
-A finalidade da visão de implementação é captar as decisões de arquitetura tomadas para a implementação. Esta seção descreve a estrutura geral do modelo de implementação, a decomposição do software em camadas e subsistemas no modelo de implementação, e quaisquer componentes arquitetonicamente significativos.
+<p>A finalidade da visão de implementação é captar as decisões de arquitetura tomadas para a implementação. Esta seção descreve a estrutura geral do modelo de implementação, a decomposição do software em camadas e subsistemas no modelo de implementação, e quaisquer componentes arquitetonicamente significativos.</p>
 </div>
 
 ### 8.1 Visão Geral
+<p>A visão geral de implementação pode ser representada por meio do diagrama de classes do projeto, que se encontra abaixo.</p>
+
+[<div align="center"><img hight="auto" width="auto" src="../../img/das/implantacao.png"></div>](../../img/das/implantacao.png)
+<figcaption align='center'>
+    <b>Figura 9 - Diagrama de Classes.</b>
+    <br>
+    <small>Autores: Bruna Almeida e Lucas Lopes</small>
+</figcaption><br>
+
+<p>Outra representação de como os componentes do sistema são conectados pode ser vista no <a href="">diagrama de componentes</a> desenvolvido para o projeto Leila´s.</p>
 
 ### 8.2 Camadas
 <div style="line-height:1.8" align="justify">
-O projeto é dividido em duas camadas: Front-end e Back-end:.
-Front-end: os seguintes pacotes fazem parte do Front-end do projeto Leila’s:
-* app: pode-se dizer que é o pacote principal, embora não atue sozinho. Toda a lógica da aplicação, projeto de páginas, rotas, componentes utilizados, arquivos auxiliares, funcionalidades etc estão presentes aqui;
-* assets: aqui ficam os "ativos" utilizados nas interfaces com o usuário, os quais incluem diversas imagens, logos etc.;
-* environments: representa um conjunto de configurações de ambiente para a aplicação, podendo incluir: variáveis; números de portas de serviços; URLs utilizadas etc.;
-* shared: aqui encontra-se arquivos, variáveis, interfaces, constantes etc, compartilhadas para a aplicação como um todo.<br>
-
-Back-end: os pacotes dessa camada estão descritos a seguir.
-* Config: nela está contida as configurações iniciais do MVC e da classe SpringFoxConfig;
-* Domain: contém as entidades necessárias para o gerenciamento de usuários, tanto cliente quanto funcionário, sendo que o administrador já será setado automaticamente, e os serviços a serem oferecidos pelo estabelecimento;
-* Exceptions: É a responsável pelo lançamento de exceções decorrentes de erros;
-* Repositories: existe no contexto de executar requisições de método CRUD;
-* Security: toda regra de serviço envolvendo questões de segurança estão implementadas nele;
-* Service: no pacote service está contida a lógica que implementa a interface para o CRUD;
-* Web: responsável basicamente pelo controle de validação de entidades. Um exemplo é a classe UserController, que impede a duplicidade de nomes de usuários.
+<p>O projeto é dividido em duas camadas: Front-end e Back-end:.</p>
+<strong>Front-end:</strong> os seguintes pacotes fazem parte do Front-end do projeto Leila’s:
+<ul>
+        <li>app: pode-se dizer que é o pacote principal, embora não atue sozinho. Toda a lógica da aplicação, projeto de páginas, rotas, componentes utilizados, arquivos auxiliares, funcionalidades etc estão presentes aqui;</li>
+        <li>assets: aqui ficam os "ativos" utilizados nas interfaces com o usuário, os quais incluem diversas imagens, logos etc.;</li>
+        <li>environments: representa um conjunto de configurações de ambiente para a aplicação, podendo incluir: variáveis; números de portas de serviços; URLs utilizadas etc.;</li>
+        <li>shared: aqui encontra-se arquivos, variáveis, interfaces, constantes etc, compartilhadas para a aplicação como um todo.</li>
+</ul>
+<strong>Back-end:</strong> os pacotes dessa camada estão descritos a seguir.
+<ul>
+        <li>Config: nela está contida as configurações iniciais do MVC e da classe SpringFoxConfig;</li>
+        <li>Domain: contém as entidades necessárias para o gerenciamento de usuários, tanto cliente quanto funcionário, sendo que o administrador já será setado automaticamente, e os serviços a serem oferecidos pelo estabelecimento;</li>
+        <li>Exceptions: É a responsável pelo lançamento de exceções decorrentes de erros;</li>
+        <li>Repositories: existe no contexto de executar requisições de método CRUD;</li>
+        <li>Security: toda regra de serviço envolvendo questões de segurança estão implementadas nele;</li>
+        <li>Service: no pacote service está contida a lógica que implementa a interface para o CRUD;</li>
+        <li>Web: responsável basicamente pelo controle de validação de entidades. Um exemplo é a classe UserController, que impede a duplicidade de nomes de usuários.</li>
+</ul>
 </div>
 
 ## 9. Visão de Dados
