@@ -1,6 +1,9 @@
 # <center>Organização das Sprints
 <br>
-### Histórico de versão<br>
+  
+### Histórico de versão
+<br>
+  
 |Data | Versão | Descrição | Autor(es)
 | -- | -- | -- | -- |
 | 12.03.2021 | 0.1 | Criação do documento | Rafaella Junqueira<br>Isabella Carneiro |
