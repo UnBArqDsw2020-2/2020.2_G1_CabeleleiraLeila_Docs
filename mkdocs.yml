@@ -56,6 +56,7 @@ nav:
   - Arquitetura de Software & Reutilização:
     - Documento de arquitetura de Software (DAS): reutilizacao/das.md
     - Reutilização de Software: reutilizacao/reutilizacao.md
+    - Iniciativa extra: reutilizacao/extra.md
   #   - Módulo Estilos e Padrões Arquiteturais:
   #     - x: base/
   #   - Módulo Reutilização de Software: 
