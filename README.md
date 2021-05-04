@@ -68,16 +68,21 @@ Aplicação web para gerenciamento de um salão de beleza que permita conferir o
 
 
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
-Adicione o(s)s vídeo(s) da Entrega Final.
+| Vídeo 1 - DAS | Vídeo 2 - Reutilização | Vídeo 3 - Demo da aplicação |
+| --- | ---- | ---- |
+| [![image](https://user-images.githubusercontent.com/43728276/116955976-71c24500-ac6a-11eb-8de8-7a6259cf5a0e.png)](https://www.youtube.com/watch?v=kF0ltkhzKRM) | | |
+
+
+
 
 ## Descritivo dos Principais Aspectos Técnicos 
-**Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
-**Principais Linguagens Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principais Tecnologias Utilizadas e/ou Pretendidas**: xxxxxx<br>
+**Principal(is) Metodologia(s) Adotada(s)**: Híbrida (Scrum, Kanban, XP)<br>
+**Principais Linguagens Utilizadas e/ou Pretendidas**: Java e javascript<br>
+**Principais Tecnologias Utilizadas e/ou Pretendidas**: Frameworks Spring boot (backend) e Angular (frontend)<br>
 **Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
 
 ## O Projeto está rodando?
-( ) SIM
+(X) SIM
 ( ) NÃO
 Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados em consultar o projeto.
 
