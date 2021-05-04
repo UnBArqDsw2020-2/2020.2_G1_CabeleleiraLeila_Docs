@@ -70,8 +70,7 @@ Aplicação web para gerenciamento de um salão de beleza que permita conferir o
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 | Vídeo 1 - DAS | Vídeo 2 - Reutilização | Vídeo 3 - Demo da aplicação |
 | --- | ---- | ---- |
-| [![image](https://user-images.githubusercontent.com/43728276/116955976-71c24500-ac6a-11eb-8de8-7a6259cf5a0e.png)](https://www.youtube.com/watch?v=kF0ltkhzKRM) | | |
-
+| [![image](https://user-images.githubusercontent.com/43728276/116955976-71c24500-ac6a-11eb-8de8-7a6259cf5a0e.png)](https://www.youtube.com/watch?v=kF0ltkhzKRM) | [![image](https://user-images.githubusercontent.com/43728276/116956955-ee562300-ac6c-11eb-8ddc-86638b36acb0.png)](https://www.youtube.com/watch?v=qeCtq5n97ks) | [![image](https://user-images.githubusercontent.com/43728276/116956221-15135a00-ac6b-11eb-9a20-2edad31d8d61.png)](https://www.youtube.com/watch?v=CMiBDvQe1aQ) |
 
 
 
