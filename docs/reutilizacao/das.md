@@ -134,10 +134,10 @@ A utilização desse documento é dada da seguinte forma:
 <li>Tecnologias: A aplicação deverá ser desenvolvida utilizando as seguintes ferramentas e tecnologias:</li>
         <ul>
                 <li>Spring Boot: Framework escrito em Java para o desenvolvimento do back-end da aplicação;</li>
-                <li>Angular: Framework escrito em JavaScript para o desenvolvimento do front-end da aplicação Web. Possui fácil integração com o bootstrap e permite a utilização do HTML;</li>
+                <li>Angular: Framework escrito em TypeScript para o desenvolvimento do front-end da aplicação Web. Possui fácil integração com o bootstrap e permite a utilização do HTML;</li>
                 <li>Typescript: Super conjunto do JavaScript, utilizado juntamente ao framework Angular na construção do front- end;</li>
                 <li>Bootstrap: Framework de CSS que torna fácil a criação de elementos em websites. Agiliza a criação de páginas esteticamente agradáveis, pois seus padrões de design seguem os princípios de usabilidade para interfaces;</li>
-                <li>PostegresSQL: Banco de dados relacional que armazena os dados em tabelas. Utiliza a linguagem SQL para a manipulação dos dados;</li>
+                <li>PostgreSQL: Banco de dados relacional que armazena os dados em tabelas. Utiliza a linguagem SQL para a manipulação dos dados;</li>
                 <li>Github: Controle de versionamento da aplicação.</li>
         </ul>
 <li>Conectividade: A aplicação necessitará de conexão com a internet para funcionar.</li>
@@ -157,9 +157,9 @@ A utilização desse documento é dada da seguinte forma:
 <ul>
         <li>UCD01 - Cadastrar usuários;</li>
         <li>UCD02 - Realizar login;</li>
-        <li>UCD03 - Agendar horário;</li>
+        <li><strong>UCD03 - Agendar horário;</strong></li>
         <li>UCD04 - Recuperar senha;</li>
-        <li>UCD05 - Gerenciar estabelecimento;</li>
+        <li><strong>UCD05 - Gerenciar estabelecimento;</strong></li>
         <li>UCD06 - Gerenciar perfil de usuário.</li>
 </ul>
 </div>
@@ -321,6 +321,8 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
 
 ### 9.1 DE-R
 
+O diagrama entidade-relacionamento para o sistema Leila's apresenta 7 (sete) entidades, 5 (cinco) relacionamentos, 1 (uma) generalização e 2 (duas) especializações. Vide abaixo na figura 10.
+
 [<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/dinamica/der-dld/der.jpg"></div>](../../img/modelagem/dinamica/der-dld/der.jpg)
 <figcaption align='center'>
     <b>Figura 10 - DE-R </b>
@@ -328,7 +330,11 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
     <small>Autores: Kalebe Lopes e Erick Giffoni</small>
 </figcaption><br>
 
+Dentre os principais pontos a serem destacados, CLIENTE e FUNCIONARIO possuem atributos comuns, por isso são especializações de PESSOA. A aplicação Leila's gira em torno de algumas questões principais, das quais destaca-se o cliente, que faz pedidos - solicitações de serviço, como cortar cabelo, por exemplo - sendo que os funcionários realizam esses pedidos.
+
 ### 9.2 DLD
+
+O diagrama lógico de dados do sistema Leila's traz as tabelas nas quais as informações relevantes para o software são armazenadas. É importante destacar a importância de entender como as chaves primárias e estrangeiras se comportam, então recomenda-se a leitura cuidadosa do diagrama abaixo (figura 11). 
 
 [<div align="center"><img hight="auto" width="auto" src="../../img/modelagem/dinamica/der-dld/dld.jpg"></div>](../../img/modelagem/dinamica/der-dld/dld.jpg)
 <figcaption align='center'>
@@ -337,6 +343,7 @@ Os casos de uso destacados anteriormente serão detalhados a seguir:
     <small>Autores: Kalebe Lopes e Erick Giffoni</small>
 </figcaption><br>
 
+Dentre as principais chaves estrangeiras destacam-se: idCliente na tabela PEDIDO, a qual identifica o cliente que fez o pedido; idServico e idPedido na tabela tem, as quais identificam, respectivamente, o serviço escolhido pelo cliente em um determinado pedido, e o pedido em si.
 ## 10. Tamanho e Performance
 <div style="line-height:1.8" align="justify">
 <p>O tamanho da aplicação, levando em consideração apenas o Back-end, foi estimado em 42.9Mb. Esse valor foi alcançado utilizando o comando “MVN install”, gerando um arquivo .jar, o que torna possível a execução do Back-end em qualquer sistema operacional que contenha Java.</p>
@@ -355,7 +362,7 @@ A partir disso, foram levantados NFR’s que aumentam a qualidade do produto, em
         <li><strong>Segurança:</strong> Quando o usuário acessa o sistema através de Login, um token temporário é criado, para realizar a autenticação do usuário e resgatar dados privativos do banco de dados.</li>
         <li><strong>Manutenabilidade:</strong> Todo o projeto Leila´s foi documentado no repositório do grupo. Isso facilita a consulta da documentação, e apoia a manutenibilidade do código.</li>
         <li><strong>Confiabilidade:</strong> o sistema foi desenvolvido para garantir que o mesmo se recupere em caso de falhas.</li>
-        <li><strong>Portabilidade:</strong> A utilização do Docker garante um ambiente estável, o que auxilia na criação de possíveis novos módulos./li>
+        <li><strong>Portabilidade:</strong> A utilização do Docker garante um ambiente estável, o que auxilia na criação de possíveis novos módulos.</li>
 </ul>
 <p>O projeto ainda está em fase de desenvolvimento até o presente momento (maio de 2021), portanto algumas métricas não puderam ser obtidas.
 </div>

@@ -21,7 +21,7 @@
 
 ### Metodologia
 <div align="justify">
-<p>A documentação do padrão GoF Builder, assim como a modelagem do diagrama UML, foi realizada por meio de reuniões da equipe através da plataforma Discord. O diagrama foi modelado utilizando a ferramenta <a href="https://www.lucidchart.com/">Lucidchart.</a></p>
+<p>A documentação do padrão GoF Dependency Injection, assim como a modelagem do diagrama UML, foi realizada por meio de reuniões da equipe através da plataforma Discord. O diagrama foi modelado utilizando a ferramenta <a href="https://www.lucidchart.com/">Lucidchart.</a></p>
 </div>
 
 ### Aplicação no projeto

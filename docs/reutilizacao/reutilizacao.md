@@ -18,9 +18,13 @@
 <br>
  
 ### Participantes
-* Isabella Carneiro
-* Bruan Almeida
+* Bruna Almeida
 * Damarcones Porto
+* Erick Giffoni
+* Geraldo Victor
+* Isabella Carneiro
+* Kalebe Lopes
+* Lucas Lopes
 * Rafaella Junqueira
 
 ## Introdução

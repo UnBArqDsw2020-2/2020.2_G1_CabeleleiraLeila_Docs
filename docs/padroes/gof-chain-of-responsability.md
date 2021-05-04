@@ -28,7 +28,7 @@
 
 ### Aplicação no projeto
 <div align="justify">
-<p>O padrão pode ser aplicado para validar os dados de realização de cadastro de usuários. A abstração da cadeia é representada pela interface SigupProcess, os processos são definidos pelas classes PasswordIsNotEmptyProcess, UsernameIsNotEmptyProcess e PasswordIsEqualProcess. A classe Client contém a chamada à cadeia de processos.</p>
+<p>O padrão pode ser aplicado para validar os dados de realização de cadastro de usuários. A abstração da cadeia é representada pela interface SigupProcess, os processos são definidos pelas classes PasswordIsNotEmptyProcess, UsernameIsNotEmptyProcess e PasswordIsEqualProcess. A classe ClientProcess contém a chamada à cadeia de processos.</p>
 </div>
 
 [<div align="center"><img src="../../img/padroes/chain-interface.png"></div>](../../img/padroes/chain-interface.png)
