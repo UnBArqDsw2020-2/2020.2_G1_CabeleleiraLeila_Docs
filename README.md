@@ -59,11 +59,13 @@ Aplicação web para gerenciamento de um salão de beleza que permita conferir o
 | --- | --- | --- |
 | [![grasp-video](https://user-images.githubusercontent.com/43728276/114255270-c08dff00-998a-11eb-9ce3-5c5a687658ff.png)](https://www.youtube.com/watch?v=3xBkGICeDh0) | [![gof-video](https://user-images.githubusercontent.com/43728276/114255668-12cf2000-998b-11eb-9897-2b76db4267bd.png)](https://www.youtube.com/watch?v=jW_be7kyQ6w) | [![emergentes-video](https://user-images.githubusercontent.com/43728276/114255698-4316be80-998b-11eb-9c15-a31c0025ac61.png)](https://www.youtube.com/watch?v=1tMMz86mVTs) |
 
-
-
-
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+| | |
+| --| --|
+|![image](https://user-images.githubusercontent.com/43728276/116952004-efcd1e80-ac5f-11eb-936e-bb8b2d42e5d9.png)| ![image](https://user-images.githubusercontent.com/43728276/116952061-1723eb80-ac60-11eb-83ca-d63b55e47735.png)|
+| ![image](https://user-images.githubusercontent.com/43728276/116952089-2efb6f80-ac60-11eb-8557-6a5f0f640adc.png) |
+
+
 
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 Adicione o(s)s vídeo(s) da Entrega Final.
